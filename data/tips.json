@@ -100,6 +100,82 @@
     {
       "title": "Side by Side Editing",
       "content": "Drag and drop a file tab to the side of the editor to open it side by side. Perfect for comparing or referencing code!"
+    },
+    {
+      "title": "Column Selection",
+      "content": "Hold `Shift+Alt` while dragging the mouse to select text in columns. Perfect for editing structured text or tables!"
+    },
+    {
+      "title": "Navigate File History",
+      "content": "Use `Alt+Left` and `Alt+Right` to navigate through your file navigation history, just like a web browser!"
+    },
+    {
+      "title": "Quick Parameter Hints",
+      "content": "Press `Ctrl+Shift+Space` to see parameter hints for functions. Great for remembering function arguments!"
+    },
+    {
+      "title": "Color Theme Switching",
+      "content": "Quickly switch color themes with `Ctrl+K Ctrl+T`. Try different themes to find your perfect coding environment!"
+    },
+    {
+      "title": "Duplicate Line",
+      "content": "Press `Shift+Alt+Up` or `Shift+Alt+Down` to copy lines up or down. No need to copy and paste!"
+    },
+    {
+      "title": "Join Lines",
+      "content": "Use `Ctrl+J` to join multiple lines into one. Select multiple lines first to join them all!"
+    },
+    {
+      "title": "Toggle Activity Bar",
+      "content": "Save screen space by toggling the Activity Bar with `Ctrl+B`. Get back that precious horizontal space!"
+    },
+    {
+      "title": "IntelliSense Tab Completion",
+      "content": "After invoking IntelliSense, use `Tab` instead of `Enter` to complete the suggestion and replace the word at the cursor."
+    },
+    {
+      "title": "Peek References",
+      "content": "Use `Shift+F12` to peek references without leaving your current location. Click 'Open to the Side' to see full details!"
+    },
+    {
+      "title": "Clear Terminal",
+      "content": "Clear the integrated terminal with `Ctrl+K` in the terminal (or type 'clear'). Keep your workspace tidy!"
+    },
+    {
+      "title": "Save All",
+      "content": "Use `Ctrl+K S` to save all open files at once. Never forget to save your changes!"
+    },
+    {
+      "title": "Find by Symbol",
+      "content": "Press `Ctrl+Shift+O` to quickly navigate to symbols (functions, classes, etc.) within the current file."
+    },
+    {
+      "title": "Workspace Symbol Search",
+      "content": "Use `Ctrl+T` to search for symbols across your entire workspace. Find any function or class instantly!"
+    },
+    {
+      "title": "Toggle Line Numbers",
+      "content": "Toggle line numbers on/off with `Ctrl+Shift+P`, then type 'Toggle Line Numbers'. Useful for presentations!"
+    },
+    {
+      "title": "Auto Save",
+      "content": "Enable Auto Save via File > Auto Save or set `files.autoSave` to 'afterDelay' in settings. Never lose changes again!"
+    },
+    {
+      "title": "Keyboard Reference",
+      "content": "Press `Ctrl+K Ctrl+R` to open the keyboard shortcuts reference PDF. Great for learning new shortcuts!"
+    },
+    {
+      "title": "Indent/Outdent Lines",
+      "content": "Use `Ctrl+]` to indent and `Ctrl+[` to outdent lines. Works with multiple lines selected!"
+    },
+    {
+      "title": "Terminal Split",
+      "content": "Split the integrated terminal with the + button in the terminal title bar or use the 'Split Terminal' command."
+    },
+    {
+      "title": "Trim Trailing Whitespace",
+      "content": "Use `Ctrl+K Ctrl+X` to trim trailing whitespace. Keep your code clean automatically!"
     }
   ]
 }
