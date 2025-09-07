@@ -1,0 +1,129 @@
+:root {
+    --container-padding: 16px;
+    --button-padding: 4px 8px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: var(--vscode-notifications-foreground);
+    font-size: var(--vscode-font-size);
+    font-weight: var(--vscode-font-weight);
+    font-family: var(--vscode-font-family);
+    background-color: var(--vscode-notifications-background);
+    width: 400px !important;
+    height: 250px !important;
+    overflow: hidden;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 1px solid var(--vscode-notifications-border);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px var(--vscode-widget-shadow);
+}
+
+.container {
+    padding: var(--container-padding);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: calc(100% - 32px);
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vscode-notifications-foreground);
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--vscode-notifications-foreground);
+    flex-grow: 1;
+    margin: 4px 0;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.navigation-controls {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.action-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    border: none;
+    padding: var(--button-padding);
+    font-size: 12px;
+    text-align: center;
+    outline: 1px solid transparent;
+    outline-offset: 2px !important;
+    cursor: pointer;
+    height: 24px;
+    border-radius: 2px;
+}
+
+.nav-button {
+    color: var(--vscode-button-foreground);
+    background: var(--vscode-button-background);
+}
+
+.nav-button:hover {
+    background: var(--vscode-button-hoverBackground);
+}
+
+.action-button {
+    color: var(--vscode-button-secondaryForeground);
+    background: var(--vscode-button-secondaryBackground);
+}
+
+.action-button:hover {
+    background: var(--vscode-button-secondaryHoverBackground);
+}
+
+.dismiss-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.dismiss-button {
+    color: var(--vscode-notifications-foreground);
+    background: transparent;
+    opacity: 0.8;
+}
+
+.dismiss-button:hover {
+    opacity: 1;
+    background: var(--vscode-toolbar-hoverBackground);
+}
+
+code {
+    font-family: var(--vscode-editor-font-family);
+    font-size: var(--vscode-editor-font-size);
+    color: var(--vscode-textPreformat-foreground);
+    background-color: var(--vscode-textPreformat-background);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+a {
+    color: var(--vscode-textLink-foreground);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

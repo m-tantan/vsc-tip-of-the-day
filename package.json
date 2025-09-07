@@ -1,0 +1,117 @@
+{
+  "name": "tip-of-the-day",
+  "id": "tip-of-the-day",
+  "displayName": "VS Code Tip of the Day",
+  "description": "Daily productivity tips for Visual Studio Code, enhancing your coding experience one tip at a time",
+  "version": "1.0.0",
+  "publisher": "WrecklessEngineer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-tantan/vsc-tip-of-the-day"
+  },
+  "keywords": [
+    "tips",
+    "productivity",
+    "learning",
+    "education",
+    "tutorial",
+    "daily tips",
+    "vscode tips"
+  ],
+  "icon": "media/icon.png",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Other",
+    "Education"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "tipOfTheDay.show",
+        "title": "Show Tip of the Day"
+      },
+      {
+        "command": "tipOfTheDay.next",
+        "title": "Show Next Tip"
+      },
+      {
+        "command": "tipOfTheDay.previous",
+        "title": "Show Previous Tip"
+      },
+      {
+        "command": "tipOfTheDay.random",
+        "title": "Show Random Tip"
+      },
+      {
+        "command": "tipOfTheDay.dismissToday",
+        "title": "Dismiss Tip for Today"
+      },
+      {
+        "command": "tipOfTheDay.dismissPermanently",
+        "title": "Disable Tips"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "tipOfTheDay.show",
+        "key": "ctrl+alt+t",
+        "mac": "cmd+alt+t"
+      }
+    ],
+    "configuration": {
+      "title": "Tip of the Day",
+      "properties": {
+        "tipOfTheDay.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable Tip of the Day"
+        },
+        "tipOfTheDay.showOnStartup": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show tip of the day when VS Code starts"
+        },
+        "tipOfTheDay.startupHourLocal": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 23,
+          "description": "Only show tips after this hour (24-hour format, local time)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "npm run check-types && npm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "esbuild": "^0.25.8",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.9.2",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
