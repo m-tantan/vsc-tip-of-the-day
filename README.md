@@ -10,6 +10,25 @@ Enhance your VS Code productivity with daily tips! This extension delivers curat
 - 📚 Navigate through tips
 - ⏰ Configurable startup time for daily tips
 - 🔧 Flexible notification system that doesn't interrupt your workflow
+- 🌐 **Multi-language support** with 11 supported languages
+- 🔄 **Language switching** via dropdown in the tip panel
+
+## Supported Languages
+
+This extension supports the following languages:
+- 🇺🇸 English
+- 🇨🇳 Chinese (Mandarin) - 中文
+- 🇮🇳 Hindi - हिन्दी
+- 🇪🇸 Spanish - Español
+- 🇫🇷 French - Français
+- 🇸🇦 Arabic - العربية
+- 🇧🇩 Bengali - বাংলা
+- 🇧🇷 Portuguese - Português
+- 🇷🇺 Russian - Русский
+- 🇯🇵 Japanese - 日本語
+- 🇮🇱 Hebrew - עברית
+
+Switch languages using the dropdown in the tip panel, and your preference will be saved for future sessions.
 
 ## How to Use
 
@@ -36,6 +55,7 @@ This extension contributes the following settings:
 - `tipOfTheDay.enabled`: Enable or disable Tip of the Day
 - `tipOfTheDay.showOnStartup`: Show tip when VS Code starts (default: true)
 - `tipOfTheDay.startupHourLocal`: Only show tips after this hour (24-hour format, local time)
+- `tipOfTheDay.language`: Language for tips and interface (default: "en", supports 11 languages)
 
 ## Release Notes
 
