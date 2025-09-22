@@ -83,6 +83,25 @@
           "minimum": 0,
           "maximum": 23,
           "description": "Only show tips after this hour (24-hour format, local time)"
+        },
+        "tipOfTheDay.language": {
+          "type": "string",
+          "default": "en",
+          "enum": ["en", "zh", "hi", "es", "fr", "ar", "bn", "pt", "ru", "ja", "he"],
+          "enumDescriptions": [
+            "English",
+            "Chinese (Mandarin) - 中文",
+            "Hindi - हिन्दी",
+            "Spanish - Español",
+            "French - Français",
+            "Arabic - العربية",
+            "Bengali - বাংলা",
+            "Portuguese - Português",
+            "Russian - Русский",
+            "Japanese - 日本語",
+            "Hebrew - עברית"
+          ],
+          "description": "Language for tips and interface"
         }
       }
     }

@@ -1,6 +1,7 @@
 import * as vscode from 'vscode';
 import { TipManager } from '../tipManager';
 import { TipState } from '../tipState';
+import { getLocalizedStrings, SUPPORTED_LANGUAGES } from '../localization';
 
 export class TipPanel {
   private static currentInstance: TipPanel | undefined;
@@ -50,6 +51,16 @@ export class TipPanel {
             await config.update("enabled", false, true);
             this.dispose();
             break;
+          case "changeLanguage":
+            if (message.data) {
+              try {
+                await tipManager.changeLanguage(message.data);
+                await this.updateContent();
+              } catch (error) {
+                vscode.window.showErrorMessage(`Failed to change language: ${error}`);
+              }
+            }
+            break;
         }
       },
       null,
@@ -78,41 +89,55 @@ export class TipPanel {
   private async updateContent() {
     const tip = this.tipManager.getCurrentTip();
     const isFirstTip = this.tipManager.isFirstTip();
+    const currentLanguage = this.tipManager.getCurrentLanguage();
+    const strings = getLocalizedStrings(currentLanguage);
 
     const styleUri = this._panel.webview.asWebviewUri(
       vscode.Uri.file(vscode.Uri.joinPath(vscode.Uri.file(this.extensionPath), "media", "styles.css").fsPath)
     );
 
+    // Generate language options for dropdown
+    const languageOptions = SUPPORTED_LANGUAGES.map(lang => 
+      `<option value="${lang.code}" ${lang.code === currentLanguage ? 'selected' : ''}>${lang.nativeName}</option>`
+    ).join('');
+
     this._panel.webview.html = `<!DOCTYPE html>
-        <html lang="en">
+        <html lang="${currentLanguage}">
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" type="text/css" href="${styleUri}">
-            <title>Tip of the Day</title>
+            <title>${strings.tipOfTheDayTitle}</title>
         </head>
         <body>
             <div class="container">
-                <h1 class="title">💡 Tip Of The Day 💡</h1>
+                <div class="header">
+                    <h1 class="title">${strings.tipOfTheDayTitle}</h1>
+                    <div class="language-selector">
+                        <select id="languageSelect" onchange="sendMessage('changeLanguage', this.value)">
+                            ${languageOptions}
+                        </select>
+                    </div>
+                </div>
                 <h2 class="title">${tip.title}</h2>
                 <div class="content">${tip.content}</div>
                 <div class="controls">
                     <div class="navigation-controls">
-                        <button class="nav-button" onclick="sendMessage('previous')">Previous</button>
-                        <button class="nav-button" onclick="sendMessage('next')">Next</button>
+                        <button class="nav-button" onclick="sendMessage('previous')">${strings.previousButton}</button>
+                        <button class="nav-button" onclick="sendMessage('next')">${strings.nextButton}</button>
                     </div>
                     <div class="action-controls">
                         <div class="dismiss-controls">
-                            <button class="action-button" onclick="sendMessage('dismissToday')">Dismiss Today</button>
-                            <button class="action-button" onclick="sendMessage('dismissForever')">Dismiss Forever</button>
+                            <button class="action-button" onclick="sendMessage('dismissToday')">${strings.dismissTodayButton}</button>
+                            <button class="action-button" onclick="sendMessage('dismissForever')">${strings.dismissForeverButton}</button>
                         </div>
                     </div>
                 </div>
             </div>
             <script>
                 const vscode = acquireVsCodeApi();
-                function sendMessage(command) {
-                    vscode.postMessage({ command: command });
+                function sendMessage(command, data) {
+                    vscode.postMessage({ command: command, data: data });
                 }
             </script>
         </body>

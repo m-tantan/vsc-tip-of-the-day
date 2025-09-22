@@ -4,6 +4,7 @@ export class TipState {
     private static readonly LAST_SHOWN_DATE_KEY = 'tipOfTheDay.lastShownDate';
     private static readonly DISABLED_KEY = 'tipOfTheDay.disabled';
     private static readonly LAST_TIP_INDEX_KEY = 'tipOfTheDay.lastTipIndex';
+    private static readonly LANGUAGE_KEY = 'tipOfTheDay.language';
 
     constructor(private context: vscode.ExtensionContext) {}
 
@@ -31,11 +32,31 @@ export class TipState {
         await this.context.globalState.update(TipState.LAST_TIP_INDEX_KEY, index);
     }
 
+    public async getLanguage(): Promise<string> {
+        // Check global state first, then configuration, then default to 'en'
+        const stateLanguage = this.context.globalState.get<string>(TipState.LANGUAGE_KEY);
+        if (stateLanguage) {
+            return stateLanguage;
+        }
+        
+        const config = vscode.workspace.getConfiguration('tipOfTheDay');
+        return config.get<string>('language', 'en');
+    }
+
+    public async setLanguage(language: string): Promise<void> {
+        await this.context.globalState.update(TipState.LANGUAGE_KEY, language);
+        
+        // Also update the configuration
+        const config = vscode.workspace.getConfiguration('tipOfTheDay');
+        await config.update('language', language, true);
+    }
+
     public async clearState(): Promise<void> {
         await Promise.all([
             this.context.globalState.update(TipState.LAST_SHOWN_DATE_KEY, undefined),
             this.context.globalState.update(TipState.DISABLED_KEY, undefined),
-            this.context.globalState.update(TipState.LAST_TIP_INDEX_KEY, undefined)
+            this.context.globalState.update(TipState.LAST_TIP_INDEX_KEY, undefined),
+            this.context.globalState.update(TipState.LANGUAGE_KEY, undefined)
         ]);
     }
 }

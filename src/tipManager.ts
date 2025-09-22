@@ -1,12 +1,14 @@
 import * as vscode from 'vscode';
 import { TipState } from './tipState';
 import { Tip, TipsData } from './types';
+import { SUPPORTED_LANGUAGES } from './localization';
 import * as fs from 'fs';
 import * as path from 'path';
 
 export class TipManager {
     private tips: Tip[] = [];
     private currentIndex: number = -1;
+    private currentLanguage: string = 'en';
 
     constructor(
         private context: vscode.ExtensionContext,
@@ -15,44 +17,9 @@ export class TipManager {
 
     public async initialize(): Promise<void> {
         try {
-            const tipsPath = path.join(this.context.extensionPath, 'data', 'tips.json');
-            
-            // Check if tips.json exists
-            if (!fs.existsSync(tipsPath)) {
-                throw new Error('tips.json not found');
-            }
-
-            const tipsContent = fs.readFileSync(tipsPath, 'utf8');
-            let tipsData: TipsData;
-
-            try {
-                tipsData = JSON.parse(tipsContent);
-            } catch (e) {
-                throw new Error('Invalid tips.json format');
-            }
-
-            // Validate tips data structure
-            if (!Array.isArray(tipsData.tips)) {
-                throw new Error('Invalid tips data structure: tips must be an array');
-            }
-
-            // Validate each tip
-            for (const tip of tipsData.tips) {
-                if (!tip.title || typeof tip.title !== 'string') {
-                    throw new Error('Invalid tip: missing or invalid title');
-                }
-                if (!tip.content || typeof tip.content !== 'string') {
-                    throw new Error('Invalid tip: missing or invalid content');
-                }
-            }
-
-            this.tips = tipsData.tips;
-            
-            // Restore last index or calculate today's index
-            this.currentIndex = await this.state.getLastTipIndex();
-            if (this.currentIndex === -1 || this.currentIndex >= this.tips.length) {
-                this.currentIndex = this.calculateTodaysTipIndex();
-            }
+            // Get current language
+            this.currentLanguage = await this.state.getLanguage();
+            await this.loadTipsForLanguage(this.currentLanguage);
         } catch (error) {
             // Use a fallback tip if anything goes wrong
             this.tips = [{
@@ -63,6 +30,76 @@ export class TipManager {
             this.currentIndex = 0;
             vscode.window.showErrorMessage(`Tip of the Day: ${error}`);
         }
+    }
+
+    private async loadTipsForLanguage(languageCode: string): Promise<void> {
+        // First try to load localized tips
+        let tipsPath = path.join(this.context.extensionPath, 'data', 'locales', `${languageCode}.json`);
+        
+        // If localized tips don't exist, fall back to English
+        if (!fs.existsSync(tipsPath)) {
+            console.log(`Tips for language ${languageCode} not found, falling back to English`);
+            tipsPath = path.join(this.context.extensionPath, 'data', 'locales', 'en.json');
+        }
+
+        // If English localized tips don't exist, fall back to the main tips.json
+        if (!fs.existsSync(tipsPath)) {
+            console.log(`Localized tips not found, falling back to main tips.json`);
+            tipsPath = path.join(this.context.extensionPath, 'data', 'tips.json');
+        }
+
+        // Check if any tips file exists
+        if (!fs.existsSync(tipsPath)) {
+            throw new Error('No tips files found');
+        }
+
+        const tipsContent = fs.readFileSync(tipsPath, 'utf8');
+        let tipsData: TipsData;
+
+        try {
+            tipsData = JSON.parse(tipsContent);
+        } catch (e) {
+            throw new Error('Invalid tips file format');
+        }
+
+        // Validate tips data structure
+        if (!Array.isArray(tipsData.tips)) {
+            throw new Error('Invalid tips data structure: tips must be an array');
+        }
+
+        // Validate each tip
+        for (const tip of tipsData.tips) {
+            if (!tip.title || typeof tip.title !== 'string') {
+                throw new Error('Invalid tip: missing or invalid title');
+            }
+            if (!tip.content || typeof tip.content !== 'string') {
+                throw new Error('Invalid tip: missing or invalid content');
+            }
+        }
+
+        this.tips = tipsData.tips;
+        
+        // Restore last index or calculate today's index
+        this.currentIndex = await this.state.getLastTipIndex();
+        if (this.currentIndex === -1 || this.currentIndex >= this.tips.length) {
+            this.currentIndex = this.calculateTodaysTipIndex();
+        }
+    }
+
+    public async changeLanguage(languageCode: string): Promise<void> {
+        // Validate language code
+        const supportedLanguage = SUPPORTED_LANGUAGES.find(lang => lang.code === languageCode);
+        if (!supportedLanguage) {
+            throw new Error(`Unsupported language: ${languageCode}`);
+        }
+
+        this.currentLanguage = languageCode;
+        await this.state.setLanguage(languageCode);
+        await this.loadTipsForLanguage(languageCode);
+    }
+
+    public getCurrentLanguage(): string {
+        return this.currentLanguage;
     }
 
     private calculateTodaysTipIndex(): number {

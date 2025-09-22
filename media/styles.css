@@ -24,11 +24,43 @@ body {
     flex-direction: column;
     gap: 8px;
     width: 400px;
-    height: 250px;
+    height: 280px;
     border: 1px solid var(--vscode-notifications-border);
     border-radius: 4px;
     box-shadow: 0 2px 8px var(--vscode-widget-shadow);
     background-color: var(--vscode-notifications-background);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+}
+
+.language-selector select {
+    background-color: var(--vscode-dropdown-background);
+    color: var(--vscode-dropdown-foreground);
+    border: 1px solid var(--vscode-dropdown-border);
+    border-radius: 2px;
+    padding: 2px 4px;
+    font-size: 11px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.language-selector select:hover {
+    background-color: var(--vscode-dropdown-listBackground);
+}
+
+.language-selector select:focus {
+    outline: 1px solid var(--vscode-focusBorder);
+    outline-offset: -1px;
 }
 
 .title {

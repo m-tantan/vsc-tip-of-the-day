@@ -1,0 +1,45 @@
+{
+  "$schema": "../tips.schema.json",
+  "tips": [
+    {
+      "title": "Navigation Rapide des Fichiers",
+      "content": "Appuyez sur `Ctrl+P` pour rechercher rapidement et ouvrir des fichiers dans votre espace de travail. Commencez à taper le nom du fichier pour filtrer la liste."
+    },
+    {
+      "title": "Palette de Commandes",
+      "content": "Accédez à toutes les commandes VS Code avec `Ctrl+Shift+P` (Windows/Linux) ou `Cmd+Shift+P` (macOS). C'est votre passerelle vers tout ce que VS Code peut faire !"
+    },
+    {
+      "title": "Édition Multi-Curseur",
+      "content": "Maintenez `Alt` (`Option` sur macOS) et cliquez pour ajouter plusieurs curseurs. Éditez plusieurs lignes simultanément !"
+    },
+    {
+      "title": "Mode Zen",
+      "content": "Basculez en codage sans distraction avec `Ctrl+K Z`. Appuyez deux fois sur `Esc` pour sortir."
+    },
+    {
+      "title": "Terminal Intégré",
+      "content": "Basculez le terminal intégré avec `` Ctrl+` `` (accent grave). Continuez à coder et exécuter des commandes sans changer de fenêtre."
+    },
+    {
+      "title": "Sélection Intelligente",
+      "content": "Appuyez sur `Ctrl+D` pour sélectionner la prochaine occurrence de la sélection actuelle. Parfait pour renommer des variables ou faire plusieurs changements similaires !"
+    },
+    {
+      "title": "Vues d'Éditeur Divisées",
+      "content": "Utilisez `Ctrl+\\` pour diviser l'éditeur en plusieurs panneaux. Parfait pour voir différentes parties du même fichier ou comparer des fichiers côte à côte."
+    },
+    {
+      "title": "Recherche dans Tous les Fichiers",
+      "content": "Utilisez `Ctrl+Shift+F` pour rechercher dans tous les fichiers de votre espace de travail. Parfait pour trouver du code spécifique ou des motifs de texte."
+    },
+    {
+      "title": "Création Rapide de Fichiers",
+      "content": "Utilisez `Ctrl+N` pour un nouveau fichier sans titre. Ajoutez plusieurs fichiers rapidement sans quitter votre clavier."
+    },
+    {
+      "title": "IntelliSense Partout",
+      "content": "Appuyez sur `Ctrl+Space` n'importe où pour déclencher manuellement les suggestions IntelliSense. Fonctionne dans le code, les paramètres, et même les fichiers JSON !"
+    }
+  ]
+}
