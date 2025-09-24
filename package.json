@@ -83,6 +83,12 @@
           "minimum": 0,
           "maximum": 23,
           "description": "Only show tips after this hour (24-hour format, local time)"
+        },
+        "tipOfTheDay.operatingSystem": {
+          "type": "string",
+          "enum": ["auto", "Windows", "macOS", "Linux"],
+          "default": "auto",
+          "description": "Operating system for tip optimization (auto-detect or manual selection)"
         }
       }
     }

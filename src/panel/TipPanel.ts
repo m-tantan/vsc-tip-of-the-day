@@ -1,11 +1,13 @@
-import * as vscode from 'vscode';
-import { TipManager } from '../tipManager';
-import { TipState } from '../tipState';
+import * as vscode from "vscode";
+import { TipManager } from "../tipManager";
+import { TipState } from "../tipState";
+import { OSUtils } from "../osUtils";
 
 export class TipPanel {
   private static currentInstance: TipPanel | undefined;
   private readonly _panel: vscode.WebviewPanel;
   private readonly disposables: vscode.Disposable[] = [];
+  private currentOSType: string = "";
 
   private constructor(
     private readonly extensionPath: string,
@@ -28,6 +30,15 @@ export class TipPanel {
       }
     );
 
+    // Listen for configuration changes
+    const configListener = vscode.workspace.onDidChangeConfiguration((e) => {
+      if (e.affectsConfiguration("tipOfTheDay.operatingSystem")) {
+        OSUtils.clearCache();
+        this.updateContent();
+      }
+    });
+    this.disposables.push(configListener);
+
     this._panel.onDidDispose(() => this.dispose(), null, this.disposables);
     this._panel.webview.onDidReceiveMessage(
       async (message) => {
@@ -49,6 +60,12 @@ export class TipPanel {
             const config = vscode.workspace.getConfiguration("tipOfTheDay");
             await config.update("enabled", false, true);
             this.dispose();
+            break;
+          case "openSettings":
+            await vscode.commands.executeCommand(
+              "workbench.action.openSettings",
+              "@ext:WrecklessEngineer.tip-of-the-day"
+            );
             break;
         }
       },
@@ -77,46 +94,95 @@ export class TipPanel {
 
   private async updateContent() {
     const tip = this.tipManager.getCurrentTip();
-    const isFirstTip = this.tipManager.isFirstTip();
+    const osType = await OSUtils.getOSType();
+
+    // Check if OS type has changed
+    if (this.currentOSType !== osType) {
+      this.currentOSType = osType;
+    }
 
     const styleUri = this._panel.webview.asWebviewUri(
       vscode.Uri.file(vscode.Uri.joinPath(vscode.Uri.file(this.extensionPath), "media", "styles.css").fsPath)
     );
 
     this._panel.webview.html = `<!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" type="text/css" href="${styleUri}">
-            <title>Tip of the Day</title>
-        </head>
-        <body>
-            <div class="container">
-                <h1 class="title">💡 Tip Of The Day 💡</h1>
-                <h2 class="title">${tip.title}</h2>
-                <div class="content">${tip.content}</div>
-                <div class="controls">
-                    <div class="navigation-controls">
-                        <button class="nav-button" onclick="sendMessage('previous')">Previous</button>
-                        <button class="nav-button" onclick="sendMessage('next')">Next</button>
-                    </div>
-                    <div class="action-controls">
-                        <div class="dismiss-controls">
-                            <button class="action-button" onclick="sendMessage('dismissToday')">Dismiss Today</button>
-                            <button class="action-button" onclick="sendMessage('dismissForever')">Dismiss Forever</button>
-                        </div>
-                    </div>
-                </div>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="${styleUri}">
+        <title>Tip of the Day</title>
+        <style>
+          body {
+            margin: 0;
+            padding: 0;
+          }
+          .container {
+            border: 2px solid #FFD700;
+            border-radius: 8px;
+            margin: 16px;
+            padding: 24px;
+            box-sizing: border-box;
+          }
+          .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+          }
+          .settings-icon {
+            background: transparent;
+            border: none;
+            padding: 4px;
+            cursor: pointer;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: var(--vscode-icon-foreground);
+            opacity: 0.8;
+            transition: all 0.2s ease;
+          }
+          .settings-icon:hover {
+            opacity: 1;
+            background: var(--vscode-toolbar-hoverBackground);
+          }
+          .settings-icon::before {
+            content: "⚙️";
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="header">
+            <h1 class="title">💡 Tip Of The Day 💡</h1>
+            <button class="settings-icon" onclick="sendMessage('openSettings')" title="Open Extension Settings"></button>
+          </div>
+          <h2 class="title">${tip.title}</h2>
+          <div class="content">${tip.content}</div>
+          <div class="controls">
+            <div class="navigation-controls">
+              <button class="nav-button" onclick="sendMessage('previous')">Previous</button>
+              <button class="nav-button" onclick="sendMessage('next')">Next</button>
             </div>
-            <script>
-                const vscode = acquireVsCodeApi();
-                function sendMessage(command) {
-                    vscode.postMessage({ command: command });
-                }
-            </script>
-        </body>
-        </html>`;
+            <div class="action-controls">
+              <div class="dismiss-controls">
+                <button class="action-button" onclick="sendMessage('dismissToday')">Dismiss Today</button>
+                <button class="action-button" onclick="sendMessage('dismissForever')">Dismiss Forever</button>
+              </div>
+            </div>
+          <div class="os-info">Optimized for ${osType}</div>
+          </div>
+        </div>
+        <script>
+          const vscode = acquireVsCodeApi();
+          function sendMessage(command) {
+            vscode.postMessage({ command: command });
+          }
+        </script>
+      </body>
+      </html>`;
   }
 
   public dispose(): void {
