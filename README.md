@@ -44,6 +44,11 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### 1.2.1
+
+- 🔒 **Security fix**: Properly escape HTML in tip titles and content to prevent XSS vulnerabilities
+- 🛡️ **Enhanced security**: All user-visible dynamic content is now safely escaped in the webview
+
 ### 1.2.0
 
 - ⚙️ **Added settings icon to tip panel** - Quick access to extension settings

@@ -2,6 +2,17 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
+## [1.2.1] - 2025-09-24
+
+### Security
+- Fixed potential XSS vulnerability by properly escaping HTML characters in tip titles and content
+- Enhanced webview security by ensuring all user-visible dynamic content is safely escaped
+- Improved HTML sanitization in the tip panel webview
+
+### Fixed
+- Tip titles and content now properly escape HTML special characters (&, <, >, ", ', `, =, /)
+- Prevented potential security issues from malicious content in tip data
+
 ## [1.2.0] - 2025-09-24
 
 ### Added
