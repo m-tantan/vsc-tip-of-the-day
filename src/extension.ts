@@ -2,6 +2,7 @@ import * as vscode from 'vscode';
 import { TipState } from './tipState';
 import { TipManager } from './tipManager';
 import { TipPanel } from './panel/TipPanel';
+import { OSUtils } from './osUtils';
 
 export async function activate(context: vscode.ExtensionContext) {
     const state = new TipState(context);
@@ -9,6 +10,9 @@ export async function activate(context: vscode.ExtensionContext) {
 
     try {
         await tipManager.initialize();
+        
+        // Initialize OS settings (this will auto-detect and set if needed)
+        await OSUtils.getOSType();
     } catch (error) {
         vscode.window.showErrorMessage(`Failed to initialize Tip of the Day: ${error}`);
         return;

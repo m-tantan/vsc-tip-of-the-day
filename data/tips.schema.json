@@ -14,7 +14,30 @@
           },
           "content": {
             "type": "string",
-            "description": "The tip content in markdown format"
+            "description": "The tip content in markdown format. Use {shortcut} placeholder for OS-specific shortcuts."
+          },
+          "shortcuts": {
+            "type": "object",
+            "description": "OS-specific keyboard shortcuts",
+            "required": ["default"],
+            "properties": {
+              "default": {
+                "type": "string",
+                "description": "Default shortcut for Windows/Linux"
+              },
+              "macOS": {
+                "type": "string",
+                "description": "macOS-specific shortcut"
+              },
+              "windows": {
+                "type": "string",
+                "description": "Windows-specific shortcut"
+              },
+              "linux": {
+                "type": "string",
+                "description": "Linux-specific shortcut"
+              }
+            }
           }
         }
       }

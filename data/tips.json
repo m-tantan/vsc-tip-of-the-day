@@ -154,10 +154,6 @@
       "content": "Use `Ctrl+T` to search for symbols across your entire workspace. Find any function or class instantly!"
     },
     {
-      "title": "Toggle Line Numbers",
-      "content": "Toggle line numbers on/off with `Ctrl+Shift+P`, then type 'Toggle Line Numbers'. Useful for presentations!"
-    },
-    {
       "title": "Auto Save",
       "content": "Enable Auto Save via File > Auto Save or set `files.autoSave` to 'afterDelay' in settings. Never lose changes again!"
     },
