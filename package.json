@@ -2,8 +2,8 @@
   "name": "tip-of-the-day",
   "id": "tip-of-the-day",
   "displayName": "VS Code Tip of the Day",
-  "description": "Daily productivity tips for Visual Studio Code, enhancing your coding experience one tip at a time",
-  "version": "1.1.0",
+  "description": "Daily productivity tips for Visual Studio Code with OS-specific optimizations and easy settings access, enhancing your coding experience one tip at a time",
+  "version": "1.2.0",
   "publisher": "WrecklessEngineer",
   "license": "MIT",
   "repository": {
@@ -17,7 +17,13 @@
     "education",
     "tutorial",
     "daily tips",
-    "vscode tips"
+    "vscode tips",
+    "os-specific",
+    "cross-platform",
+    "settings",
+    "windows",
+    "macos",
+    "linux"
   ],
   "icon": "media/icon.png",
   "engines": {
@@ -86,7 +92,12 @@
         },
         "tipOfTheDay.operatingSystem": {
           "type": "string",
-          "enum": ["auto", "Windows", "macOS", "Linux"],
+          "enum": [
+            "auto",
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
           "default": "auto",
           "description": "Operating system for tip optimization (auto-detect or manual selection)"
         }
