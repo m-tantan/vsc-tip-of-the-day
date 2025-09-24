@@ -49,7 +49,7 @@ export class TipManager {
       // Restore last index or calculate today's index
       this.currentIndex = await this.state.getLastTipIndex();
       if (this.currentIndex === -1 || this.currentIndex >= this.tips.length) {
-        this.currentIndex = this.calculateTodaysTipIndex();
+        this.currentIndex = this.calculateTipIndex();
       }
     } catch (error) {
       // Use a fallback tip if anything goes wrong
@@ -66,9 +66,9 @@ export class TipManager {
     }
   }
 
-  private calculateTodaysTipIndex(): number {
-    const hoursSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60));
-    return hoursSinceEpoch % this.tips.length;
+  private calculateTipIndex(): number {
+    const hoursIndex = Math.floor(Date.now() / (1000 * 60 * 60));
+    return hoursIndex % this.tips.length;
   }
 
   public getCurrentTip(): Tip {

@@ -30,7 +30,6 @@ export class TipPanel {
       }
     );
 
-    // Listen for configuration changes
     const configListener = vscode.workspace.onDidChangeConfiguration((e) => {
       if (e.affectsConfiguration("tipOfTheDay.operatingSystem")) {
         OSUtils.clearCache();
@@ -94,11 +93,24 @@ export class TipPanel {
 
   private async updateContent() {
     const tip = this.tipManager.getCurrentTip();
-    const osType = await OSUtils.getOSType();
+    this.currentOSType = await OSUtils.getOSType();
 
-    // Check if OS type has changed
-    if (this.currentOSType !== osType) {
-      this.currentOSType = osType;
+    // Simple HTML escape function
+    function escapeHtml(text: string): string {
+      return text.replace(/[&<>"'`=\/]/g, function (s) {
+        return (
+          {
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;",
+            "`": "&#96;",
+            "=": "&#61;",
+            "/": "&#47;",
+          } as { [key: string]: string }
+        )[s];
+      });
     }
 
     const styleUri = this._panel.webview.asWebviewUri(
@@ -159,8 +171,8 @@ export class TipPanel {
             <h1 class="title">💡 Tip Of The Day 💡</h1>
             <button class="settings-icon" onclick="sendMessage('openSettings')" title="Open Extension Settings"></button>
           </div>
-          <h2 class="title">${tip.title}</h2>
-          <div class="content">${tip.content}</div>
+          <h2 class="title">${escapeHtml(tip.title)}</h2>
+          <div class="content">${escapeHtml(tip.content)}</div>
           <div class="controls">
             <div class="navigation-controls">
               <button class="nav-button" onclick="sendMessage('previous')">Previous</button>
@@ -172,7 +184,7 @@ export class TipPanel {
                 <button class="action-button" onclick="sendMessage('dismissForever')">Dismiss Forever</button>
               </div>
             </div>
-          <div class="os-info">Optimized for ${osType}</div>
+          <div class="os-info">Optimized for ${escapeHtml(this.currentOSType)}</div>
           </div>
         </div>
         <script>
