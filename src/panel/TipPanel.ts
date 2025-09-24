@@ -93,27 +93,24 @@ export class TipPanel {
 
   private async updateContent() {
     const tip = this.tipManager.getCurrentTip();
-    const osType = await OSUtils.getOSType();
+    this.currentOSType = await OSUtils.getOSType();
 
     // Simple HTML escape function
     function escapeHtml(text: string): string {
       return text.replace(/[&<>"'`=\/]/g, function (s) {
-        return ({
-          '&': '&amp;',
-          '<': '&lt;',
-          '>': '&gt;',
-          '"': '&quot;',
-          "'": '&#39;',
-          '`': '&#96;',
-          '=': '&#61;',
-          '/': '&#47;',
-        } as { [key: string]: string })[s];
+        return (
+          {
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;",
+            "`": "&#96;",
+            "=": "&#61;",
+            "/": "&#47;",
+          } as { [key: string]: string }
+        )[s];
       });
-    }
-
-    // Check if OS type has changed
-    if (this.currentOSType !== osType) {
-      this.currentOSType = osType;
     }
 
     const styleUri = this._panel.webview.asWebviewUri(
@@ -187,7 +184,7 @@ export class TipPanel {
                 <button class="action-button" onclick="sendMessage('dismissForever')">Dismiss Forever</button>
               </div>
             </div>
-          <div class="os-info">Optimized for ${escapeHtml(osType)}</div>
+          <div class="os-info">Optimized for ${escapeHtml(this.currentOSType)}</div>
           </div>
         </div>
         <script>
