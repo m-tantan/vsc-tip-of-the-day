@@ -64,10 +64,20 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-### 1.2.1
+### 1.2.2
 
-- 🔒 **Security fix**: Properly escape HTML in tip titles and content to prevent XSS vulnerabilities
-- 🛡️ **Enhanced security**: All user-visible dynamic content is now safely escaped in the webview
+- 🌍 Support partial localization for:
+   - Arabic (`ar`)
+   - Bengali (`bn`)
+   - English (`en`)
+   - Spanish (`es`)
+   - French (`fr`)
+   - Hebrew (`he`)
+   - Hindi (`hi`)
+   - Japanese (`ja`)
+   - Portuguese (`pt`)
+   - Russian (`ru`)
+   - Chinese (Mandarin) (`zh`)
 
 ### 1.2.0
 

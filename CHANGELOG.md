@@ -2,6 +2,11 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
+## [1.2.2] - 2025-09-27
+
+### New feature
+- Added partial language support for Arabic, Bengali, English, Spanish, French, Hebrew, Hindi, Japanese, Portuguese, Russian, Chinese
+
 ## [1.2.1] - 2025-09-24
 
 ### Security
