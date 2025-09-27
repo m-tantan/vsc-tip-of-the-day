@@ -1,0 +1,45 @@
+{
+  "$schema": "../tips.schema.json",
+  "tips": [
+    {
+      "title": "Quick File Navigation",
+      "content": "Press `Ctrl+P` to quickly search and open files in your workspace. Start typing the filename to filter the list."
+    },
+    {
+      "title": "Command Palette",
+      "content": "Access all VS Code commands with `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS). This is your gateway to everything VS Code can do!"
+    },
+    {
+      "title": "Multi-Cursor Editing",
+      "content": "Hold `Alt` (`Option` on macOS) and click to add multiple cursors. Edit multiple lines simultaneously!"
+    },
+    {
+      "title": "Zen Mode",
+      "content": "Toggle distraction-free coding with `Ctrl+K Z`. Press `Esc` twice to exit."
+    },
+    {
+      "title": "Integrated Terminal",
+      "content": "Toggle the integrated terminal with `` Ctrl+` `` (backtick). Keep coding and running commands without switching windows."
+    },
+    {
+      "title": "Smart Selection",
+      "content": "Press `Ctrl+D` to select the next occurrence of the current selection. Great for renaming variables or making multiple similar changes!"
+    },
+    {
+      "title": "Split Editor Views",
+      "content": "Use `Ctrl+\\` to split the editor into multiple panes. Perfect for viewing different parts of the same file or comparing files side by side."
+    },
+    {
+      "title": "Search Across Files",
+      "content": "Use `Ctrl+Shift+F` to search across all files in your workspace. Perfect for finding specific code or text patterns."
+    },
+    {
+      "title": "Quick File Creation",
+      "content": "Use `Ctrl+N` for a new untitled file. Add multiple files quickly without leaving your keyboard."
+    },
+    {
+      "title": "IntelliSense Everywhere",
+      "content": "Press `Ctrl+Space` anywhere to manually trigger IntelliSense suggestions. Works in code, settings, and even JSON files!"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import * as vscode from "vscode";
 import { TipManager } from "../tipManager";
 import { TipState } from "../tipState";
 import { OSUtils } from "../osUtils";
+import { getLocalizedStrings, SUPPORTED_LANGUAGES } from "../localization";
 
 export class TipPanel {
   private static currentInstance: TipPanel | undefined;
@@ -60,6 +61,16 @@ export class TipPanel {
             await config.update("enabled", false, true);
             this.dispose();
             break;
+          case "changeLanguage":
+            if (message.data) {
+              try {
+                await tipManager.changeLanguage(message.data);
+                await this.updateContent();
+              } catch (error) {
+                vscode.window.showErrorMessage(`Failed to change language: ${error}`);
+              }
+            }
+            break;
           case "openSettings":
             await vscode.commands.executeCommand(
               "workbench.action.openSettings",
@@ -112,19 +123,29 @@ export class TipPanel {
         )[s];
       });
     }
+    const currentLanguage = this.tipManager.getCurrentLanguage();
+    const strings = getLocalizedStrings(currentLanguage);
 
     const styleUri = this._panel.webview.asWebviewUri(
       vscode.Uri.file(vscode.Uri.joinPath(vscode.Uri.file(this.extensionPath), "media", "styles.css").fsPath)
     );
 
+    // Generate language options for dropdown
+    const languageOptions = SUPPORTED_LANGUAGES.map(
+      (lang) =>
+        `<option value="${lang.code}" ${lang.code === currentLanguage ? "selected" : ""}>${
+          lang.nativeName
+        }</option>`
+    ).join("");
+
     this._panel.webview.html = `<!DOCTYPE html>
-      <html lang="en">
-      <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="${styleUri}">
-        <title>Tip of the Day</title>
-        <style>
+        <html lang="${currentLanguage}">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="${styleUri}">
+            <title>${strings.tipOfTheDayTitle}</title>
+            <style>
           body {
             margin: 0;
             padding: 0;
@@ -141,6 +162,11 @@ export class TipPanel {
             justify-content: space-between;
             align-items: center;
             margin-bottom: 8px;
+          }
+          .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
           }
           .settings-icon {
             background: transparent;
@@ -164,37 +190,52 @@ export class TipPanel {
             content: "⚙️";
           }
         </style>
-      </head>
-      <body>
-        <div class="container">
-          <div class="header">
-            <h1 class="title">💡 Tip Of The Day 💡</h1>
-            <button class="settings-icon" onclick="sendMessage('openSettings')" title="Open Extension Settings"></button>
-          </div>
-          <h2 class="title">${escapeHtml(tip.title)}</h2>
-          <div class="content">${escapeHtml(tip.content)}</div>
-          <div class="controls">
-            <div class="navigation-controls">
-              <button class="nav-button" onclick="sendMessage('previous')">Previous</button>
-              <button class="nav-button" onclick="sendMessage('next')">Next</button>
-            </div>
-            <div class="action-controls">
-              <div class="dismiss-controls">
-                <button class="action-button" onclick="sendMessage('dismissToday')">Dismiss Today</button>
-                <button class="action-button" onclick="sendMessage('dismissForever')">Dismiss Forever</button>
+        </head>
+        <body>
+            <div class="container">
+              <div class="header">
+                <h1 class="title">${strings.tipOfTheDayTitle}</h1>
+                <div class="header-actions">
+                  <button class="settings-icon" onclick="sendMessage('openSettings')" title="Open Extension Settings"></button>
+                  <div class="language-selector">
+                    <select id="languageSelect" onchange="sendMessage('changeLanguage', this.value)">
+                        ${languageOptions}
+                    </select>
+                  </div>
+                </div>
+              </div>                
+              <h2 class="title">${escapeHtml(tip.title)}</h2>
+              <div class="content">${escapeHtml(tip.content)}</div>
+              <div class="controls">
+                  <div class="navigation-controls">
+                      <button class="nav-button" onclick="sendMessage('previous')">${
+                        strings.previousButton
+                      }</button>
+                        <button class="nav-button" onclick="sendMessage('next')">${
+                          strings.nextButton
+                        }</button>
+                  </div>
+                  <div class="action-controls">
+                      <div class="dismiss-controls">
+                        <button class="action-button" onclick="sendMessage('dismissToday')">${
+                          strings.dismissTodayButton
+                        }</button>
+                        <button class="action-button" onclick="sendMessage('dismissForever')">${
+                          strings.dismissForeverButton
+                        }</button>
+                      </div>
+                  </div>
+                    <div class="os-info">Optimized for ${escapeHtml(this.currentOSType)}</div>
               </div>
             </div>
-          <div class="os-info">Optimized for ${escapeHtml(this.currentOSType)}</div>
-          </div>
-        </div>
-        <script>
-          const vscode = acquireVsCodeApi();
-          function sendMessage(command) {
-            vscode.postMessage({ command: command });
-          }
-        </script>
-      </body>
-      </html>`;
+            <script>
+                const vscode = acquireVsCodeApi();
+                function sendMessage(command, data) {
+                    vscode.postMessage({ command: command, data: data });
+                }
+            </script>
+        </body>
+        </html>`;
   }
 
   public dispose(): void {

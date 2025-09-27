@@ -1,0 +1,45 @@
+{
+  "$schema": "../tips.schema.json",
+  "tips": [
+    {
+      "title": "快速文件导航",
+      "content": "按 `Ctrl+P` 快速搜索并打开工作区中的文件。开始键入文件名以过滤列表。"
+    },
+    {
+      "title": "命令面板",
+      "content": "使用 `Ctrl+Shift+P` (Windows/Linux) 或 `Cmd+Shift+P` (macOS) 访问所有 VS Code 命令。这是您使用 VS Code 所有功能的入口！"
+    },
+    {
+      "title": "多光标编辑",
+      "content": "按住 `Alt` (macOS 上为 `Option`) 并点击以添加多个光标。同时编辑多行！"
+    },
+    {
+      "title": "专注模式",
+      "content": "使用 `Ctrl+K Z` 切换无干扰编码模式。按两次 `Esc` 退出。"
+    },
+    {
+      "title": "集成终端",
+      "content": "使用 `` Ctrl+` `` (反引号) 切换集成终端。无需切换窗口即可编码和运行命令。"
+    },
+    {
+      "title": "智能选择",
+      "content": "按 `Ctrl+D` 选择当前选择的下一个匹配项。非常适合重命名变量或进行多个类似的更改！"
+    },
+    {
+      "title": "分割编辑器视图",
+      "content": "使用 `Ctrl+\\` 将编辑器分割为多个窗格。非常适合查看同一文件的不同部分或并排比较文件。"
+    },
+    {
+      "title": "跨文件搜索",
+      "content": "使用 `Ctrl+Shift+F` 在工作区的所有文件中搜索。非常适合查找特定的代码或文本模式。"
+    },
+    {
+      "title": "快速文件创建",
+      "content": "使用 `Ctrl+N` 创建新的无标题文件。无需离开键盘即可快速添加多个文件。"
+    },
+    {
+      "title": "无处不在的智能感知",
+      "content": "在任何地方按 `Ctrl+Space` 手动触发智能感知建议。适用于代码、设置，甚至 JSON 文件！"
+    }
+  ]
+}
