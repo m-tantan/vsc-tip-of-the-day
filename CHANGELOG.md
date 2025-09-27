@@ -2,6 +2,37 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
+## [1.2.1] - 2025-09-24
+
+### Security
+- Fixed potential XSS vulnerability by properly escaping HTML characters in tip titles and content
+- Enhanced webview security by ensuring all user-visible dynamic content is safely escaped
+- Improved HTML sanitization in the tip panel webview
+
+### Fixed
+- Tip titles and content now properly escape HTML special characters (&, <, >, ", ', `, =, /)
+- Prevented potential security issues from malicious content in tip data
+
+## [1.2.0] - 2025-09-24
+
+### Added
+- Settings icon (⚙️) in tip panel header for quick access to extension settings
+- OS-specific tip optimization with support for Windows, macOS, and Linux
+- Automatic operating system detection on first run
+- Manual OS selection setting (`tipOfTheDay.operatingSystem`) with options: auto, Windows, macOS, Linux
+- Real-time tip re-rendering when OS setting is changed
+- Enhanced header layout with title and settings icon
+- Changed random tip to be by the hour rather than by the day.
+
+### Changed
+- Tips now display "Optimized for [OS]" based on current OS setting
+- Extension automatically detects and saves OS preference to settings on first use
+- Settings changes now immediately update the tip display without restart
+
+### Fixed
+- Improved configuration handling for OS-specific features
+- Better error handling for settings initialization
+
 ## [1.1.0] - 2025-09-07
 
 ### Changed

@@ -71,6 +71,14 @@ body {
     padding: 0;
 }
 
+.os-info {
+    font-size: 11px;
+    color: var(--vscode-descriptionForeground);
+    font-style: italic;
+    text-align: center;
+    margin: -4px 0 4px 0;
+}
+
 .content {
     font-size: 13px;
     line-height: 1.4;

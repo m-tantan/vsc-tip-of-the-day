@@ -1,0 +1,177 @@
+{
+  "$schema": "./tips.schema.json",
+  "tips": [
+    {
+      "title": "Quick File Navigation",
+      "content": "Press `{shortcut}` to quickly search and open files in your workspace. Start typing the filename to filter the list.",
+      "shortcuts": {
+        "default": "Ctrl+P",
+        "macOS": "Cmd+P"
+      }
+    },
+    {
+      "title": "Command Palette",
+      "content": "Access all VS Code commands with `{shortcut}`. This is your gateway to everything VS Code can do!",
+      "shortcuts": {
+        "default": "Ctrl+Shift+P",
+        "macOS": "Cmd+Shift+P"
+      }
+    },
+    {
+      "title": "Multi-Cursor Editing",
+      "content": "Hold `{shortcut}` and click to add multiple cursors. Edit multiple lines simultaneously!",
+      "shortcuts": {
+        "default": "Alt",
+        "macOS": "Option"
+      }
+    },
+    {
+      "title": "Zen Mode",
+      "content": "Toggle distraction-free coding with `Ctrl+K Z`. Press `Esc` twice to exit."
+    },
+    {
+      "title": "Integrated Terminal",
+      "content": "Toggle the integrated terminal with `` Ctrl+` `` (backtick). Keep coding and running commands without switching windows."
+    },
+    {
+      "title": "Smart Selection",
+      "content": "Press `{shortcut}` to select the next occurrence of the current selection. Great for renaming variables or making multiple similar changes!",
+      "shortcuts": {
+        "default": "Ctrl+D",
+        "macOS": "Cmd+D"
+      }
+    },
+    {
+      "title": "Split Editor Views",
+      "content": "Use `{shortcut}` to split the editor into multiple panes. Perfect for viewing different parts of the same file or comparing files side by side.",
+      "shortcuts": {
+        "default": "Ctrl+\\",
+        "macOS": "Cmd+\\"
+      }
+    },
+    {
+      "title": "Search Across Files",
+      "content": "Use `{shortcut}` to search across all files in your workspace. Perfect for finding specific code or text patterns.",
+      "shortcuts": {
+        "default": "Ctrl+Shift+F",
+        "macOS": "Cmd+Shift+F"
+      }
+    },
+    {
+      "title": "Quick File Creation",
+      "content": "Use `{shortcut}` for a new untitled file. Add multiple files quickly without leaving your keyboard.",
+      "shortcuts": {
+        "default": "Ctrl+N",
+        "macOS": "Cmd+N"
+      }
+    },
+    {
+      "title": "IntelliSense Everywhere",
+      "content": "Press `{shortcut}` anywhere to manually trigger IntelliSense suggestions. Works in code, settings, and even JSON files!",
+      "shortcuts": {
+        "default": "Ctrl+Space",
+        "macOS": "Cmd+Space"
+      }
+    },
+    {
+      "title": "Breadcrumbs Navigation",
+      "content": "Click the breadcrumbs above the editor or press `{shortcut}` to quickly navigate through your file's structure.",
+      "shortcuts": {
+        "default": "Ctrl+Shift+.",
+        "macOS": "Cmd+Shift+."
+      }
+    },
+    {
+      "title": "Quick Fix and Actions",
+      "content": "Press `{shortcut}` when you see a lightbulb 💡 to view quick fixes and refactoring options.",
+      "shortcuts": {
+        "default": "Ctrl+.",
+        "macOS": "Cmd+."
+      }
+    },
+    {
+      "title": "Navigate Back and Forward",
+      "content": "Use `{shortcut}` to navigate back and forward through your cursor positions.",
+      "shortcuts": {
+        "default": "Alt+Left/Right",
+        "macOS": "Ctrl+Minus/Shift+Ctrl+Minus"
+      }
+    },
+    {
+      "title": "Toggle Line Comment",
+      "content": "Press `{shortcut}` to toggle line comments. Works with multiple lines selected too!",
+      "shortcuts": {
+        "default": "Ctrl+/",
+        "macOS": "Cmd+/"
+      }
+    },
+    {
+      "title": "Move Lines Up/Down",
+      "content": "Use `{shortcut}` to move lines up or down. Great for reorganizing code quickly!",
+      "shortcuts": {
+        "default": "Alt+Up/Down",
+        "macOS": "Option+Up/Down"
+      }
+    },
+    {
+      "title": "Format Document",
+      "content": "Press `{shortcut}` to format your entire document. Keep your code clean and consistent!",
+      "shortcuts": {
+        "default": "Shift+Alt+F",
+        "macOS": "Shift+Option+F"
+      }
+    },
+    {
+      "title": "Go to Definition",
+      "content": "Press `F12` to jump to the definition of a symbol. Hold `{shortcut}` and hover over code to peek at definitions!",
+      "shortcuts": {
+        "default": "Ctrl",
+        "macOS": "Cmd"
+      }
+    },
+    {
+      "title": "Find All References",
+      "content": "Press `{shortcut}` to find all references to the current symbol. Great for understanding how code is used across your project.",
+      "shortcuts": {
+        "default": "Shift+Alt+F12",
+        "macOS": "Shift+Option+F12"
+      }
+    },
+    {
+      "title": "Rename Symbol",
+      "content": "Press `F2` to rename a symbol and automatically update all references throughout your code."
+    },
+    {
+      "title": "Problems Panel",
+      "content": "Use `{shortcut}` to toggle the Problems panel and see all errors and warnings in your workspace.",
+      "shortcuts": {
+        "default": "Ctrl+Shift+M",
+        "macOS": "Cmd+Shift+M"
+      }
+    },
+    {
+      "title": "Quick Open Previous File",
+      "content": "Press `{shortcut}` to quickly switch between recently used files. Hold the modifier key to see more options!",
+      "shortcuts": {
+        "default": "Ctrl+Tab",
+        "macOS": "Cmd+Tab"
+      }
+    },
+    {
+      "title": "Toggle Word Wrap",
+      "content": "Press `{shortcut}` to toggle word wrap. No more horizontal scrolling for long lines!",
+      "shortcuts": {
+        "default": "Alt+Z",
+        "macOS": "Option+Z"
+      }
+    },
+    {
+      "title": "Fold/Unfold Code",
+      "content": "Use `{shortcut}` to fold and unfold code blocks. Keep your editor tidy!",
+      "shortcuts": {
+        "default": "Ctrl+Shift+[ and Ctrl+Shift+]",
+        "macOS": "Cmd+Option+[ and Cmd+Option+]"
+      }
+    }
+  ]
+}
