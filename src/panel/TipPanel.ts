@@ -163,6 +163,11 @@ export class TipPanel {
             align-items: center;
             margin-bottom: 8px;
           }
+          .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+          }
           .settings-icon {
             background: transparent;
             border: none;
@@ -189,12 +194,14 @@ export class TipPanel {
         <body>
             <div class="container">
               <div class="header">
-                    <h1 class="title">${strings.tipOfTheDayTitle}</h1>
-                <button class="settings-icon" onclick="sendMessage('openSettings')" title="Open Extension Settings"></button>
-                <div class="language-selector">
+                <h1 class="title">${strings.tipOfTheDayTitle}</h1>
+                <div class="header-actions">
+                  <button class="settings-icon" onclick="sendMessage('openSettings')" title="Open Extension Settings"></button>
+                  <div class="language-selector">
                     <select id="languageSelect" onchange="sendMessage('changeLanguage', this.value)">
                         ${languageOptions}
                     </select>
+                  </div>
                 </div>
               </div>                
               <h2 class="title">${escapeHtml(tip.title)}</h2>
