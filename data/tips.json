@@ -2,174 +2,217 @@
   "$schema": "./tips.schema.json",
   "tips": [
     {
+      "id": 1,
       "title": "Quick File Navigation",
       "content": "Press `Ctrl+P` to quickly search and open files in your workspace. Start typing the filename to filter the list."
     },
     {
+      "id": 2,
       "title": "Command Palette",
       "content": "Access all VS Code commands with `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS). This is your gateway to everything VS Code can do!"
     },
     {
+      "id": 3,
       "title": "Multi-Cursor Editing",
       "content": "Hold `Alt` (`Option` on macOS) and click to add multiple cursors. Edit multiple lines simultaneously!"
     },
     {
+      "id": 4,
       "title": "Zen Mode",
       "content": "Toggle distraction-free coding with `Ctrl+K Z`. Press `Esc` twice to exit."
     },
     {
+      "id": 5,
       "title": "Integrated Terminal",
       "content": "Toggle the integrated terminal with `` Ctrl+` `` (backtick). Keep coding and running commands without switching windows."
     },
     {
+      "id": 6,
       "title": "Smart Selection",
       "content": "Press `Ctrl+D` to select the next occurrence of the current selection. Great for renaming variables or making multiple similar changes!"
     },
     {
+      "id": 7,
       "title": "Split Editor Views",
       "content": "Use `Ctrl+\\` to split the editor into multiple panes. Perfect for viewing different parts of the same file or comparing files side by side."
     },
     {
+      "id": 8,
       "title": "Search Across Files",
       "content": "Use `Ctrl+Shift+F` to search across all files in your workspace. Perfect for finding specific code or text patterns."
     },
     {
+      "id": 9,
       "title": "Quick File Creation",
       "content": "Use `Ctrl+N` for a new untitled file. Add multiple files quickly without leaving your keyboard."
     },
     {
+      "id": 10,
       "title": "IntelliSense Everywhere",
       "content": "Press `Ctrl+Space` anywhere to manually trigger IntelliSense suggestions. Works in code, settings, and even JSON files!"
     },
     {
+      "id": 11,
       "title": "Breadcrumbs Navigation",
       "content": "Click the breadcrumbs above the editor or press `Ctrl+Shift+.` to quickly navigate through your file's structure."
     },
     {
+      "id": 12,
       "title": "Quick Fix and Actions",
       "content": "Press `Ctrl+.` when you see a lightbulb 💡 to view quick fixes and refactoring options."
     },
     {
+      "id": 13,
       "title": "Navigate Back and Forward",
       "content": "Use `Alt+Left` and `Alt+Right` to navigate back and forward through your cursor positions."
     },
     {
+      "id": 14,
       "title": "Toggle Line Comment",
       "content": "Press `Ctrl+/` to toggle line comments. Works with multiple lines selected too!"
     },
     {
+      "id": 15,
       "title": "Move Lines Up/Down",
       "content": "Use `Alt+Up` or `Alt+Down` to move lines up or down. Great for reorganizing code quickly!"
     },
     {
+      "id": 16,
       "title": "Format Document",
       "content": "Press `Shift+Alt+F` to format your entire document. Keep your code clean and consistent!"
     },
     {
+      "id": 17,
       "title": "Minimap Navigation",
       "content": "Use the minimap on the right side of the editor for quick scrolling through large files. Toggle it with `Ctrl+Shift+P` and search for 'Toggle Minimap'."
     },
     {
+      "id": 18,
       "title": "Go to Definition",
       "content": "Press `F12` to jump to the definition of a symbol. Hold `Ctrl` and hover over code to peek at definitions!"
     },
     {
+      "id": 19,
       "title": "Find All References",
       "content": "Press `Shift+Alt+F12` to find all references to the current symbol. Great for understanding how code is used across your project."
     },
     {
+      "id": 20,
       "title": "Rename Symbol",
       "content": "Press `F2` to rename a symbol and automatically update all references throughout your code."
     },
     {
+      "id": 21,
       "title": "Problems Panel",
       "content": "Use `Ctrl+Shift+M` to toggle the Problems panel and see all errors and warnings in your workspace."
     },
     {
+      "id": 22,
       "title": "Quick Open Previous File",
       "content": "Press `Ctrl+Tab` to quickly switch between recently used files. Hold `Ctrl` to see more options!"
     },
     {
+      "id": 23,
       "title": "Toggle Word Wrap",
       "content": "Press `Alt+Z` to toggle word wrap. No more horizontal scrolling for long lines!"
     },
     {
+      "id": 24,
       "title": "Fold/Unfold Code",
       "content": "Use `Ctrl+Shift+[` and `Ctrl+Shift+]` to fold and unfold code blocks. Keep your editor tidy!"
     },
     {
+      "id": 25,
       "title": "Side by Side Editing",
       "content": "Drag and drop a file tab to the side of the editor to open it side by side. Perfect for comparing or referencing code!"
     },
     {
+      "id": 26,
       "title": "Column Selection",
       "content": "Hold `Shift+Alt` while dragging the mouse to select text in columns. Perfect for editing structured text or tables!"
     },
     {
+      "id": 27,
       "title": "Navigate File History",
       "content": "Use `Alt+Left` and `Alt+Right` to navigate through your file navigation history, just like a web browser!"
     },
     {
+      "id": 28,
       "title": "Quick Parameter Hints",
       "content": "Press `Ctrl+Shift+Space` to see parameter hints for functions. Great for remembering function arguments!"
     },
     {
+      "id": 29,
       "title": "Color Theme Switching",
       "content": "Quickly switch color themes with `Ctrl+K Ctrl+T`. Try different themes to find your perfect coding environment!"
     },
     {
+      "id": 30,
       "title": "Duplicate Line",
       "content": "Press `Shift+Alt+Up` or `Shift+Alt+Down` to copy lines up or down. No need to copy and paste!"
     },
     {
+      "id": 31,
       "title": "Join Lines",
       "content": "Use `Ctrl+J` to join multiple lines into one. Select multiple lines first to join them all!"
     },
     {
+      "id": 32,
       "title": "Toggle Activity Bar",
       "content": "Save screen space by toggling the Activity Bar with `Ctrl+B`. Get back that precious horizontal space!"
     },
     {
+      "id": 33,
       "title": "IntelliSense Tab Completion",
       "content": "After invoking IntelliSense, use `Tab` instead of `Enter` to complete the suggestion and replace the word at the cursor."
     },
     {
+      "id": 34,
       "title": "Peek References",
       "content": "Use `Shift+F12` to peek references without leaving your current location. Click 'Open to the Side' to see full details!"
     },
     {
+      "id": 35,
       "title": "Clear Terminal",
       "content": "Clear the integrated terminal with `Ctrl+K` in the terminal (or type 'clear'). Keep your workspace tidy!"
     },
     {
+      "id": 36,
       "title": "Save All",
       "content": "Use `Ctrl+K S` to save all open files at once. Never forget to save your changes!"
     },
     {
+      "id": 37,
       "title": "Find by Symbol",
       "content": "Press `Ctrl+Shift+O` to quickly navigate to symbols (functions, classes, etc.) within the current file."
     },
     {
+      "id": 38,
       "title": "Workspace Symbol Search",
       "content": "Use `Ctrl+T` to search for symbols across your entire workspace. Find any function or class instantly!"
     },
     {
+      "id": 39,
       "title": "Auto Save",
       "content": "Enable Auto Save via File > Auto Save or set `files.autoSave` to 'afterDelay' in settings. Never lose changes again!"
     },
     {
+      "id": 40,
       "title": "Keyboard Reference",
       "content": "Press `Ctrl+K Ctrl+R` to open the keyboard shortcuts reference PDF. Great for learning new shortcuts!"
     },
     {
+      "id": 41,
       "title": "Indent/Outdent Lines",
       "content": "Use `Ctrl+]` to indent and `Ctrl+[` to outdent lines. Works with multiple lines selected!"
     },
     {
+      "id": 42,
       "title": "Terminal Split",
       "content": "Split the integrated terminal with the + button in the terminal title bar or use the 'Split Terminal' command."
     },
     {
+      "id": 43,
       "title": "Trim Trailing Whitespace",
       "content": "Use `Ctrl+K Ctrl+X` to trim trailing whitespace. Keep your code clean automatically!"
     }

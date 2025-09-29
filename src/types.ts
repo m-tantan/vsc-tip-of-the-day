@@ -1,4 +1,6 @@
 export interface Tip {
+  /** Optional stable numeric id to map across locales */
+  id?: number;
   title: string;
   content: string;
   shortcuts?: OSSpecificShortcuts;
