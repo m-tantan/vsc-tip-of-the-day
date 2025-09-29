@@ -2,44 +2,219 @@
   "$schema": "../tips.schema.json",
   "tips": [
     {
+      "id": 1,
       "title": "Navigation Rapide des Fichiers",
       "content": "Appuyez sur `Ctrl+P` pour rechercher rapidement et ouvrir des fichiers dans votre espace de travail. Commencez à taper le nom du fichier pour filtrer la liste."
     },
     {
+      "id": 2,
       "title": "Palette de Commandes",
       "content": "Accédez à toutes les commandes VS Code avec `Ctrl+Shift+P` (Windows/Linux) ou `Cmd+Shift+P` (macOS). C'est votre passerelle vers tout ce que VS Code peut faire !"
     },
     {
+      "id": 3,
       "title": "Édition Multi-Curseur",
       "content": "Maintenez `Alt` (`Option` sur macOS) et cliquez pour ajouter plusieurs curseurs. Éditez plusieurs lignes simultanément !"
     },
     {
+      "id": 4,
       "title": "Mode Zen",
-      "content": "Basculez en codage sans distraction avec `Ctrl+K Z`. Appuyez deux fois sur `Esc` pour sortir."
+      "content": "Basculez en mode sans distraction avec `Ctrl+K Z`. Appuyez deux fois sur `Esc` pour sortir."
     },
     {
+      "id": 5,
       "title": "Terminal Intégré",
       "content": "Basculez le terminal intégré avec `` Ctrl+` `` (accent grave). Continuez à coder et exécuter des commandes sans changer de fenêtre."
     },
     {
+      "id": 6,
       "title": "Sélection Intelligente",
-      "content": "Appuyez sur `Ctrl+D` pour sélectionner la prochaine occurrence de la sélection actuelle. Parfait pour renommer des variables ou faire plusieurs changements similaires !"
+      "content": "Appuyez sur `Ctrl+D` pour sélectionner la prochaine occurrence de la sélection actuelle. Parfait pour renommer des variables ou faire plusieurs modifications similaires !"
     },
     {
+      "id": 7,
       "title": "Vues d'Éditeur Divisées",
       "content": "Utilisez `Ctrl+\\` pour diviser l'éditeur en plusieurs panneaux. Parfait pour voir différentes parties du même fichier ou comparer des fichiers côte à côte."
     },
     {
+      "id": 8,
       "title": "Recherche dans Tous les Fichiers",
       "content": "Utilisez `Ctrl+Shift+F` pour rechercher dans tous les fichiers de votre espace de travail. Parfait pour trouver du code spécifique ou des motifs de texte."
     },
     {
+      "id": 9,
       "title": "Création Rapide de Fichiers",
       "content": "Utilisez `Ctrl+N` pour un nouveau fichier sans titre. Ajoutez plusieurs fichiers rapidement sans quitter votre clavier."
     },
     {
+      "id": 10,
       "title": "IntelliSense Partout",
-      "content": "Appuyez sur `Ctrl+Space` n'importe où pour déclencher manuellement les suggestions IntelliSense. Fonctionne dans le code, les paramètres, et même les fichiers JSON !"
+      "content": "Appuyez sur `Ctrl+Space` n'importe où pour déclencher manuellement les suggestions IntelliSense. Fonctionne dans le code, les paramètres et même les fichiers JSON !"
+    },
+    {
+      "id": 11,
+      "title": "Navigation par Fil d'Ariane",
+      "content": "Cliquez sur le fil d'Ariane au-dessus de l'éditeur ou pressez `Ctrl+Shift+.` pour naviguer rapidement dans la structure de votre fichier."
+    },
+    {
+      "id": 12,
+      "title": "Corrections Rapides et Actions",
+      "content": "Appuyez sur `Ctrl+.` quand une ampoule 💡 apparaît pour voir les corrections rapides et options de refactorisation."
+    },
+    {
+      "id": 13,
+      "title": "Naviguer en Arrière/Avant",
+      "content": "Utilisez `Alt+Left` et `Alt+Right` pour revenir en arrière ou avancer dans vos positions de curseur."
+    },
+    {
+      "id": 14,
+      "title": "Basculer le Commentaire de Ligne",
+      "content": "Appuyez sur `Ctrl+/` pour commenter ou décommenter la ligne. Fonctionne aussi avec plusieurs lignes sélectionnées."
+    },
+    {
+      "id": 15,
+      "title": "Déplacer les Lignes",
+      "content": "Utilisez `Alt+Up` ou `Alt+Down` pour déplacer des lignes vers le haut ou le bas. Idéal pour réorganiser rapidement le code."
+    },
+    {
+      "id": 16,
+      "title": "Formater le Document",
+      "content": "Appuyez sur `Shift+Alt+F` pour formater tout le document. Gardez un code propre et cohérent."
+    },
+    {
+      "id": 17,
+      "title": "Navigation avec la Minimap",
+      "content": "Utilisez la minimap à droite pour faire défiler rapidement de gros fichiers. Activez-la via `Ctrl+Shift+P` → 'Toggle Minimap'."
+    },
+    {
+      "id": 18,
+      "title": "Aller à la Définition",
+      "content": "Appuyez sur `F12` pour aller à la définition d'un symbole. Maintenez `Ctrl` et survolez pour un aperçu."
+    },
+    {
+      "id": 19,
+      "title": "Rechercher Toutes les Références",
+      "content": "Appuyez sur `Shift+Alt+F12` pour lister toutes les références du symbole courant. Utile pour comprendre son usage."
+    },
+    {
+      "id": 20,
+      "title": "Renommer un Symbole",
+      "content": "Appuyez sur `F2` pour renommer un symbole et mettre à jour toutes ses références."
+    },
+    {
+      "id": 21,
+      "title": "Panneau des Problèmes",
+      "content": "Utilisez `Ctrl+Shift+M` pour afficher le panneau des problèmes (erreurs et avertissements)."
+    },
+    {
+      "id": 22,
+      "title": "Ouverture Rapide du Fichier Précédent",
+      "content": "Appuyez sur `Ctrl+Tab` pour basculer rapidement entre les fichiers récents. Maintenez `Ctrl` pour plus d'options."
+    },
+    {
+      "id": 23,
+      "title": "Basculer le Retour à la Ligne",
+      "content": "Appuyez sur `Alt+Z` pour activer/désactiver le retour à la ligne. Finies les barres de défilement horizontales !"
+    },
+    {
+      "id": 24,
+      "title": "Plier/Déplier le Code",
+      "content": "Utilisez `Ctrl+Shift+[` et `Ctrl+Shift+]` pour plier ou déplier des blocs de code."
+    },
+    {
+      "id": 25,
+      "title": "Édition Côte à Côte",
+      "content": "Glissez un onglet de fichier sur le côté de l'éditeur pour l'ouvrir côte à côte."
+    },
+    {
+      "id": 26,
+      "title": "Sélection en Colonne",
+      "content": "Maintenez `Shift+Alt` en faisant glisser la souris pour sélectionner en colonne. Parfait pour du texte structuré."
+    },
+    {
+      "id": 27,
+      "title": "Historique de Navigation de Fichier",
+      "content": "Utilisez `Alt+Left` et `Alt+Right` pour parcourir l'historique de navigation de fichier comme dans un navigateur."
+    },
+    {
+      "id": 28,
+      "title": "Aide Paramètres Rapide",
+      "content": "Appuyez sur `Ctrl+Shift+Space` pour afficher les paramètres d'une fonction."
+    },
+    {
+      "id": 29,
+      "title": "Changer de Thème de Couleurs",
+      "content": "Basculez de thème avec `Ctrl+K Ctrl+T`. Testez-en plusieurs pour votre confort."
+    },
+    {
+      "id": 30,
+      "title": "Dupliquer la Ligne",
+      "content": "Appuyez sur `Shift+Alt+Up` ou `Shift+Alt+Down` pour copier la ligne au-dessus ou en dessous."
+    },
+    {
+      "id": 31,
+      "title": "Joindre les Lignes",
+      "content": "Utilisez `Ctrl+J` pour joindre plusieurs lignes en une seule."
+    },
+    {
+      "id": 32,
+      "title": "Basculer la Barre d'Activité",
+      "content": "Gagnez de l'espace en basculant la barre d'activité avec `Ctrl+B`."
+    },
+    {
+      "id": 33,
+      "title": "Validation Tab IntelliSense",
+      "content": "Après IntelliSense, utilisez `Tab` plutôt que `Enter` pour compléter et remplacer le mot."
+    },
+    {
+      "id": 34,
+      "title": "Aperçu des Références",
+      "content": "Utilisez `Shift+F12` pour un aperçu des références sans quitter la position actuelle."
+    },
+    {
+      "id": 35,
+      "title": "Effacer le Terminal",
+      "content": "Effacez le terminal intégré avec `Ctrl+K` (ou tapez 'clear')."
+    },
+    {
+      "id": 36,
+      "title": "Tout Enregistrer",
+      "content": "Utilisez `Ctrl+K S` pour enregistrer tous les fichiers ouverts."
+    },
+    {
+      "id": 37,
+      "title": "Rechercher par Symbole",
+      "content": "Appuyez sur `Ctrl+Shift+O` pour naviguer rapidement vers un symbole dans le fichier."
+    },
+    {
+      "id": 38,
+      "title": "Recherche de Symboles Espace de Travail",
+      "content": "Utilisez `Ctrl+T` pour rechercher des symboles dans tout l'espace de travail."
+    },
+    {
+      "id": 39,
+      "title": "Enregistrement Automatique",
+      "content": "Activez l'auto save via Fichier > Auto Save ou `files.autoSave`='afterDelay'."
+    },
+    {
+      "id": 40,
+      "title": "Référence des Raccourcis Clavier",
+      "content": "Appuyez sur `Ctrl+K Ctrl+R` pour ouvrir le PDF des raccourcis."
+    },
+    {
+      "id": 41,
+      "title": "Indenter/Désindenter",
+      "content": "Utilisez `Ctrl+]` pour indenter et `Ctrl+[` pour désindenter les lignes."
+    },
+    {
+      "id": 42,
+      "title": "Fractionner le Terminal",
+      "content": "Fractionnez le terminal intégré avec le bouton + ou la commande 'Split Terminal'."
+    },
+    {
+      "id": 43,
+      "title": "Supprimer Espaces de Fin",
+      "content": "Utilisez `Ctrl+K Ctrl+X` pour supprimer les espaces de fin de ligne."
     }
   ]
 }

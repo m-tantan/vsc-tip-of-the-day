@@ -2,44 +2,219 @@
   "$schema": "../tips.schema.json",
   "tips": [
     {
+      "id": 1,
       "title": "Navegación Rápida de Archivos",
       "content": "Presiona `Ctrl+P` para buscar rápidamente y abrir archivos en tu espacio de trabajo. Comienza a escribir el nombre del archivo para filtrar la lista."
     },
     {
+      "id": 2,
       "title": "Paleta de Comandos",
       "content": "Accede a todos los comandos de VS Code con `Ctrl+Shift+P` (Windows/Linux) o `Cmd+Shift+P` (macOS). ¡Esta es tu puerta de entrada a todo lo que VS Code puede hacer!"
     },
     {
+      "id": 3,
       "title": "Edición Multi-Cursor",
       "content": "Mantén presionado `Alt` (`Option` en macOS) y haz clic para agregar múltiples cursores. ¡Edita múltiples líneas simultáneamente!"
     },
     {
+      "id": 4,
       "title": "Modo Zen",
-      "content": "Alterna la codificación sin distracciones con `Ctrl+K Z`. Presiona `Esc` dos veces para salir."
+      "content": "Alterna el modo de concentración sin distracciones con `Ctrl+K Z`. Presiona `Esc` dos veces para salir."
     },
     {
+      "id": 5,
       "title": "Terminal Integrada",
-      "content": "Alterna la terminal integrada con `` Ctrl+` `` (acento grave). Mantén la codificación y ejecuta comandos sin cambiar de ventana."
+      "content": "Alterna la terminal integrada con `` Ctrl+` `` (acento grave). Sigue codificando y ejecutando comandos sin cambiar de ventana."
     },
     {
+      "id": 6,
       "title": "Selección Inteligente",
-      "content": "Presiona `Ctrl+D` para seleccionar la siguiente ocurrencia de la selección actual. ¡Perfecto para renombrar variables o hacer múltiples cambios similares!"
+      "content": "Presiona `Ctrl+D` para seleccionar la siguiente ocurrencia de la selección actual. Ideal para renombrar variables o realizar varios cambios similares."
     },
     {
+      "id": 7,
       "title": "Vistas de Editor Dividido",
-      "content": "Usa `Ctrl+\\` para dividir el editor en múltiples paneles. Perfecto para ver diferentes partes del mismo archivo o comparar archivos lado a lado."
+      "content": "Usa `Ctrl+\\` para dividir el editor en varios paneles. Perfecto para ver distintas partes del mismo archivo o comparar archivos lado a lado."
     },
     {
+      "id": 8,
       "title": "Búsqueda en Todos los Archivos",
-      "content": "Usa `Ctrl+Shift+F` para buscar en todos los archivos de tu espacio de trabajo. Perfecto para encontrar código específico o patrones de texto."
+      "content": "Usa `Ctrl+Shift+F` para buscar en todos los archivos de tu espacio de trabajo. Ideal para encontrar código específico o patrones de texto."
     },
     {
+      "id": 9,
       "title": "Creación Rápida de Archivos",
-      "content": "Usa `Ctrl+N` para un nuevo archivo sin título. Agrega múltiples archivos rápidamente sin salir de tu teclado."
+      "content": "Usa `Ctrl+N` para un nuevo archivo sin título. Agrega múltiples archivos rápidamente sin dejar el teclado."
     },
     {
+      "id": 10,
       "title": "IntelliSense en Todas Partes",
-      "content": "Presiona `Ctrl+Space` en cualquier lugar para activar manualmente las sugerencias de IntelliSense. ¡Funciona en código, configuraciones e incluso archivos JSON!"
+      "content": "Presiona `Ctrl+Space` en cualquier lugar para activar manualmente las sugerencias de IntelliSense. Funciona en código, configuraciones e incluso archivos JSON."
+    },
+    {
+      "id": 11,
+      "title": "Navegación por Migas de Pan",
+      "content": "Haz clic en las migas de pan sobre el editor o presiona `Ctrl+Shift+.` para navegar rápidamente por la estructura de tu archivo."
+    },
+    {
+      "id": 12,
+      "title": "Correcciones y Acciones Rápidas",
+      "content": "Presiona `Ctrl+.` cuando veas una bombilla 💡 para ver correcciones rápidas y opciones de refactorización."
+    },
+    {
+      "id": 13,
+      "title": "Navegar Atrás y Adelante",
+      "content": "Usa `Alt+Left` y `Alt+Right` para moverte atrás y adelante por las posiciones del cursor."
+    },
+    {
+      "id": 14,
+      "title": "Alternar Comentario de Línea",
+      "content": "Presiona `Ctrl+/` para alternar comentarios de línea. También funciona con múltiples líneas seleccionadas."
+    },
+    {
+      "id": 15,
+      "title": "Mover Líneas Arriba/Abajo",
+      "content": "Usa `Alt+Up` o `Alt+Down` para mover líneas hacia arriba o abajo. Ideal para reorganizar código rápidamente."
+    },
+    {
+      "id": 16,
+      "title": "Formatear Documento",
+      "content": "Presiona `Shift+Alt+F` para formatear todo el documento. Mantén tu código limpio y consistente."
+    },
+    {
+      "id": 17,
+      "title": "Navegación con Mini Mapa",
+      "content": "Usa el minimapa al lado derecho del editor para desplazarte rápidamente por archivos grandes. Actívalo con `Ctrl+Shift+P` buscando 'Toggle Minimap'."
+    },
+    {
+      "id": 18,
+      "title": "Ir a Definición",
+      "content": "Presiona `F12` para saltar a la definición de un símbolo. Mantén `Ctrl` y coloca el cursor para ver una vista previa."
+    },
+    {
+      "id": 19,
+      "title": "Buscar Todas las Referencias",
+      "content": "Presiona `Shift+Alt+F12` para encontrar todas las referencias del símbolo actual. Excelente para entender cómo se usa el código."
+    },
+    {
+      "id": 20,
+      "title": "Renombrar Símbolo",
+      "content": "Presiona `F2` para renombrar un símbolo y actualizar automáticamente todas las referencias."
+    },
+    {
+      "id": 21,
+      "title": "Panel de Problemas",
+      "content": "Usa `Ctrl+Shift+M` para abrir el panel de Problemas y ver todos los errores y advertencias del espacio de trabajo."
+    },
+    {
+      "id": 22,
+      "title": "Abrir Rápido Archivo Anterior",
+      "content": "Presiona `Ctrl+Tab` para cambiar rápidamente entre archivos recientes. Mantén `Ctrl` para ver más opciones."
+    },
+    {
+      "id": 23,
+      "title": "Alternar Ajuste de Línea",
+      "content": "Presiona `Alt+Z` para alternar el ajuste de línea. ¡Adiós al desplazamiento horizontal!"
+    },
+    {
+      "id": 24,
+      "title": "Plegar/Desplegar Código",
+      "content": "Usa `Ctrl+Shift+[` y `Ctrl+Shift+]` para plegar y desplegar bloques de código. Mantén tu editor ordenado."
+    },
+    {
+      "id": 25,
+      "title": "Edición Lado a Lado",
+      "content": "Arrastra una pestaña de archivo al costado del editor para abrirla lado a lado. Perfecto para comparar o referenciar código."
+    },
+    {
+      "id": 26,
+      "title": "Selección de Columna",
+      "content": "Mantén `Shift+Alt` mientras arrastras el mouse para seleccionar texto en columnas. Ideal para texto estructurado."
+    },
+    {
+      "id": 27,
+      "title": "Historial de Navegación de Archivo",
+      "content": "Usa `Alt+Left` y `Alt+Right` para moverte por el historial de navegación del archivo, como en un navegador web."
+    },
+    {
+      "id": 28,
+      "title": "Sugerencias de Parámetros",
+      "content": "Presiona `Ctrl+Shift+Space` para ver sugerencias de parámetros de funciones. Útil para recordar argumentos."
+    },
+    {
+      "id": 29,
+      "title": "Cambio de Tema de Color",
+      "content": "Cambia de tema rápidamente con `Ctrl+K Ctrl+T`. Prueba varios para encontrar tu entorno ideal."
+    },
+    {
+      "id": 30,
+      "title": "Duplicar Línea",
+      "content": "Presiona `Shift+Alt+Up` o `Shift+Alt+Down` para copiar líneas hacia arriba o abajo. Sin copiar y pegar."
+    },
+    {
+      "id": 31,
+      "title": "Unir Líneas",
+      "content": "Usa `Ctrl+J` para unir múltiples líneas en una sola. Selecciona varias antes para unirlas todas."
+    },
+    {
+      "id": 32,
+      "title": "Alternar Barra de Actividad",
+      "content": "Ahorra espacio alternando la Barra de Actividad con `Ctrl+B`. Recupera ese espacio horizontal."
+    },
+    {
+      "id": 33,
+      "title": "Finalización con Tab en IntelliSense",
+      "content": "Tras invocar IntelliSense, usa `Tab` en lugar de `Enter` para completar la sugerencia y reemplazar la palabra."
+    },
+    {
+      "id": 34,
+      "title": "Vista Previa de Referencias",
+      "content": "Usa `Shift+F12` para ver referencias sin salir de tu ubicación actual. Abre al lado para más detalles."
+    },
+    {
+      "id": 35,
+      "title": "Limpiar Terminal",
+      "content": "Limpia la terminal integrada con `Ctrl+K` (o escribe 'clear'). Mantén tu entorno ordenado."
+    },
+    {
+      "id": 36,
+      "title": "Guardar Todo",
+      "content": "Usa `Ctrl+K S` para guardar todos los archivos abiertos. No pierdas cambios."
+    },
+    {
+      "id": 37,
+      "title": "Buscar por Símbolo",
+      "content": "Presiona `Ctrl+Shift+O` para navegar rápidamente a símbolos dentro del archivo actual."
+    },
+    {
+      "id": 38,
+      "title": "Búsqueda de Símbolos en el Espacio de Trabajo",
+      "content": "Usa `Ctrl+T` para buscar símbolos en todo tu espacio de trabajo. Encuentra cualquier función o clase al instante."
+    },
+    {
+      "id": 39,
+      "title": "Auto Guardado",
+      "content": "Activa el auto guardado mediante Archivo > Auto Save o configura `files.autoSave` a 'afterDelay'."
+    },
+    {
+      "id": 40,
+      "title": "Referencia de Atajos",
+      "content": "Presiona `Ctrl+K Ctrl+R` para abrir el PDF de atajos de teclado. Perfecto para aprender nuevos atajos."
+    },
+    {
+      "id": 41,
+      "title": "Indentar/Desindentar Líneas",
+      "content": "Usa `Ctrl+]` para indentar y `Ctrl+[` para desindentar líneas. Funciona con múltiples líneas seleccionadas."
+    },
+    {
+      "id": 42,
+      "title": "Dividir Terminal",
+      "content": "Divide la terminal integrada con el botón + en la barra de título o usando el comando 'Split Terminal'."
+    },
+    {
+      "id": 43,
+      "title": "Recortar Espacios Finales",
+      "content": "Usa `Ctrl+K Ctrl+X` para recortar espacios en blanco finales. Mantén tu código limpio automáticamente."
     }
   ]
 }

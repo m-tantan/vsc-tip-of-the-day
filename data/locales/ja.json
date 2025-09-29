@@ -2,44 +2,219 @@
   "$schema": "../tips.schema.json",
   "tips": [
     {
-      "title": "Quick File Navigation",
-      "content": "Press `Ctrl+P` to quickly search and open files in your workspace. Start typing the filename to filter the list."
+      "id": 1,
+      "title": "クイックファイルナビゲーション",
+      "content": "ワークスペース内のファイルを素早く検索して開くには `Ctrl+P` を押してください。ファイル名を入力してリストをフィルタリングします。"
     },
     {
-      "title": "Command Palette",
-      "content": "Access all VS Code commands with `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS). This is your gateway to everything VS Code can do!"
+      "id": 2,
+      "title": "コマンドパレット",
+      "content": "`Ctrl+Shift+P` (Windows/Linux) または `Cmd+Shift+P` (macOS) ですべてのVS Codeコマンドにアクセスできます。これがVS Codeのすべての機能への入り口です！"
     },
     {
-      "title": "Multi-Cursor Editing",
-      "content": "Hold `Alt` (`Option` on macOS) and click to add multiple cursors. Edit multiple lines simultaneously!"
+      "id": 3,
+      "title": "マルチカーソル編集",
+      "content": "`Alt` (macOSでは `Option`) を押しながらクリックして複数のカーソルを追加できます。複数行を同時に編集しましょう！"
     },
     {
-      "title": "Zen Mode",
-      "content": "Toggle distraction-free coding with `Ctrl+K Z`. Press `Esc` twice to exit."
+      "id": 4,
+      "title": "禅モード",
+      "content": "`Ctrl+K Z` で集中できる環境に切り替えます。終了するには `Esc` を2回押してください。"
     },
     {
-      "title": "Integrated Terminal",
-      "content": "Toggle the integrated terminal with `` Ctrl+` `` (backtick). Keep coding and running commands without switching windows."
+      "id": 5,
+      "title": "統合ターミナル",
+      "content": "`` Ctrl+` `` (バッククォート) で統合ターミナルを切り替えます。ウィンドウを切り替えることなくコーディングとコマンド実行を続けられます。"
     },
     {
-      "title": "Smart Selection",
-      "content": "Press `Ctrl+D` to select the next occurrence of the current selection. Great for renaming variables or making multiple similar changes!"
+      "id": 6,
+      "title": "スマート選択",
+      "content": "現在の選択範囲の次の出現箇所を選択するには `Ctrl+D` を押してください。変数名の変更や複数の類似変更に最適です！"
     },
     {
-      "title": "Split Editor Views",
-      "content": "Use `Ctrl+\\` to split the editor into multiple panes. Perfect for viewing different parts of the same file or comparing files side by side."
+      "id": 7,
+      "title": "分割エディタビュー",
+      "content": "`Ctrl+\\` を使ってエディタを複数のペインに分割できます。同じファイルの異なる部分を表示したり、ファイルを並べて比較するのに最適です。"
     },
     {
-      "title": "Search Across Files",
-      "content": "Use `Ctrl+Shift+F` to search across all files in your workspace. Perfect for finding specific code or text patterns."
+      "id": 8,
+      "title": "全ファイル検索",
+      "content": "ワークスペース内の全ファイルを検索するには `Ctrl+Shift+F` を使用してください。特定のコードやテキストパターンを見つけるのに最適です。"
     },
     {
-      "title": "Quick File Creation",
-      "content": "Use `Ctrl+N` for a new untitled file. Add multiple files quickly without leaving your keyboard."
+      "id": 9,
+      "title": "クイックファイル作成",
+      "content": "新しい無題ファイルを作成するには `Ctrl+N` を使用してください。キーボードから離れることなく素早く複数のファイルを追加できます。"
     },
     {
-      "title": "IntelliSense Everywhere",
-      "content": "Press `Ctrl+Space` anywhere to manually trigger IntelliSense suggestions. Works in code, settings, and even JSON files!"
+      "id": 10,
+      "title": "どこでもIntelliSense",
+      "content": "IntelliSenseの提案を手動でトリガーするには、どこでも `Ctrl+Space` を押してください。コード、設定、JSONファイルでも動作します！"
+    },
+    {
+      "id": 11,
+      "title": "パンくずリストナビゲーション",
+      "content": "エディタ上部のパンくずリストをクリックするか、`Ctrl+Shift+.` を押してファイル構造を素早くナビゲートできます。"
+    },
+    {
+      "id": 12,
+      "title": "クイックフィックスとアクション",
+      "content": "電球アイコン💡が表示されたら `Ctrl+.` を押してクイックフィックスとリファクタリングオプションを表示します。"
+    },
+    {
+      "id": 13,
+      "title": "戻る・進む",
+      "content": "カーソル位置を戻る・進むするには `Alt+Left` と `Alt+Right` を使用してください。"
+    },
+    {
+      "id": 14,
+      "title": "行コメント切り替え",
+      "content": "行コメントを切り替えるには `Ctrl+/` を押してください。複数行選択時にも動作します！"
+    },
+    {
+      "id": 15,
+      "title": "行を上下に移動",
+      "content": "行を上または下に移動するには `Alt+Up` または `Alt+Down` を使用してください。コードを素早く再配置するのに最適です！"
+    },
+    {
+      "id": 16,
+      "title": "ドキュメントフォーマット",
+      "content": "ドキュメント全体をフォーマットするには `Shift+Alt+F` を押してください。コードをクリーンで一貫性のある状態に保ちます！"
+    },
+    {
+      "id": 17,
+      "title": "ミニマップナビゲーション",
+      "content": "大きなファイルで素早くスクロールするには、エディタ右側のミニマップを使用してください。`Ctrl+Shift+P` で'Toggle Minimap'を検索して切り替えできます。"
+    },
+    {
+      "id": 18,
+      "title": "定義に移動",
+      "content": "シンボルの定義にジャンプするには `F12` を押してください。`Ctrl` を押しながらコードにホバーして定義をピークできます！"
+    },
+    {
+      "id": 19,
+      "title": "すべての参照を検索",
+      "content": "現在のシンボルのすべての参照を見つけるには `Shift+Alt+F12` を押してください。プロジェクト全体でコードがどのように使用されているかを理解するのに最適です。"
+    },
+    {
+      "id": 20,
+      "title": "シンボル名の変更",
+      "content": "シンボル名を変更してコード全体のすべての参照を自動的に更新するには `F2` を押してください。"
+    },
+    {
+      "id": 21,
+      "title": "問題パネル",
+      "content": "問題パネルを切り替えてワークスペース内のすべてのエラーと警告を表示するには `Ctrl+Shift+M` を使用してください。"
+    },
+    {
+      "id": 22,
+      "title": "前のファイルを素早く開く",
+      "content": "最近使用したファイル間を素早く切り替えるには `Ctrl+Tab` を押してください。`Ctrl` を押し続けてより多くのオプションを表示！"
+    },
+    {
+      "id": 23,
+      "title": "ワードラップ切り替え",
+      "content": "ワードラップを切り替えるには `Alt+Z` を押してください。長い行の水平スクロールが不要になります！"
+    },
+    {
+      "id": 24,
+      "title": "コード折りたたみ/展開",
+      "content": "コードブロックを折りたたみ・展開するには `Ctrl+Shift+[` と `Ctrl+Shift+]` を使用してください。エディタを整理された状態に保ちます！"
+    },
+    {
+      "id": 25,
+      "title": "サイドバイサイド編集",
+      "content": "ファイルタブをエディタの横にドラッグ＆ドロップしてサイドバイサイドで開きます。コードの比較や参照に最適です！"
+    },
+    {
+      "id": 26,
+      "title": "列選択",
+      "content": "マウスをドラッグしながら `Shift+Alt` を押して列でテキストを選択できます。構造化テキストやテーブルの編集に最適です！"
+    },
+    {
+      "id": 27,
+      "title": "ファイル履歴ナビゲーション",
+      "content": "Webブラウザのようにファイルナビゲーション履歴を移動するには `Alt+Left` と `Alt+Right` を使用してください！"
+    },
+    {
+      "id": 28,
+      "title": "クイックパラメータヒント",
+      "content": "関数のパラメータヒントを表示するには `Ctrl+Shift+Space` を押してください。関数の引数を覚えるのに最適です！"
+    },
+    {
+      "id": 29,
+      "title": "カラーテーマ切り替え",
+      "content": "`Ctrl+K Ctrl+T` でカラーテーマを素早く切り替えできます。完璧なコーディング環境を見つけるために様々なテーマを試してください！"
+    },
+    {
+      "id": 30,
+      "title": "行の複製",
+      "content": "行を上または下にコピーするには `Shift+Alt+Up` または `Shift+Alt+Down` を押してください。コピー＆ペーストの必要がありません！"
+    },
+    {
+      "id": 31,
+      "title": "行の結合",
+      "content": "複数行を1つに結合するには `Ctrl+J` を使用してください。すべてを結合するには最初に複数行を選択してください！"
+    },
+    {
+      "id": 32,
+      "title": "アクティビティバー切り替え",
+      "content": "`Ctrl+B` でアクティビティバーを切り替えてスクリーン領域を節約できます。貴重な水平スペースを取り戻しましょう！"
+    },
+    {
+      "id": 33,
+      "title": "IntelliSenseタブ補完",
+      "content": "IntelliSenseを起動した後、提案を完了してカーソル位置の単語を置き換えるには `Enter` の代わりに `Tab` を使用してください。"
+    },
+    {
+      "id": 34,
+      "title": "参照をピーク",
+      "content": "現在の位置から離れることなく参照をピークするには `Shift+F12` を使用してください。詳細を表示するには'サイドで開く'をクリック！"
+    },
+    {
+      "id": 35,
+      "title": "ターミナルクリア",
+      "content": "統合ターミナルをクリアするにはターミナル内で `Ctrl+K` を使用してください（または'clear'と入力）。ワークスペースを整理された状態に保ちます！"
+    },
+    {
+      "id": 36,
+      "title": "すべて保存",
+      "content": "開いているすべてのファイルを一度に保存するには `Ctrl+K S` を使用してください。変更を保存し忘れることがなくなります！"
+    },
+    {
+      "id": 37,
+      "title": "シンボルで検索",
+      "content": "現在のファイル内のシンボル（関数、クラスなど）に素早くナビゲートするには `Ctrl+Shift+O` を押してください。"
+    },
+    {
+      "id": 38,
+      "title": "ワークスペースシンボル検索",
+      "content": "ワークスペース全体でシンボルを検索するには `Ctrl+T` を使用してください。任意の関数やクラスを瞬時に見つけられます！"
+    },
+    {
+      "id": 39,
+      "title": "自動保存",
+      "content": "ファイル > 自動保存から、または設定で `files.autoSave` を'afterDelay'に設定して自動保存を有効にできます。二度と変更を失うことがありません！"
+    },
+    {
+      "id": 40,
+      "title": "キーボードショートカットリファレンス",
+      "content": "キーボードショートカットのPDFファイルを開くには `Ctrl+K Ctrl+R` を押してください。新しいショートカットを学ぶのに最適です！"
+    },
+    {
+      "id": 41,
+      "title": "インデントを増やす/減らす",
+      "content": "インデントを増やすには `Ctrl+]`、減らすには `Ctrl+[` を使用してください。複数行選択時にも動作します！"
+    },
+    {
+      "id": 42,
+      "title": "ターミナル分割",
+      "content": "タイトルバーの+ボタンまたは'Split Terminal'コマンドを使用して統合ターミナルを分割できます。"
+    },
+    {
+      "id": 43,
+      "title": "末尾の空白文字削除",
+      "content": "末尾の空白文字を削除するには `Ctrl+K Ctrl+X` を使用してください。コードを自動的にクリーンに保ちます！"
     }
   ]
 }
