@@ -5,6 +5,7 @@ export class TipState {
     private static readonly DISABLED_KEY = 'tipOfTheDay.disabled';
     private static readonly LAST_TIP_INDEX_KEY = 'tipOfTheDay.lastTipIndex';
     private static readonly LANGUAGE_KEY = 'tipOfTheDay.language';
+    private static readonly SHOWN_TIPS_KEY = 'tipOfTheDay.shownTips';
 
     constructor(private context: vscode.ExtensionContext) {}
 
@@ -51,12 +52,21 @@ export class TipState {
         await config.update('language', language, true);
     }
 
+    public async getShownTips(): Promise<number[]> {
+        return this.context.globalState.get<number[]>(TipState.SHOWN_TIPS_KEY, []);
+    }
+
+    public async setShownTips(shownTips: number[]): Promise<void> {
+        await this.context.globalState.update(TipState.SHOWN_TIPS_KEY, shownTips);
+    }
+
     public async clearState(): Promise<void> {
         await Promise.all([
             this.context.globalState.update(TipState.LAST_SHOWN_DATE_KEY, undefined),
             this.context.globalState.update(TipState.DISABLED_KEY, undefined),
             this.context.globalState.update(TipState.LAST_TIP_INDEX_KEY, undefined),
-            this.context.globalState.update(TipState.LANGUAGE_KEY, undefined)
+            this.context.globalState.update(TipState.LANGUAGE_KEY, undefined),
+            this.context.globalState.update(TipState.SHOWN_TIPS_KEY, undefined)
         ]);
     }
 }

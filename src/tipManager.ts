@@ -77,10 +77,10 @@ export class TipManager {
 
         this.tips = tipsData.tips;
         
-        // Restore last index or calculate today's index
+        // Restore last index or select a random unshown tip
         this.currentIndex = await this.state.getLastTipIndex();
         if (this.currentIndex === -1 || this.currentIndex >= this.tips.length) {
-            this.currentIndex = this.calculateTipIndex();
+            this.currentIndex = await this.selectRandomUnshownTip();
         }
     }
 
@@ -100,17 +100,44 @@ export class TipManager {
         return this.currentLanguage;
     }
 
-  private calculateTipIndex(): number {
-    const hoursIndex = Math.floor(Date.now() / (1000 * 60 * 60));
-    return hoursIndex % this.tips.length;
-  }
-
-  public getCurrentTip(): Tip {
-    if (this.currentIndex === -1 || this.tips.length === 0) {
-      throw new Error("Tips not initialized");
+    private async selectRandomUnshownTip(): Promise<number> {
+        const shownTips = await this.state.getShownTips();
+        
+        // Get list of unshown tips
+        const unshownTips: number[] = [];
+        for (let i = 0; i < this.tips.length; i++) {
+            if (!shownTips.includes(i)) {
+                unshownTips.push(i);
+            }
+        }
+        
+        // If all tips have been shown, reset the shown tips list
+        if (unshownTips.length === 0) {
+            await this.state.setShownTips([]);
+            // All tips are now unshown again
+            for (let i = 0; i < this.tips.length; i++) {
+                unshownTips.push(i);
+            }
+        }
+        
+        // Select a random tip from unshown tips
+        const randomIndex = Math.floor(Math.random() * unshownTips.length);
+        const selectedTipIndex = unshownTips[randomIndex];
+        
+        // Mark this tip as shown
+        const updatedShownTips = await this.state.getShownTips();
+        updatedShownTips.push(selectedTipIndex);
+        await this.state.setShownTips(updatedShownTips);
+        
+        return selectedTipIndex;
     }
-    return this.getOSSpecificTip(this.tips[this.currentIndex]);
-  }
+
+    public getCurrentTip(): Tip {
+        if (this.currentIndex === -1 || this.tips.length === 0) {
+            throw new Error("Tips not initialized");
+        }
+        return this.getOSSpecificTip(this.tips[this.currentIndex]);
+    }
 
   private getOSSpecificTip(tip: Tip): Tip {
     // If the tip has OS-specific shortcuts, use them
@@ -164,12 +191,8 @@ export class TipManager {
       return this.getCurrentTip();
     }
 
-    let newIndex: number;
-    do {
-      newIndex = Math.floor(Math.random() * this.tips.length);
-    } while (newIndex === this.currentIndex);
-
-    this.currentIndex = newIndex;
+    // Select a random unshown tip
+    this.currentIndex = await this.selectRandomUnshownTip();
     await this.state.setLastTipIndex(this.currentIndex);
     return this.getCurrentTip();
   }
