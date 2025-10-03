@@ -84,9 +84,9 @@ We support 11 languages and welcome translation contributions:
 
 To contribute translations:
 
-1. Translate tips in `/data/locales/<language-code>/tips.json`
+1. Translate tips in `/data/locales/<language-code>.json`
 2. Update UI strings in `/src/localization.ts` if needed
-3. Ensure all 43 tips are translated for completeness
+3. Ensure all tips are translated for completeness
 4. Maintain the same numeric `id` across all language files
 5. Test your translations in VS Code with the language setting
 
