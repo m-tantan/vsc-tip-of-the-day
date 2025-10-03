@@ -77,9 +77,14 @@ export class TipManager {
 
         this.tips = tipsData.tips;
         
+        // Check if it's a new day - if so, select a new random tip
+        const lastShownDate = await this.state.getLastShownDate();
+        const today = new Date().toISOString().split('T')[0];
+        const isNewDay = lastShownDate !== today;
+        
         // Restore last index or select a random unshown tip
         this.currentIndex = await this.state.getLastTipIndex();
-        if (this.currentIndex === -1 || this.currentIndex >= this.tips.length) {
+        if (this.currentIndex === -1 || this.currentIndex >= this.tips.length || isNewDay) {
             this.currentIndex = await this.selectRandomUnshownTip();
         }
     }
