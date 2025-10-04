@@ -88,9 +88,15 @@ export class TipManager {
     // Restore last index or select a random tip on new day
     this.currentIndex = await this.state.getLastTipIndex();
     if (this.currentIndex === -1 || this.currentIndex >= this.tips.length || isNewDay) {
-      // Select a random tip index
-      this.currentIndex = Math.floor(Math.random() * this.tips.length);
+      // Get shown tips history
+      const shownTips = await this.state.getShownTips();
+
+      // Select a random tip index avoiding recently shown tips
+      this.currentIndex = await this.selectRandomTipAvoidingHistory(shownTips);
       await this.state.setLastTipIndex(this.currentIndex);
+
+      // Update the shown tips history
+      await this.updateShownTipsHistory(this.currentIndex);
     }
   }
 
@@ -115,6 +121,55 @@ export class TipManager {
       throw new Error("Tips not initialized");
     }
     return this.getOSSpecificTip(this.tips[this.currentIndex]);
+  }
+
+  /**
+   * Selects a random tip index while avoiding recently shown tips
+   * @param shownTips Array of recently shown tip indices
+   * @returns A random tip index that hasn't been shown recently (if possible)
+   */
+  private async selectRandomTipAvoidingHistory(shownTips: number[]): Promise<number> {
+    const totalTips = this.tips.length;
+
+    // If we have fewer tips than the history size, just pick randomly
+    if (totalTips <= shownTips.length) {
+      return Math.floor(Math.random() * totalTips);
+    }
+
+    // Get indices of tips that haven't been shown recently
+    const availableTips: number[] = [];
+    for (let i = 0; i < totalTips; i++) {
+      if (!shownTips.includes(i)) {
+        availableTips.push(i);
+      }
+    }
+
+    // If all tips have been shown recently, clear history and start fresh
+    if (availableTips.length === 0) {
+      await this.state.setShownTips([]);
+      return Math.floor(Math.random() * totalTips);
+    }
+
+    // Select randomly from available tips
+    const randomIndex = Math.floor(Math.random() * availableTips.length);
+    return availableTips[randomIndex];
+  }
+
+  /**
+   * Updates the shown tips history by adding the current tip and maintaining max size
+   * @param tipIndex The index of the tip to add to history
+   */
+  private async updateShownTipsHistory(tipIndex: number): Promise<void> {
+    const MAX_HISTORY_SIZE = 10;
+    const shownTips = await this.state.getShownTips();
+
+    // Add current tip to the beginning of the history
+    const updatedHistory = [tipIndex, ...shownTips.filter((i) => i !== tipIndex)];
+
+    // Keep only the last MAX_HISTORY_SIZE tips
+    const trimmedHistory = updatedHistory.slice(0, MAX_HISTORY_SIZE);
+
+    await this.state.setShownTips(trimmedHistory);
   }
 
   private getOSSpecificTip(tip: Tip): Tip {
@@ -171,9 +226,15 @@ export class TipManager {
       throw new Error("No tips available");
     }
 
-    // Select a random tip index
-    this.currentIndex = Math.floor(Math.random() * this.tips.length);
+    // Get shown tips history
+    const shownTips = await this.state.getShownTips();
+
+    // Select a random tip index avoiding recently shown tips
+    this.currentIndex = await this.selectRandomTipAvoidingHistory(shownTips);
     await this.state.setLastTipIndex(this.currentIndex);
+
+    // Update the shown tips history
+    await this.updateShownTipsHistory(this.currentIndex);
 
     return this.getCurrentTip();
   }

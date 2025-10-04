@@ -2,14 +2,17 @@
 
 Enhance your VS Code productivity with daily tips! This extension delivers curated tips about VS Code features, shortcuts, and best practices directly to you through VS Code's notification system, with OS-specific optimizations and easy settings access.
 
+![Snapshot of the extension demoing how to use the command palette via keyboard shortcut](./assets/demo.png)
+
 ## Features
 
 - 🎯 Daily VS Code tips to improve your coding workflow
 - 🖥️ **OS-specific tip optimization** (Windows, macOS, Linux) with automatic detection
 - ⚙️ **Quick settings access** via settings icon in tip panel
 - ⌨️ Keyboard shortcut (`Ctrl+Alt+T` / `Cmd+Alt+T`) to show tips on demand
-- 🎲 Random tip feature to discover something new
+- 🎲 **Smart random tip selection** with history tracking to avoid repetition
 - 📚 Navigate through tips (Previous/Next buttons)
+- ♿ **Full keyboard accessibility** with proper focus management and ARIA labels
 - ⏰ Configurable startup time for daily tips
 - 🔧 Flexible notification system that doesn't interrupt your workflow
 - 🌐 **Complete multi-language support** with all 43 tips translated across 11 languages
@@ -18,6 +21,7 @@ Enhance your VS Code productivity with daily tips! This extension delivers curat
 ## Supported Languages
 
 This extension supports the following languages:
+
 - 🇺🇸 English
 - 🇨🇳 Chinese (Mandarin) - 中文
 - 🇮🇳 Hindi - हिन्दी
@@ -57,27 +61,33 @@ Switch languages using the dropdown in the tip panel, and your preference will b
 This extension contributes the following settings:
 
 - `tipOfTheDay.enabled`: Enable or disable Tip of the Day
-- `tipOfTheDay.showOnStartup`: Show tip when VS Code starts (default: true)  
+- `tipOfTheDay.showOnStartup`: Show tip when VS Code starts (default: true)
 - `tipOfTheDay.startupHourLocal`: Only show tips after this hour (24-hour format, local time)
 - `tipOfTheDay.language`: Language for tips and interface (default: "en", supports 11 languages)
 - `tipOfTheDay.operatingSystem`: Operating system for tip optimization - choose "auto" for automatic detection, or manually select "Windows", "macOS", or "Linux" (default: auto)
 
 ## Release Notes
 
+### 1.4.0
+
+- 🎲 **Smart random tip selection** with history tracking to avoid showing the same tip repeatedly
+- ♿ **Full keyboard accessibility** - navigate the entire UI using keyboard alone with proper focus management
+- 🔄 **Enhanced tip rotation** - new day always shows a new random tip
+
 ### 1.2.2
 
 - 🌍 Support partial localization for:
-   - Arabic (`ar`)
-   - Bengali (`bn`)
-   - English (`en`)
-   - Spanish (`es`)
-   - French (`fr`)
-   - Hebrew (`he`)
-   - Hindi (`hi`)
-   - Japanese (`ja`)
-   - Portuguese (`pt`)
-   - Russian (`ru`)
-   - Chinese (Mandarin) (`zh`)
+  - Arabic (`ar`)
+  - Bengali (`bn`)
+  - English (`en`)
+  - Spanish (`es`)
+  - French (`fr`)
+  - Hebrew (`he`)
+  - Hindi (`hi`)
+  - Japanese (`ja`)
+  - Portuguese (`pt`)
+  - Russian (`ru`)
+  - Chinese (Mandarin) (`zh`)
 
 ### 1.2.0
 
@@ -86,7 +96,6 @@ This extension contributes the following settings:
 - 🔄 **Automatic OS detection** - Extension auto-detects your OS and saves it to settings
 - 📱 **Manual OS selection** - Override auto-detection by manually selecting your preferred OS
 - 🎨 **Improved UI** - Enhanced tip panel with header layout and better styling
-
 
 ### 1.1.0
 
