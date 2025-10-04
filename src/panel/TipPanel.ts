@@ -44,7 +44,7 @@ export class TipPanel {
       async (message) => {
         switch (message.command) {
           case "next":
-            await tipManager.randomTip();
+            await tipManager.nextTip();
             await this.updateContent();
             break;
           case "previous":
@@ -186,8 +186,16 @@ export class TipPanel {
             opacity: 1;
             background: var(--vscode-toolbar-hoverBackground);
           }
-          .settings-icon::before {
-            content: "⚙️";
+          .settings-icon:focus {
+            outline: 1px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
+          }
+          .settings-icon:focus:not(:focus-visible) {
+            outline: 1px solid transparent;
+          }
+          .settings-icon:focus-visible {
+            outline: 2px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
           }
         </style>
         </head>
@@ -196,9 +204,9 @@ export class TipPanel {
               <div class="header">
                 <h1 class="title">${strings.tipOfTheDayTitle}</h1>
                 <div class="header-actions">
-                  <button class="settings-icon" onclick="sendMessage('openSettings')" title="Open Extension Settings"></button>
+                  <button class="settings-icon" tabindex="-1" onclick="sendMessage('openSettings')" aria-label="Open Extension Settings" title="Open Extension Settings">⚙️</button>
                   <div class="language-selector">
-                    <select id="languageSelect" onchange="sendMessage('changeLanguage', this.value)">
+                    <select id="languageSelect" onchange="handleLanguageChange(this)" aria-label="Select Language">
                         ${languageOptions}
                     </select>
                   </div>
@@ -208,31 +216,145 @@ export class TipPanel {
               <div class="content">${escapeHtml(tip.content)}</div>
               <div class="controls">
                   <div class="navigation-controls">
-                      <button class="nav-button" onclick="sendMessage('previous')">${
+                      <button class="nav-button" onclick="handleButtonClick('previous', this)" aria-label="${
                         strings.previousButton
-                      }</button>
-                        <button class="nav-button" onclick="sendMessage('next')">${
-                          strings.nextButton
-                        }</button>
+                      }">${strings.previousButton}</button>
+                      <button class="nav-button" onclick="handleButtonClick('next', this)" aria-label="${
+                        strings.nextButton
+                      }">${strings.nextButton}</button>
                   </div>
                   <div class="action-controls">
                       <div class="dismiss-controls">
-                        <button class="action-button" onclick="sendMessage('dismissToday')">${
+                        <button class="action-button" onclick="handleButtonClick('dismissToday', this)" aria-label="${
                           strings.dismissTodayButton
-                        }</button>
-                        <button class="action-button" onclick="sendMessage('dismissForever')">${
+                        }">${strings.dismissTodayButton}</button>
+                        <button class="action-button" onclick="handleButtonClick('dismissForever', this)" aria-label="${
                           strings.dismissForeverButton
-                        }</button>
+                        }">${strings.dismissForeverButton}</button>
                       </div>
                   </div>
-                    <div class="os-info">Optimized for ${escapeHtml(this.currentOSType)}</div>
+                    <div class="os-info" role="status" aria-live="polite">Optimized for ${escapeHtml(
+                      this.currentOSType
+                    )}</div>
               </div>
             </div>
             <script>
                 const vscode = acquireVsCodeApi();
+                
                 function sendMessage(command, data) {
                     vscode.postMessage({ command: command, data: data });
                 }
+                
+                // Store focus information before content updates
+                function storeFocusInfo() {
+                    const activeEl = document.activeElement;
+                    if (!activeEl || activeEl === document.body) {
+                        return null;
+                    }
+                    
+                    // Determine what kind of element is focused and how to find it again
+                    if (activeEl.classList.contains('nav-button')) {
+                        const navButtons = Array.from(document.querySelectorAll('.nav-button'));
+                        const index = navButtons.indexOf(activeEl);
+                        return { type: 'nav-button', index };
+                    } else if (activeEl.id === 'languageSelect') {
+                        return { type: 'language-select' };
+                    } else if (activeEl.classList.contains('settings-icon')) {
+                        return { type: 'settings-icon' };
+                    } else if (activeEl.classList.contains('action-button')) {
+                        const actionButtons = Array.from(document.querySelectorAll('.action-button'));
+                        const index = actionButtons.indexOf(activeEl);
+                        return { type: 'action-button', index };
+                    }
+                    return null;
+                }
+                
+                // Restore focus to the correct element
+                function restoreFocus(focusInfo) {
+                    if (!focusInfo) {
+                        // Default to first nav button if no focus info
+                        const firstButton = document.querySelector('.nav-button');
+                        if (firstButton) {
+                            firstButton.focus();
+                        }
+                        return;
+                    }
+                    
+                    let elementToFocus = null;
+                    
+                    switch (focusInfo.type) {
+                        case 'nav-button':
+                            const navButtons = document.querySelectorAll('.nav-button');
+                            elementToFocus = navButtons[focusInfo.index];
+                            break;
+                        case 'language-select':
+                            elementToFocus = document.getElementById('languageSelect');
+                            break;
+                        case 'settings-icon':
+                            elementToFocus = document.querySelector('.settings-icon');
+                            break;
+                        case 'action-button':
+                            const actionButtons = document.querySelectorAll('.action-button');
+                            elementToFocus = actionButtons[focusInfo.index];
+                            break;
+                    }
+                    
+                    if (elementToFocus) {
+                        elementToFocus.focus();
+                    }
+                }
+                
+                function handleButtonClick(command, button) {
+                    // Store focus information in VS Code state
+                    const focusInfo = storeFocusInfo();
+                    vscode.setState({ focusInfo });
+                    sendMessage(command);
+                }
+                
+                function handleLanguageChange(selectElement) {
+                    // Store focus information in VS Code state
+                    const focusInfo = storeFocusInfo();
+                    vscode.setState({ focusInfo });
+                    sendMessage('changeLanguage', selectElement.value);
+                }
+                
+                // Restore focus immediately on DOM load, before browser can auto-focus
+                document.addEventListener('DOMContentLoaded', () => {
+                    const state = vscode.getState();
+                    if (state && state.focusInfo) {
+                        // Restore focus immediately
+                        restoreFocus(state.focusInfo);
+                    } else {
+                        // First load - focus first nav button
+                        const firstButton = document.querySelector('.nav-button');
+                        if (firstButton) {
+                            firstButton.focus();
+                        }
+                    }
+                });
+                
+                // Handle keyboard navigation
+                document.addEventListener('keydown', (e) => {
+                    // Allow Tab navigation through all interactive elements
+                    if (e.key === 'Tab') {
+                        return; // Let default tab behavior work
+                    }
+                    
+                    // Support arrow key navigation for previous/next
+                    if (e.key === 'ArrowLeft') {
+                        const prevButton = document.querySelector('.navigation-controls button:first-child');
+                        if (prevButton) {
+                            handleButtonClick('previous', prevButton);
+                            e.preventDefault();
+                        }
+                    } else if (e.key === 'ArrowRight') {
+                        const nextButton = document.querySelector('.navigation-controls button:last-child');
+                        if (nextButton) {
+                            handleButtonClick('next', nextButton);
+                            e.preventDefault();
+                        }
+                    }
+                });
             </script>
         </body>
         </html>`;

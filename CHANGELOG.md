@@ -2,6 +2,27 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
+## [1.4.0] - 2025-10-04
+
+### Added
+- **Random tip selection with history tracking**: Smart algorithm prevents showing recently viewed tips
+  - Ensures new day always selects a different random tip
+- **Full keyboard accessibility**: Complete keyboard navigation support
+  - Added ARIA labels to all interactive elements
+  - Implemented proper focus management to prevent focus stealing
+  - Added `:focus-visible` styles for clear keyboard focus indicators
+  - Arrow key navigation support (Left/Right for Previous/Next)
+  - Settings button properly excluded from auto-focus using `tabindex="-1"`
+  - VS Code webview state API for persistent focus across content updates
+- **Enhanced tip navigation logic**: Used modulo for seamless tip cycling
+- **Demo image in README**
+
+### Changed
+- Enhanced accessibility compliance to meet WCAG 2.1 Level AA standards
+
+### Fixed
+- Ensured focus remains on active element during content updates
+
 ## [1.3.0] - 2025-09-29
 
 ### Added
