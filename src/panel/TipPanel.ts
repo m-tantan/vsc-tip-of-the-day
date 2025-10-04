@@ -216,8 +216,12 @@ export class TipPanel {
               <div class="content">${escapeHtml(tip.content)}</div>
               <div class="controls">
                   <div class="navigation-controls">
-                      <button class="nav-button" onclick="handleButtonClick('previous', this)" aria-label="${strings.previousButton}">${strings.previousButton}</button>
-                      <button class="nav-button" onclick="handleButtonClick('next', this)" aria-label="${strings.nextButton}">${strings.nextButton}</button>
+                      <button class="nav-button" onclick="handleButtonClick('previous', this)" aria-label="${
+                        strings.previousButton
+                      }">${strings.previousButton}</button>
+                      <button class="nav-button" onclick="handleButtonClick('next', this)" aria-label="${
+                        strings.nextButton
+                      }">${strings.nextButton}</button>
                   </div>
                   <div class="action-controls">
                       <div class="dismiss-controls">
@@ -229,7 +233,9 @@ export class TipPanel {
                         }">${strings.dismissForeverButton}</button>
                       </div>
                   </div>
-                    <div class="os-info" role="status" aria-live="polite">Optimized for ${escapeHtml(this.currentOSType)}</div>
+                    <div class="os-info" role="status" aria-live="polite">Optimized for ${escapeHtml(
+                      this.currentOSType
+                    )}</div>
               </div>
             </div>
             <script>
