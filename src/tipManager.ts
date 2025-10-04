@@ -160,16 +160,12 @@ export class TipManager {
    * @param tipIndex The index of the tip to add to history
    */
   private async updateShownTipsHistory(tipIndex: number): Promise<void> {
-    const MAX_HISTORY_SIZE = 10;
     const shownTips = await this.state.getShownTips();
 
     // Add current tip to the beginning of the history
     const updatedHistory = [tipIndex, ...shownTips.filter((i) => i !== tipIndex)];
 
-    // Keep only the last MAX_HISTORY_SIZE tips
-    const trimmedHistory = updatedHistory.slice(0, MAX_HISTORY_SIZE);
-
-    await this.state.setShownTips(trimmedHistory);
+    await this.state.setShownTips(updatedHistory);
   }
 
   private getOSSpecificTip(tip: Tip): Tip {
