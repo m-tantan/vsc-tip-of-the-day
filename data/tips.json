@@ -215,6 +215,12 @@
       "id": 43,
       "title": "Trim Trailing Whitespace",
       "content": "Use `Ctrl+K Ctrl+X` to trim trailing whitespace. Keep your code clean automatically!"
+    },
+    {
+      "id": 44,
+      "title": "Test Community Tip",
+      "content": "This is a test community tip to demonstrate the contributor attribution feature!",
+      "source": "testuser"
     }
   ]
 }
