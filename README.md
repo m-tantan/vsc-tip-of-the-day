@@ -13,9 +13,10 @@ Enhance your VS Code productivity with daily tips! This extension delivers curat
 - 🎲 **Smart random tip selection** with history tracking to avoid repetition
 - 📚 Navigate through tips (Previous/Next buttons)
 - ♿ **Full keyboard accessibility** with proper focus management and ARIA labels
+- 👥 **Community contributions** with contributor attribution and easy tip submission
 - ⏰ Configurable startup time for daily tips
 - 🔧 Flexible notification system that doesn't interrupt your workflow
-- 🌐 **Complete multi-language support** with all 43 tips translated across 11 languages
+- 🌐 **Complete multi-language support** with all tips translated across 11 languages
 - 🔄 **Language switching** via dropdown in the tip panel with full parity
 
 ## Supported Languages
