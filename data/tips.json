@@ -218,9 +218,9 @@
     },
     {
       "id": 44,
-      "title": "Test Community Tip",
-      "content": "This is a test community tip to demonstrate the contributor attribution feature!",
-      "source": "testuser"
+      "title": "Share Your VS Code Knowledge",
+      "content": "This tip demonstrates community contributions! If you have a useful VS Code tip, trick, or workflow that helps you be more productive, we'd love to hear about it. Submit your tip and get recognized as a contributor with a link to your GitHub profile. Together, we can build an amazing collection of VS Code wisdom!",
+      "source": "m-tantan"
     }
   ]
 }
