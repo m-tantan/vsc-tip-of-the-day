@@ -25,6 +25,9 @@ export interface LocalizedStrings {
   dismissForeverButton: string;
   languageButton: string;
   tipOfTheDayTitle: string;
+  contributedBy: string;
+  suggestTipText: string;
+  suggestTipLink: string;
 }
 
 export const UI_STRINGS: Record<string, LocalizedStrings> = {
@@ -35,6 +38,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "Dismiss Forever",
     languageButton: "Language",
     tipOfTheDayTitle: "💡 Tip Of The Day 💡",
+    contributedBy: "Contributed by",
+    suggestTipText: "Have a tip to share?",
+    suggestTipLink: "Suggest your own tip!",
   },
   zh: {
     previousButton: "上一个",
@@ -43,6 +49,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "永久关闭",
     languageButton: "语言",
     tipOfTheDayTitle: "💡 每日提示 💡",
+    contributedBy: "贡献者",
+    suggestTipText: "有技巧要分享吗？",
+    suggestTipLink: "建议您自己的技巧！",
   },
   hi: {
     previousButton: "पिछला",
@@ -51,6 +60,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "हमेशा के लिए बंद करें",
     languageButton: "भाषा",
     tipOfTheDayTitle: "💡 आज की युक्ति 💡",
+    contributedBy: "योगदानकर्ता",
+    suggestTipText: "साझा करने के लिए कोई युक्ति है?",
+    suggestTipLink: "अपनी युक्ति सुझाएं!",
   },
   es: {
     previousButton: "Anterior",
@@ -59,6 +71,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "Descartar Para Siempre",
     languageButton: "Idioma",
     tipOfTheDayTitle: "💡 Consejo Del Día 💡",
+    contributedBy: "Contribuido por",
+    suggestTipText: "¿Tienes un consejo para compartir?",
+    suggestTipLink: "¡Sugiere tu propio consejo!",
   },
   fr: {
     previousButton: "Précédent",
@@ -67,6 +82,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "Ignorer Pour Toujours",
     languageButton: "Langue",
     tipOfTheDayTitle: "💡 Astuce Du Jour 💡",
+    contributedBy: "Contribué par",
+    suggestTipText: "Vous avez une astuce à partager?",
+    suggestTipLink: "Suggérez votre propre astuce!",
   },
   ar: {
     previousButton: "السابق",
@@ -75,6 +93,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "إغلاق للأبد",
     languageButton: "اللغة",
     tipOfTheDayTitle: "💡 نصيحة اليوم 💡",
+    contributedBy: "ساهم بها",
+    suggestTipText: "هل لديك نصيحة لمشاركتها؟",
+    suggestTipLink: "اقترح نصيحتك الخاصة!",
   },
   bn: {
     previousButton: "পূর্ববর্তী",
@@ -83,6 +104,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "চিরকালের জন্য বন্ধ",
     languageButton: "ভাষা",
     tipOfTheDayTitle: "💡 আজকের টিপস 💡",
+    contributedBy: "অবদানকারী",
+    suggestTipText: "শেয়ার করার জন্য টিপ আছে?",
+    suggestTipLink: "আপনার নিজের টিপ সুझান!",
   },
   pt: {
     previousButton: "Anterior",
@@ -91,6 +115,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "Dispensar Para Sempre",
     languageButton: "Idioma",
     tipOfTheDayTitle: "💡 Dica Do Dia 💡",
+    contributedBy: "Contribuído por",
+    suggestTipText: "Tem uma dica para compartilhar?",
+    suggestTipLink: "Sugira sua própria dica!",
   },
   ru: {
     previousButton: "Назад",
@@ -99,6 +126,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "Закрыть Навсегда",
     languageButton: "Язык",
     tipOfTheDayTitle: "💡 Совет Дня 💡",
+    contributedBy: "Внесено",
+    suggestTipText: "Есть совет, которым можно поделиться?",
+    suggestTipLink: "Предложите свой совет!",
   },
   ja: {
     previousButton: "前へ",
@@ -107,6 +137,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "完全に閉じる",
     languageButton: "言語",
     tipOfTheDayTitle: "💡 今日のヒント 💡",
+    contributedBy: "貢献者",
+    suggestTipText: "共有するヒントがありますか？",
+    suggestTipLink: "自分のヒントを提案してください！",
   },
   he: {
     previousButton: "הקודם",
@@ -115,6 +148,9 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     dismissForeverButton: "סגור לתמיד",
     languageButton: "שפה",
     tipOfTheDayTitle: "💡 הטיפ היומי 💡",
+    contributedBy: "נתרם על ידי",
+    suggestTipText: "יש לך טיפ לשתף?",
+    suggestTipLink: "הצע טיפ משלך!",
   },
 };
 

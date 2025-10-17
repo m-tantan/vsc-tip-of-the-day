@@ -197,6 +197,52 @@ export class TipPanel {
             outline: 2px solid var(--vscode-focusBorder);
             outline-offset: 2px;
           }
+          .contributor-info {
+            margin-top: 12px;
+            padding: 8px 12px;
+            background: var(--vscode-textBlockQuote-background);
+            border-left: 3px solid var(--vscode-textBlockQuote-border);
+            border-radius: 3px;
+            font-size: 0.9em;
+            color: var(--vscode-descriptionForeground);
+          }
+          .contributor-link {
+            color: var(--vscode-textLink-foreground);
+            text-decoration: none;
+            font-weight: 500;
+          }
+          .contributor-link:hover {
+            color: var(--vscode-textLink-activeForeground);
+            text-decoration: underline;
+          }
+          .contributor-link:focus {
+            outline: 1px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
+          }
+          .suggest-tip {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid var(--vscode-panel-border);
+            text-align: center;
+            font-size: 0.9em;
+          }
+          .suggest-tip-text {
+            color: var(--vscode-descriptionForeground);
+            margin-right: 8px;
+          }
+          .suggest-tip-link {
+            color: var(--vscode-textLink-foreground);
+            text-decoration: none;
+            font-weight: 500;
+          }
+          .suggest-tip-link:hover {
+            color: var(--vscode-textLink-activeForeground);
+            text-decoration: underline;
+          }
+          .suggest-tip-link:focus {
+            outline: 1px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
+          }
         </style>
         </head>
         <body>
@@ -214,6 +260,17 @@ export class TipPanel {
               </div>                
               <h2 class="title">${escapeHtml(tip.title)}</h2>
               <div class="content">${escapeHtml(tip.content)}</div>
+              ${
+                tip.source
+                  ? `<div class="contributor-info">
+                  <span>${strings.contributedBy} <a href="https://github.com/${escapeHtml(
+                      tip.source
+                    )}" target="_blank" rel="noopener noreferrer" class="contributor-link">@${escapeHtml(
+                      tip.source
+                    )}</a></span>
+                </div>`
+                  : ""
+              }
               <div class="controls">
                   <div class="navigation-controls">
                       <button class="nav-button" onclick="handleButtonClick('previous', this)" aria-label="${
@@ -236,6 +293,12 @@ export class TipPanel {
                     <div class="os-info" role="status" aria-live="polite">Optimized for ${escapeHtml(
                       this.currentOSType
                     )}</div>
+              </div>
+              <div class="suggest-tip">
+                <span class="suggest-tip-text">${strings.suggestTipText}</span>
+                <a href="https://github.com/m-tantan/vsc-tip-of-the-day/issues/new?template=add-a-tip.md" target="_blank" rel="noopener noreferrer" class="suggest-tip-link">${
+                  strings.suggestTipLink
+                }</a>
               </div>
             </div>
             <script>
