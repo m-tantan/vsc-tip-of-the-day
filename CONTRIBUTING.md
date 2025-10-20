@@ -63,8 +63,26 @@ We love new tips! To add a new tip:
    - A `title`
    - `content` with useful information
    - OS-specific content when applicable (`windows`, `macos`, `linux`)
+   - Optional `source` field with your GitHub username for attribution
 3. Follow the JSON schema defined in `/data/tips.schema.json`
 4. Ensure the tip is helpful, accurate, and actionable
+
+#### Community Tips with Attribution
+
+When you contribute a tip, you can include your GitHub username in the `source` field to receive attribution:
+
+```json
+{
+  "id": 44,
+  "title": "Your Awesome Tip",
+  "content": "Your tip content here...",
+  "source": "your-github-username"
+}
+```
+
+Your contribution will be displayed with a link to your GitHub profile! If the `source` field is omitted, the tip is considered to be created by the extension maintainer.
+
+You can also use the [Add a Tip template](https://github.com/m-tantan/vsc-tip-of-the-day/issues/new?template=add-a-tip.md) to suggest tips through GitHub issues.
 
 ### Contributing Translations
 

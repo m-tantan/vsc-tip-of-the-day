@@ -4,6 +4,8 @@ export interface Tip {
   title: string;
   content: string;
   shortcuts?: OSSpecificShortcuts;
+  /** Optional GitHub username of the tip contributor */
+  source?: string;
 }
 
 export interface TipsData {
