@@ -29,6 +29,8 @@ export interface LocalizedStrings {
   suggestTipText: string;
   suggestTipLink: string;
   copyTipButton: string;
+  tipCopiedMessage: string;
+  shareTextPrefix: string;
 }
 
 export const UI_STRINGS: Record<string, LocalizedStrings> = {
@@ -43,6 +45,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "Have a tip to share?",
     suggestTipLink: "Suggest your own tip!",
     copyTipButton: "Copy to clipboard",
+    tipCopiedMessage: "Tip copied to clipboard!",
+    shareTextPrefix: "Here's a VS Code TOTD for you: ",
   },
   zh: {
     previousButton: "上一个",
@@ -55,6 +59,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "有技巧要分享吗？",
     suggestTipLink: "建议您自己的技巧！",
     copyTipButton: "复制到剪贴板",
+    tipCopiedMessage: "提示已复制到剪贴板！",
+    shareTextPrefix: "这是给你的 VS Code 每日提示：",
   },
   hi: {
     previousButton: "पिछला",
@@ -67,6 +73,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "साझा करने के लिए कोई युक्ति है?",
     suggestTipLink: "अपनी युक्ति सुझाएं!",
     copyTipButton: "क्लिपबोर्ड पर कॉपी करें",
+    tipCopiedMessage: "युक्ति क्लिपबोर्ड पर कॉपी की गई!",
+    shareTextPrefix: "आपके लिए VS Code की आज की युक्ति: ",
   },
   es: {
     previousButton: "Anterior",
@@ -79,6 +87,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "¿Tienes un consejo para compartir?",
     suggestTipLink: "¡Sugiere tu propio consejo!",
     copyTipButton: "Copiar al portapapeles",
+    tipCopiedMessage: "¡Consejo copiado al portapapeles!",
+    shareTextPrefix: "Aquí hay un consejo de VS Code para ti: ",
   },
   fr: {
     previousButton: "Précédent",
@@ -91,6 +101,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "Vous avez une astuce à partager?",
     suggestTipLink: "Suggérez votre propre astuce!",
     copyTipButton: "Copier dans le presse-papier",
+    tipCopiedMessage: "Astuce copiée dans le presse-papier!",
+    shareTextPrefix: "Voici une astuce VS Code pour vous: ",
   },
   ar: {
     previousButton: "السابق",
@@ -103,6 +115,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "هل لديك نصيحة لمشاركتها؟",
     suggestTipLink: "اقترح نصيحتك الخاصة!",
     copyTipButton: "نسخ إلى الحافظة",
+    tipCopiedMessage: "تم نسخ النصيحة إلى الحافظة!",
+    shareTextPrefix: "إليك نصيحة VS Code اليومية: ",
   },
   bn: {
     previousButton: "পূর্ববর্তী",
@@ -115,6 +129,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "শেয়ার করার জন্য টিপ আছে?",
     suggestTipLink: "আপনার নিজের টিপ সুझান!",
     copyTipButton: "ক্লিপবোর্ডে কপি করুন",
+    tipCopiedMessage: "টিপ ক্লিপবোর্ডে কপি হয়েছে!",
+    shareTextPrefix: "এটি আপনার জন্য VS Code এর টিপ: ",
   },
   pt: {
     previousButton: "Anterior",
@@ -127,6 +143,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "Tem uma dica para compartilhar?",
     suggestTipLink: "Sugira sua própria dica!",
     copyTipButton: "Copiar para área de transferência",
+    tipCopiedMessage: "Dica copiada para área de transferência!",
+    shareTextPrefix: "Aqui está uma dica do VS Code para você: ",
   },
   ru: {
     previousButton: "Назад",
@@ -139,6 +157,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "Есть совет, которым можно поделиться?",
     suggestTipLink: "Предложите свой совет!",
     copyTipButton: "Копировать в буфер обмена",
+    tipCopiedMessage: "Совет скопирован в буфер обмена!",
+    shareTextPrefix: "Вот совет VS Code для вас: ",
   },
   ja: {
     previousButton: "前へ",
@@ -151,6 +171,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "共有するヒントがありますか？",
     suggestTipLink: "自分のヒントを提案してください！",
     copyTipButton: "クリップボードにコピー",
+    tipCopiedMessage: "ヒントがクリップボードにコピーされました！",
+    shareTextPrefix: "VS Code の今日のヒントです: ",
   },
   he: {
     previousButton: "הקודם",
@@ -163,6 +185,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     suggestTipText: "יש לך טיפ לשתף?",
     suggestTipLink: "הצע טיפ משלך!",
     copyTipButton: "העתק ללוח",
+    tipCopiedMessage: "הטיפ הועתק ללוח!",
+    shareTextPrefix: "הנה טיפ VS Code עבורך: ",
   },
 };
 

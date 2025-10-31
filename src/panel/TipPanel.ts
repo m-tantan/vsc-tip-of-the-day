@@ -81,7 +81,8 @@ export class TipPanel {
             if (message.data) {
               try {
                 await vscode.env.clipboard.writeText(message.data);
-                vscode.window.showInformationMessage("Tip copied to clipboard!");
+                const strings = getLocalizedStrings(this.tipManager.getCurrentLanguage());
+                vscode.window.showInformationMessage(strings.tipCopiedMessage);
               } catch (error) {
                 vscode.window.showErrorMessage(`Failed to copy tip: ${error}`);
               }
@@ -364,6 +365,8 @@ export class TipPanel {
                         return { type: 'language-select' };
                     } else if (activeEl.classList.contains('settings-icon')) {
                         return { type: 'settings-icon' };
+                    } else if (activeEl.classList.contains('copy-button')) {
+                        return { type: 'copy-button' };
                     } else if (activeEl.classList.contains('action-button')) {
                         const actionButtons = Array.from(document.querySelectorAll('.action-button'));
                         const index = actionButtons.indexOf(activeEl);
@@ -396,6 +399,9 @@ export class TipPanel {
                         case 'settings-icon':
                             elementToFocus = document.querySelector('.settings-icon');
                             break;
+                        case 'copy-button':
+                            elementToFocus = document.querySelector('.copy-button');
+                            break;
                         case 'action-button':
                             const actionButtons = document.querySelectorAll('.action-button');
                             elementToFocus = actionButtons[focusInfo.index];
@@ -423,7 +429,8 @@ export class TipPanel {
                 
                 function handleCopyTip() {
                     const tipContent = ${JSON.stringify(tip.content)};
-                    const shareText = "Here's a VS Code TOTD for you: " + tipContent;
+                    const shareTextPrefix = ${JSON.stringify(strings.shareTextPrefix)};
+                    const shareText = shareTextPrefix + tipContent;
                     sendMessage('copyTip', shareText);
                 }
                 
