@@ -248,7 +248,7 @@ export class TipManager {
   }
 
   public getTipById(id: number): Tip | undefined {
-    const tip = this.tips.find(t => t.id === id);
+    const tip = this.tips.find(t => t.id !== undefined && t.id === id);
     return tip ? this.getOSSpecificTip(tip) : undefined;
   }
 

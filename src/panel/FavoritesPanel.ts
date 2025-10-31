@@ -87,13 +87,23 @@ export class FavoritesPanel {
     const currentLanguage = this.tipManager.getCurrentLanguage();
     const strings = getLocalizedStrings(currentLanguage);
 
-    // Get favorite tips
+    // Get favorite tips and track which ones are missing
     const favoriteTips: Array<{ tip: Tip; id: number }> = [];
+    const missingIds: number[] = [];
+    
     for (const id of favoriteIds) {
       const tip = this.tipManager.getTipById(id);
       if (tip) {
         favoriteTips.push({ tip, id });
+      } else {
+        missingIds.push(id);
       }
+    }
+    
+    // Clean up missing favorites from storage
+    if (missingIds.length > 0) {
+      const cleanedFavorites = favoriteIds.filter(id => !missingIds.includes(id));
+      await this.state.setFavorites(cleanedFavorites);
     }
 
     // Simple HTML escape function
