@@ -106,6 +106,12 @@ export class TipPanel {
     const tip = this.tipManager.getCurrentTip();
     this.currentOSType = await OSUtils.getOSType();
 
+    // Mark the current tip as seen for progress tracking
+    await this.tipManager.markCurrentTipAsSeen();
+
+    // Get progress stats
+    const progress = await this.tipManager.getProgressStats();
+
     // Simple HTML escape function
     function escapeHtml(text: string): string {
       return text.replace(/[&<>"'`=\/]/g, function (s) {
@@ -125,6 +131,16 @@ export class TipPanel {
     }
     const currentLanguage = this.tipManager.getCurrentLanguage();
     const strings = getLocalizedStrings(currentLanguage);
+
+    // Check if progress tracking is enabled
+    const config = vscode.workspace.getConfiguration("tipOfTheDay");
+    const showProgress = config.get<boolean>("showProgress", true);
+
+    // Format progress text
+    const progressText = strings.progressText
+      .replace("{seen}", progress.seen.toString())
+      .replace("{total}", progress.total.toString())
+      .replace("{percentage}", progress.percentage.toString());
 
     const styleUri = this._panel.webview.asWebviewUri(
       vscode.Uri.file(vscode.Uri.joinPath(vscode.Uri.file(this.extensionPath), "media", "styles.css").fsPath)
@@ -243,6 +259,34 @@ export class TipPanel {
             outline: 1px solid var(--vscode-focusBorder);
             outline-offset: 2px;
           }
+          .progress-container {
+            margin: 16px 0;
+            padding: 12px;
+            background: var(--vscode-editor-background);
+            border-radius: 4px;
+            border: 1px solid var(--vscode-panel-border);
+          }
+          .progress-text {
+            font-size: 0.9em;
+            color: var(--vscode-foreground);
+            margin-bottom: 8px;
+            text-align: center;
+            font-weight: 500;
+          }
+          .progress-bar-container {
+            width: 100%;
+            height: 8px;
+            background: var(--vscode-input-background);
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid var(--vscode-input-border);
+          }
+          .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #FFD700, #FFA500);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+          }
         </style>
         </head>
         <body>
@@ -269,6 +313,16 @@ export class TipPanel {
                       tip.source
                     )}</a></span>
                 </div>`
+                  : ""
+              }
+              ${
+                showProgress
+                  ? `<div class="progress-container">
+                <div class="progress-text" role="status" aria-live="polite">${progressText}</div>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" style="width: ${progress.percentage}%" role="progressbar" aria-valuenow="${progress.percentage}" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>`
                   : ""
               }
               <div class="controls">

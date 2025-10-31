@@ -28,6 +28,7 @@ export interface LocalizedStrings {
   contributedBy: string;
   suggestTipText: string;
   suggestTipLink: string;
+  progressText: string;
 }
 
 export const UI_STRINGS: Record<string, LocalizedStrings> = {
@@ -41,6 +42,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contributed by",
     suggestTipText: "Have a tip to share?",
     suggestTipLink: "Suggest your own tip!",
+    progressText: "{seen} of {total} tips seen ({percentage}%)",
   },
   zh: {
     previousButton: "上一个",
@@ -52,6 +54,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "贡献者",
     suggestTipText: "有技巧要分享吗？",
     suggestTipLink: "建议您自己的技巧！",
+    progressText: "已查看 {seen} / {total} 个提示 ({percentage}%)",
   },
   hi: {
     previousButton: "पिछला",
@@ -63,6 +66,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "योगदानकर्ता",
     suggestTipText: "साझा करने के लिए कोई युक्ति है?",
     suggestTipLink: "अपनी युक्ति सुझाएं!",
+    progressText: "{seen} / {total} युक्तियाँ देखी गई ({percentage}%)",
   },
   es: {
     previousButton: "Anterior",
@@ -74,6 +78,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribuido por",
     suggestTipText: "¿Tienes un consejo para compartir?",
     suggestTipLink: "¡Sugiere tu propio consejo!",
+    progressText: "{seen} de {total} consejos vistos ({percentage}%)",
   },
   fr: {
     previousButton: "Précédent",
@@ -85,6 +90,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribué par",
     suggestTipText: "Vous avez une astuce à partager?",
     suggestTipLink: "Suggérez votre propre astuce!",
+    progressText: "{seen} astuces vues sur {total} ({percentage}%)",
   },
   ar: {
     previousButton: "السابق",
@@ -96,6 +102,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "ساهم بها",
     suggestTipText: "هل لديك نصيحة لمشاركتها؟",
     suggestTipLink: "اقترح نصيحتك الخاصة!",
+    progressText: "تم عرض {seen} من {total} نصيحة ({percentage}%)",
   },
   bn: {
     previousButton: "পূর্ববর্তী",
@@ -107,6 +114,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "অবদানকারী",
     suggestTipText: "শেয়ার করার জন্য টিপ আছে?",
     suggestTipLink: "আপনার নিজের টিপ সুझান!",
+    progressText: "{seen} / {total} টিপস দেখা হয়েছে ({percentage}%)",
   },
   pt: {
     previousButton: "Anterior",
@@ -118,6 +126,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribuído por",
     suggestTipText: "Tem uma dica para compartilhar?",
     suggestTipLink: "Sugira sua própria dica!",
+    progressText: "{seen} de {total} dicas vistas ({percentage}%)",
   },
   ru: {
     previousButton: "Назад",
@@ -129,6 +138,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Внесено",
     suggestTipText: "Есть совет, которым можно поделиться?",
     suggestTipLink: "Предложите свой совет!",
+    progressText: "Просмотрено советов: {seen} из {total} ({percentage}%)",
   },
   ja: {
     previousButton: "前へ",
@@ -140,6 +150,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "貢献者",
     suggestTipText: "共有するヒントがありますか？",
     suggestTipLink: "自分のヒントを提案してください！",
+    progressText: "{seen} / {total} ヒント閲覧済み ({percentage}%)",
   },
   he: {
     previousButton: "הקודם",
@@ -151,6 +162,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "נתרם על ידי",
     suggestTipText: "יש לך טיפ לשתף?",
     suggestTipLink: "הצע טיפ משלך!",
+    progressText: "נצפו {seen} מתוך {total} טיפים ({percentage}%)",
   },
 };
 
