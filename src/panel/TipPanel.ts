@@ -428,6 +428,9 @@ export class TipPanel {
                 }
                 
                 function handleCopyTip() {
+                    // Store focus information in VS Code state
+                    const focusInfo = storeFocusInfo();
+                    vscode.setState({ focusInfo });
                     const tipContent = ${JSON.stringify(tip.content)};
                     const shareTextPrefix = ${JSON.stringify(strings.shareTextPrefix)};
                     const shareText = shareTextPrefix + tipContent;
