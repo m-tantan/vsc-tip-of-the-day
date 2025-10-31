@@ -4,6 +4,23 @@ Enhance your VS Code productivity with daily tips! This extension delivers curat
 
 ![Snapshot of the extension demoing how to use the command palette via keyboard shortcut](./assets/demo.png)
 
+### Progress Tracking
+
+Track your learning journey with visual progress indicators:
+
+![Progress Tracking UI](./assets/progress-tracking-ui.png)
+
+The extension automatically tracks which tips you've seen and displays your progress with:
+- **Visual progress bar** with a gold-to-orange gradient
+- **Text indicator** showing "X of Y tips seen (Z%)"
+- Seamless integration below tip content
+
+![Progress States](./assets/progress-states.png)
+
+Your progress persists across VS Code sessions and you can configure it via the `tipOfTheDay.showProgress` setting.
+
+![Progress Settings](./assets/progress-settings.png)
+
 ## Features
 
 - 🎯 Daily VS Code tips to improve your coding workflow
