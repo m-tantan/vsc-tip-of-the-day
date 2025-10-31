@@ -52,6 +52,10 @@ export class FavoritesPanel {
               if (tipIndex !== -1) {
                 await state.setLastTipIndex(tipIndex);
                 TipPanel.show(extensionPath, tipManager, state);
+              } else {
+                vscode.window.showWarningMessage("This tip is no longer available and has been removed from your favorites.");
+                await state.removeFavorite(message.data);
+                await this.updateContent();
               }
             }
             break;
