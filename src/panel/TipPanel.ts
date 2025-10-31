@@ -109,8 +109,24 @@ export class TipPanel {
     // Mark the current tip as seen for progress tracking
     await this.tipManager.markCurrentTipAsSeen();
 
-    // Get progress stats
-    const progress = await this.tipManager.getProgressStats();
+    const currentLanguage = this.tipManager.getCurrentLanguage();
+    const strings = getLocalizedStrings(currentLanguage);
+
+    // Check if progress tracking is enabled
+    const config = vscode.workspace.getConfiguration("tipOfTheDay");
+    const showProgress = config.get<boolean>("showProgress", true);
+
+    // Get progress stats only if needed
+    let progress = { seen: 0, total: 0, percentage: 0 };
+    let progressText = "";
+    if (showProgress) {
+      progress = await this.tipManager.getProgressStats();
+      // Format progress text
+      progressText = strings.progressText
+        .replace("{seen}", progress.seen.toString())
+        .replace("{total}", progress.total.toString())
+        .replace("{percentage}", progress.percentage.toString());
+    }
 
     // Simple HTML escape function
     function escapeHtml(text: string): string {
@@ -129,18 +145,6 @@ export class TipPanel {
         )[s];
       });
     }
-    const currentLanguage = this.tipManager.getCurrentLanguage();
-    const strings = getLocalizedStrings(currentLanguage);
-
-    // Check if progress tracking is enabled
-    const config = vscode.workspace.getConfiguration("tipOfTheDay");
-    const showProgress = config.get<boolean>("showProgress", true);
-
-    // Format progress text
-    const progressText = strings.progressText
-      .replace("{seen}", progress.seen.toString())
-      .replace("{total}", progress.total.toString())
-      .replace("{percentage}", progress.percentage.toString());
 
     const styleUri = this._panel.webview.asWebviewUri(
       vscode.Uri.file(vscode.Uri.joinPath(vscode.Uri.file(this.extensionPath), "media", "styles.css").fsPath)
@@ -283,7 +287,7 @@ export class TipPanel {
           }
           .progress-bar {
             height: 100%;
-            background: linear-gradient(90deg, #FFD700, #FFA500);
+            background: linear-gradient(90deg, var(--vscode-charts-yellow, #FFD700), var(--vscode-charts-orange, #FFA500));
             border-radius: 4px;
             transition: width 0.3s ease;
           }
