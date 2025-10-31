@@ -123,6 +123,16 @@ export class TipManager {
     return this.getOSSpecificTip(this.tips[this.currentIndex]);
   }
 
+  public async markCurrentTipAsSeen(): Promise<void> {
+    if (this.currentIndex !== -1) {
+      await this.state.addSeenTip(this.currentIndex);
+    }
+  }
+
+  public async getProgressStats(): Promise<{ seen: number; total: number; percentage: number }> {
+    return await this.state.getProgressStats(this.tips.length);
+  }
+
   /**
    * Selects a random tip index while avoiding recently shown tips
    * @param shownTips Array of recently shown tip indices

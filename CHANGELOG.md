@@ -2,6 +2,17 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- **Progress tracking**: Visual display showing how many tips you've seen
+  - Progress bar with percentage completion
+  - "X of Y tips seen (Z%)" indicator in the tip panel
+  - New setting `tipOfTheDay.showProgress` to enable/disable progress display (default: true)
+  - Automatically tracks which tips have been viewed
+  - Fully localized progress text across all 11 supported languages
+  - Backward compatible with existing installations
+
 ## [1.4.0] - 2025-10-04
 
 ### Added

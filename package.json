@@ -127,6 +127,11 @@
             "Hebrew - עברית"
           ],
           "description": "Language for tips and interface"
+        },
+        "tipOfTheDay.showProgress": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show progress tracking (tips seen count and percentage)"
         }
       }
     }
