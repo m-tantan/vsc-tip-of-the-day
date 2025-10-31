@@ -77,6 +77,24 @@ export class TipPanel {
               "@ext:WrecklessEngineer.tip-of-the-day"
             );
             break;
+          case "toggleFavorite":
+            const currentTipId = tipManager.getCurrentTipId();
+            if (currentTipId !== undefined) {
+              const isFavorite = await state.isFavorite(currentTipId);
+              if (isFavorite) {
+                await state.removeFavorite(currentTipId);
+              } else {
+                await state.addFavorite(currentTipId);
+                // Auto-open favorites view on first bookmark
+                const hasOpened = await state.hasOpenedFavorites();
+                if (!hasOpened) {
+                  const { FavoritesPanel } = await import("./FavoritesPanel.js");
+                  await FavoritesPanel.show(this.extensionPath, tipManager, state);
+                }
+              }
+              await this.updateContent();
+            }
+            break;
         }
       },
       null,
@@ -105,6 +123,10 @@ export class TipPanel {
   private async updateContent() {
     const tip = this.tipManager.getCurrentTip();
     this.currentOSType = await OSUtils.getOSType();
+    
+    // Get favorite status
+    const currentTipId = this.tipManager.getCurrentTipId();
+    const isFavorite = currentTipId !== undefined ? await this.state.isFavorite(currentTipId) : false;
 
     // Simple HTML escape function
     function escapeHtml(text: string): string {
@@ -197,6 +219,35 @@ export class TipPanel {
             outline: 2px solid var(--vscode-focusBorder);
             outline-offset: 2px;
           }
+          .favorite-button {
+            background: transparent;
+            border: none;
+            padding: 4px;
+            cursor: pointer;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            transition: all 0.2s ease;
+          }
+          .favorite-button:hover {
+            background: var(--vscode-toolbar-hoverBackground);
+          }
+          .favorite-button:focus {
+            outline: 1px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
+          }
+          .favorite-button.is-favorite {
+            color: #FFD700;
+          }
+          .favorite-button:not(.is-favorite) {
+            color: var(--vscode-icon-foreground);
+            opacity: 0.5;
+          }
+          .favorite-button:not(.is-favorite):hover {
+            opacity: 0.8;
+          }
           .contributor-info {
             margin-top: 12px;
             padding: 8px 12px;
@@ -250,6 +301,7 @@ export class TipPanel {
               <div class="header">
                 <h1 class="title">${strings.tipOfTheDayTitle}</h1>
                 <div class="header-actions">
+                  <button class="favorite-button ${isFavorite ? 'is-favorite' : ''}" onclick="sendMessage('toggleFavorite')" aria-label="${isFavorite ? strings.unfavoriteButton : strings.favoriteButton}" title="${isFavorite ? strings.unfavoriteButton : strings.favoriteButton}">⭐</button>
                   <button class="settings-icon" tabindex="-1" onclick="sendMessage('openSettings')" aria-label="Open Extension Settings" title="Open Extension Settings">⚙️</button>
                   <div class="language-selector">
                     <select id="languageSelect" onchange="handleLanguageChange(this)" aria-label="Select Language">
