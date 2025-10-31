@@ -77,6 +77,16 @@ export class TipPanel {
               "@ext:WrecklessEngineer.tip-of-the-day"
             );
             break;
+          case "copyTip":
+            if (message.data) {
+              try {
+                await vscode.env.clipboard.writeText(message.data);
+                vscode.window.showInformationMessage("Tip copied to clipboard!");
+              } catch (error) {
+                vscode.window.showErrorMessage(`Failed to copy tip: ${error}`);
+              }
+            }
+            break;
         }
       },
       null,
@@ -197,6 +207,35 @@ export class TipPanel {
             outline: 2px solid var(--vscode-focusBorder);
             outline-offset: 2px;
           }
+          .copy-button {
+            background: transparent;
+            border: none;
+            padding: 4px;
+            cursor: pointer;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: var(--vscode-icon-foreground);
+            opacity: 0.8;
+            transition: all 0.2s ease;
+          }
+          .copy-button:hover {
+            opacity: 1;
+            background: var(--vscode-toolbar-hoverBackground);
+          }
+          .copy-button:focus {
+            outline: 1px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
+          }
+          .copy-button:focus:not(:focus-visible) {
+            outline: 1px solid transparent;
+          }
+          .copy-button:focus-visible {
+            outline: 2px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
+          }
           .contributor-info {
             margin-top: 12px;
             padding: 8px 12px;
@@ -256,6 +295,7 @@ export class TipPanel {
                         ${languageOptions}
                     </select>
                   </div>
+                  <button class="copy-button" onclick="handleCopyTip()" aria-label="${strings.copyTipButton}" title="${strings.copyTipButton}">📋</button>
                 </div>
               </div>                
               <h2 class="title">${escapeHtml(tip.title)}</h2>
@@ -379,6 +419,12 @@ export class TipPanel {
                     const focusInfo = storeFocusInfo();
                     vscode.setState({ focusInfo });
                     sendMessage('changeLanguage', selectElement.value);
+                }
+                
+                function handleCopyTip() {
+                    const tipContent = ${JSON.stringify(tip.content)};
+                    const shareText = "Here's a VS Code TOTD for you: " + tipContent;
+                    sendMessage('copyTip', shareText);
                 }
                 
                 // Restore focus immediately on DOM load, before browser can auto-focus

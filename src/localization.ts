@@ -28,6 +28,7 @@ export interface LocalizedStrings {
   contributedBy: string;
   suggestTipText: string;
   suggestTipLink: string;
+  copyTipButton: string;
 }
 
 export const UI_STRINGS: Record<string, LocalizedStrings> = {
@@ -41,6 +42,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contributed by",
     suggestTipText: "Have a tip to share?",
     suggestTipLink: "Suggest your own tip!",
+    copyTipButton: "Copy to clipboard",
   },
   zh: {
     previousButton: "上一个",
@@ -52,6 +54,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "贡献者",
     suggestTipText: "有技巧要分享吗？",
     suggestTipLink: "建议您自己的技巧！",
+    copyTipButton: "复制到剪贴板",
   },
   hi: {
     previousButton: "पिछला",
@@ -63,6 +66,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "योगदानकर्ता",
     suggestTipText: "साझा करने के लिए कोई युक्ति है?",
     suggestTipLink: "अपनी युक्ति सुझाएं!",
+    copyTipButton: "क्लिपबोर्ड पर कॉपी करें",
   },
   es: {
     previousButton: "Anterior",
@@ -74,6 +78,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribuido por",
     suggestTipText: "¿Tienes un consejo para compartir?",
     suggestTipLink: "¡Sugiere tu propio consejo!",
+    copyTipButton: "Copiar al portapapeles",
   },
   fr: {
     previousButton: "Précédent",
@@ -85,6 +90,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribué par",
     suggestTipText: "Vous avez une astuce à partager?",
     suggestTipLink: "Suggérez votre propre astuce!",
+    copyTipButton: "Copier dans le presse-papier",
   },
   ar: {
     previousButton: "السابق",
@@ -96,6 +102,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "ساهم بها",
     suggestTipText: "هل لديك نصيحة لمشاركتها؟",
     suggestTipLink: "اقترح نصيحتك الخاصة!",
+    copyTipButton: "نسخ إلى الحافظة",
   },
   bn: {
     previousButton: "পূর্ববর্তী",
@@ -107,6 +114,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "অবদানকারী",
     suggestTipText: "শেয়ার করার জন্য টিপ আছে?",
     suggestTipLink: "আপনার নিজের টিপ সুझান!",
+    copyTipButton: "ক্লিপবোর্ডে কপি করুন",
   },
   pt: {
     previousButton: "Anterior",
@@ -118,6 +126,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribuído por",
     suggestTipText: "Tem uma dica para compartilhar?",
     suggestTipLink: "Sugira sua própria dica!",
+    copyTipButton: "Copiar para área de transferência",
   },
   ru: {
     previousButton: "Назад",
@@ -129,6 +138,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Внесено",
     suggestTipText: "Есть совет, которым можно поделиться?",
     suggestTipLink: "Предложите свой совет!",
+    copyTipButton: "Копировать в буфер обмена",
   },
   ja: {
     previousButton: "前へ",
@@ -140,6 +150,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "貢献者",
     suggestTipText: "共有するヒントがありますか？",
     suggestTipLink: "自分のヒントを提案してください！",
+    copyTipButton: "クリップボードにコピー",
   },
   he: {
     previousButton: "הקודם",
@@ -151,6 +162,7 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "נתרם על ידי",
     suggestTipText: "יש לך טיפ לשתף?",
     suggestTipLink: "הצע טיפ משלך!",
+    copyTipButton: "העתק ללוח",
   },
 };
 
