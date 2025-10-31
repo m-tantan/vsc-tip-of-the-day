@@ -11,6 +11,7 @@ Enhance your VS Code productivity with daily tips! This extension delivers curat
 - ⚙️ **Quick settings access** via settings icon in tip panel
 - ⌨️ Keyboard shortcut (`Ctrl+Alt+T` / `Cmd+Alt+T`) to show tips on demand
 - 🎲 **Smart random tip selection** with history tracking to avoid repetition
+- 📊 **Progress tracking** to see how many tips you've discovered
 - 📚 Navigate through tips (Previous/Next buttons)
 - ♿ **Full keyboard accessibility** with proper focus management and ARIA labels
 - 👥 **Community contributions** with contributor attribution and easy tip submission
@@ -42,8 +43,9 @@ Switch languages using the dropdown in the tip panel, and your preference will b
 1. **Daily Tips**: By default, you'll receive a tip notification when VS Code starts (after your configured hour)
 2. **On-Demand Tips**: Press `Ctrl+Alt+T` (`Cmd+Alt+T` on macOS) to see the current tip
 3. **Settings Access**: Click the settings icon (⚙️) in the tip panel to quickly access extension settings
-4. **OS Optimization**: Tips are automatically optimized for your operating system, or you can manually select your preferred OS in settings
-5. **Navigation**:
+4. **Progress Tracking**: View your learning progress with a visual indicator showing how many tips you've seen
+5. **OS Optimization**: Tips are automatically optimized for your operating system, or you can manually select your preferred OS in settings
+6. **Navigation**:
    - Use the "Show Next Tip" command to see the next tip
    - Use the "Show Previous Tip" to review earlier tips
    - Try "Show Random Tip" to discover something new
@@ -66,6 +68,7 @@ This extension contributes the following settings:
 - `tipOfTheDay.startupHourLocal`: Only show tips after this hour (24-hour format, local time)
 - `tipOfTheDay.language`: Language for tips and interface (default: "en", supports 11 languages)
 - `tipOfTheDay.operatingSystem`: Operating system for tip optimization - choose "auto" for automatic detection, or manually select "Windows", "macOS", or "Linux" (default: auto)
+- `tipOfTheDay.showProgress`: Show progress tracking with tips seen count and percentage (default: true)
 
 ## Release Notes
 
