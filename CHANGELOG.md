@@ -2,6 +2,19 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- **Favorites/Bookmark Feature**: Save and manage your favorite tips
+  - Star icon button to bookmark tips in the Tip of the Day panel
+  - "TOTD: View Favorites" command to access saved tips
+  - Auto-open favorites view on first bookmark
+  - Instructions shown in favorites view for easy access
+  - Remove tips from favorites directly in the favorites view
+  - Click to view full tip from favorites list
+  - Full multi-language support for all favorites UI elements
+  - Persistent storage of favorite tips across sessions
+
 ## [1.4.0] - 2025-10-04
 
 ### Added

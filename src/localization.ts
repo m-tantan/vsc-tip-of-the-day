@@ -28,6 +28,11 @@ export interface LocalizedStrings {
   contributedBy: string;
   suggestTipText: string;
   suggestTipLink: string;
+  favoriteButton: string;
+  unfavoriteButton: string;
+  myFavoritesTitle: string;
+  noFavoritesMessage: string;
+  favoritesInstructions: string;
 }
 
 export const UI_STRINGS: Record<string, LocalizedStrings> = {
@@ -41,6 +46,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contributed by",
     suggestTipText: "Have a tip to share?",
     suggestTipLink: "Suggest your own tip!",
+    favoriteButton: "Add to Favorites",
+    unfavoriteButton: "Remove from Favorites",
+    myFavoritesTitle: "⭐ My Favorite Tips ⭐",
+    noFavoritesMessage: "You haven't bookmarked any tips yet. Click the star icon on tips you find useful!",
+    favoritesInstructions: "Access your favorites anytime with: Ctrl+Shift+P > TOTD: View Favorites",
   },
   zh: {
     previousButton: "上一个",
@@ -52,6 +62,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "贡献者",
     suggestTipText: "有技巧要分享吗？",
     suggestTipLink: "建议您自己的技巧！",
+    favoriteButton: "添加到收藏",
+    unfavoriteButton: "从收藏中移除",
+    myFavoritesTitle: "⭐ 我的收藏 ⭐",
+    noFavoritesMessage: "您还没有收藏任何提示。点击您觉得有用的提示上的星标图标！",
+    favoritesInstructions: "随时访问您的收藏：Ctrl+Shift+P > TOTD: View Favorites",
   },
   hi: {
     previousButton: "पिछला",
@@ -63,6 +78,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "योगदानकर्ता",
     suggestTipText: "साझा करने के लिए कोई युक्ति है?",
     suggestTipLink: "अपनी युक्ति सुझाएं!",
+    favoriteButton: "पसंदीदा में जोड़ें",
+    unfavoriteButton: "पसंदीदा से हटाएं",
+    myFavoritesTitle: "⭐ मेरी पसंदीदा युक्तियाँ ⭐",
+    noFavoritesMessage: "आपने अभी तक कोई युक्ति बुकमार्क नहीं की है। उपयोगी युक्तियों पर स्टार आइकन पर क्लिक करें!",
+    favoritesInstructions: "किसी भी समय अपने पसंदीदा तक पहुंचें: Ctrl+Shift+P > TOTD: View Favorites",
   },
   es: {
     previousButton: "Anterior",
@@ -74,6 +94,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribuido por",
     suggestTipText: "¿Tienes un consejo para compartir?",
     suggestTipLink: "¡Sugiere tu propio consejo!",
+    favoriteButton: "Agregar a Favoritos",
+    unfavoriteButton: "Quitar de Favoritos",
+    myFavoritesTitle: "⭐ Mis Consejos Favoritos ⭐",
+    noFavoritesMessage: "Aún no has marcado ningún consejo. ¡Haz clic en el ícono de estrella en los consejos que encuentres útiles!",
+    favoritesInstructions: "Accede a tus favoritos en cualquier momento con: Ctrl+Shift+P > TOTD: View Favorites",
   },
   fr: {
     previousButton: "Précédent",
@@ -85,6 +110,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribué par",
     suggestTipText: "Vous avez une astuce à partager?",
     suggestTipLink: "Suggérez votre propre astuce!",
+    favoriteButton: "Ajouter aux Favoris",
+    unfavoriteButton: "Retirer des Favoris",
+    myFavoritesTitle: "⭐ Mes Astuces Favorites ⭐",
+    noFavoritesMessage: "Vous n'avez pas encore marqué d'astuces. Cliquez sur l'icône étoile sur les astuces que vous trouvez utiles!",
+    favoritesInstructions: "Accédez à vos favoris à tout moment avec: Ctrl+Shift+P > TOTD: View Favorites",
   },
   ar: {
     previousButton: "السابق",
@@ -96,6 +126,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "ساهم بها",
     suggestTipText: "هل لديك نصيحة لمشاركتها؟",
     suggestTipLink: "اقترح نصيحتك الخاصة!",
+    favoriteButton: "إضافة إلى المفضلة",
+    unfavoriteButton: "إزالة من المفضلة",
+    myFavoritesTitle: "⭐ نصائحي المفضلة ⭐",
+    noFavoritesMessage: "لم تقم بوضع إشارة مرجعية على أي نصائح بعد. انقر فوق رمز النجمة على النصائح التي تجدها مفيدة!",
+    favoritesInstructions: "الوصول إلى المفضلة في أي وقت مع: Ctrl+Shift+P > TOTD: View Favorites",
   },
   bn: {
     previousButton: "পূর্ববর্তী",
@@ -107,6 +142,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "অবদানকারী",
     suggestTipText: "শেয়ার করার জন্য টিপ আছে?",
     suggestTipLink: "আপনার নিজের টিপ সুझান!",
+    favoriteButton: "পছন্দের তালিকায় যুক্ত করুন",
+    unfavoriteButton: "পছন্দের তালিকা থেকে সরান",
+    myFavoritesTitle: "⭐ আমার পছন্দের টিপস ⭐",
+    noFavoritesMessage: "আপনি এখনও কোনো টিপ বুকমার্ক করেননি। আপনার কাছে উপযোগী টিপগুলিতে তারকা আইকনে ক্লিক করুন!",
+    favoritesInstructions: "যেকোনো সময় আপনার পছন্দের তালিকা অ্যাক্সেস করুন: Ctrl+Shift+P > TOTD: View Favorites",
   },
   pt: {
     previousButton: "Anterior",
@@ -118,6 +158,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Contribuído por",
     suggestTipText: "Tem uma dica para compartilhar?",
     suggestTipLink: "Sugira sua própria dica!",
+    favoriteButton: "Adicionar aos Favoritos",
+    unfavoriteButton: "Remover dos Favoritos",
+    myFavoritesTitle: "⭐ Minhas Dicas Favoritas ⭐",
+    noFavoritesMessage: "Você ainda não marcou nenhuma dica. Clique no ícone de estrela nas dicas que você achar úteis!",
+    favoritesInstructions: "Acesse seus favoritos a qualquer momento com: Ctrl+Shift+P > TOTD: View Favorites",
   },
   ru: {
     previousButton: "Назад",
@@ -129,6 +174,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "Внесено",
     suggestTipText: "Есть совет, которым можно поделиться?",
     suggestTipLink: "Предложите свой совет!",
+    favoriteButton: "Добавить в Избранное",
+    unfavoriteButton: "Удалить из Избранного",
+    myFavoritesTitle: "⭐ Мои Избранные Советы ⭐",
+    noFavoritesMessage: "Вы еще не добавили советы в закладки. Нажмите на значок звезды на полезных советах!",
+    favoritesInstructions: "Получите доступ к избранному в любое время: Ctrl+Shift+P > TOTD: View Favorites",
   },
   ja: {
     previousButton: "前へ",
@@ -140,6 +190,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "貢献者",
     suggestTipText: "共有するヒントがありますか？",
     suggestTipLink: "自分のヒントを提案してください！",
+    favoriteButton: "お気に入りに追加",
+    unfavoriteButton: "お気に入りから削除",
+    myFavoritesTitle: "⭐ お気に入りのヒント ⭐",
+    noFavoritesMessage: "まだヒントをブックマークしていません。役立つヒントの星アイコンをクリックしてください！",
+    favoritesInstructions: "いつでもお気に入りにアクセス: Ctrl+Shift+P > TOTD: View Favorites",
   },
   he: {
     previousButton: "הקודם",
@@ -151,6 +206,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     contributedBy: "נתרם על ידי",
     suggestTipText: "יש לך טיפ לשתף?",
     suggestTipLink: "הצע טיפ משלך!",
+    favoriteButton: "הוסף למועדפים",
+    unfavoriteButton: "הסר ממועדפים",
+    myFavoritesTitle: "⭐ הטיפים המועדפים שלי ⭐",
+    noFavoritesMessage: "עדיין לא סימנת טיפים. לחץ על אייקון הכוכב בטיפים שאתה מוצא שימושיים!",
+    favoritesInstructions: "גישה למועדפים שלך בכל עת עם: Ctrl+Shift+P > TOTD: View Favorites",
   },
 };
 

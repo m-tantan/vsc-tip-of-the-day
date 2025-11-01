@@ -246,4 +246,24 @@ export class TipManager {
   public hasTips(): boolean {
     return this.tips.length > 0;
   }
+
+  public getTipById(id: number): Tip | undefined {
+    const tip = this.tips.find(t => t.id !== undefined && t.id === id);
+    return tip ? this.getOSSpecificTip(tip) : undefined;
+  }
+
+  public getTipId(index: number): number | undefined {
+    if (index >= 0 && index < this.tips.length) {
+      return this.tips[index].id;
+    }
+    return undefined;
+  }
+
+  public getCurrentTipId(): number | undefined {
+    return this.getTipId(this.currentIndex);
+  }
+
+  public getAllTips(): Tip[] {
+    return this.tips;
+  }
 }
