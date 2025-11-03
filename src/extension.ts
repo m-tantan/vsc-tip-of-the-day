@@ -24,7 +24,8 @@ export async function activate(context: vscode.ExtensionContext) {
     vscode.commands.registerCommand("tipOfTheDay.next", () => showNextTip(tipManager)),
     vscode.commands.registerCommand("tipOfTheDay.previous", () => showPreviousTip(tipManager)),
     vscode.commands.registerCommand("tipOfTheDay.dismissToday", () => dismissForToday(state)),
-    vscode.commands.registerCommand("tipOfTheDay.dismissPermanently", () => dismissPermanently(state))
+    vscode.commands.registerCommand("tipOfTheDay.dismissPermanently", () => dismissPermanently(state)),
+    vscode.commands.registerCommand("tipOfTheDay.viewFavorites", () => viewFavorites(context, tipManager, state))
   );
 
   // Check if we should show the tip on startup
@@ -107,6 +108,15 @@ async function dismissPermanently(state: TipState) {
     // Update VS Code setting
     const config = vscode.workspace.getConfiguration('tipOfTheDay');
     await config.update('enabled', false, true);
+}
+
+async function viewFavorites(context: vscode.ExtensionContext, tipManager: TipManager, state: TipState) {
+    try {
+        const { FavoritesPanel } = await import('./panel/FavoritesPanel.js');
+        await FavoritesPanel.show(context.extensionUri.fsPath, tipManager, state);
+    } catch (error) {
+        vscode.window.showErrorMessage(`Failed to show favorites: ${error}`);
+    }
 }
 
 export function deactivate() {}

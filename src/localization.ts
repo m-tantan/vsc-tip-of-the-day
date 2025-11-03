@@ -31,6 +31,11 @@ export interface LocalizedStrings {
   copyTipButton: string;
   tipCopiedMessage: string;
   shareTextPrefix: string;
+  favoriteButton: string;
+  unfavoriteButton: string;
+  myFavoritesTitle: string;
+  noFavoritesMessage: string;
+  favoritesInstructions: string;
 }
 
 export const UI_STRINGS: Record<string, LocalizedStrings> = {
@@ -47,6 +52,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "Copy to clipboard",
     tipCopiedMessage: "Tip copied to clipboard!",
     shareTextPrefix: "Here's a VS Code TOTD for you: ",
+    favoriteButton: "Add to Favorites",
+    unfavoriteButton: "Remove from Favorites",
+    myFavoritesTitle: "⭐ My Favorite Tips ⭐",
+    noFavoritesMessage: "You haven't bookmarked any tips yet. Click the star icon on tips you find useful!",
+    favoritesInstructions: "Access your favorites anytime with: Ctrl+Shift+P > TOTD: View Favorites",
   },
   zh: {
     previousButton: "上一个",
@@ -61,6 +71,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "复制到剪贴板",
     tipCopiedMessage: "提示已复制到剪贴板！",
     shareTextPrefix: "这是给你的 VS Code 每日提示：",
+    favoriteButton: "添加到收藏",
+    unfavoriteButton: "从收藏中移除",
+    myFavoritesTitle: "⭐ 我的收藏 ⭐",
+    noFavoritesMessage: "您还没有收藏任何提示。点击您觉得有用的提示上的星标图标！",
+    favoritesInstructions: "随时访问您的收藏：Ctrl+Shift+P > TOTD: View Favorites",
   },
   hi: {
     previousButton: "पिछला",
@@ -75,6 +90,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "क्लिपबोर्ड पर कॉपी करें",
     tipCopiedMessage: "युक्ति क्लिपबोर्ड पर कॉपी की गई!",
     shareTextPrefix: "आपके लिए VS Code की आज की युक्ति: ",
+    favoriteButton: "पसंदीदा में जोड़ें",
+    unfavoriteButton: "पसंदीदा से हटाएं",
+    myFavoritesTitle: "⭐ मेरी पसंदीदा युक्तियाँ ⭐",
+    noFavoritesMessage: "आपने अभी तक कोई युक्ति बुकमार्क नहीं की है। उपयोगी युक्तियों पर स्टार आइकन पर क्लिक करें!",
+    favoritesInstructions: "किसी भी समय अपने पसंदीदा तक पहुंचें: Ctrl+Shift+P > TOTD: View Favorites",
   },
   es: {
     previousButton: "Anterior",
@@ -89,6 +109,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "Copiar al portapapeles",
     tipCopiedMessage: "¡Consejo copiado al portapapeles!",
     shareTextPrefix: "Aquí hay un consejo de VS Code para ti: ",
+    favoriteButton: "Agregar a Favoritos",
+    unfavoriteButton: "Quitar de Favoritos",
+    myFavoritesTitle: "⭐ Mis Consejos Favoritos ⭐",
+    noFavoritesMessage: "Aún no has marcado ningún consejo. ¡Haz clic en el ícono de estrella en los consejos que encuentres útiles!",
+    favoritesInstructions: "Accede a tus favoritos en cualquier momento con: Ctrl+Shift+P > TOTD: View Favorites",
   },
   fr: {
     previousButton: "Précédent",
@@ -103,6 +128,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "Copier dans le presse-papier",
     tipCopiedMessage: "Astuce copiée dans le presse-papier!",
     shareTextPrefix: "Voici une astuce VS Code pour vous: ",
+    favoriteButton: "Ajouter aux Favoris",
+    unfavoriteButton: "Retirer des Favoris",
+    myFavoritesTitle: "⭐ Mes Astuces Favorites ⭐",
+    noFavoritesMessage: "Vous n'avez pas encore marqué d'astuces. Cliquez sur l'icône étoile sur les astuces que vous trouvez utiles!",
+    favoritesInstructions: "Accédez à vos favoris à tout moment avec: Ctrl+Shift+P > TOTD: View Favorites",
   },
   ar: {
     previousButton: "السابق",
@@ -117,6 +147,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "نسخ إلى الحافظة",
     tipCopiedMessage: "تم نسخ النصيحة إلى الحافظة!",
     shareTextPrefix: "إليك نصيحة VS Code اليومية: ",
+    favoriteButton: "إضافة إلى المفضلة",
+    unfavoriteButton: "إزالة من المفضلة",
+    myFavoritesTitle: "⭐ نصائحي المفضلة ⭐",
+    noFavoritesMessage: "لم تقم بوضع إشارة مرجعية على أي نصائح بعد. انقر فوق رمز النجمة على النصائح التي تجدها مفيدة!",
+    favoritesInstructions: "الوصول إلى المفضلة في أي وقت مع: Ctrl+Shift+P > TOTD: View Favorites",
   },
   bn: {
     previousButton: "পূর্ববর্তী",
@@ -131,6 +166,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "ক্লিপবোর্ডে কপি করুন",
     tipCopiedMessage: "টিপ ক্লিপবোর্ডে কপি হয়েছে!",
     shareTextPrefix: "এটি আপনার জন্য VS Code এর টিপ: ",
+    favoriteButton: "পছন্দের তালিকায় যুক্ত করুন",
+    unfavoriteButton: "পছন্দের তালিকা থেকে সরান",
+    myFavoritesTitle: "⭐ আমার পছন্দের টিপস ⭐",
+    noFavoritesMessage: "আপনি এখনও কোনো টিপ বুকমার্ক করেননি। আপনার কাছে উপযোগী টিপগুলিতে তারকা আইকনে ক্লিক করুন!",
+    favoritesInstructions: "যেকোনো সময় আপনার পছন্দের তালিকা অ্যাক্সেস করুন: Ctrl+Shift+P > TOTD: View Favorites",
   },
   pt: {
     previousButton: "Anterior",
@@ -145,6 +185,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "Copiar para área de transferência",
     tipCopiedMessage: "Dica copiada para área de transferência!",
     shareTextPrefix: "Aqui está uma dica do VS Code para você: ",
+    favoriteButton: "Adicionar aos Favoritos",
+    unfavoriteButton: "Remover dos Favoritos",
+    myFavoritesTitle: "⭐ Minhas Dicas Favoritas ⭐",
+    noFavoritesMessage: "Você ainda não marcou nenhuma dica. Clique no ícone de estrela nas dicas que você achar úteis!",
+    favoritesInstructions: "Acesse seus favoritos a qualquer momento com: Ctrl+Shift+P > TOTD: View Favorites",
   },
   ru: {
     previousButton: "Назад",
@@ -159,6 +204,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "Копировать в буфер обмена",
     tipCopiedMessage: "Совет скопирован в буфер обмена!",
     shareTextPrefix: "Вот совет VS Code для вас: ",
+    favoriteButton: "Добавить в Избранное",
+    unfavoriteButton: "Удалить из Избранного",
+    myFavoritesTitle: "⭐ Мои Избранные Советы ⭐",
+    noFavoritesMessage: "Вы еще не добавили советы в закладки. Нажмите на значок звезды на полезных советах!",
+    favoritesInstructions: "Получите доступ к избранному в любое время: Ctrl+Shift+P > TOTD: View Favorites",
   },
   ja: {
     previousButton: "前へ",
@@ -173,6 +223,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "クリップボードにコピー",
     tipCopiedMessage: "ヒントがクリップボードにコピーされました！",
     shareTextPrefix: "VS Code の今日のヒントです: ",
+    favoriteButton: "お気に入りに追加",
+    unfavoriteButton: "お気に入りから削除",
+    myFavoritesTitle: "⭐ お気に入りのヒント ⭐",
+    noFavoritesMessage: "まだヒントをブックマークしていません。役立つヒントの星アイコンをクリックしてください！",
+    favoritesInstructions: "いつでもお気に入りにアクセス: Ctrl+Shift+P > TOTD: View Favorites",
   },
   he: {
     previousButton: "הקודם",
@@ -187,6 +242,11 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     copyTipButton: "העתק ללוח",
     tipCopiedMessage: "הטיפ הועתק ללוח!",
     shareTextPrefix: "הנה טיפ VS Code עבורך: ",
+    favoriteButton: "הוסף למועדפים",
+    unfavoriteButton: "הסר ממועדפים",
+    myFavoritesTitle: "⭐ הטיפים המועדפים שלי ⭐",
+    noFavoritesMessage: "עדיין לא סימנת טיפים. לחץ על אייקון הכוכב בטיפים שאתה מוצא שימושיים!",
+    favoritesInstructions: "גישה למועדפים שלך בכל עת עם: Ctrl+Shift+P > TOTD: View Favorites",
   },
 };
 
