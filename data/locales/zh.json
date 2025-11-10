@@ -91,7 +91,7 @@
     { "id": 28, "title": "快速参数提示", "content": "按 `Ctrl+Shift+Space` 显示函数参数提示。" },
     { "id": 29, "title": "切换颜色主题", "content": "使用 `Ctrl+K Ctrl+T` 快速切换主题，找到最舒适的配色。" },
     { "id": 30, "title": "复制行", "content": "按 `Shift+Alt+Up` 或 `Shift+Alt+Down` 向上/下复制当前行。" },
-    { "id": 31, "title": "合并行", "content": "使用 `Ctrl+J` 将多行合并为一行。" },
+    { "id": 31, "title": "合并行", "content": "按 `Ctrl+Shift+P` 打开命令面板并输入 'Join Lines'。您可以在键盘快捷键设置中为此命令设置自定义快捷键。" },
     { "id": 32, "title": "切换活动栏", "content": "按 `Ctrl+B` 显示/隐藏活动栏，释放横向空间。" },
     {
       "id": 33,
@@ -99,7 +99,7 @@
       "content": "触发 IntelliSense 后用 `Tab` 而不是 `Enter` 完成并替换单词。"
     },
     { "id": 34, "title": "预览引用", "content": "使用 `Shift+F12` 在当前位置预览引用，可选择侧边打开。" },
-    { "id": 35, "title": "清空终端", "content": "在终端用 `Ctrl+K`（或输入 clear）清空输出。" },
+    { "id": 35, "title": "清空终端", "content": "在终端中输入 'clear' 清空输出。保持工作区整洁！" },
     { "id": 36, "title": "全部保存", "content": "按 `Ctrl+K S` 保存所有已打开文件。" },
     { "id": 37, "title": "按符号查找", "content": "按 `Ctrl+Shift+O` 在当前文件按符号跳转。" },
     { "id": 38, "title": "工作区符号搜索", "content": "按 `Ctrl+T` 在整个工作区搜索符号。" },

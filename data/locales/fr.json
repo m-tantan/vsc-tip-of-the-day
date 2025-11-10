@@ -154,7 +154,7 @@
     {
       "id": 31,
       "title": "Joindre les Lignes",
-      "content": "Utilisez `Ctrl+J` pour joindre plusieurs lignes en une seule."
+      "content": "Appuyez sur `Ctrl+Shift+P` pour ouvrir la Palette de Commandes et tapez 'Join Lines'. Vous pouvez définir un raccourci clavier personnalisé pour cette commande dans les paramètres Raccourcis Clavier."
     },
     {
       "id": 32,
@@ -174,7 +174,7 @@
     {
       "id": 35,
       "title": "Effacer le Terminal",
-      "content": "Effacez le terminal intégré avec `Ctrl+K` (ou tapez 'clear')."
+      "content": "Tapez 'clear' dans le terminal intégré pour effacer la sortie. Gardez votre espace de travail organisé !"
     },
     {
       "id": 36,
