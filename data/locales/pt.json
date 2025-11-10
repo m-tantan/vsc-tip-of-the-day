@@ -154,7 +154,7 @@
     {
       "id": 31,
       "title": "Juntar Linhas",
-      "content": "Use `Ctrl+J` para juntar múltiplas linhas em uma. Selecione múltiplas linhas primeiro para juntar todas elas!"
+      "content": "Pressione `Ctrl+Shift+P` para abrir a Paleta de Comandos e digite 'Join Lines'. Você pode definir um atalho de teclado personalizado para este comando nas configurações de Atalhos de Teclado."
     },
     {
       "id": 32,
@@ -174,7 +174,7 @@
     {
       "id": 35,
       "title": "Limpar Terminal",
-      "content": "Limpe o terminal integrado com `Ctrl+K` no terminal (ou digite 'clear'). Mantenha seu workspace organizado!"
+      "content": "Digite 'clear' no terminal integrado para limpar a saída. Mantenha seu workspace organizado!"
     },
     {
       "id": 36,

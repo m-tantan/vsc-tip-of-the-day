@@ -154,7 +154,7 @@
     {
       "id": 31,
       "title": "Join Lines",
-      "content": "Use `Ctrl+J` to join multiple lines into one. Select multiple lines first to join them all!"
+      "content": "Press `Ctrl+Shift+P` to open the Command Palette and type 'Join Lines'. You can set a custom keyboard shortcut for this command in the Keyboard Shortcuts settings."
     },
     {
       "id": 32,
@@ -174,7 +174,7 @@
     {
       "id": 35,
       "title": "Clear Terminal",
-      "content": "Clear the integrated terminal with `Ctrl+K` in the terminal (or type 'clear'). Keep your workspace tidy!"
+      "content": "Type 'clear' in the integrated terminal to clear the output. Keep your workspace tidy!"
     },
     {
       "id": 36,
