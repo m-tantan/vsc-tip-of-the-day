@@ -33,6 +33,8 @@ export interface LocalizedStrings {
   myFavoritesTitle: string;
   noFavoritesMessage: string;
   favoritesInstructions: string;
+  shareButton: string;
+  shareCopied: string;
 }
 
 export const UI_STRINGS: Record<string, LocalizedStrings> = {
@@ -51,6 +53,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ My Favorite Tips ⭐",
     noFavoritesMessage: "You haven't bookmarked any tips yet. Click the star icon on tips you find useful!",
     favoritesInstructions: "Access your favorites anytime with: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "Copy to clipboard",
+    shareCopied: "Tip copied to clipboard!",
   },
   zh: {
     previousButton: "上一个",
@@ -67,6 +71,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ 我的收藏 ⭐",
     noFavoritesMessage: "您还没有收藏任何提示。点击您觉得有用的提示上的星标图标！",
     favoritesInstructions: "随时访问您的收藏：Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "复制到剪贴板",
+    shareCopied: "提示已复制到剪贴板！",
   },
   hi: {
     previousButton: "पिछला",
@@ -83,6 +89,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ मेरी पसंदीदा युक्तियाँ ⭐",
     noFavoritesMessage: "आपने अभी तक कोई युक्ति बुकमार्क नहीं की है। उपयोगी युक्तियों पर स्टार आइकन पर क्लिक करें!",
     favoritesInstructions: "किसी भी समय अपने पसंदीदा तक पहुंचें: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "क्लिपबोर्ड पर कॉपी करें",
+    shareCopied: "युक्ति क्लिपबोर्ड पर कॉपी की गई!",
   },
   es: {
     previousButton: "Anterior",
@@ -99,6 +107,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ Mis Consejos Favoritos ⭐",
     noFavoritesMessage: "Aún no has marcado ningún consejo. ¡Haz clic en el ícono de estrella en los consejos que encuentres útiles!",
     favoritesInstructions: "Accede a tus favoritos en cualquier momento con: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "Copiar al portapapeles",
+    shareCopied: "¡Consejo copiado al portapapeles!",
   },
   fr: {
     previousButton: "Précédent",
@@ -115,6 +125,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ Mes Astuces Favorites ⭐",
     noFavoritesMessage: "Vous n'avez pas encore marqué d'astuces. Cliquez sur l'icône étoile sur les astuces que vous trouvez utiles!",
     favoritesInstructions: "Accédez à vos favoris à tout moment avec: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "Copier dans le presse-papiers",
+    shareCopied: "Astuce copiée dans le presse-papiers!",
   },
   ar: {
     previousButton: "السابق",
@@ -131,6 +143,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ نصائحي المفضلة ⭐",
     noFavoritesMessage: "لم تقم بوضع إشارة مرجعية على أي نصائح بعد. انقر فوق رمز النجمة على النصائح التي تجدها مفيدة!",
     favoritesInstructions: "الوصول إلى المفضلة في أي وقت مع: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "نسخ إلى الحافظة",
+    shareCopied: "تم نسخ النصيحة إلى الحافظة!",
   },
   bn: {
     previousButton: "পূর্ববর্তী",
@@ -147,6 +161,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ আমার পছন্দের টিপস ⭐",
     noFavoritesMessage: "আপনি এখনও কোনো টিপ বুকমার্ক করেননি। আপনার কাছে উপযোগী টিপগুলিতে তারকা আইকনে ক্লিক করুন!",
     favoritesInstructions: "যেকোনো সময় আপনার পছন্দের তালিকা অ্যাক্সেস করুন: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "ক্লিপবোর্ডে কপি করুন",
+    shareCopied: "টিপ ক্লিপবোর্ডে কপি করা হয়েছে!",
   },
   pt: {
     previousButton: "Anterior",
@@ -163,6 +179,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ Minhas Dicas Favoritas ⭐",
     noFavoritesMessage: "Você ainda não marcou nenhuma dica. Clique no ícone de estrela nas dicas que você achar úteis!",
     favoritesInstructions: "Acesse seus favoritos a qualquer momento com: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "Copiar para a área de transferência",
+    shareCopied: "Dica copiada para a área de transferência!",
   },
   ru: {
     previousButton: "Назад",
@@ -179,6 +197,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ Мои Избранные Советы ⭐",
     noFavoritesMessage: "Вы еще не добавили советы в закладки. Нажмите на значок звезды на полезных советах!",
     favoritesInstructions: "Получите доступ к избранному в любое время: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "Скопировать в буфер обмена",
+    shareCopied: "Совет скопирован в буфер обмена!",
   },
   ja: {
     previousButton: "前へ",
@@ -195,6 +215,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ お気に入りのヒント ⭐",
     noFavoritesMessage: "まだヒントをブックマークしていません。役立つヒントの星アイコンをクリックしてください！",
     favoritesInstructions: "いつでもお気に入りにアクセス: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "クリップボードにコピー",
+    shareCopied: "ヒントがクリップボードにコピーされました！",
   },
   he: {
     previousButton: "הקודם",
@@ -211,6 +233,8 @@ export const UI_STRINGS: Record<string, LocalizedStrings> = {
     myFavoritesTitle: "⭐ הטיפים המועדפים שלי ⭐",
     noFavoritesMessage: "עדיין לא סימנת טיפים. לחץ על אייקון הכוכב בטיפים שאתה מוצא שימושיים!",
     favoritesInstructions: "גישה למועדפים שלך בכל עת עם: Ctrl+Shift+P > TOTD: View Favorites",
+    shareButton: "העתק ללוח",
+    shareCopied: "הטיפ הועתק ללוח!",
   },
 };
 

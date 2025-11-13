@@ -95,6 +95,14 @@ export class TipPanel {
               await this.updateContent();
             }
             break;
+          case "copyToClipboard":
+            if (message.data) {
+              await vscode.env.clipboard.writeText(message.data);
+              vscode.window.showInformationMessage(
+                getLocalizedStrings(tipManager.getCurrentLanguage()).shareCopied
+              );
+            }
+            break;
         }
       },
       null,
@@ -248,6 +256,28 @@ export class TipPanel {
           .favorite-button:not(.is-favorite):hover {
             opacity: 0.8;
           }
+          .share-button {
+            background: transparent;
+            border: 1px solid var(--vscode-button-border);
+            padding: 4px 8px;
+            cursor: pointer;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: var(--vscode-button-foreground);
+            background-color: var(--vscode-button-background);
+            transition: all 0.2s ease;
+            white-space: nowrap;
+          }
+          .share-button:hover {
+            background-color: var(--vscode-button-hoverBackground);
+          }
+          .share-button:focus {
+            outline: 1px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
+          }
           .contributor-info {
             margin-top: 12px;
             padding: 8px 12px;
@@ -308,6 +338,7 @@ export class TipPanel {
                         ${languageOptions}
                     </select>
                   </div>
+                  <button class="share-button" onclick="handleShareClick()" aria-label="${strings.shareButton}" title="${strings.shareButton}">${strings.shareButton}</button>
                 </div>
               </div>                
               <h2 class="title">${escapeHtml(tip.title)}</h2>
@@ -431,6 +462,13 @@ export class TipPanel {
                     const focusInfo = storeFocusInfo();
                     vscode.setState({ focusInfo });
                     sendMessage('changeLanguage', selectElement.value);
+                }
+                
+                function handleShareClick() {
+                    const tipTitle = document.querySelector('.title:nth-of-type(2)').textContent;
+                    const tipContent = document.querySelector('.content').textContent;
+                    const shareText = "Here's a VS Code TOTD for you: " + tipTitle + " - " + tipContent;
+                    sendMessage('copyToClipboard', shareText);
                 }
                 
                 // Restore focus immediately on DOM load, before browser can auto-focus
