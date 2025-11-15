@@ -73,6 +73,11 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### 1.5.0-preview.0 (Prerelease)
+
+- ⭐ **Favorites/Bookmark Feature** - Save and manage your favorite tips for quick reference
+- 🤖 **Automated prerelease workflow** - GitHub Actions for streamlined preview releases
+
 ### 1.4.0
 
 - 🎲 **Smart random tip selection** with history tracking to avoid showing the same tip repeatedly

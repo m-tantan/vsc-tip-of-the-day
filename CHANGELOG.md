@@ -2,7 +2,7 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
-## [Unreleased]
+## [1.5.0-preview.0] - 2025-11-15
 
 ### Added
 - **Favorites/Bookmark Feature**: Save and manage your favorite tips
@@ -14,6 +14,10 @@ All notable changes to the VS Code Tip of the Day extension will be documented i
   - Click to view full tip from favorites list
   - Full multi-language support for all favorites UI elements
   - Persistent storage of favorite tips across sessions
+- **GitHub Actions workflow for automated prerelease publishing**
+  - Automated publishing on tag push (v*.*.*-preview.*)
+  - Manual workflow dispatch option
+  - Includes lint and build verification before publishing
 
 ## [1.4.0] - 2025-10-04
 
