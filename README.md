@@ -75,7 +75,7 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-### 1.5.0-preview.0 (Prerelease)
+### 1.5.0 (Prerelease)
 
 - ⭐ **Favorites/Bookmark Feature** - Save and manage your favorite tips for quick reference
 - 📋 **Tip Sharing** - Copy tips to clipboard to share with others

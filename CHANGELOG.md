@@ -2,7 +2,7 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
-## [1.5.0-preview.0] - 2025-11-15
+## [1.5.0] - 2025-11-15
 
 ### Added
 - **Favorites/Bookmark Feature**: Save and manage your favorite tips

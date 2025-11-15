@@ -169,6 +169,51 @@ To contribute translations:
   - Set breakpoints in your code
   - Use the Debug Console to see output
 
+## Versioning and Release Strategy
+
+This project follows [Semantic Versioning](https://semver.org/) with specific conventions for the VS Code Marketplace:
+
+### Version Format
+
+- **VS Marketplace Requirement**: Version numbers must use standard `major.minor.patch` format (e.g., `1.5.0`)
+- **No Pre-release Tags**: The VS Marketplace does **not** support semver pre-release tags like `1.5.0-preview.0` or `1.5.0-beta`
+- **Pre-release Flag**: Pre-releases are marked using the `--pre-release` flag when publishing, not in the version string
+
+### Recommended Versioning Pattern
+
+Following VS Code extension best practices:
+
+- **Even minor versions** for stable releases (e.g., `1.0.0`, `1.2.0`, `1.4.0`)
+- **Odd minor versions** for pre-releases (e.g., `1.1.0`, `1.3.0`, `1.5.0`)
+
+### Release Process
+
+#### For Pre-releases:
+
+1. Update version in `package.json` to next odd minor version (e.g., `1.5.0`)
+2. Update `CHANGELOG.md` and `README.md` with the version
+3. Create a tag with `-pre` suffix: `git tag v1.5.0-pre`
+4. Push the tag: `git push origin v1.5.0-pre`
+5. GitHub Actions will automatically publish with `--pre-release` flag
+
+#### For Stable Releases:
+
+1. Update version in `package.json` to next even minor version (e.g., `1.6.0`)
+2. Update `CHANGELOG.md` and `README.md` with the version
+3. Create a standard tag: `git tag v1.6.0`
+4. Push the tag: `git push origin v1.6.0`
+5. GitHub Actions will automatically publish as a stable release
+
+### Publishing Workflow
+
+The `.github/workflows/prerelease.yml` workflow handles automatic publishing:
+
+- **Trigger**: Push tags matching `v*.*.*-pre` pattern
+- **Manual**: Use workflow dispatch with the version from `package.json`
+- **Command**: `vsce publish --pre-release` (uses version from package.json)
+
+**Important**: Do not include semver pre-release tags (like `-preview.0` or `-beta`) in `package.json` version - they will cause publishing to fail with the VS Marketplace.
+
 ### Project Structure
 
 ```
