@@ -258,24 +258,31 @@ export class TipPanel {
           }
           .share-button {
             background: transparent;
-            border: 1px solid var(--vscode-button-border);
-            padding: 4px 8px;
+            border: none;
+            padding: 4px;
             cursor: pointer;
             border-radius: 3px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 12px;
-            color: var(--vscode-button-foreground);
-            background-color: var(--vscode-button-background);
+            font-size: 16px;
+            color: var(--vscode-icon-foreground);
+            opacity: 0.8;
             transition: all 0.2s ease;
-            white-space: nowrap;
           }
           .share-button:hover {
-            background-color: var(--vscode-button-hoverBackground);
+            opacity: 1;
+            background: var(--vscode-toolbar-hoverBackground);
           }
           .share-button:focus {
             outline: 1px solid var(--vscode-focusBorder);
+            outline-offset: 2px;
+          }
+          .share-button:focus:not(:focus-visible) {
+            outline: 1px solid transparent;
+          }
+          .share-button:focus-visible {
+            outline: 2px solid var(--vscode-focusBorder);
             outline-offset: 2px;
           }
           .contributor-info {
@@ -338,7 +345,7 @@ export class TipPanel {
                         ${languageOptions}
                     </select>
                   </div>
-                  <button class="share-button" onclick="handleShareClick()" aria-label="${strings.shareButton}" title="${strings.shareButton}">${strings.shareButton}</button>
+                  <button class="share-button" onclick="handleShareClick()" aria-label="${strings.shareButton}" title="${strings.shareButton}">📋</button>
                 </div>
               </div>                
               <h2 class="title">${escapeHtml(tip.title)}</h2>
