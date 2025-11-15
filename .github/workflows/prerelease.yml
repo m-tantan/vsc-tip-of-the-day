@@ -3,11 +3,11 @@ name: VS Code Extension Prerelease (preview)
 on:
   push:
     tags:
-      - 'v*.*.*-preview.*'  # e.g. v1.5.0-preview.0
+      - 'v*.*.*-pre'  # e.g. v1.5.0-pre (use odd minor versions for pre-releases: v1.1.0-pre, v1.3.0-pre, v1.5.0-pre)
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version to publish (e.g. 1.5.0-preview.0). Leave empty to use package.json.'
+        description: 'Version to publish (e.g. 1.5.0). Leave empty to use package.json. Note: VS Marketplace does not support semver pre-release tags.'
         required: false
         default: ''
 
@@ -44,8 +44,9 @@ jobs:
         env:
           VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
         run: |
-          VERSION=${GITHUB_REF_NAME#v} # strip leading "v", so v1.5.0-preview.0 -> 1.5.0-preview.0
-          vsce publish "$VERSION" --pre-release
+          # Use version from package.json with --pre-release flag
+          # VS Marketplace doesn't support semver pre-release tags in version string
+          vsce publish --pre-release
 
       - name: Publish prerelease (manual dispatch)
         if: github.event_name == 'workflow_dispatch'
