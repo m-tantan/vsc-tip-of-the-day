@@ -9,6 +9,7 @@ Enhance your VS Code productivity with daily tips! This extension delivers curat
 - 🎯 Daily VS Code tips to improve your coding workflow
 - 🖥️ **OS-specific tip optimization** (Windows, macOS, Linux) with automatic detection
 - ⭐ **Favorites/Bookmark Feature** - Save your favorite tips for quick reference
+- 📋 **Tip Sharing** - Copy tips to clipboard to share with colleagues
 - ⚙️ **Quick settings access** via settings icon in tip panel
 - ⌨️ Keyboard shortcut (`Ctrl+Alt+T` / `Cmd+Alt+T`) to show tips on demand
 - 🎲 **Smart random tip selection** with history tracking to avoid repetition
@@ -44,9 +45,10 @@ Switch languages using the dropdown in the tip panel, and your preference will b
 2. **On-Demand Tips**: Press `Ctrl+Alt+T` (`Cmd+Alt+T` on macOS) to see the current tip
 3. **Bookmark Tips**: Click the star icon (⭐) to save your favorite tips
 4. **View Favorites**: Access your bookmarked tips via `Ctrl+Shift+P` > `TOTD: View Favorites`
-5. **Settings Access**: Click the settings icon (⚙️) in the tip panel to quickly access extension settings
-6. **OS Optimization**: Tips are automatically optimized for your operating system, or you can manually select your preferred OS in settings
-7. **Navigation**:
+5. **Share Tips**: Click the clipboard icon (📋) to copy the tip to share with others
+6. **Settings Access**: Click the settings icon (⚙️) in the tip panel to quickly access extension settings
+7. **OS Optimization**: Tips are automatically optimized for your operating system, or you can manually select your preferred OS in settings
+8. **Navigation**:
    - Use the "Show Next Tip" command to see the next tip
    - Use the "Show Previous Tip" to review earlier tips
    - Try "Show Random Tip" to discover something new
@@ -76,7 +78,7 @@ This extension contributes the following settings:
 ### 1.5.0-preview.0 (Prerelease)
 
 - ⭐ **Favorites/Bookmark Feature** - Save and manage your favorite tips for quick reference
-- 🤖 **Automated prerelease workflow** - GitHub Actions for streamlined preview releases
+- 📋 **Tip Sharing** - Copy tips to clipboard to share with others
 
 ### 1.4.0
 

@@ -14,10 +14,11 @@ All notable changes to the VS Code Tip of the Day extension will be documented i
   - Click to view full tip from favorites list
   - Full multi-language support for all favorites UI elements
   - Persistent storage of favorite tips across sessions
-- **GitHub Actions workflow for automated prerelease publishing**
-  - Automated publishing on tag push (v*.*.*-preview.*)
-  - Manual workflow dispatch option
-  - Includes lint and build verification before publishing
+- **Tip Sharing Feature**: Share tips with others
+  - Copy to clipboard button (📋) in tip panel
+  - Formatted tip text ready to share
+  - Multi-language support for share functionality
+  - Quick feedback confirmation when tip is copied
 
 ## [1.4.0] - 2025-10-04
 
