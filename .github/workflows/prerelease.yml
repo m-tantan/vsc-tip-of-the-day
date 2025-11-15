@@ -1,0 +1,59 @@
+name: VS Code Extension Prerelease (preview)
+
+on:
+  push:
+    tags:
+      - 'v*.*.*-preview.*'  # e.g. v1.5.0-preview.0
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish (e.g. 1.5.0-preview.0). Leave empty to use package.json.'
+        required: false
+        default: ''
+
+jobs:
+  prerelease:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build extension
+        run: npm run package
+
+      - name: Install vsce
+        run: npm install -g @vscode/vsce
+
+      - name: Publish prerelease (tag-based)
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
+        run: |
+          VERSION=${GITHUB_REF_NAME#v} # strip leading "v", so v1.5.0-preview.0 -> 1.5.0-preview.0
+          vsce publish "$VERSION" --pre-release
+
+      - name: Publish prerelease (manual dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
+        run: |
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            vsce publish "${{ github.event.inputs.version }}" --pre-release
+          else
+            vsce publish --pre-release
+          fi
