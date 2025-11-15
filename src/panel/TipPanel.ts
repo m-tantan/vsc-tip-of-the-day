@@ -348,7 +348,7 @@ export class TipPanel {
                   <button class="share-button" onclick="handleShareClick()" aria-label="${strings.shareButton}" title="${strings.shareButton}">📋</button>
                 </div>
               </div>                
-              <h2 class="title">${escapeHtml(tip.title)}</h2>
+              <h2 class="title tip-title">${escapeHtml(tip.title)}</h2>
               <div class="content">${escapeHtml(tip.content)}</div>
               ${
                 tip.source
@@ -472,7 +472,11 @@ export class TipPanel {
                 }
                 
                 function handleShareClick() {
-                    const tipTitle = document.querySelector('.title:nth-of-type(2)').textContent;
+                    // Store focus information in VS Code state
+                    const focusInfo = storeFocusInfo();
+                    vscode.setState({ focusInfo });
+                    
+                    const tipTitle = document.querySelector('.tip-title').textContent;
                     const tipContent = document.querySelector('.content').textContent;
                     const shareText = "Here's a VS Code TOTD for you: " + tipTitle + " - " + tipContent;
                     sendMessage('copyToClipboard', shareText);
