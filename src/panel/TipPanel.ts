@@ -186,6 +186,7 @@ export class TipPanel {
             margin: 16px;
             padding: 24px;
             box-sizing: border-box;
+            min-height: 280px;
           }
           .header {
             display: flex;
