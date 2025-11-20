@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     gap: 8px;
     width: 400px;
-    height: 280px;
+    min-height: 280px;
     border: 1px solid var(--vscode-notifications-border);
     border-radius: 4px;
     box-shadow: 0 2px 8px var(--vscode-widget-shadow);
