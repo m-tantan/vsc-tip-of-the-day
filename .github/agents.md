@@ -293,3 +293,39 @@ Before each release:
 ## Remember
 
 You're helping developers worldwide discover VS Code features and improve their productivity. Every tip, translation, and feature you add makes coding better for thousands of users. Prioritize **quality**, **accessibility**, and **community** in all contributions.
+
+## Pull Request Requirements
+
+### Visual Documentation of Changes
+
+**CRITICAL REQUIREMENT**: Every PR description and every push to a PR **MUST** include a screenshot or image showing the changes made. This requirement is non-negotiable and applies to all types of changes.
+
+#### When to Include Images
+
+1. **Initial PR Creation**: Include at least one screenshot showing the changes
+2. **After Every Push**: Update the PR description with new screenshots showing the latest state
+3. **All Change Types**:
+   - UI changes: Show before/after screenshots
+   - Code changes: Show relevant code sections or test results
+   - Documentation changes: Show the rendered documentation
+   - Configuration changes: Show the configuration file and its effect
+   - Build/CI changes: Show the build/test output
+
+#### Image Requirements
+
+- Images must be **clear and readable**
+- Include **context** (file names, line numbers, or UI elements)
+- Use **arrows or annotations** when highlighting specific changes
+- For UI changes, show both **before and after** states when possible
+- For code changes, show **test results** or **execution output** to prove functionality
+- Include **console output** or **error messages** if debugging or fixing issues
+
+#### Why This Is Required
+
+Screenshots ensure:
+- **Nothing is broken**: Visual confirmation that changes work as expected
+- **Easy review**: Reviewers can quickly understand the impact of changes
+- **Documentation**: Future reference for what changed and why
+- **Quality assurance**: Catches visual regressions and unexpected side effects
+
+**Note**: Failure to include screenshots will result in the PR being considered incomplete and may delay review or merge.
