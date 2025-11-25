@@ -132,11 +132,6 @@
       "content": "按住 `Shift+Alt` 拖动鼠标进行列块选择，适合结构化文本。"
     },
     {
-      "id": 27,
-      "title": "文件导航历史",
-      "content": "使用 `Alt+Left` / `Alt+Right` 浏览文件位置历史。"
-    },
-    {
       "id": 28,
       "title": "快速参数提示",
       "content": "按 `Ctrl+Shift+Space` 显示函数参数提示。"
@@ -407,19 +402,9 @@
       "content": "使用 `Shift+Alt+Right` 扩大，`Shift+Alt+Left` 缩小选择（Windows/Linux）或 `Shift+Option+Right` / `Shift+Option+Left`（macOS）。基于语法的智能选择！"
     },
     {
-      "id": 83,
-      "title": "列选择",
-      "content": "按住 `Shift+Alt` 并拖动鼠标（Windows/Linux）或 `Shift+Option`（macOS）进行列（框）选择。选择矩形文本区域！"
-    },
-    {
       "id": 84,
       "title": "键盘列选择",
       "content": "使用 `Ctrl+Shift+Alt` 加箭头键（Windows/Linux）或 `Cmd+Shift+Option` 加箭头键（macOS）进行列选择。无需鼠标的框选择！"
-    },
-    {
-      "id": 85,
-      "title": "触发参数提示",
-      "content": "按 `Ctrl+Shift+Space`（Windows/Linux）或 `Cmd+Shift+Space`（macOS）触发参数提示。在编码时查看函数参数！"
     },
     {
       "id": 86,

@@ -132,11 +132,6 @@
       "content": "Mantén `Shift+Alt` mientras arrastras el mouse para seleccionar texto en columnas. Ideal para texto estructurado."
     },
     {
-      "id": 27,
-      "title": "Historial de Navegación de Archivo",
-      "content": "Usa `Alt+Left` y `Alt+Right` para moverte por el historial de navegación del archivo, como en un navegador web."
-    },
-    {
       "id": 28,
       "title": "Sugerencias de Parámetros",
       "content": "Presiona `Ctrl+Shift+Space` para ver sugerencias de parámetros de funciones. Útil para recordar argumentos."
@@ -407,19 +402,9 @@
       "content": "Usa `Shift+Alt+Right` para expandir y `Shift+Alt+Left` para contraer la selección (Windows/Linux) o `Shift+Option+Right` / `Shift+Option+Left` (macOS). ¡Selección inteligente basada en sintaxis!"
     },
     {
-      "id": 83,
-      "title": "Selección de Columna",
-      "content": "Mantén `Shift+Alt` y arrastra con el ratón (Windows/Linux) o `Shift+Option` (macOS) para selección de columna (caja). ¡Selecciona regiones rectangulares de texto!"
-    },
-    {
       "id": 84,
       "title": "Selección de Columna con Teclado",
       "content": "Usa `Ctrl+Shift+Alt` con teclas de flecha (Windows/Linux) o `Cmd+Shift+Option` con teclas de flecha (macOS) para selección de columna. ¡Selección de caja sin ratón!"
-    },
-    {
-      "id": 85,
-      "title": "Activar Sugerencias de Parámetros",
-      "content": "Presiona `Ctrl+Shift+Space` (Windows/Linux) o `Cmd+Shift+Space` (macOS) para activar sugerencias de parámetros. ¡Ve los parámetros de función mientras codificas!"
     },
     {
       "id": 86,

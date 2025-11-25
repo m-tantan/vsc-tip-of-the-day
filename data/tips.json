@@ -132,11 +132,6 @@
       "content": "Hold `Shift+Alt` while dragging the mouse to select text in columns. Perfect for editing structured text or tables!"
     },
     {
-      "id": 27,
-      "title": "Navigate File History",
-      "content": "Use `Alt+Left` and `Alt+Right` to navigate through your file navigation history, just like a web browser!"
-    },
-    {
       "id": 28,
       "title": "Quick Parameter Hints",
       "content": "Press `Ctrl+Shift+Space` to see parameter hints for functions. Great for remembering function arguments!"
@@ -413,19 +408,9 @@
       "content": "Use `Shift+Alt+Right` to expand and `Shift+Alt+Left` to shrink selection (Windows/Linux) or `Shift+Option+Right` / `Shift+Option+Left` (macOS). Smart selection based on syntax!"
     },
     {
-      "id": 83,
-      "title": "Column Selection",
-      "content": "Hold `Shift+Alt` and drag with the mouse (Windows/Linux) or `Shift+Option` (macOS) for column (box) selection. Select rectangular regions of text!"
-    },
-    {
       "id": 84,
       "title": "Column Selection with Keyboard",
       "content": "Use `Ctrl+Shift+Alt` with arrow keys (Windows/Linux) or `Cmd+Shift+Option` with arrow keys (macOS) for column selection. Box select without a mouse!"
-    },
-    {
-      "id": 85,
-      "title": "Trigger Parameter Hints",
-      "content": "Press `Ctrl+Shift+Space` (Windows/Linux) or `Cmd+Shift+Space` (macOS) to trigger parameter hints. See function parameters while coding!"
     },
     {
       "id": 86,

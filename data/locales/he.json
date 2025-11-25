@@ -132,11 +132,6 @@
       "content": "החזק `Shift+Alt` בזמן גרירת העכבר כדי לבחור טקסט בעמודות. מושלם לעריכת טקסט מובנה או טבלאות!"
     },
     {
-      "id": 27,
-      "title": "נווט בהיסטוריית קבצים",
-      "content": "השתמש ב-`Alt+Left` ו-`Alt+Right` כדי לנווט דרך היסטוריית הניווט בקבצים שלך, בדיוק כמו דפדפן אינטרנט!"
-    },
-    {
       "id": 28,
       "title": "רמזי פרמטרים מהירים",
       "content": "לחץ על `Ctrl+Shift+Space` כדי לראות רמזי פרמטרים לפונקציות. נהדר לזכירת ארגומנטים של פונקציות!"
@@ -407,19 +402,9 @@
       "content": "השתמש ב-`Shift+Alt+Right` להרחבה ו-`Shift+Alt+Left` לצמצום בחירה (Windows/Linux) או `Shift+Option+Right` / `Shift+Option+Left` (macOS). בחירה חכמה מבוססת תחביר!"
     },
     {
-      "id": 83,
-      "title": "בחירת עמודה",
-      "content": "החזק `Shift+Alt` וגרור עם העכבר (Windows/Linux) או `Shift+Option` (macOS) לבחירת עמודה (תיבה). בחר אזורים מלבניים של טקסט!"
-    },
-    {
       "id": 84,
       "title": "בחירת עמודה עם מקלדת",
       "content": "השתמש ב-`Ctrl+Shift+Alt` עם מקשי חצים (Windows/Linux) או `Cmd+Shift+Option` עם מקשי חצים (macOS) לבחירת עמודה. בחירת תיבה ללא עכבר!"
-    },
-    {
-      "id": 85,
-      "title": "הפעל רמזי פרמטרים",
-      "content": "לחץ `Ctrl+Shift+Space` (Windows/Linux) או `Cmd+Shift+Space` (macOS) להפעלת רמזי פרמטרים. ראה פרמטרי פונקציה בזמן קידוד!"
     },
     {
       "id": 86,

@@ -132,11 +132,6 @@
       "content": "マウスをドラッグしながら `Shift+Alt` を押して列でテキストを選択できます。構造化テキストやテーブルの編集に最適です！"
     },
     {
-      "id": 27,
-      "title": "ファイル履歴ナビゲーション",
-      "content": "Webブラウザのようにファイルナビゲーション履歴を移動するには `Alt+Left` と `Alt+Right` を使用してください！"
-    },
-    {
       "id": 28,
       "title": "クイックパラメータヒント",
       "content": "関数のパラメータヒントを表示するには `Ctrl+Shift+Space` を押してください。関数の引数を覚えるのに最適です！"
@@ -407,19 +402,9 @@
       "content": "`Shift+Alt+Right` で拡大、`Shift+Alt+Left` で縮小 (Windows/Linux) または `Shift+Option+Right` / `Shift+Option+Left` (macOS)。構文ベースのスマート選択！"
     },
     {
-      "id": 83,
-      "title": "矩形選択",
-      "content": "`Shift+Alt` を押しながらマウスでドラッグ (Windows/Linux) または `Shift+Option` (macOS) で矩形（ボックス）選択。テキストの長方形領域を選択！"
-    },
-    {
       "id": 84,
       "title": "キーボードで矩形選択",
       "content": "`Ctrl+Shift+Alt` と矢印キー (Windows/Linux) または `Cmd+Shift+Option` と矢印キー (macOS) で矩形選択。マウスなしでボックス選択！"
-    },
-    {
-      "id": 85,
-      "title": "パラメータヒントを表示",
-      "content": "`Ctrl+Shift+Space` (Windows/Linux) または `Cmd+Shift+Space` (macOS) を押してパラメータヒントを表示します。コーディング中に関数パラメータを確認！"
     },
     {
       "id": 86,

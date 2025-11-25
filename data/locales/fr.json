@@ -132,11 +132,6 @@
       "content": "Maintenez `Shift+Alt` en faisant glisser la souris pour sélectionner en colonne. Parfait pour du texte structuré."
     },
     {
-      "id": 27,
-      "title": "Historique de Navigation de Fichier",
-      "content": "Utilisez `Alt+Left` et `Alt+Right` pour parcourir l'historique de navigation de fichier comme dans un navigateur."
-    },
-    {
       "id": 28,
       "title": "Aide Paramètres Rapide",
       "content": "Appuyez sur `Ctrl+Shift+Space` pour afficher les paramètres d'une fonction."
@@ -407,19 +402,9 @@
       "content": "Utilisez `Shift+Alt+Right` pour étendre et `Shift+Alt+Left` pour réduire la sélection (Windows/Linux) ou `Shift+Option+Right` / `Shift+Option+Left` (macOS). Sélection intelligente basée sur la syntaxe!"
     },
     {
-      "id": 83,
-      "title": "Sélection de Colonne",
-      "content": "Maintenez `Shift+Alt` et glissez avec la souris (Windows/Linux) ou `Shift+Option` (macOS) pour la sélection de colonne (boîte). Sélectionnez des régions rectangulaires de texte!"
-    },
-    {
       "id": 84,
       "title": "Sélection de Colonne avec le Clavier",
       "content": "Utilisez `Ctrl+Shift+Alt` avec les touches fléchées (Windows/Linux) ou `Cmd+Shift+Option` avec les touches fléchées (macOS) pour la sélection de colonne. Sélection de boîte sans souris!"
-    },
-    {
-      "id": 85,
-      "title": "Déclencher les Indices de Paramètres",
-      "content": "Appuyez sur `Ctrl+Shift+Space` (Windows/Linux) ou `Cmd+Shift+Space` (macOS) pour déclencher les indices de paramètres. Voyez les paramètres de fonction en codant!"
     },
     {
       "id": 86,
