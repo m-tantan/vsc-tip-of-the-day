@@ -167,6 +167,10 @@ export class FavoritesPanel {
           body {
             margin: 0;
             padding: 0;
+            height: auto;
+            min-height: 100vh;
+            display: block;
+            overflow-y: auto;
           }
           .container {
             border: 2px solid #FFD700;
@@ -174,6 +178,8 @@ export class FavoritesPanel {
             margin: 16px;
             padding: 24px;
             box-sizing: border-box;
+            max-height: none;
+            overflow-y: visible;
           }
           .header {
             margin-bottom: 16px;
