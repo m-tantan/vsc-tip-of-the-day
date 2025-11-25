@@ -218,398 +218,398 @@
     },
     {
       "id": 45,
-      "title": "Open File",
-      "content": "Press `Ctrl+O` (Windows/Linux) or `Cmd+O` (macOS) to open a file dialog. Quickly browse and open files from anywhere on your system."
+      "title": "Открыть файл",
+      "content": "Нажмите `Ctrl+O` (Windows/Linux) или `Cmd+O` (macOS) для открытия диалога файла. Быстро просматривайте и открывайте файлы из любого места системы."
     },
     {
       "id": 46,
-      "title": "Save File",
-      "content": "Use `Ctrl+S` (Windows/Linux) or `Cmd+S` (macOS) to save the current file. One of the most essential shortcuts!"
+      "title": "Сохранить файл",
+      "content": "Используйте `Ctrl+S` (Windows/Linux) или `Cmd+S` (macOS) для сохранения текущего файла. Один из самых важных сочетаний!"
     },
     {
       "id": 47,
-      "title": "Save As",
-      "content": "Press `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (macOS) to save the current file with a new name or location."
+      "title": "Сохранить как",
+      "content": "Нажмите `Ctrl+Shift+S` (Windows/Linux) или `Cmd+Shift+S` (macOS) для сохранения текущего файла с новым именем или расположением."
     },
     {
       "id": 48,
-      "title": "Close Editor",
-      "content": "Use `Ctrl+F4` or `Ctrl+W` (Windows/Linux) or `Cmd+W` (macOS) to close the current editor tab."
+      "title": "Закрыть редактор",
+      "content": "Используйте `Ctrl+F4` или `Ctrl+W` (Windows/Linux) или `Cmd+W` (macOS) для закрытия текущей вкладки редактора."
     },
     {
       "id": 49,
-      "title": "Close All Editors",
-      "content": "Press `Ctrl+K Ctrl+W` (Windows/Linux) or `Cmd+K Cmd+W` (macOS) to close all open editor tabs at once."
+      "title": "Закрыть все редакторы",
+      "content": "Нажмите `Ctrl+K Ctrl+W` (Windows/Linux) или `Cmd+K Cmd+W` (macOS) для закрытия всех открытых вкладок редактора сразу."
     },
     {
       "id": 50,
-      "title": "Reopen Closed Editor",
-      "content": "Use `Ctrl+Shift+T` (Windows/Linux) or `Cmd+Shift+T` (macOS) to reopen the last closed editor tab. Perfect for when you accidentally close something!"
+      "title": "Открыть закрытый редактор",
+      "content": "Используйте `Ctrl+Shift+T` (Windows/Linux) или `Cmd+Shift+T` (macOS) для повторного открытия последней закрытой вкладки. Идеально, когда случайно закроете что-то!"
     },
     {
       "id": 51,
-      "title": "Toggle Full Screen",
-      "content": "Press `F11` to toggle full screen mode. Maximize your screen real estate for distraction-free coding!"
+      "title": "Переключить полноэкранный режим",
+      "content": "Нажмите `F11` для переключения полноэкранного режима. Максимизируйте пространство экрана для кодирования без отвлечений!"
     },
     {
       "id": 52,
-      "title": "Toggle Editor Layout",
-      "content": "Use `Shift+Alt+0` (Windows/Linux) or `Shift+Option+0` (macOS) to toggle between horizontal and vertical editor layout."
+      "title": "Переключить макет редактора",
+      "content": "Используйте `Shift+Alt+0` (Windows/Linux) или `Shift+Option+0` (macOS) для переключения между горизонтальным и вертикальным макетом редактора."
     },
     {
       "id": 53,
-      "title": "Zoom In/Out",
-      "content": "Press `Ctrl+=` to zoom in and `Ctrl+-` to zoom out (Windows/Linux) or `Cmd+=` / `Cmd+-` (macOS). Adjust the editor's font size quickly!"
+      "title": "Увеличить/Уменьшить масштаб",
+      "content": "Нажмите `Ctrl+=` для увеличения и `Ctrl+-` для уменьшения (Windows/Linux) или `Cmd+=` / `Cmd+-` (macOS). Быстро настройте размер шрифта редактора!"
     },
     {
       "id": 54,
-      "title": "Show Explorer",
-      "content": "Use `Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (macOS) to show the Explorer view and toggle focus. Quick access to your file tree!"
+      "title": "Показать Проводник",
+      "content": "Используйте `Ctrl+Shift+E` (Windows/Linux) или `Cmd+Shift+E` (macOS) для показа вида Проводника и переключения фокуса. Быстрый доступ к дереву файлов!"
     },
     {
       "id": 55,
-      "title": "Show Source Control",
-      "content": "Press `Ctrl+Shift+G` (Windows/Linux) or `Cmd+Shift+G` (macOS) to open the Source Control view. Manage your Git operations efficiently!"
+      "title": "Показать Систему контроля версий",
+      "content": "Нажмите `Ctrl+Shift+G` (Windows/Linux) или `Cmd+Shift+G` (macOS) для открытия вида Системы контроля версий. Эффективно управляйте операциями Git!"
     },
     {
       "id": 56,
-      "title": "Show Debug",
-      "content": "Use `Ctrl+Shift+D` (Windows/Linux) or `Cmd+Shift+D` (macOS) to open the Debug view. Start debugging your code quickly!"
+      "title": "Показать Отладку",
+      "content": "Используйте `Ctrl+Shift+D` (Windows/Linux) или `Cmd+Shift+D` (macOS) для открытия вида Отладки. Быстро начните отладку кода!"
     },
     {
       "id": 57,
-      "title": "Show Extensions",
-      "content": "Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS) to open the Extensions view. Discover and manage your VS Code extensions!"
+      "title": "Показать Расширения",
+      "content": "Нажмите `Ctrl+Shift+X` (Windows/Linux) или `Cmd+Shift+X` (macOS) для открытия вида Расширений. Откройте для себя и управляйте расширениями VS Code!"
     },
     {
       "id": 58,
-      "title": "Replace in Files",
-      "content": "Use `Ctrl+Shift+H` (Windows/Linux) or `Cmd+Shift+H` (macOS) to open replace in files. Search and replace across your entire project!"
+      "title": "Заменить в файлах",
+      "content": "Используйте `Ctrl+Shift+H` (Windows/Linux) или `Cmd+Shift+H` (macOS) для открытия замены в файлах. Ищите и заменяйте во всем проекте!"
     },
     {
       "id": 59,
-      "title": "Toggle Search Details",
-      "content": "Press `Ctrl+Shift+J` (Windows/Linux) or `Cmd+Shift+J` (macOS) to toggle search details. Show or hide additional search options!"
+      "title": "Переключить детали поиска",
+      "content": "Нажмите `Ctrl+Shift+J` (Windows/Linux) или `Cmd+Shift+J` (macOS) для переключения деталей поиска. Показать или скрыть дополнительные параметры поиска!"
     },
     {
       "id": 60,
-      "title": "Show Output Panel",
-      "content": "Use `Ctrl+Shift+U` (Windows/Linux) or `Cmd+Shift+U` (macOS) to show the Output panel. View logs and output from extensions and tools!"
+      "title": "Показать панель Вывод",
+      "content": "Используйте `Ctrl+Shift+U` (Windows/Linux) или `Cmd+Shift+U` (macOS) для показа панели Вывода. Просматривайте логи и вывод расширений и инструментов!"
     },
     {
       "id": 61,
-      "title": "Open Markdown Preview",
-      "content": "Press `Ctrl+Shift+V` (Windows/Linux) or `Cmd+Shift+V` (macOS) to open Markdown preview. See your markdown rendered in real-time!"
+      "title": "Открыть предпросмотр Markdown",
+      "content": "Нажмите `Ctrl+Shift+V` (Windows/Linux) или `Cmd+Shift+V` (macOS) для открытия предпросмотра Markdown. Смотрите Markdown в реальном времени!"
     },
     {
       "id": 62,
-      "title": "Markdown Preview Side by Side",
-      "content": "Use `Ctrl+K V` (Windows/Linux) or `Cmd+K V` (macOS) to open Markdown preview to the side. Edit and preview simultaneously!"
+      "title": "Предпросмотр Markdown рядом",
+      "content": "Используйте `Ctrl+K V` (Windows/Linux) или `Cmd+K V` (macOS) для открытия предпросмотра Markdown сбоку. Редактируйте и просматривайте одновременно!"
     },
     {
       "id": 63,
-      "title": "Toggle Breakpoint",
-      "content": "Press `F9` to toggle a breakpoint at the current line. Essential for debugging your code!"
+      "title": "Переключить точку останова",
+      "content": "Нажмите `F9` для переключения точки останова на текущей строке. Необходимо для отладки кода!"
     },
     {
       "id": 64,
-      "title": "Start/Continue Debugging",
-      "content": "Use `F5` to start debugging or continue execution when paused. Quick way to run your debug sessions!"
+      "title": "Начать/Продолжить отладку",
+      "content": "Используйте `F5` для начала отладки или продолжения выполнения при паузе. Быстрый способ запуска сессий отладки!"
     },
     {
       "id": 65,
-      "title": "Stop Debugging",
-      "content": "Press `Shift+F5` to stop the current debugging session. End your debug session quickly!"
+      "title": "Остановить отладку",
+      "content": "Нажмите `Shift+F5` для остановки текущей сессии отладки. Быстро завершите сессию отладки!"
     },
     {
       "id": 66,
-      "title": "Step Into/Out",
-      "content": "Use `F11` to step into a function and `Shift+F11` to step out. Navigate through your code during debugging!"
+      "title": "Войти/Выйти из функции",
+      "content": "Используйте `F11` для входа в функцию и `Shift+F11` для выхода. Навигация по коду во время отладки!"
     },
     {
       "id": 67,
-      "title": "Step Over",
-      "content": "Press `F10` to step over the current line during debugging. Execute the current line and move to the next!"
+      "title": "Перешагнуть",
+      "content": "Нажмите `F10` для перешагивания текущей строки при отладке. Выполните текущую строку и перейдите к следующей!"
     },
     {
       "id": 68,
-      "title": "Show Hover",
-      "content": "Use `Ctrl+K Ctrl+I` (Windows/Linux) or `Cmd+K Cmd+I` (macOS) to show hover information. See documentation and type information on demand!"
+      "title": "Показать подсказку",
+      "content": "Используйте `Ctrl+K Ctrl+I` (Windows/Linux) или `Cmd+K Cmd+I` (macOS) для показа информации при наведении. Смотрите документацию и информацию о типах по запросу!"
     },
     {
       "id": 69,
-      "title": "Create New Terminal",
-      "content": "Press `` Ctrl+Shift+` `` (Windows/Linux) or `` Cmd+Shift+` `` (macOS) to create a new terminal instance. Run multiple terminal sessions!"
+      "title": "Создать новый терминал",
+      "content": "Нажмите `` Ctrl+Shift+` `` (Windows/Linux) или `` Cmd+Shift+` `` (macOS) для создания нового экземпляра терминала. Запускайте несколько сессий терминала!"
     },
     {
       "id": 70,
-      "title": "Find in File",
-      "content": "Use `Ctrl+F` (Windows/Linux) or `Cmd+F` (macOS) to open find in the current file. Search within your active editor!"
+      "title": "Найти в файле",
+      "content": "Используйте `Ctrl+F` (Windows/Linux) или `Cmd+F` (macOS) для открытия поиска в текущем файле. Ищите в активном редакторе!"
     },
     {
       "id": 71,
-      "title": "Replace in File",
-      "content": "Press `Ctrl+H` (Windows/Linux) or `Cmd+H` (macOS) to open find and replace in the current file. Quickly modify text patterns!"
+      "title": "Заменить в файле",
+      "content": "Нажмите `Ctrl+H` (Windows/Linux) или `Cmd+H` (macOS) для открытия поиска и замены в текущем файле. Быстро изменяйте текстовые паттерны!"
     },
     {
       "id": 72,
-      "title": "Find Next/Previous",
-      "content": "Use `F3` to find next and `Shift+F3` to find previous occurrence. Navigate through search results efficiently!"
+      "title": "Найти следующее/предыдущее",
+      "content": "Используйте `F3` для поиска следующего и `Shift+F3` для предыдущего. Эффективно навигируйте по результатам поиска!"
     },
     {
       "id": 73,
-      "title": "Select All Occurrences",
-      "content": "Press `Alt+Enter` (Windows/Linux) or `Option+Enter` (macOS) to select all occurrences of the current find match. Edit multiple instances at once!"
+      "title": "Выбрать все вхождения",
+      "content": "Нажмите `Alt+Enter` (Windows/Linux) или `Option+Enter` (macOS) для выбора всех вхождений текущего совпадения. Редактируйте несколько экземпляров сразу!"
     },
     {
       "id": 74,
-      "title": "Move Selection to Next Match",
-      "content": "Use `Ctrl+K Ctrl+D` (Windows/Linux) or `Cmd+K Cmd+D` (macOS) to move the last selection to the next find match. Skip unwanted matches!"
+      "title": "Переместить выделение к следующему совпадению",
+      "content": "Используйте `Ctrl+K Ctrl+D` (Windows/Linux) или `Cmd+K Cmd+D` (macOS) для перемещения последнего выделения к следующему совпадению. Пропускайте нежелательные совпадения!"
     },
     {
       "id": 75,
-      "title": "Toggle Find Options",
-      "content": "Press `Alt+C` for case-sensitive, `Alt+R` for regex, and `Alt+W` for whole word matching in find. Customize your search!"
+      "title": "Переключить параметры поиска",
+      "content": "Нажмите `Alt+C` для учета регистра, `Alt+R` для regex и `Alt+W` для поиска целых слов. Настройте свой поиск!"
     },
     {
       "id": 76,
-      "title": "Insert Cursor Above/Below",
-      "content": "Use `Ctrl+Alt+Up` or `Ctrl+Alt+Down` (Windows/Linux) or `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) to insert cursors above or below. Create multiple cursors vertically!"
+      "title": "Вставить курсор выше/ниже",
+      "content": "Используйте `Ctrl+Alt+Up` или `Ctrl+Alt+Down` (Windows/Linux) или `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) для вставки курсоров выше или ниже. Создавайте несколько курсоров вертикально!"
     },
     {
       "id": 77,
-      "title": "Undo Cursor Operation",
-      "content": "Press `Ctrl+U` (Windows/Linux) or `Cmd+U` (macOS) to undo the last cursor operation. Revert unwanted cursor additions!"
+      "title": "Отменить операцию курсора",
+      "content": "Нажмите `Ctrl+U` (Windows/Linux) или `Cmd+U` (macOS) для отмены последней операции курсора. Отмените нежелательные добавления курсоров!"
     },
     {
       "id": 78,
-      "title": "Insert Cursor at Line Ends",
-      "content": "Use `Shift+Alt+I` (Windows/Linux) or `Shift+Option+I` (macOS) to insert a cursor at the end of each selected line. Edit multiple line endings!"
+      "title": "Вставить курсор в конец строк",
+      "content": "Используйте `Shift+Alt+I` (Windows/Linux) или `Shift+Option+I` (macOS) для вставки курсора в конец каждой выделенной строки. Редактируйте несколько окончаний строк!"
     },
     {
       "id": 79,
-      "title": "Select Current Line",
-      "content": "Press `Ctrl+L` (Windows/Linux) or `Cmd+L` (macOS) to select the current line. Quick selection without using the mouse!"
+      "title": "Выбрать текущую строку",
+      "content": "Нажмите `Ctrl+L` (Windows/Linux) или `Cmd+L` (macOS) для выбора текущей строки. Быстрый выбор без мыши!"
     },
     {
       "id": 80,
-      "title": "Select All Occurrences of Selection",
-      "content": "Use `Ctrl+Shift+L` (Windows/Linux) or `Cmd+Shift+L` (macOS) to select all occurrences of the current selection. Powerful multi-cursor editing!"
+      "title": "Выбрать все вхождения выделения",
+      "content": "Используйте `Ctrl+Shift+L` (Windows/Linux) или `Cmd+Shift+L` (macOS) для выбора всех вхождений текущего выделения. Мощное мульти-курсорное редактирование!"
     },
     {
       "id": 81,
-      "title": "Select All Occurrences of Word",
-      "content": "Press `Ctrl+F2` (Windows/Linux) or `Cmd+F2` (macOS) to select all occurrences of the current word. Quick word-based multi-editing!"
+      "title": "Выбрать все вхождения слова",
+      "content": "Нажмите `Ctrl+F2` (Windows/Linux) или `Cmd+F2` (macOS) для выбора всех вхождений текущего слова. Быстрое мульти-редактирование по словам!"
     },
     {
       "id": 82,
-      "title": "Expand/Shrink Selection",
-      "content": "Use `Shift+Alt+Right` to expand and `Shift+Alt+Left` to shrink selection (Windows/Linux) or `Shift+Option+Right` / `Shift+Option+Left` (macOS). Smart selection based on syntax!"
+      "title": "Расширить/Сузить выделение",
+      "content": "Используйте `Shift+Alt+Right` для расширения и `Shift+Alt+Left` для сужения выделения (Windows/Linux) или `Shift+Option+Right` / `Shift+Option+Left` (macOS). Умный выбор на основе синтаксиса!"
     },
     {
       "id": 83,
-      "title": "Column Selection",
-      "content": "Hold `Shift+Alt` and drag with the mouse (Windows/Linux) or `Shift+Option` (macOS) for column (box) selection. Select rectangular regions of text!"
+      "title": "Блочное выделение",
+      "content": "Удерживайте `Shift+Alt` и тяните мышью (Windows/Linux) или `Shift+Option` (macOS) для блочного (прямоугольного) выделения. Выбирайте прямоугольные области текста!"
     },
     {
       "id": 84,
-      "title": "Column Selection with Keyboard",
-      "content": "Use `Ctrl+Shift+Alt` with arrow keys (Windows/Linux) or `Cmd+Shift+Option` with arrow keys (macOS) for column selection. Box select without a mouse!"
+      "title": "Блочное выделение клавиатурой",
+      "content": "Используйте `Ctrl+Shift+Alt` со стрелками (Windows/Linux) или `Cmd+Shift+Option` со стрелками (macOS) для блочного выделения. Выбор блока без мыши!"
     },
     {
       "id": 85,
-      "title": "Trigger Parameter Hints",
-      "content": "Press `Ctrl+Shift+Space` (Windows/Linux) or `Cmd+Shift+Space` (macOS) to trigger parameter hints. See function parameters while coding!"
+      "title": "Показать подсказки по параметрам",
+      "content": "Нажмите `Ctrl+Shift+Space` (Windows/Linux) или `Cmd+Shift+Space` (macOS) для показа подсказок по параметрам. Смотрите параметры функций при кодировании!"
     },
     {
       "id": 86,
-      "title": "Format Selection",
-      "content": "Use `Ctrl+K Ctrl+F` (Windows/Linux) or `Cmd+K Cmd+F` (macOS) to format the selected code. Keep your selected code neat and consistent!"
+      "title": "Форматировать выделение",
+      "content": "Используйте `Ctrl+K Ctrl+F` (Windows/Linux) или `Cmd+K Cmd+F` (macOS) для форматирования выделенного кода. Держите выделенный код чистым и согласованным!"
     },
     {
       "id": 87,
-      "title": "Peek Definition",
-      "content": "Press `Alt+F12` (Windows/Linux) or `Option+F12` (macOS) to peek at the definition inline. View definitions without losing context!"
+      "title": "Подсмотреть определение",
+      "content": "Нажмите `Alt+F12` (Windows/Linux) или `Option+F12` (macOS) для просмотра определения в строке. Смотрите определения без потери контекста!"
     },
     {
       "id": 88,
-      "title": "Open Definition to Side",
-      "content": "Use `Ctrl+K F12` (Windows/Linux) or `Cmd+K F12` (macOS) to open the definition in a side editor. Compare definitions and implementations!"
+      "title": "Открыть определение сбоку",
+      "content": "Используйте `Ctrl+K F12` (Windows/Linux) или `Cmd+K F12` (macOS) для открытия определения в боковом редакторе. Сравнивайте определения и реализации!"
     },
     {
       "id": 89,
-      "title": "Change File Language",
-      "content": "Press `Ctrl+K M` (Windows/Linux) or `Cmd+K M` (macOS) to change the file language mode. Switch syntax highlighting and features!"
+      "title": "Изменить язык файла",
+      "content": "Нажмите `Ctrl+K M` (Windows/Linux) или `Cmd+K M` (macOS) для изменения режима языка файла. Переключайте подсветку синтаксиса и функции!"
     },
     {
       "id": 90,
-      "title": "Close Folder",
-      "content": "Use `Ctrl+K F` (Windows/Linux) or `Cmd+K F` (macOS) to close the current folder/workspace. Switch workspaces quickly!"
+      "title": "Закрыть папку",
+      "content": "Используйте `Ctrl+K F` (Windows/Linux) или `Cmd+K F` (macOS) для закрытия текущей папки/рабочего пространства. Быстро переключайте рабочие пространства!"
     },
     {
       "id": 91,
-      "title": "Focus Editor Groups",
-      "content": "Press `Ctrl+1`, `Ctrl+2`, or `Ctrl+3` (Windows/Linux) or `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) to focus into the 1st, 2nd, or 3rd editor group!"
+      "title": "Фокус на группы редакторов",
+      "content": "Нажмите `Ctrl+1`, `Ctrl+2` или `Ctrl+3` (Windows/Linux) или `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) для фокуса на 1-й, 2-й или 3-й группе редакторов!"
     },
     {
       "id": 92,
-      "title": "Focus Next/Previous Editor Group",
-      "content": "Use `Ctrl+K Ctrl+Right` or `Ctrl+K Ctrl+Left` (Windows/Linux) or `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) to focus into the next or previous editor group!"
+      "title": "Фокус на следующую/предыдущую группу",
+      "content": "Используйте `Ctrl+K Ctrl+Right` или `Ctrl+K Ctrl+Left` (Windows/Linux) или `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) для фокуса на следующую или предыдущую группу редакторов!"
     },
     {
       "id": 93,
-      "title": "Move Editor Left/Right",
-      "content": "Press `Ctrl+Shift+PgUp` or `Ctrl+Shift+PgDn` (Windows/Linux) or `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) to move the editor left or right!"
+      "title": "Переместить редактор влево/вправо",
+      "content": "Нажмите `Ctrl+Shift+PgUp` или `Ctrl+Shift+PgDn` (Windows/Linux) или `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) для перемещения редактора влево или вправо!"
     },
     {
       "id": 94,
-      "title": "Move Active Editor Group",
-      "content": "Use `Ctrl+K Left` or `Ctrl+K Right` (Windows/Linux) or `Cmd+K Left` / `Cmd+K Right` (macOS) to move the active editor group!"
+      "title": "Переместить активную группу редакторов",
+      "content": "Используйте `Ctrl+K Left` или `Ctrl+K Right` (Windows/Linux) или `Cmd+K Left` / `Cmd+K Right` (macOS) для перемещения активной группы редакторов!"
     },
     {
       "id": 95,
-      "title": "New Window",
-      "content": "Press `Ctrl+Shift+N` (Windows/Linux) or `Cmd+Shift+N` (macOS) to open a new VS Code window/instance. Work with multiple projects simultaneously!"
+      "title": "Новое окно",
+      "content": "Нажмите `Ctrl+Shift+N` (Windows/Linux) или `Cmd+Shift+N` (macOS) для открытия нового окна/экземпляра VS Code. Работайте с несколькими проектами одновременно!"
     },
     {
       "id": 96,
-      "title": "Close Window",
-      "content": "Use `Ctrl+Shift+W` (Windows/Linux) or `Cmd+Shift+W` (macOS) to close the current VS Code window/instance!"
+      "title": "Закрыть окно",
+      "content": "Используйте `Ctrl+Shift+W` (Windows/Linux) или `Cmd+Shift+W` (macOS) для закрытия текущего окна/экземпляра VS Code!"
     },
     {
       "id": 97,
-      "title": "User Settings",
-      "content": "Press `Ctrl+,` (Windows/Linux) or `Cmd+,` (macOS) to open User Settings. Customize your VS Code experience!"
+      "title": "Настройки пользователя",
+      "content": "Нажмите `Ctrl+,` (Windows/Linux) или `Cmd+,` (macOS) для открытия Настроек пользователя. Настройте свой опыт использования VS Code!"
     },
     {
       "id": 98,
-      "title": "Keyboard Shortcuts Settings",
-      "content": "Use `Ctrl+K Ctrl+S` (Windows/Linux) or `Cmd+K Cmd+S` (macOS) to open Keyboard Shortcuts settings. Customize or view all shortcuts!"
+      "title": "Настройки сочетаний клавиш",
+      "content": "Используйте `Ctrl+K Ctrl+S` (Windows/Linux) или `Cmd+K Cmd+S` (macOS) для открытия настроек сочетаний клавиш. Настройте или просмотрите все сочетания!"
     },
     {
       "id": 99,
-      "title": "Cut Line",
-      "content": "Press `Ctrl+X` (Windows/Linux) or `Cmd+X` (macOS) with no selection to cut the entire line. Quick line cutting!"
+      "title": "Вырезать строку",
+      "content": "Нажмите `Ctrl+X` (Windows/Linux) или `Cmd+X` (macOS) без выделения для вырезания всей строки. Быстрое вырезание строки!"
     },
     {
       "id": 100,
-      "title": "Copy Line",
-      "content": "Use `Ctrl+C` (Windows/Linux) or `Cmd+C` (macOS) with no selection to copy the entire line. Quick line copying!"
+      "title": "Копировать строку",
+      "content": "Используйте `Ctrl+C` (Windows/Linux) или `Cmd+C` (macOS) без выделения для копирования всей строки. Быстрое копирование строки!"
     },
     {
       "id": 101,
-      "title": "Delete Line",
-      "content": "Press `Ctrl+Shift+K` (Windows/Linux) or `Cmd+Shift+K` (macOS) to delete the current line. Faster than selecting and deleting!"
+      "title": "Удалить строку",
+      "content": "Нажмите `Ctrl+Shift+K` (Windows/Linux) или `Cmd+Shift+K` (macOS) для удаления текущей строки. Быстрее, чем выделить и удалить!"
     },
     {
       "id": 102,
-      "title": "Insert Line Below",
-      "content": "Use `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (macOS) to insert a new line below the current line. No need to move to the end first!"
+      "title": "Вставить строку ниже",
+      "content": "Используйте `Ctrl+Enter` (Windows/Linux) или `Cmd+Enter` (macOS) для вставки новой строки ниже текущей. Не нужно сначала идти в конец!"
     },
     {
       "id": 103,
-      "title": "Insert Line Above",
-      "content": "Press `Ctrl+Shift+Enter` (Windows/Linux) or `Cmd+Shift+Enter` (macOS) to insert a new line above the current line!"
+      "title": "Вставить строку выше",
+      "content": "Нажмите `Ctrl+Shift+Enter` (Windows/Linux) или `Cmd+Shift+Enter` (macOS) для вставки новой строки выше текущей!"
     },
     {
       "id": 104,
-      "title": "Jump to Matching Bracket",
-      "content": "Use `Ctrl+Shift+\\` (Windows/Linux) or `Cmd+Shift+\\` (macOS) to jump to the matching bracket. Navigate code structures quickly!"
+      "title": "Перейти к парной скобке",
+      "content": "Используйте `Ctrl+Shift+\\` (Windows/Linux) или `Cmd+Shift+\\` (macOS) для перехода к парной скобке. Быстро навигируйте по структурам кода!"
     },
     {
       "id": 105,
-      "title": "Go to Line Start/End",
-      "content": "Press `Home` to go to the beginning of the line and `End` to go to the end. Quick line navigation!"
+      "title": "Перейти в начало/конец строки",
+      "content": "Нажмите `Home` для перехода в начало строки и `End` для конца. Быстрая навигация по строке!"
     },
     {
       "id": 106,
-      "title": "Go to File Start/End",
-      "content": "Use `Ctrl+Home` to go to the beginning of the file and `Ctrl+End` to go to the end (Windows/Linux) or `Cmd+Home` / `Cmd+End` (macOS)!"
+      "title": "Перейти в начало/конец файла",
+      "content": "Используйте `Ctrl+Home` для начала файла и `Ctrl+End` для конца (Windows/Linux) или `Cmd+Home` / `Cmd+End` (macOS)!"
     },
     {
       "id": 107,
-      "title": "Scroll Line Up/Down",
-      "content": "Press `Ctrl+Up` or `Ctrl+Down` (Windows/Linux) or `Cmd+Up` / `Cmd+Down` (macOS) to scroll the view up or down one line without moving the cursor!"
+      "title": "Прокрутить строку вверх/вниз",
+      "content": "Нажмите `Ctrl+Up` или `Ctrl+Down` (Windows/Linux) или `Cmd+Up` / `Cmd+Down` (macOS) для прокрутки вида на одну строку без перемещения курсора!"
     },
     {
       "id": 108,
-      "title": "Scroll Page Up/Down",
-      "content": "Use `Alt+PgUp` or `Alt+PgDn` (Windows/Linux) or `Option+PgUp` / `Option+PgDn` (macOS) to scroll the view up or down by one page!"
+      "title": "Прокрутить страницу вверх/вниз",
+      "content": "Используйте `Alt+PgUp` или `Alt+PgDn` (Windows/Linux) или `Option+PgUp` / `Option+PgDn` (macOS) для прокрутки вида на одну страницу!"
     },
     {
       "id": 109,
-      "title": "Fold All Subregions",
-      "content": "Press `Ctrl+K Ctrl+[` (Windows/Linux) or `Cmd+K Cmd+[` (macOS) to fold (collapse) all subregions in the current region!"
+      "title": "Свернуть все подрегионы",
+      "content": "Нажмите `Ctrl+K Ctrl+[` (Windows/Linux) или `Cmd+K Cmd+[` (macOS) для сворачивания всех подрегионов в текущем регионе!"
     },
     {
       "id": 110,
-      "title": "Unfold All Subregions",
-      "content": "Use `Ctrl+K Ctrl+]` (Windows/Linux) or `Cmd+K Cmd+]` (macOS) to unfold (uncollapse) all subregions in the current region!"
+      "title": "Развернуть все подрегионы",
+      "content": "Используйте `Ctrl+K Ctrl+]` (Windows/Linux) или `Cmd+K Cmd+]` (macOS) для разворачивания всех подрегионов в текущем регионе!"
     },
     {
       "id": 111,
-      "title": "Fold All Regions",
-      "content": "Press `Ctrl+K Ctrl+0` (Windows/Linux) or `Cmd+K Cmd+0` (macOS) to fold (collapse) all regions in the file. Minimize all code blocks!"
+      "title": "Свернуть все регионы",
+      "content": "Нажмите `Ctrl+K Ctrl+0` (Windows/Linux) или `Cmd+K Cmd+0` (macOS) для сворачивания всех регионов в файле. Минимизируйте все блоки кода!"
     },
     {
       "id": 112,
-      "title": "Unfold All Regions",
-      "content": "Use `Ctrl+K Ctrl+J` (Windows/Linux) or `Cmd+K Cmd+J` (macOS) to unfold (uncollapse) all regions in the file. Expand all code blocks!"
+      "title": "Развернуть все регионы",
+      "content": "Используйте `Ctrl+K Ctrl+J` (Windows/Linux) или `Cmd+K Cmd+J` (macOS) для разворачивания всех регионов в файле. Разверните все блоки кода!"
     },
     {
       "id": 113,
-      "title": "Add Line Comment",
-      "content": "Press `Ctrl+K Ctrl+C` (Windows/Linux) or `Cmd+K Cmd+C` (macOS) to add line comments. Comment out multiple lines!"
+      "title": "Добавить строковый комментарий",
+      "content": "Нажмите `Ctrl+K Ctrl+C` (Windows/Linux) или `Cmd+K Cmd+C` (macOS) для добавления строковых комментариев. Комментируйте несколько строк!"
     },
     {
       "id": 114,
-      "title": "Remove Line Comment",
-      "content": "Use `Ctrl+K Ctrl+U` (Windows/Linux) or `Cmd+K Cmd+U` (macOS) to remove line comments. Uncomment multiple lines!"
+      "title": "Удалить строковый комментарий",
+      "content": "Используйте `Ctrl+K Ctrl+U` (Windows/Linux) или `Cmd+K Cmd+U` (macOS) для удаления строковых комментариев. Раскомментируйте несколько строк!"
     },
     {
       "id": 115,
-      "title": "Toggle Block Comment",
-      "content": "Press `Shift+Alt+A` (Windows/Linux) or `Shift+Option+A` (macOS) to toggle block comments. Use /* */ style comments!"
+      "title": "Переключить блочный комментарий",
+      "content": "Нажмите `Shift+Alt+A` (Windows/Linux) или `Shift+Option+A` (macOS) для переключения блочных комментариев. Используйте комментарии стиля /* */!"
     },
     {
       "id": 116,
-      "title": "Go to Line",
-      "content": "Use `Ctrl+G` (Windows/Linux) or `Cmd+G` (macOS) to open the Go to Line dialog. Jump to any line number quickly!"
+      "title": "Перейти к строке",
+      "content": "Используйте `Ctrl+G` (Windows/Linux) или `Cmd+G` (macOS) для открытия диалога перехода к строке. Быстро перейдите к любому номеру строки!"
     },
     {
       "id": 117,
-      "title": "Go to Next Error",
-      "content": "Press `F8` to navigate to the next error or warning in your code. Fix issues efficiently!"
+      "title": "Перейти к следующей ошибке",
+      "content": "Нажмите `F8` для навигации к следующей ошибке или предупреждению в коде. Эффективно исправляйте проблемы!"
     },
     {
       "id": 118,
-      "title": "Go to Previous Error",
-      "content": "Use `Shift+F8` to navigate to the previous error or warning in your code. Review all issues!"
+      "title": "Перейти к предыдущей ошибке",
+      "content": "Используйте `Shift+F8` для навигации к предыдущей ошибке или предупреждению в коде. Просмотрите все проблемы!"
     },
     {
       "id": 119,
-      "title": "Toggle Tab Moves Focus",
-      "content": "Press `Ctrl+M` (Windows/Linux) or `Cmd+M` (macOS) to toggle whether Tab moves focus or inserts a tab character. Accessibility feature!"
+      "title": "Переключить Tab перемещает фокус",
+      "content": "Нажмите `Ctrl+M` (Windows/Linux) или `Cmd+M` (macOS) для переключения того, перемещает ли Tab фокус или вставляет символ табуляции. Функция доступности!"
     },
     {
       "id": 120,
-      "title": "Keep Preview Mode Open",
-      "content": "Use `Ctrl+K Enter` (Windows/Linux) or `Cmd+K Enter` (macOS) to keep the preview mode editor open permanently. Prevent accidental tab closure!"
+      "title": "Оставить режим предпросмотра открытым",
+      "content": "Используйте `Ctrl+K Enter` (Windows/Linux) или `Cmd+K Enter` (macOS) для сохранения редактора в режиме предпросмотра открытым постоянно. Предотвратите случайное закрытие вкладок!"
     },
     {
       "id": 121,
-      "title": "Copy Active File Path",
-      "content": "Press `Ctrl+K P` (Windows/Linux) or `Cmd+K P` (macOS) to copy the path of the active file to the clipboard. Share file locations easily!"
+      "title": "Копировать путь активного файла",
+      "content": "Нажмите `Ctrl+K P` (Windows/Linux) или `Cmd+K P` (macOS) для копирования пути активного файла в буфер обмена. Легко делитесь расположениями файлов!"
     },
     {
       "id": 122,
-      "title": "Reveal File in Explorer",
-      "content": "Use `Ctrl+K R` (Windows/Linux) or `Cmd+K R` (macOS) to reveal the active file in the system file explorer. Locate files on your system!"
+      "title": "Показать файл в Проводнике",
+      "content": "Используйте `Ctrl+K R` (Windows/Linux) или `Cmd+K R` (macOS) для показа активного файла в системном проводнике. Найдите файлы в вашей системе!"
     },
     {
       "id": 123,
-      "title": "Show File in New Window",
-      "content": "Press `Ctrl+K O` (Windows/Linux) or `Cmd+K O` (macOS) to show the active file in a new window/instance. Work with the same file in multiple windows!"
+      "title": "Показать файл в новом окне",
+      "content": "Нажмите `Ctrl+K O` (Windows/Linux) или `Cmd+K O` (macOS) для показа активного файла в новом окне/экземпляре. Работайте с одним файлом в нескольких окнах!"
     }
   ]
 }

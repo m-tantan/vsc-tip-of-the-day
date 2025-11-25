@@ -218,398 +218,398 @@
     },
     {
       "id": 45,
-      "title": "Open File",
-      "content": "Press `Ctrl+O` (Windows/Linux) or `Cmd+O` (macOS) to open a file dialog. Quickly browse and open files from anywhere on your system."
+      "title": "ফাইল খুলুন",
+      "content": "`Ctrl+O` (Windows/Linux) বা `Cmd+O` (macOS) চাপুন ফাইল ডায়ালগ খুলতে। আপনার সিস্টেমের যেকোনো জায়গা থেকে দ্রুত ফাইল ব্রাউজ করুন এবং খুলুন।"
     },
     {
       "id": 46,
-      "title": "Save File",
-      "content": "Use `Ctrl+S` (Windows/Linux) or `Cmd+S` (macOS) to save the current file. One of the most essential shortcuts!"
+      "title": "ফাইল সেভ করুন",
+      "content": "`Ctrl+S` (Windows/Linux) বা `Cmd+S` (macOS) ব্যবহার করুন বর্তমান ফাইল সেভ করতে। সবচেয়ে গুরুত্বপূর্ণ শর্টকাটগুলির একটি!"
     },
     {
       "id": 47,
-      "title": "Save As",
-      "content": "Press `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (macOS) to save the current file with a new name or location."
+      "title": "সেভ অ্যাজ",
+      "content": "`Ctrl+Shift+S` (Windows/Linux) বা `Cmd+Shift+S` (macOS) চাপুন বর্তমান ফাইল নতুন নাম বা অবস্থানে সেভ করতে।"
     },
     {
       "id": 48,
-      "title": "Close Editor",
-      "content": "Use `Ctrl+F4` or `Ctrl+W` (Windows/Linux) or `Cmd+W` (macOS) to close the current editor tab."
+      "title": "এডিটর বন্ধ করুন",
+      "content": "`Ctrl+F4` বা `Ctrl+W` (Windows/Linux) বা `Cmd+W` (macOS) ব্যবহার করুন বর্তমান এডিটর ট্যাব বন্ধ করতে।"
     },
     {
       "id": 49,
-      "title": "Close All Editors",
-      "content": "Press `Ctrl+K Ctrl+W` (Windows/Linux) or `Cmd+K Cmd+W` (macOS) to close all open editor tabs at once."
+      "title": "সব এডিটর বন্ধ করুন",
+      "content": "`Ctrl+K Ctrl+W` (Windows/Linux) বা `Cmd+K Cmd+W` (macOS) চাপুন সব খোলা এডিটর ট্যাব একসাথে বন্ধ করতে।"
     },
     {
       "id": 50,
-      "title": "Reopen Closed Editor",
-      "content": "Use `Ctrl+Shift+T` (Windows/Linux) or `Cmd+Shift+T` (macOS) to reopen the last closed editor tab. Perfect for when you accidentally close something!"
+      "title": "বন্ধ এডিটর পুনরায় খুলুন",
+      "content": "`Ctrl+Shift+T` (Windows/Linux) বা `Cmd+Shift+T` (macOS) ব্যবহার করুন শেষ বন্ধ করা এডিটর ট্যাব পুনরায় খুলতে। ভুলবশত কিছু বন্ধ করলে দারুণ কাজে আসে!"
     },
     {
       "id": 51,
-      "title": "Toggle Full Screen",
-      "content": "Press `F11` to toggle full screen mode. Maximize your screen real estate for distraction-free coding!"
+      "title": "ফুল স্ক্রিন টগল করুন",
+      "content": "`F11` চাপুন ফুল স্ক্রিন মোড টগল করতে। বিভ্রান্তিমুক্ত কোডিংয়ের জন্য পুরো স্ক্রিন ব্যবহার করুন!"
     },
     {
       "id": 52,
-      "title": "Toggle Editor Layout",
-      "content": "Use `Shift+Alt+0` (Windows/Linux) or `Shift+Option+0` (macOS) to toggle between horizontal and vertical editor layout."
+      "title": "এডিটর লেআউট টগল করুন",
+      "content": "`Shift+Alt+0` (Windows/Linux) বা `Shift+Option+0` (macOS) ব্যবহার করুন অনুভূমিক এবং উল্লম্ব এডিটর লেআউট টগল করতে।"
     },
     {
       "id": 53,
-      "title": "Zoom In/Out",
-      "content": "Press `Ctrl+=` to zoom in and `Ctrl+-` to zoom out (Windows/Linux) or `Cmd+=` / `Cmd+-` (macOS). Adjust the editor's font size quickly!"
+      "title": "জুম ইন/আউট",
+      "content": "`Ctrl+=` জুম ইন এবং `Ctrl+-` জুম আউট (Windows/Linux) বা `Cmd+=` / `Cmd+-` (macOS) করতে চাপুন। দ্রুত এডিটরের ফন্ট সাইজ সামঞ্জস্য করুন!"
     },
     {
       "id": 54,
-      "title": "Show Explorer",
-      "content": "Use `Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (macOS) to show the Explorer view and toggle focus. Quick access to your file tree!"
+      "title": "এক্সপ্লোরার দেখান",
+      "content": "`Ctrl+Shift+E` (Windows/Linux) বা `Cmd+Shift+E` (macOS) ব্যবহার করুন এক্সপ্লোরার ভিউ দেখাতে এবং ফোকাস টগল করতে। ফাইল ট্রিতে দ্রুত অ্যাক্সেস!"
     },
     {
       "id": 55,
-      "title": "Show Source Control",
-      "content": "Press `Ctrl+Shift+G` (Windows/Linux) or `Cmd+Shift+G` (macOS) to open the Source Control view. Manage your Git operations efficiently!"
+      "title": "সোর্স কন্ট্রোল দেখান",
+      "content": "`Ctrl+Shift+G` (Windows/Linux) বা `Cmd+Shift+G` (macOS) চাপুন সোর্স কন্ট্রোল ভিউ খুলতে। দক্ষতার সাথে Git অপারেশন পরিচালনা করুন!"
     },
     {
       "id": 56,
-      "title": "Show Debug",
-      "content": "Use `Ctrl+Shift+D` (Windows/Linux) or `Cmd+Shift+D` (macOS) to open the Debug view. Start debugging your code quickly!"
+      "title": "ডিবাগ দেখান",
+      "content": "`Ctrl+Shift+D` (Windows/Linux) বা `Cmd+Shift+D` (macOS) ব্যবহার করুন ডিবাগ ভিউ খুলতে। দ্রুত আপনার কোড ডিবাগ শুরু করুন!"
     },
     {
       "id": 57,
-      "title": "Show Extensions",
-      "content": "Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS) to open the Extensions view. Discover and manage your VS Code extensions!"
+      "title": "এক্সটেনশন দেখান",
+      "content": "`Ctrl+Shift+X` (Windows/Linux) বা `Cmd+Shift+X` (macOS) চাপুন এক্সটেনশন ভিউ খুলতে। VS Code এক্সটেনশন আবিষ্কার এবং পরিচালনা করুন!"
     },
     {
       "id": 58,
-      "title": "Replace in Files",
-      "content": "Use `Ctrl+Shift+H` (Windows/Linux) or `Cmd+Shift+H` (macOS) to open replace in files. Search and replace across your entire project!"
+      "title": "ফাইলে রিপ্লেস করুন",
+      "content": "`Ctrl+Shift+H` (Windows/Linux) বা `Cmd+Shift+H` (macOS) ব্যবহার করুন ফাইলে রিপ্লেস খুলতে। আপনার পুরো প্রজেক্টে সার্চ এবং রিপ্লেস করুন!"
     },
     {
       "id": 59,
-      "title": "Toggle Search Details",
-      "content": "Press `Ctrl+Shift+J` (Windows/Linux) or `Cmd+Shift+J` (macOS) to toggle search details. Show or hide additional search options!"
+      "title": "সার্চ ডিটেইল টগল করুন",
+      "content": "`Ctrl+Shift+J` (Windows/Linux) বা `Cmd+Shift+J` (macOS) চাপুন সার্চ ডিটেইল টগল করতে। অতিরিক্ত সার্চ অপশন দেখান বা লুকান!"
     },
     {
       "id": 60,
-      "title": "Show Output Panel",
-      "content": "Use `Ctrl+Shift+U` (Windows/Linux) or `Cmd+Shift+U` (macOS) to show the Output panel. View logs and output from extensions and tools!"
+      "title": "আউটপুট প্যানেল দেখান",
+      "content": "`Ctrl+Shift+U` (Windows/Linux) বা `Cmd+Shift+U` (macOS) ব্যবহার করুন আউটপুট প্যানেল দেখাতে। এক্সটেনশন এবং টুল থেকে লগ এবং আউটপুট দেখুন!"
     },
     {
       "id": 61,
-      "title": "Open Markdown Preview",
-      "content": "Press `Ctrl+Shift+V` (Windows/Linux) or `Cmd+Shift+V` (macOS) to open Markdown preview. See your markdown rendered in real-time!"
+      "title": "Markdown প্রিভিউ খুলুন",
+      "content": "`Ctrl+Shift+V` (Windows/Linux) বা `Cmd+Shift+V` (macOS) চাপুন Markdown প্রিভিউ খুলতে। রিয়েল-টাইমে আপনার Markdown রেন্ডার দেখুন!"
     },
     {
       "id": 62,
-      "title": "Markdown Preview Side by Side",
-      "content": "Use `Ctrl+K V` (Windows/Linux) or `Cmd+K V` (macOS) to open Markdown preview to the side. Edit and preview simultaneously!"
+      "title": "পাশাপাশি Markdown প্রিভিউ",
+      "content": "`Ctrl+K V` (Windows/Linux) বা `Cmd+K V` (macOS) ব্যবহার করুন পাশে Markdown প্রিভিউ খুলতে। একসাথে এডিট এবং প্রিভিউ করুন!"
     },
     {
       "id": 63,
-      "title": "Toggle Breakpoint",
-      "content": "Press `F9` to toggle a breakpoint at the current line. Essential for debugging your code!"
+      "title": "ব্রেকপয়েন্ট টগল করুন",
+      "content": "`F9` চাপুন বর্তমান লাইনে ব্রেকপয়েন্ট টগল করতে। কোড ডিবাগিংয়ের জন্য অপরিহার্য!"
     },
     {
       "id": 64,
-      "title": "Start/Continue Debugging",
-      "content": "Use `F5` to start debugging or continue execution when paused. Quick way to run your debug sessions!"
+      "title": "ডিবাগিং শুরু/চালিয়ে যান",
+      "content": "`F5` ব্যবহার করুন ডিবাগিং শুরু করতে বা পজ করার সময় এক্সিকিউশন চালিয়ে যেতে। ডিবাগ সেশন চালানোর দ্রুত উপায়!"
     },
     {
       "id": 65,
-      "title": "Stop Debugging",
-      "content": "Press `Shift+F5` to stop the current debugging session. End your debug session quickly!"
+      "title": "ডিবাগিং বন্ধ করুন",
+      "content": "`Shift+F5` চাপুন বর্তমান ডিবাগিং সেশন বন্ধ করতে। দ্রুত আপনার ডিবাগ সেশন শেষ করুন!"
     },
     {
       "id": 66,
-      "title": "Step Into/Out",
-      "content": "Use `F11` to step into a function and `Shift+F11` to step out. Navigate through your code during debugging!"
+      "title": "স্টেপ ইনটু/আউট",
+      "content": "`F11` ব্যবহার করুন ফাংশনে ঢুকতে এবং `Shift+F11` বের হতে। ডিবাগিংয়ের সময় আপনার কোডে নেভিগেট করুন!"
     },
     {
       "id": 67,
-      "title": "Step Over",
-      "content": "Press `F10` to step over the current line during debugging. Execute the current line and move to the next!"
+      "title": "স্টেপ ওভার",
+      "content": "`F10` চাপুন ডিবাগিংয়ের সময় বর্তমান লাইন স্কিপ করতে। বর্তমান লাইন এক্সিকিউট করে পরেরটিতে যান!"
     },
     {
       "id": 68,
-      "title": "Show Hover",
-      "content": "Use `Ctrl+K Ctrl+I` (Windows/Linux) or `Cmd+K Cmd+I` (macOS) to show hover information. See documentation and type information on demand!"
+      "title": "হোভার দেখান",
+      "content": "`Ctrl+K Ctrl+I` (Windows/Linux) বা `Cmd+K Cmd+I` (macOS) ব্যবহার করুন হোভার তথ্য দেখাতে। চাহিদামত ডকুমেন্টেশন এবং টাইপ তথ্য দেখুন!"
     },
     {
       "id": 69,
-      "title": "Create New Terminal",
-      "content": "Press `` Ctrl+Shift+` `` (Windows/Linux) or `` Cmd+Shift+` `` (macOS) to create a new terminal instance. Run multiple terminal sessions!"
+      "title": "নতুন টার্মিনাল তৈরি করুন",
+      "content": "`` Ctrl+Shift+` `` (Windows/Linux) বা `` Cmd+Shift+` `` (macOS) চাপুন নতুন টার্মিনাল ইন্সট্যান্স তৈরি করতে। একাধিক টার্মিনাল সেশন চালান!"
     },
     {
       "id": 70,
-      "title": "Find in File",
-      "content": "Use `Ctrl+F` (Windows/Linux) or `Cmd+F` (macOS) to open find in the current file. Search within your active editor!"
+      "title": "ফাইলে খুঁজুন",
+      "content": "`Ctrl+F` (Windows/Linux) বা `Cmd+F` (macOS) ব্যবহার করুন বর্তমান ফাইলে সার্চ খুলতে। আপনার অ্যাক্টিভ এডিটরে সার্চ করুন!"
     },
     {
       "id": 71,
-      "title": "Replace in File",
-      "content": "Press `Ctrl+H` (Windows/Linux) or `Cmd+H` (macOS) to open find and replace in the current file. Quickly modify text patterns!"
+      "title": "ফাইলে রিপ্লেস করুন",
+      "content": "`Ctrl+H` (Windows/Linux) বা `Cmd+H` (macOS) চাপুন বর্তমান ফাইলে ফাইন্ড এবং রিপ্লেস খুলতে। দ্রুত টেক্সট প্যাটার্ন পরিবর্তন করুন!"
     },
     {
       "id": 72,
-      "title": "Find Next/Previous",
-      "content": "Use `F3` to find next and `Shift+F3` to find previous occurrence. Navigate through search results efficiently!"
+      "title": "পরবর্তী/পূর্ববর্তী খুঁজুন",
+      "content": "`F3` ব্যবহার করুন পরবর্তী এবং `Shift+F3` পূর্ববর্তী খুঁজতে। দক্ষতার সাথে সার্চ রেজাল্টে নেভিগেট করুন!"
     },
     {
       "id": 73,
-      "title": "Select All Occurrences",
-      "content": "Press `Alt+Enter` (Windows/Linux) or `Option+Enter` (macOS) to select all occurrences of the current find match. Edit multiple instances at once!"
+      "title": "সব অকারেন্স সিলেক্ট করুন",
+      "content": "`Alt+Enter` (Windows/Linux) বা `Option+Enter` (macOS) চাপুন বর্তমান সার্চ ম্যাচের সব অকারেন্স সিলেক্ট করতে। একসাথে একাধিক ইন্সট্যান্স এডিট করুন!"
     },
     {
       "id": 74,
-      "title": "Move Selection to Next Match",
-      "content": "Use `Ctrl+K Ctrl+D` (Windows/Linux) or `Cmd+K Cmd+D` (macOS) to move the last selection to the next find match. Skip unwanted matches!"
+      "title": "সিলেকশন পরবর্তী ম্যাচে সরান",
+      "content": "`Ctrl+K Ctrl+D` (Windows/Linux) বা `Cmd+K Cmd+D` (macOS) ব্যবহার করুন শেষ সিলেকশন পরবর্তী সার্চ ম্যাচে সরাতে। অবাঞ্ছিত ম্যাচ স্কিপ করুন!"
     },
     {
       "id": 75,
-      "title": "Toggle Find Options",
-      "content": "Press `Alt+C` for case-sensitive, `Alt+R` for regex, and `Alt+W` for whole word matching in find. Customize your search!"
+      "title": "সার্চ অপশন টগল করুন",
+      "content": "`Alt+C` কেস-সেনসিটিভ, `Alt+R` রেগেক্স, এবং `Alt+W` পুরো শব্দ ম্যাচিংয়ের জন্য চাপুন। আপনার সার্চ কাস্টমাইজ করুন!"
     },
     {
       "id": 76,
-      "title": "Insert Cursor Above/Below",
-      "content": "Use `Ctrl+Alt+Up` or `Ctrl+Alt+Down` (Windows/Linux) or `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) to insert cursors above or below. Create multiple cursors vertically!"
+      "title": "উপরে/নিচে কার্সার ঢোকান",
+      "content": "`Ctrl+Alt+Up` বা `Ctrl+Alt+Down` (Windows/Linux) বা `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) ব্যবহার করুন উপরে বা নিচে কার্সার ঢোকাতে। উল্লম্বভাবে একাধিক কার্সার তৈরি করুন!"
     },
     {
       "id": 77,
-      "title": "Undo Cursor Operation",
-      "content": "Press `Ctrl+U` (Windows/Linux) or `Cmd+U` (macOS) to undo the last cursor operation. Revert unwanted cursor additions!"
+      "title": "কার্সার অপারেশন আনডু করুন",
+      "content": "`Ctrl+U` (Windows/Linux) বা `Cmd+U` (macOS) চাপুন শেষ কার্সার অপারেশন আনডু করতে। অবাঞ্ছিত কার্সার সংযোজন ফিরিয়ে আনুন!"
     },
     {
       "id": 78,
-      "title": "Insert Cursor at Line Ends",
-      "content": "Use `Shift+Alt+I` (Windows/Linux) or `Shift+Option+I` (macOS) to insert a cursor at the end of each selected line. Edit multiple line endings!"
+      "title": "লাইন শেষে কার্সার ঢোকান",
+      "content": "`Shift+Alt+I` (Windows/Linux) বা `Shift+Option+I` (macOS) ব্যবহার করুন প্রতিটি সিলেক্টেড লাইনের শেষে কার্সার ঢোকাতে। একাধিক লাইন এন্ডিং এডিট করুন!"
     },
     {
       "id": 79,
-      "title": "Select Current Line",
-      "content": "Press `Ctrl+L` (Windows/Linux) or `Cmd+L` (macOS) to select the current line. Quick selection without using the mouse!"
+      "title": "বর্তমান লাইন সিলেক্ট করুন",
+      "content": "`Ctrl+L` (Windows/Linux) বা `Cmd+L` (macOS) চাপুন বর্তমান লাইন সিলেক্ট করতে। মাউস ছাড়াই দ্রুত সিলেকশন!"
     },
     {
       "id": 80,
-      "title": "Select All Occurrences of Selection",
-      "content": "Use `Ctrl+Shift+L` (Windows/Linux) or `Cmd+Shift+L` (macOS) to select all occurrences of the current selection. Powerful multi-cursor editing!"
+      "title": "সিলেকশনের সব অকারেন্স সিলেক্ট করুন",
+      "content": "`Ctrl+Shift+L` (Windows/Linux) বা `Cmd+Shift+L` (macOS) ব্যবহার করুন বর্তমান সিলেকশনের সব অকারেন্স সিলেক্ট করতে। শক্তিশালী মাল্টি-কার্সার এডিটিং!"
     },
     {
       "id": 81,
-      "title": "Select All Occurrences of Word",
-      "content": "Press `Ctrl+F2` (Windows/Linux) or `Cmd+F2` (macOS) to select all occurrences of the current word. Quick word-based multi-editing!"
+      "title": "শব্দের সব অকারেন্স সিলেক্ট করুন",
+      "content": "`Ctrl+F2` (Windows/Linux) বা `Cmd+F2` (macOS) চাপুন বর্তমান শব্দের সব অকারেন্স সিলেক্ট করতে। দ্রুত শব্দ-ভিত্তিক মাল্টি-এডিটিং!"
     },
     {
       "id": 82,
-      "title": "Expand/Shrink Selection",
-      "content": "Use `Shift+Alt+Right` to expand and `Shift+Alt+Left` to shrink selection (Windows/Linux) or `Shift+Option+Right` / `Shift+Option+Left` (macOS). Smart selection based on syntax!"
+      "title": "সিলেকশন প্রসারিত/সংকুচিত করুন",
+      "content": "`Shift+Alt+Right` প্রসারিত এবং `Shift+Alt+Left` সংকুচিত করতে (Windows/Linux) বা `Shift+Option+Right` / `Shift+Option+Left` (macOS) ব্যবহার করুন। সিনট্যাক্স-ভিত্তিক স্মার্ট সিলেকশন!"
     },
     {
       "id": 83,
-      "title": "Column Selection",
-      "content": "Hold `Shift+Alt` and drag with the mouse (Windows/Linux) or `Shift+Option` (macOS) for column (box) selection. Select rectangular regions of text!"
+      "title": "কলাম সিলেকশন",
+      "content": "`Shift+Alt` ধরে মাউস দিয়ে টেনে (Windows/Linux) বা `Shift+Option` (macOS) কলাম (বক্স) সিলেকশন করুন। টেক্সটের আয়তাকার অঞ্চল সিলেক্ট করুন!"
     },
     {
       "id": 84,
-      "title": "Column Selection with Keyboard",
-      "content": "Use `Ctrl+Shift+Alt` with arrow keys (Windows/Linux) or `Cmd+Shift+Option` with arrow keys (macOS) for column selection. Box select without a mouse!"
+      "title": "কিবোর্ড দিয়ে কলাম সিলেকশন",
+      "content": "`Ctrl+Shift+Alt` এবং তীর কী (Windows/Linux) বা `Cmd+Shift+Option` এবং তীর কী (macOS) ব্যবহার করুন কলাম সিলেকশনের জন্য। মাউস ছাড়াই বক্স সিলেক্ট!"
     },
     {
       "id": 85,
-      "title": "Trigger Parameter Hints",
-      "content": "Press `Ctrl+Shift+Space` (Windows/Linux) or `Cmd+Shift+Space` (macOS) to trigger parameter hints. See function parameters while coding!"
+      "title": "প্যারামিটার হিন্ট ট্রিগার করুন",
+      "content": "`Ctrl+Shift+Space` (Windows/Linux) বা `Cmd+Shift+Space` (macOS) চাপুন প্যারামিটার হিন্ট ট্রিগার করতে। কোডিংয়ের সময় ফাংশন প্যারামিটার দেখুন!"
     },
     {
       "id": 86,
-      "title": "Format Selection",
-      "content": "Use `Ctrl+K Ctrl+F` (Windows/Linux) or `Cmd+K Cmd+F` (macOS) to format the selected code. Keep your selected code neat and consistent!"
+      "title": "সিলেকশন ফরম্যাট করুন",
+      "content": "`Ctrl+K Ctrl+F` (Windows/Linux) বা `Cmd+K Cmd+F` (macOS) ব্যবহার করুন সিলেক্টেড কোড ফরম্যাট করতে। আপনার সিলেক্টেড কোড পরিষ্কার এবং সুসংগত রাখুন!"
     },
     {
       "id": 87,
-      "title": "Peek Definition",
-      "content": "Press `Alt+F12` (Windows/Linux) or `Option+F12` (macOS) to peek at the definition inline. View definitions without losing context!"
+      "title": "ডেফিনিশন পিক করুন",
+      "content": "`Alt+F12` (Windows/Linux) বা `Option+F12` (macOS) চাপুন ইনলাইন ডেফিনিশন দেখতে। কনটেক্সট না হারিয়ে ডেফিনিশন দেখুন!"
     },
     {
       "id": 88,
-      "title": "Open Definition to Side",
-      "content": "Use `Ctrl+K F12` (Windows/Linux) or `Cmd+K F12` (macOS) to open the definition in a side editor. Compare definitions and implementations!"
+      "title": "পাশে ডেফিনিশন খুলুন",
+      "content": "`Ctrl+K F12` (Windows/Linux) বা `Cmd+K F12` (macOS) ব্যবহার করুন পাশের এডিটরে ডেফিনিশন খুলতে। ডেফিনিশন এবং ইমপ্লিমেন্টেশন তুলনা করুন!"
     },
     {
       "id": 89,
-      "title": "Change File Language",
-      "content": "Press `Ctrl+K M` (Windows/Linux) or `Cmd+K M` (macOS) to change the file language mode. Switch syntax highlighting and features!"
+      "title": "ফাইল ল্যাঙ্গুয়েজ পরিবর্তন করুন",
+      "content": "`Ctrl+K M` (Windows/Linux) বা `Cmd+K M` (macOS) চাপুন ফাইল ল্যাঙ্গুয়েজ মোড পরিবর্তন করতে। সিনট্যাক্স হাইলাইটিং এবং ফিচার পরিবর্তন করুন!"
     },
     {
       "id": 90,
-      "title": "Close Folder",
-      "content": "Use `Ctrl+K F` (Windows/Linux) or `Cmd+K F` (macOS) to close the current folder/workspace. Switch workspaces quickly!"
+      "title": "ফোল্ডার বন্ধ করুন",
+      "content": "`Ctrl+K F` (Windows/Linux) বা `Cmd+K F` (macOS) ব্যবহার করুন বর্তমান ফোল্ডার/ওয়ার্কস্পেস বন্ধ করতে। দ্রুত ওয়ার্কস্পেস পরিবর্তন করুন!"
     },
     {
       "id": 91,
-      "title": "Focus Editor Groups",
-      "content": "Press `Ctrl+1`, `Ctrl+2`, or `Ctrl+3` (Windows/Linux) or `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) to focus into the 1st, 2nd, or 3rd editor group!"
+      "title": "এডিটর গ্রুপে ফোকাস করুন",
+      "content": "`Ctrl+1`, `Ctrl+2`, বা `Ctrl+3` (Windows/Linux) বা `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) চাপুন ১ম, ২য়, বা ৩য় এডিটর গ্রুপে ফোকাস করতে!"
     },
     {
       "id": 92,
-      "title": "Focus Next/Previous Editor Group",
-      "content": "Use `Ctrl+K Ctrl+Right` or `Ctrl+K Ctrl+Left` (Windows/Linux) or `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) to focus into the next or previous editor group!"
+      "title": "পরবর্তী/পূর্ববর্তী এডিটর গ্রুপে ফোকাস করুন",
+      "content": "`Ctrl+K Ctrl+Right` বা `Ctrl+K Ctrl+Left` (Windows/Linux) বা `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) ব্যবহার করুন পরবর্তী বা পূর্ববর্তী এডিটর গ্রুপে ফোকাস করতে!"
     },
     {
       "id": 93,
-      "title": "Move Editor Left/Right",
-      "content": "Press `Ctrl+Shift+PgUp` or `Ctrl+Shift+PgDn` (Windows/Linux) or `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) to move the editor left or right!"
+      "title": "এডিটর বাম/ডানে সরান",
+      "content": "`Ctrl+Shift+PgUp` বা `Ctrl+Shift+PgDn` (Windows/Linux) বা `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) চাপুন এডিটর বাম বা ডানে সরাতে!"
     },
     {
       "id": 94,
-      "title": "Move Active Editor Group",
-      "content": "Use `Ctrl+K Left` or `Ctrl+K Right` (Windows/Linux) or `Cmd+K Left` / `Cmd+K Right` (macOS) to move the active editor group!"
+      "title": "অ্যাক্টিভ এডিটর গ্রুপ সরান",
+      "content": "`Ctrl+K Left` বা `Ctrl+K Right` (Windows/Linux) বা `Cmd+K Left` / `Cmd+K Right` (macOS) ব্যবহার করুন অ্যাক্টিভ এডিটর গ্রুপ সরাতে!"
     },
     {
       "id": 95,
-      "title": "New Window",
-      "content": "Press `Ctrl+Shift+N` (Windows/Linux) or `Cmd+Shift+N` (macOS) to open a new VS Code window/instance. Work with multiple projects simultaneously!"
+      "title": "নতুন উইন্ডো",
+      "content": "`Ctrl+Shift+N` (Windows/Linux) বা `Cmd+Shift+N` (macOS) চাপুন নতুন VS Code উইন্ডো/ইন্সট্যান্স খুলতে। একসাথে একাধিক প্রজেক্টে কাজ করুন!"
     },
     {
       "id": 96,
-      "title": "Close Window",
-      "content": "Use `Ctrl+Shift+W` (Windows/Linux) or `Cmd+Shift+W` (macOS) to close the current VS Code window/instance!"
+      "title": "উইন্ডো বন্ধ করুন",
+      "content": "`Ctrl+Shift+W` (Windows/Linux) বা `Cmd+Shift+W` (macOS) ব্যবহার করুন বর্তমান VS Code উইন্ডো/ইন্সট্যান্স বন্ধ করতে!"
     },
     {
       "id": 97,
-      "title": "User Settings",
-      "content": "Press `Ctrl+,` (Windows/Linux) or `Cmd+,` (macOS) to open User Settings. Customize your VS Code experience!"
+      "title": "ইউজার সেটিংস",
+      "content": "`Ctrl+,` (Windows/Linux) বা `Cmd+,` (macOS) চাপুন ইউজার সেটিংস খুলতে। আপনার VS Code অভিজ্ঞতা কাস্টমাইজ করুন!"
     },
     {
       "id": 98,
-      "title": "Keyboard Shortcuts Settings",
-      "content": "Use `Ctrl+K Ctrl+S` (Windows/Linux) or `Cmd+K Cmd+S` (macOS) to open Keyboard Shortcuts settings. Customize or view all shortcuts!"
+      "title": "কিবোর্ড শর্টকাট সেটিংস",
+      "content": "`Ctrl+K Ctrl+S` (Windows/Linux) বা `Cmd+K Cmd+S` (macOS) ব্যবহার করুন কিবোর্ড শর্টকাট সেটিংস খুলতে। সব শর্টকাট কাস্টমাইজ বা দেখুন!"
     },
     {
       "id": 99,
-      "title": "Cut Line",
-      "content": "Press `Ctrl+X` (Windows/Linux) or `Cmd+X` (macOS) with no selection to cut the entire line. Quick line cutting!"
+      "title": "লাইন কাট করুন",
+      "content": "`Ctrl+X` (Windows/Linux) বা `Cmd+X` (macOS) কোনো সিলেকশন ছাড়া চাপুন পুরো লাইন কাট করতে। দ্রুত লাইন কাটিং!"
     },
     {
       "id": 100,
-      "title": "Copy Line",
-      "content": "Use `Ctrl+C` (Windows/Linux) or `Cmd+C` (macOS) with no selection to copy the entire line. Quick line copying!"
+      "title": "লাইন কপি করুন",
+      "content": "`Ctrl+C` (Windows/Linux) বা `Cmd+C` (macOS) কোনো সিলেকশন ছাড়া ব্যবহার করুন পুরো লাইন কপি করতে। দ্রুত লাইন কপি!"
     },
     {
       "id": 101,
-      "title": "Delete Line",
-      "content": "Press `Ctrl+Shift+K` (Windows/Linux) or `Cmd+Shift+K` (macOS) to delete the current line. Faster than selecting and deleting!"
+      "title": "লাইন ডিলিট করুন",
+      "content": "`Ctrl+Shift+K` (Windows/Linux) বা `Cmd+Shift+K` (macOS) চাপুন বর্তমান লাইন ডিলিট করতে। সিলেক্ট করে ডিলিট করার চেয়ে দ্রুত!"
     },
     {
       "id": 102,
-      "title": "Insert Line Below",
-      "content": "Use `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (macOS) to insert a new line below the current line. No need to move to the end first!"
+      "title": "নিচে লাইন ঢোকান",
+      "content": "`Ctrl+Enter` (Windows/Linux) বা `Cmd+Enter` (macOS) ব্যবহার করুন বর্তমান লাইনের নিচে নতুন লাইন ঢোকাতে। প্রথমে শেষে যাওয়ার দরকার নেই!"
     },
     {
       "id": 103,
-      "title": "Insert Line Above",
-      "content": "Press `Ctrl+Shift+Enter` (Windows/Linux) or `Cmd+Shift+Enter` (macOS) to insert a new line above the current line!"
+      "title": "উপরে লাইন ঢোকান",
+      "content": "`Ctrl+Shift+Enter` (Windows/Linux) বা `Cmd+Shift+Enter` (macOS) চাপুন বর্তমান লাইনের উপরে নতুন লাইন ঢোকাতে!"
     },
     {
       "id": 104,
-      "title": "Jump to Matching Bracket",
-      "content": "Use `Ctrl+Shift+\\` (Windows/Linux) or `Cmd+Shift+\\` (macOS) to jump to the matching bracket. Navigate code structures quickly!"
+      "title": "ম্যাচিং ব্র্যাকেটে যান",
+      "content": "`Ctrl+Shift+\\` (Windows/Linux) বা `Cmd+Shift+\\` (macOS) ব্যবহার করুন ম্যাচিং ব্র্যাকেটে যেতে। কোড স্ট্রাকচারে দ্রুত নেভিগেট করুন!"
     },
     {
       "id": 105,
-      "title": "Go to Line Start/End",
-      "content": "Press `Home` to go to the beginning of the line and `End` to go to the end. Quick line navigation!"
+      "title": "লাইন শুরু/শেষে যান",
+      "content": "`Home` চাপুন লাইনের শুরুতে এবং `End` শেষে যেতে। দ্রুত লাইন নেভিগেশন!"
     },
     {
       "id": 106,
-      "title": "Go to File Start/End",
-      "content": "Use `Ctrl+Home` to go to the beginning of the file and `Ctrl+End` to go to the end (Windows/Linux) or `Cmd+Home` / `Cmd+End` (macOS)!"
+      "title": "ফাইল শুরু/শেষে যান",
+      "content": "`Ctrl+Home` ফাইলের শুরুতে এবং `Ctrl+End` শেষে যেতে (Windows/Linux) বা `Cmd+Home` / `Cmd+End` (macOS) ব্যবহার করুন!"
     },
     {
       "id": 107,
-      "title": "Scroll Line Up/Down",
-      "content": "Press `Ctrl+Up` or `Ctrl+Down` (Windows/Linux) or `Cmd+Up` / `Cmd+Down` (macOS) to scroll the view up or down one line without moving the cursor!"
+      "title": "উপরে/নিচে স্ক্রল করুন",
+      "content": "`Ctrl+Up` বা `Ctrl+Down` (Windows/Linux) বা `Cmd+Up` / `Cmd+Down` (macOS) চাপুন কার্সার না সরিয়ে এক লাইন স্ক্রল করতে!"
     },
     {
       "id": 108,
-      "title": "Scroll Page Up/Down",
-      "content": "Use `Alt+PgUp` or `Alt+PgDn` (Windows/Linux) or `Option+PgUp` / `Option+PgDn` (macOS) to scroll the view up or down by one page!"
+      "title": "পেজ উপরে/নিচে স্ক্রল করুন",
+      "content": "`Alt+PgUp` বা `Alt+PgDn` (Windows/Linux) বা `Option+PgUp` / `Option+PgDn` (macOS) ব্যবহার করুন এক পেজ স্ক্রল করতে!"
     },
     {
       "id": 109,
-      "title": "Fold All Subregions",
-      "content": "Press `Ctrl+K Ctrl+[` (Windows/Linux) or `Cmd+K Cmd+[` (macOS) to fold (collapse) all subregions in the current region!"
+      "title": "সব সাবরিজিয়ন ফোল্ড করুন",
+      "content": "`Ctrl+K Ctrl+[` (Windows/Linux) বা `Cmd+K Cmd+[` (macOS) চাপুন বর্তমান রিজিয়নের সব সাবরিজিয়ন ফোল্ড (কলাপ্স) করতে!"
     },
     {
       "id": 110,
-      "title": "Unfold All Subregions",
-      "content": "Use `Ctrl+K Ctrl+]` (Windows/Linux) or `Cmd+K Cmd+]` (macOS) to unfold (uncollapse) all subregions in the current region!"
+      "title": "সব সাবরিজিয়ন আনফোল্ড করুন",
+      "content": "`Ctrl+K Ctrl+]` (Windows/Linux) বা `Cmd+K Cmd+]` (macOS) ব্যবহার করুন বর্তমান রিজিয়নের সব সাবরিজিয়ন আনফোল্ড (আনকলাপ্স) করতে!"
     },
     {
       "id": 111,
-      "title": "Fold All Regions",
-      "content": "Press `Ctrl+K Ctrl+0` (Windows/Linux) or `Cmd+K Cmd+0` (macOS) to fold (collapse) all regions in the file. Minimize all code blocks!"
+      "title": "সব রিজিয়ন ফোল্ড করুন",
+      "content": "`Ctrl+K Ctrl+0` (Windows/Linux) বা `Cmd+K Cmd+0` (macOS) চাপুন ফাইলের সব রিজিয়ন ফোল্ড (কলাপ্স) করতে। সব কোড ব্লক মিনিমাইজ করুন!"
     },
     {
       "id": 112,
-      "title": "Unfold All Regions",
-      "content": "Use `Ctrl+K Ctrl+J` (Windows/Linux) or `Cmd+K Cmd+J` (macOS) to unfold (uncollapse) all regions in the file. Expand all code blocks!"
+      "title": "সব রিজিয়ন আনফোল্ড করুন",
+      "content": "`Ctrl+K Ctrl+J` (Windows/Linux) বা `Cmd+K Cmd+J` (macOS) ব্যবহার করুন ফাইলের সব রিজিয়ন আনফোল্ড (আনকলাপ্স) করতে। সব কোড ব্লক প্রসারিত করুন!"
     },
     {
       "id": 113,
-      "title": "Add Line Comment",
-      "content": "Press `Ctrl+K Ctrl+C` (Windows/Linux) or `Cmd+K Cmd+C` (macOS) to add line comments. Comment out multiple lines!"
+      "title": "লাইন কমেন্ট যোগ করুন",
+      "content": "`Ctrl+K Ctrl+C` (Windows/Linux) বা `Cmd+K Cmd+C` (macOS) চাপুন লাইন কমেন্ট যোগ করতে। একাধিক লাইন কমেন্ট করুন!"
     },
     {
       "id": 114,
-      "title": "Remove Line Comment",
-      "content": "Use `Ctrl+K Ctrl+U` (Windows/Linux) or `Cmd+K Cmd+U` (macOS) to remove line comments. Uncomment multiple lines!"
+      "title": "লাইন কমেন্ট সরান",
+      "content": "`Ctrl+K Ctrl+U` (Windows/Linux) বা `Cmd+K Cmd+U` (macOS) ব্যবহার করুন লাইন কমেন্ট সরাতে। একাধিক লাইন আনকমেন্ট করুন!"
     },
     {
       "id": 115,
-      "title": "Toggle Block Comment",
-      "content": "Press `Shift+Alt+A` (Windows/Linux) or `Shift+Option+A` (macOS) to toggle block comments. Use /* */ style comments!"
+      "title": "ব্লক কমেন্ট টগল করুন",
+      "content": "`Shift+Alt+A` (Windows/Linux) বা `Shift+Option+A` (macOS) চাপুন ব্লক কমেন্ট টগল করতে। /* */ স্টাইল কমেন্ট ব্যবহার করুন!"
     },
     {
       "id": 116,
-      "title": "Go to Line",
-      "content": "Use `Ctrl+G` (Windows/Linux) or `Cmd+G` (macOS) to open the Go to Line dialog. Jump to any line number quickly!"
+      "title": "লাইনে যান",
+      "content": "`Ctrl+G` (Windows/Linux) বা `Cmd+G` (macOS) ব্যবহার করুন লাইনে যাও ডায়ালগ খুলতে। দ্রুত যেকোনো লাইন নম্বরে যান!"
     },
     {
       "id": 117,
-      "title": "Go to Next Error",
-      "content": "Press `F8` to navigate to the next error or warning in your code. Fix issues efficiently!"
+      "title": "পরবর্তী এরর/ওয়ার্নিংয়ে যান",
+      "content": "`F8` চাপুন আপনার কোডে পরবর্তী এরর বা ওয়ার্নিংয়ে নেভিগেট করতে। দক্ষতার সাথে সমস্যা সমাধান করুন!"
     },
     {
       "id": 118,
-      "title": "Go to Previous Error",
-      "content": "Use `Shift+F8` to navigate to the previous error or warning in your code. Review all issues!"
+      "title": "পূর্ববর্তী এরর/ওয়ার্নিংয়ে যান",
+      "content": "`Shift+F8` ব্যবহার করুন আপনার কোডে পূর্ববর্তী এরর বা ওয়ার্নিংয়ে নেভিগেট করতে। সব সমস্যা পর্যালোচনা করুন!"
     },
     {
       "id": 119,
-      "title": "Toggle Tab Moves Focus",
-      "content": "Press `Ctrl+M` (Windows/Linux) or `Cmd+M` (macOS) to toggle whether Tab moves focus or inserts a tab character. Accessibility feature!"
+      "title": "ট্যাব ফোকাস মুভ টগল করুন",
+      "content": "`Ctrl+M` (Windows/Linux) বা `Cmd+M` (macOS) চাপুন ট্যাব ফোকাস মুভ করে নাকি ট্যাব ক্যারেক্টার ঢোকায় তা টগল করতে। অ্যাক্সেসিবিলিটি ফিচার!"
     },
     {
       "id": 120,
-      "title": "Keep Preview Mode Open",
-      "content": "Use `Ctrl+K Enter` (Windows/Linux) or `Cmd+K Enter` (macOS) to keep the preview mode editor open permanently. Prevent accidental tab closure!"
+      "title": "প্রিভিউ মোড ওপেন রাখুন",
+      "content": "`Ctrl+K Enter` (Windows/Linux) বা `Cmd+K Enter` (macOS) ব্যবহার করুন প্রিভিউ মোড এডিটর স্থায়ীভাবে ওপেন রাখতে। দুর্ঘটনাজনিত ট্যাব বন্ধ হওয়া প্রতিরোধ করুন!"
     },
     {
       "id": 121,
-      "title": "Copy Active File Path",
-      "content": "Press `Ctrl+K P` (Windows/Linux) or `Cmd+K P` (macOS) to copy the path of the active file to the clipboard. Share file locations easily!"
+      "title": "অ্যাক্টিভ ফাইল পাথ কপি করুন",
+      "content": "`Ctrl+K P` (Windows/Linux) বা `Cmd+K P` (macOS) চাপুন অ্যাক্টিভ ফাইলের পাথ ক্লিপবোর্ডে কপি করতে। সহজে ফাইল লোকেশন শেয়ার করুন!"
     },
     {
       "id": 122,
-      "title": "Reveal File in Explorer",
-      "content": "Use `Ctrl+K R` (Windows/Linux) or `Cmd+K R` (macOS) to reveal the active file in the system file explorer. Locate files on your system!"
+      "title": "এক্সপ্লোরারে ফাইল দেখান",
+      "content": "`Ctrl+K R` (Windows/Linux) বা `Cmd+K R` (macOS) ব্যবহার করুন সিস্টেম ফাইল এক্সপ্লোরারে অ্যাক্টিভ ফাইল দেখাতে। আপনার সিস্টেমে ফাইল খুঁজুন!"
     },
     {
       "id": 123,
-      "title": "Show File in New Window",
-      "content": "Press `Ctrl+K O` (Windows/Linux) or `Cmd+K O` (macOS) to show the active file in a new window/instance. Work with the same file in multiple windows!"
+      "title": "নতুন উইন্ডোতে ফাইল দেখান",
+      "content": "`Ctrl+K O` (Windows/Linux) বা `Cmd+K O` (macOS) চাপুন নতুন উইন্ডো/ইন্সট্যান্সে অ্যাক্টিভ ফাইল দেখাতে। একাধিক উইন্ডোতে একই ফাইলে কাজ করুন!"
     }
   ]
 }

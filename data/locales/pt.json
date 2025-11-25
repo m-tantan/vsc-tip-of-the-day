@@ -218,398 +218,398 @@
     },
     {
       "id": 45,
-      "title": "Open File",
-      "content": "Press `Ctrl+O` (Windows/Linux) or `Cmd+O` (macOS) to open a file dialog. Quickly browse and open files from anywhere on your system."
+      "title": "Abrir Arquivo",
+      "content": "Pressione `Ctrl+O` (Windows/Linux) ou `Cmd+O` (macOS) para abrir uma caixa de diálogo de arquivo. Navegue e abra arquivos rapidamente de qualquer lugar do seu sistema."
     },
     {
       "id": 46,
-      "title": "Save File",
-      "content": "Use `Ctrl+S` (Windows/Linux) or `Cmd+S` (macOS) to save the current file. One of the most essential shortcuts!"
+      "title": "Salvar Arquivo",
+      "content": "Use `Ctrl+S` (Windows/Linux) ou `Cmd+S` (macOS) para salvar o arquivo atual. Um dos atalhos mais essenciais!"
     },
     {
       "id": 47,
-      "title": "Save As",
-      "content": "Press `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (macOS) to save the current file with a new name or location."
+      "title": "Salvar Como",
+      "content": "Pressione `Ctrl+Shift+S` (Windows/Linux) ou `Cmd+Shift+S` (macOS) para salvar o arquivo atual com um novo nome ou localização."
     },
     {
       "id": 48,
-      "title": "Close Editor",
-      "content": "Use `Ctrl+F4` or `Ctrl+W` (Windows/Linux) or `Cmd+W` (macOS) to close the current editor tab."
+      "title": "Fechar Editor",
+      "content": "Use `Ctrl+F4` ou `Ctrl+W` (Windows/Linux) ou `Cmd+W` (macOS) para fechar a aba do editor atual."
     },
     {
       "id": 49,
-      "title": "Close All Editors",
-      "content": "Press `Ctrl+K Ctrl+W` (Windows/Linux) or `Cmd+K Cmd+W` (macOS) to close all open editor tabs at once."
+      "title": "Fechar Todos os Editores",
+      "content": "Pressione `Ctrl+K Ctrl+W` (Windows/Linux) ou `Cmd+K Cmd+W` (macOS) para fechar todas as abas de editor abertas de uma vez."
     },
     {
       "id": 50,
-      "title": "Reopen Closed Editor",
-      "content": "Use `Ctrl+Shift+T` (Windows/Linux) or `Cmd+Shift+T` (macOS) to reopen the last closed editor tab. Perfect for when you accidentally close something!"
+      "title": "Reabrir Editor Fechado",
+      "content": "Use `Ctrl+Shift+T` (Windows/Linux) ou `Cmd+Shift+T` (macOS) para reabrir a última aba de editor fechada. Perfeito para quando você fecha algo acidentalmente!"
     },
     {
       "id": 51,
-      "title": "Toggle Full Screen",
-      "content": "Press `F11` to toggle full screen mode. Maximize your screen real estate for distraction-free coding!"
+      "title": "Alternar Tela Cheia",
+      "content": "Pressione `F11` para alternar o modo de tela cheia. Maximize seu espaço de tela para codificar sem distrações!"
     },
     {
       "id": 52,
-      "title": "Toggle Editor Layout",
-      "content": "Use `Shift+Alt+0` (Windows/Linux) or `Shift+Option+0` (macOS) to toggle between horizontal and vertical editor layout."
+      "title": "Alternar Layout do Editor",
+      "content": "Use `Shift+Alt+0` (Windows/Linux) ou `Shift+Option+0` (macOS) para alternar entre layout de editor horizontal e vertical."
     },
     {
       "id": 53,
-      "title": "Zoom In/Out",
-      "content": "Press `Ctrl+=` to zoom in and `Ctrl+-` to zoom out (Windows/Linux) or `Cmd+=` / `Cmd+-` (macOS). Adjust the editor's font size quickly!"
+      "title": "Aumentar/Diminuir Zoom",
+      "content": "Pressione `Ctrl+=` para aumentar e `Ctrl+-` para diminuir o zoom (Windows/Linux) ou `Cmd+=` / `Cmd+-` (macOS). Ajuste rapidamente o tamanho da fonte do editor!"
     },
     {
       "id": 54,
-      "title": "Show Explorer",
-      "content": "Use `Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (macOS) to show the Explorer view and toggle focus. Quick access to your file tree!"
+      "title": "Mostrar Explorador",
+      "content": "Use `Ctrl+Shift+E` (Windows/Linux) ou `Cmd+Shift+E` (macOS) para mostrar a visualização do Explorador e alternar o foco. Acesso rápido à sua árvore de arquivos!"
     },
     {
       "id": 55,
-      "title": "Show Source Control",
-      "content": "Press `Ctrl+Shift+G` (Windows/Linux) or `Cmd+Shift+G` (macOS) to open the Source Control view. Manage your Git operations efficiently!"
+      "title": "Mostrar Controle de Código-Fonte",
+      "content": "Pressione `Ctrl+Shift+G` (Windows/Linux) ou `Cmd+Shift+G` (macOS) para abrir a visualização de Controle de Código-Fonte. Gerencie suas operações Git eficientemente!"
     },
     {
       "id": 56,
-      "title": "Show Debug",
-      "content": "Use `Ctrl+Shift+D` (Windows/Linux) or `Cmd+Shift+D` (macOS) to open the Debug view. Start debugging your code quickly!"
+      "title": "Mostrar Depuração",
+      "content": "Use `Ctrl+Shift+D` (Windows/Linux) ou `Cmd+Shift+D` (macOS) para abrir a visualização de Depuração. Comece a depurar seu código rapidamente!"
     },
     {
       "id": 57,
-      "title": "Show Extensions",
-      "content": "Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS) to open the Extensions view. Discover and manage your VS Code extensions!"
+      "title": "Mostrar Extensões",
+      "content": "Pressione `Ctrl+Shift+X` (Windows/Linux) ou `Cmd+Shift+X` (macOS) para abrir a visualização de Extensões. Descubra e gerencie as extensões do VS Code!"
     },
     {
       "id": 58,
-      "title": "Replace in Files",
-      "content": "Use `Ctrl+Shift+H` (Windows/Linux) or `Cmd+Shift+H` (macOS) to open replace in files. Search and replace across your entire project!"
+      "title": "Substituir em Arquivos",
+      "content": "Use `Ctrl+Shift+H` (Windows/Linux) ou `Cmd+Shift+H` (macOS) para abrir substituir em arquivos. Pesquise e substitua em todo o seu projeto!"
     },
     {
       "id": 59,
-      "title": "Toggle Search Details",
-      "content": "Press `Ctrl+Shift+J` (Windows/Linux) or `Cmd+Shift+J` (macOS) to toggle search details. Show or hide additional search options!"
+      "title": "Alternar Detalhes de Pesquisa",
+      "content": "Pressione `Ctrl+Shift+J` (Windows/Linux) ou `Cmd+Shift+J` (macOS) para alternar os detalhes de pesquisa. Mostrar ou ocultar opções de pesquisa adicionais!"
     },
     {
       "id": 60,
-      "title": "Show Output Panel",
-      "content": "Use `Ctrl+Shift+U` (Windows/Linux) or `Cmd+Shift+U` (macOS) to show the Output panel. View logs and output from extensions and tools!"
+      "title": "Mostrar Painel de Saída",
+      "content": "Use `Ctrl+Shift+U` (Windows/Linux) ou `Cmd+Shift+U` (macOS) para mostrar o painel de Saída. Veja logs e saída de extensões e ferramentas!"
     },
     {
       "id": 61,
-      "title": "Open Markdown Preview",
-      "content": "Press `Ctrl+Shift+V` (Windows/Linux) or `Cmd+Shift+V` (macOS) to open Markdown preview. See your markdown rendered in real-time!"
+      "title": "Abrir Visualização de Markdown",
+      "content": "Pressione `Ctrl+Shift+V` (Windows/Linux) ou `Cmd+Shift+V` (macOS) para abrir a visualização de Markdown. Veja seu Markdown renderizado em tempo real!"
     },
     {
       "id": 62,
-      "title": "Markdown Preview Side by Side",
-      "content": "Use `Ctrl+K V` (Windows/Linux) or `Cmd+K V` (macOS) to open Markdown preview to the side. Edit and preview simultaneously!"
+      "title": "Visualização de Markdown Lado a Lado",
+      "content": "Use `Ctrl+K V` (Windows/Linux) ou `Cmd+K V` (macOS) para abrir a visualização de Markdown ao lado. Edite e visualize simultaneamente!"
     },
     {
       "id": 63,
-      "title": "Toggle Breakpoint",
-      "content": "Press `F9` to toggle a breakpoint at the current line. Essential for debugging your code!"
+      "title": "Alternar Ponto de Interrupção",
+      "content": "Pressione `F9` para alternar um ponto de interrupção na linha atual. Essencial para depurar seu código!"
     },
     {
       "id": 64,
-      "title": "Start/Continue Debugging",
-      "content": "Use `F5` to start debugging or continue execution when paused. Quick way to run your debug sessions!"
+      "title": "Iniciar/Continuar Depuração",
+      "content": "Use `F5` para iniciar a depuração ou continuar a execução quando pausado. Maneira rápida de executar suas sessões de depuração!"
     },
     {
       "id": 65,
-      "title": "Stop Debugging",
-      "content": "Press `Shift+F5` to stop the current debugging session. End your debug session quickly!"
+      "title": "Parar Depuração",
+      "content": "Pressione `Shift+F5` para parar a sessão de depuração atual. Termine sua sessão de depuração rapidamente!"
     },
     {
       "id": 66,
-      "title": "Step Into/Out",
-      "content": "Use `F11` to step into a function and `Shift+F11` to step out. Navigate through your code during debugging!"
+      "title": "Entrar/Sair de Função",
+      "content": "Use `F11` para entrar em uma função e `Shift+F11` para sair. Navegue pelo seu código durante a depuração!"
     },
     {
       "id": 67,
-      "title": "Step Over",
-      "content": "Press `F10` to step over the current line during debugging. Execute the current line and move to the next!"
+      "title": "Passar Por Cima",
+      "content": "Pressione `F10` para passar por cima da linha atual durante a depuração. Execute a linha atual e passe para a próxima!"
     },
     {
       "id": 68,
-      "title": "Show Hover",
-      "content": "Use `Ctrl+K Ctrl+I` (Windows/Linux) or `Cmd+K Cmd+I` (macOS) to show hover information. See documentation and type information on demand!"
+      "title": "Mostrar Informações ao Passar",
+      "content": "Use `Ctrl+K Ctrl+I` (Windows/Linux) ou `Cmd+K Cmd+I` (macOS) para mostrar informações ao passar o mouse. Veja documentação e informações de tipo sob demanda!"
     },
     {
       "id": 69,
-      "title": "Create New Terminal",
-      "content": "Press `` Ctrl+Shift+` `` (Windows/Linux) or `` Cmd+Shift+` `` (macOS) to create a new terminal instance. Run multiple terminal sessions!"
+      "title": "Criar Novo Terminal",
+      "content": "Pressione `` Ctrl+Shift+` `` (Windows/Linux) ou `` Cmd+Shift+` `` (macOS) para criar uma nova instância de terminal. Execute múltiplas sessões de terminal!"
     },
     {
       "id": 70,
-      "title": "Find in File",
-      "content": "Use `Ctrl+F` (Windows/Linux) or `Cmd+F` (macOS) to open find in the current file. Search within your active editor!"
+      "title": "Pesquisar no Arquivo",
+      "content": "Use `Ctrl+F` (Windows/Linux) ou `Cmd+F` (macOS) para abrir pesquisa no arquivo atual. Pesquise dentro do seu editor ativo!"
     },
     {
       "id": 71,
-      "title": "Replace in File",
-      "content": "Press `Ctrl+H` (Windows/Linux) or `Cmd+H` (macOS) to open find and replace in the current file. Quickly modify text patterns!"
+      "title": "Substituir no Arquivo",
+      "content": "Pressione `Ctrl+H` (Windows/Linux) ou `Cmd+H` (macOS) para abrir pesquisar e substituir no arquivo atual. Modifique padrões de texto rapidamente!"
     },
     {
       "id": 72,
-      "title": "Find Next/Previous",
-      "content": "Use `F3` to find next and `Shift+F3` to find previous occurrence. Navigate through search results efficiently!"
+      "title": "Pesquisar Próximo/Anterior",
+      "content": "Use `F3` para pesquisar o próximo e `Shift+F3` para pesquisar o anterior. Navegue pelos resultados de pesquisa eficientemente!"
     },
     {
       "id": 73,
-      "title": "Select All Occurrences",
-      "content": "Press `Alt+Enter` (Windows/Linux) or `Option+Enter` (macOS) to select all occurrences of the current find match. Edit multiple instances at once!"
+      "title": "Selecionar Todas as Ocorrências",
+      "content": "Pressione `Alt+Enter` (Windows/Linux) ou `Option+Enter` (macOS) para selecionar todas as ocorrências da correspondência de pesquisa atual. Edite múltiplas instâncias de uma vez!"
     },
     {
       "id": 74,
-      "title": "Move Selection to Next Match",
-      "content": "Use `Ctrl+K Ctrl+D` (Windows/Linux) or `Cmd+K Cmd+D` (macOS) to move the last selection to the next find match. Skip unwanted matches!"
+      "title": "Mover Seleção para Próxima Correspondência",
+      "content": "Use `Ctrl+K Ctrl+D` (Windows/Linux) ou `Cmd+K Cmd+D` (macOS) para mover a última seleção para a próxima correspondência de pesquisa. Pule correspondências indesejadas!"
     },
     {
       "id": 75,
-      "title": "Toggle Find Options",
-      "content": "Press `Alt+C` for case-sensitive, `Alt+R` for regex, and `Alt+W` for whole word matching in find. Customize your search!"
+      "title": "Alternar Opções de Pesquisa",
+      "content": "Pressione `Alt+C` para diferenciar maiúsculas, `Alt+R` para regex e `Alt+W` para correspondência de palavra inteira na pesquisa. Personalize sua pesquisa!"
     },
     {
       "id": 76,
-      "title": "Insert Cursor Above/Below",
-      "content": "Use `Ctrl+Alt+Up` or `Ctrl+Alt+Down` (Windows/Linux) or `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) to insert cursors above or below. Create multiple cursors vertically!"
+      "title": "Inserir Cursor Acima/Abaixo",
+      "content": "Use `Ctrl+Alt+Up` ou `Ctrl+Alt+Down` (Windows/Linux) ou `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) para inserir cursores acima ou abaixo. Crie múltiplos cursores verticalmente!"
     },
     {
       "id": 77,
-      "title": "Undo Cursor Operation",
-      "content": "Press `Ctrl+U` (Windows/Linux) or `Cmd+U` (macOS) to undo the last cursor operation. Revert unwanted cursor additions!"
+      "title": "Desfazer Operação de Cursor",
+      "content": "Pressione `Ctrl+U` (Windows/Linux) ou `Cmd+U` (macOS) para desfazer a última operação de cursor. Reverta adições de cursor indesejadas!"
     },
     {
       "id": 78,
-      "title": "Insert Cursor at Line Ends",
-      "content": "Use `Shift+Alt+I` (Windows/Linux) or `Shift+Option+I` (macOS) to insert a cursor at the end of each selected line. Edit multiple line endings!"
+      "title": "Inserir Cursor no Final das Linhas",
+      "content": "Use `Shift+Alt+I` (Windows/Linux) ou `Shift+Option+I` (macOS) para inserir um cursor no final de cada linha selecionada. Edite múltiplos finais de linha!"
     },
     {
       "id": 79,
-      "title": "Select Current Line",
-      "content": "Press `Ctrl+L` (Windows/Linux) or `Cmd+L` (macOS) to select the current line. Quick selection without using the mouse!"
+      "title": "Selecionar Linha Atual",
+      "content": "Pressione `Ctrl+L` (Windows/Linux) ou `Cmd+L` (macOS) para selecionar a linha atual. Seleção rápida sem usar o mouse!"
     },
     {
       "id": 80,
-      "title": "Select All Occurrences of Selection",
-      "content": "Use `Ctrl+Shift+L` (Windows/Linux) or `Cmd+Shift+L` (macOS) to select all occurrences of the current selection. Powerful multi-cursor editing!"
+      "title": "Selecionar Todas as Ocorrências da Seleção",
+      "content": "Use `Ctrl+Shift+L` (Windows/Linux) ou `Cmd+Shift+L` (macOS) para selecionar todas as ocorrências da seleção atual. Edição multi-cursor poderosa!"
     },
     {
       "id": 81,
-      "title": "Select All Occurrences of Word",
-      "content": "Press `Ctrl+F2` (Windows/Linux) or `Cmd+F2` (macOS) to select all occurrences of the current word. Quick word-based multi-editing!"
+      "title": "Selecionar Todas as Ocorrências da Palavra",
+      "content": "Pressione `Ctrl+F2` (Windows/Linux) ou `Cmd+F2` (macOS) para selecionar todas as ocorrências da palavra atual. Multi-edição rápida baseada em palavras!"
     },
     {
       "id": 82,
-      "title": "Expand/Shrink Selection",
-      "content": "Use `Shift+Alt+Right` to expand and `Shift+Alt+Left` to shrink selection (Windows/Linux) or `Shift+Option+Right` / `Shift+Option+Left` (macOS). Smart selection based on syntax!"
+      "title": "Expandir/Contrair Seleção",
+      "content": "Use `Shift+Alt+Right` para expandir e `Shift+Alt+Left` para contrair a seleção (Windows/Linux) ou `Shift+Option+Right` / `Shift+Option+Left` (macOS). Seleção inteligente baseada em sintaxe!"
     },
     {
       "id": 83,
-      "title": "Column Selection",
-      "content": "Hold `Shift+Alt` and drag with the mouse (Windows/Linux) or `Shift+Option` (macOS) for column (box) selection. Select rectangular regions of text!"
+      "title": "Seleção de Coluna",
+      "content": "Segure `Shift+Alt` e arraste com o mouse (Windows/Linux) ou `Shift+Option` (macOS) para seleção de coluna (caixa). Selecione regiões retangulares de texto!"
     },
     {
       "id": 84,
-      "title": "Column Selection with Keyboard",
-      "content": "Use `Ctrl+Shift+Alt` with arrow keys (Windows/Linux) or `Cmd+Shift+Option` with arrow keys (macOS) for column selection. Box select without a mouse!"
+      "title": "Seleção de Coluna com Teclado",
+      "content": "Use `Ctrl+Shift+Alt` com teclas de seta (Windows/Linux) ou `Cmd+Shift+Option` com teclas de seta (macOS) para seleção de coluna. Seleção de caixa sem mouse!"
     },
     {
       "id": 85,
-      "title": "Trigger Parameter Hints",
-      "content": "Press `Ctrl+Shift+Space` (Windows/Linux) or `Cmd+Shift+Space` (macOS) to trigger parameter hints. See function parameters while coding!"
+      "title": "Acionar Dicas de Parâmetros",
+      "content": "Pressione `Ctrl+Shift+Space` (Windows/Linux) ou `Cmd+Shift+Space` (macOS) para acionar dicas de parâmetros. Veja parâmetros de função enquanto codifica!"
     },
     {
       "id": 86,
-      "title": "Format Selection",
-      "content": "Use `Ctrl+K Ctrl+F` (Windows/Linux) or `Cmd+K Cmd+F` (macOS) to format the selected code. Keep your selected code neat and consistent!"
+      "title": "Formatar Seleção",
+      "content": "Use `Ctrl+K Ctrl+F` (Windows/Linux) ou `Cmd+K Cmd+F` (macOS) para formatar o código selecionado. Mantenha seu código selecionado limpo e consistente!"
     },
     {
       "id": 87,
-      "title": "Peek Definition",
-      "content": "Press `Alt+F12` (Windows/Linux) or `Option+F12` (macOS) to peek at the definition inline. View definitions without losing context!"
+      "title": "Espiar Definição",
+      "content": "Pressione `Alt+F12` (Windows/Linux) ou `Option+F12` (macOS) para espiar a definição inline. Veja definições sem perder contexto!"
     },
     {
       "id": 88,
-      "title": "Open Definition to Side",
-      "content": "Use `Ctrl+K F12` (Windows/Linux) or `Cmd+K F12` (macOS) to open the definition in a side editor. Compare definitions and implementations!"
+      "title": "Abrir Definição ao Lado",
+      "content": "Use `Ctrl+K F12` (Windows/Linux) ou `Cmd+K F12` (macOS) para abrir a definição em um editor lateral. Compare definições e implementações!"
     },
     {
       "id": 89,
-      "title": "Change File Language",
-      "content": "Press `Ctrl+K M` (Windows/Linux) or `Cmd+K M` (macOS) to change the file language mode. Switch syntax highlighting and features!"
+      "title": "Alterar Linguagem do Arquivo",
+      "content": "Pressione `Ctrl+K M` (Windows/Linux) ou `Cmd+K M` (macOS) para alterar o modo de linguagem do arquivo. Mude o destaque de sintaxe e recursos!"
     },
     {
       "id": 90,
-      "title": "Close Folder",
-      "content": "Use `Ctrl+K F` (Windows/Linux) or `Cmd+K F` (macOS) to close the current folder/workspace. Switch workspaces quickly!"
+      "title": "Fechar Pasta",
+      "content": "Use `Ctrl+K F` (Windows/Linux) ou `Cmd+K F` (macOS) para fechar a pasta/espaço de trabalho atual. Mude de espaços de trabalho rapidamente!"
     },
     {
       "id": 91,
-      "title": "Focus Editor Groups",
-      "content": "Press `Ctrl+1`, `Ctrl+2`, or `Ctrl+3` (Windows/Linux) or `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) to focus into the 1st, 2nd, or 3rd editor group!"
+      "title": "Focar Grupos de Editores",
+      "content": "Pressione `Ctrl+1`, `Ctrl+2` ou `Ctrl+3` (Windows/Linux) ou `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) para focar no 1º, 2º ou 3º grupo de editores!"
     },
     {
       "id": 92,
-      "title": "Focus Next/Previous Editor Group",
-      "content": "Use `Ctrl+K Ctrl+Right` or `Ctrl+K Ctrl+Left` (Windows/Linux) or `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) to focus into the next or previous editor group!"
+      "title": "Focar Grupo de Editor Próximo/Anterior",
+      "content": "Use `Ctrl+K Ctrl+Right` ou `Ctrl+K Ctrl+Left` (Windows/Linux) ou `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) para focar no grupo de editor próximo ou anterior!"
     },
     {
       "id": 93,
-      "title": "Move Editor Left/Right",
-      "content": "Press `Ctrl+Shift+PgUp` or `Ctrl+Shift+PgDn` (Windows/Linux) or `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) to move the editor left or right!"
+      "title": "Mover Editor Esquerda/Direita",
+      "content": "Pressione `Ctrl+Shift+PgUp` ou `Ctrl+Shift+PgDn` (Windows/Linux) ou `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) para mover o editor para esquerda ou direita!"
     },
     {
       "id": 94,
-      "title": "Move Active Editor Group",
-      "content": "Use `Ctrl+K Left` or `Ctrl+K Right` (Windows/Linux) or `Cmd+K Left` / `Cmd+K Right` (macOS) to move the active editor group!"
+      "title": "Mover Grupo de Editor Ativo",
+      "content": "Use `Ctrl+K Left` ou `Ctrl+K Right` (Windows/Linux) ou `Cmd+K Left` / `Cmd+K Right` (macOS) para mover o grupo de editor ativo!"
     },
     {
       "id": 95,
-      "title": "New Window",
-      "content": "Press `Ctrl+Shift+N` (Windows/Linux) or `Cmd+Shift+N` (macOS) to open a new VS Code window/instance. Work with multiple projects simultaneously!"
+      "title": "Nova Janela",
+      "content": "Pressione `Ctrl+Shift+N` (Windows/Linux) ou `Cmd+Shift+N` (macOS) para abrir uma nova janela/instância do VS Code. Trabalhe com múltiplos projetos simultaneamente!"
     },
     {
       "id": 96,
-      "title": "Close Window",
-      "content": "Use `Ctrl+Shift+W` (Windows/Linux) or `Cmd+Shift+W` (macOS) to close the current VS Code window/instance!"
+      "title": "Fechar Janela",
+      "content": "Use `Ctrl+Shift+W` (Windows/Linux) ou `Cmd+Shift+W` (macOS) para fechar a janela/instância atual do VS Code!"
     },
     {
       "id": 97,
-      "title": "User Settings",
-      "content": "Press `Ctrl+,` (Windows/Linux) or `Cmd+,` (macOS) to open User Settings. Customize your VS Code experience!"
+      "title": "Configurações do Usuário",
+      "content": "Pressione `Ctrl+,` (Windows/Linux) ou `Cmd+,` (macOS) para abrir as Configurações do Usuário. Personalize sua experiência no VS Code!"
     },
     {
       "id": 98,
-      "title": "Keyboard Shortcuts Settings",
-      "content": "Use `Ctrl+K Ctrl+S` (Windows/Linux) or `Cmd+K Cmd+S` (macOS) to open Keyboard Shortcuts settings. Customize or view all shortcuts!"
+      "title": "Configurações de Atalhos de Teclado",
+      "content": "Use `Ctrl+K Ctrl+S` (Windows/Linux) ou `Cmd+K Cmd+S` (macOS) para abrir as configurações de Atalhos de Teclado. Personalize ou visualize todos os atalhos!"
     },
     {
       "id": 99,
-      "title": "Cut Line",
-      "content": "Press `Ctrl+X` (Windows/Linux) or `Cmd+X` (macOS) with no selection to cut the entire line. Quick line cutting!"
+      "title": "Cortar Linha",
+      "content": "Pressione `Ctrl+X` (Windows/Linux) ou `Cmd+X` (macOS) sem seleção para cortar a linha inteira. Corte rápido de linha!"
     },
     {
       "id": 100,
-      "title": "Copy Line",
-      "content": "Use `Ctrl+C` (Windows/Linux) or `Cmd+C` (macOS) with no selection to copy the entire line. Quick line copying!"
+      "title": "Copiar Linha",
+      "content": "Use `Ctrl+C` (Windows/Linux) ou `Cmd+C` (macOS) sem seleção para copiar a linha inteira. Cópia rápida de linha!"
     },
     {
       "id": 101,
-      "title": "Delete Line",
-      "content": "Press `Ctrl+Shift+K` (Windows/Linux) or `Cmd+Shift+K` (macOS) to delete the current line. Faster than selecting and deleting!"
+      "title": "Excluir Linha",
+      "content": "Pressione `Ctrl+Shift+K` (Windows/Linux) ou `Cmd+Shift+K` (macOS) para excluir a linha atual. Mais rápido que selecionar e excluir!"
     },
     {
       "id": 102,
-      "title": "Insert Line Below",
-      "content": "Use `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (macOS) to insert a new line below the current line. No need to move to the end first!"
+      "title": "Inserir Linha Abaixo",
+      "content": "Use `Ctrl+Enter` (Windows/Linux) ou `Cmd+Enter` (macOS) para inserir uma nova linha abaixo da linha atual. Não precisa ir para o final primeiro!"
     },
     {
       "id": 103,
-      "title": "Insert Line Above",
-      "content": "Press `Ctrl+Shift+Enter` (Windows/Linux) or `Cmd+Shift+Enter` (macOS) to insert a new line above the current line!"
+      "title": "Inserir Linha Acima",
+      "content": "Pressione `Ctrl+Shift+Enter` (Windows/Linux) ou `Cmd+Shift+Enter` (macOS) para inserir uma nova linha acima da linha atual!"
     },
     {
       "id": 104,
-      "title": "Jump to Matching Bracket",
-      "content": "Use `Ctrl+Shift+\\` (Windows/Linux) or `Cmd+Shift+\\` (macOS) to jump to the matching bracket. Navigate code structures quickly!"
+      "title": "Ir para Colchete Correspondente",
+      "content": "Use `Ctrl+Shift+\\` (Windows/Linux) ou `Cmd+Shift+\\` (macOS) para ir para o colchete correspondente. Navegue rapidamente pelas estruturas de código!"
     },
     {
       "id": 105,
-      "title": "Go to Line Start/End",
-      "content": "Press `Home` to go to the beginning of the line and `End` to go to the end. Quick line navigation!"
+      "title": "Ir para Início/Fim da Linha",
+      "content": "Pressione `Home` para ir ao início da linha e `End` para ir ao final. Navegação rápida de linha!"
     },
     {
       "id": 106,
-      "title": "Go to File Start/End",
-      "content": "Use `Ctrl+Home` to go to the beginning of the file and `Ctrl+End` to go to the end (Windows/Linux) or `Cmd+Home` / `Cmd+End` (macOS)!"
+      "title": "Ir para Início/Fim do Arquivo",
+      "content": "Use `Ctrl+Home` para ir ao início do arquivo e `Ctrl+End` para ir ao final (Windows/Linux) ou `Cmd+Home` / `Cmd+End` (macOS)!"
     },
     {
       "id": 107,
-      "title": "Scroll Line Up/Down",
-      "content": "Press `Ctrl+Up` or `Ctrl+Down` (Windows/Linux) or `Cmd+Up` / `Cmd+Down` (macOS) to scroll the view up or down one line without moving the cursor!"
+      "title": "Rolar Linha Acima/Abaixo",
+      "content": "Pressione `Ctrl+Up` ou `Ctrl+Down` (Windows/Linux) ou `Cmd+Up` / `Cmd+Down` (macOS) para rolar a visualização uma linha sem mover o cursor!"
     },
     {
       "id": 108,
-      "title": "Scroll Page Up/Down",
-      "content": "Use `Alt+PgUp` or `Alt+PgDn` (Windows/Linux) or `Option+PgUp` / `Option+PgDn` (macOS) to scroll the view up or down by one page!"
+      "title": "Rolar Página Acima/Abaixo",
+      "content": "Use `Alt+PgUp` ou `Alt+PgDn` (Windows/Linux) ou `Option+PgUp` / `Option+PgDn` (macOS) para rolar a visualização uma página!"
     },
     {
       "id": 109,
-      "title": "Fold All Subregions",
-      "content": "Press `Ctrl+K Ctrl+[` (Windows/Linux) or `Cmd+K Cmd+[` (macOS) to fold (collapse) all subregions in the current region!"
+      "title": "Recolher Todas as Sub-regiões",
+      "content": "Pressione `Ctrl+K Ctrl+[` (Windows/Linux) ou `Cmd+K Cmd+[` (macOS) para recolher (colapsar) todas as sub-regiões na região atual!"
     },
     {
       "id": 110,
-      "title": "Unfold All Subregions",
-      "content": "Use `Ctrl+K Ctrl+]` (Windows/Linux) or `Cmd+K Cmd+]` (macOS) to unfold (uncollapse) all subregions in the current region!"
+      "title": "Expandir Todas as Sub-regiões",
+      "content": "Use `Ctrl+K Ctrl+]` (Windows/Linux) ou `Cmd+K Cmd+]` (macOS) para expandir (descolapsar) todas as sub-regiões na região atual!"
     },
     {
       "id": 111,
-      "title": "Fold All Regions",
-      "content": "Press `Ctrl+K Ctrl+0` (Windows/Linux) or `Cmd+K Cmd+0` (macOS) to fold (collapse) all regions in the file. Minimize all code blocks!"
+      "title": "Recolher Todas as Regiões",
+      "content": "Pressione `Ctrl+K Ctrl+0` (Windows/Linux) ou `Cmd+K Cmd+0` (macOS) para recolher (colapsar) todas as regiões no arquivo. Minimize todos os blocos de código!"
     },
     {
       "id": 112,
-      "title": "Unfold All Regions",
-      "content": "Use `Ctrl+K Ctrl+J` (Windows/Linux) or `Cmd+K Cmd+J` (macOS) to unfold (uncollapse) all regions in the file. Expand all code blocks!"
+      "title": "Expandir Todas as Regiões",
+      "content": "Use `Ctrl+K Ctrl+J` (Windows/Linux) ou `Cmd+K Cmd+J` (macOS) para expandir (descolapsar) todas as regiões no arquivo. Expanda todos os blocos de código!"
     },
     {
       "id": 113,
-      "title": "Add Line Comment",
-      "content": "Press `Ctrl+K Ctrl+C` (Windows/Linux) or `Cmd+K Cmd+C` (macOS) to add line comments. Comment out multiple lines!"
+      "title": "Adicionar Comentário de Linha",
+      "content": "Pressione `Ctrl+K Ctrl+C` (Windows/Linux) ou `Cmd+K Cmd+C` (macOS) para adicionar comentários de linha. Comente múltiplas linhas!"
     },
     {
       "id": 114,
-      "title": "Remove Line Comment",
-      "content": "Use `Ctrl+K Ctrl+U` (Windows/Linux) or `Cmd+K Cmd+U` (macOS) to remove line comments. Uncomment multiple lines!"
+      "title": "Remover Comentário de Linha",
+      "content": "Use `Ctrl+K Ctrl+U` (Windows/Linux) ou `Cmd+K Cmd+U` (macOS) para remover comentários de linha. Descomente múltiplas linhas!"
     },
     {
       "id": 115,
-      "title": "Toggle Block Comment",
-      "content": "Press `Shift+Alt+A` (Windows/Linux) or `Shift+Option+A` (macOS) to toggle block comments. Use /* */ style comments!"
+      "title": "Alternar Comentário de Bloco",
+      "content": "Pressione `Shift+Alt+A` (Windows/Linux) ou `Shift+Option+A` (macOS) para alternar comentários de bloco. Use comentários estilo /* */!"
     },
     {
       "id": 116,
-      "title": "Go to Line",
-      "content": "Use `Ctrl+G` (Windows/Linux) or `Cmd+G` (macOS) to open the Go to Line dialog. Jump to any line number quickly!"
+      "title": "Ir para Linha",
+      "content": "Use `Ctrl+G` (Windows/Linux) ou `Cmd+G` (macOS) para abrir o diálogo Ir para Linha. Pule rapidamente para qualquer número de linha!"
     },
     {
       "id": 117,
-      "title": "Go to Next Error",
-      "content": "Press `F8` to navigate to the next error or warning in your code. Fix issues efficiently!"
+      "title": "Ir para Próximo Erro",
+      "content": "Pressione `F8` para navegar para o próximo erro ou aviso no seu código. Corrija problemas eficientemente!"
     },
     {
       "id": 118,
-      "title": "Go to Previous Error",
-      "content": "Use `Shift+F8` to navigate to the previous error or warning in your code. Review all issues!"
+      "title": "Ir para Erro Anterior",
+      "content": "Use `Shift+F8` para navegar para o erro ou aviso anterior no seu código. Revise todos os problemas!"
     },
     {
       "id": 119,
-      "title": "Toggle Tab Moves Focus",
-      "content": "Press `Ctrl+M` (Windows/Linux) or `Cmd+M` (macOS) to toggle whether Tab moves focus or inserts a tab character. Accessibility feature!"
+      "title": "Alternar Tab Move Foco",
+      "content": "Pressione `Ctrl+M` (Windows/Linux) ou `Cmd+M` (macOS) para alternar se Tab move o foco ou insere um caractere de tabulação. Recurso de acessibilidade!"
     },
     {
       "id": 120,
-      "title": "Keep Preview Mode Open",
-      "content": "Use `Ctrl+K Enter` (Windows/Linux) or `Cmd+K Enter` (macOS) to keep the preview mode editor open permanently. Prevent accidental tab closure!"
+      "title": "Manter Modo de Visualização Aberto",
+      "content": "Use `Ctrl+K Enter` (Windows/Linux) ou `Cmd+K Enter` (macOS) para manter o editor em modo de visualização aberto permanentemente. Evite o fechamento acidental de abas!"
     },
     {
       "id": 121,
-      "title": "Copy Active File Path",
-      "content": "Press `Ctrl+K P` (Windows/Linux) or `Cmd+K P` (macOS) to copy the path of the active file to the clipboard. Share file locations easily!"
+      "title": "Copiar Caminho do Arquivo Ativo",
+      "content": "Pressione `Ctrl+K P` (Windows/Linux) ou `Cmd+K P` (macOS) para copiar o caminho do arquivo ativo para a área de transferência. Compartilhe localizações de arquivos facilmente!"
     },
     {
       "id": 122,
-      "title": "Reveal File in Explorer",
-      "content": "Use `Ctrl+K R` (Windows/Linux) or `Cmd+K R` (macOS) to reveal the active file in the system file explorer. Locate files on your system!"
+      "title": "Revelar Arquivo no Explorador",
+      "content": "Use `Ctrl+K R` (Windows/Linux) ou `Cmd+K R` (macOS) para revelar o arquivo ativo no explorador de arquivos do sistema. Localize arquivos no seu sistema!"
     },
     {
       "id": 123,
-      "title": "Show File in New Window",
-      "content": "Press `Ctrl+K O` (Windows/Linux) or `Cmd+K O` (macOS) to show the active file in a new window/instance. Work with the same file in multiple windows!"
+      "title": "Mostrar Arquivo em Nova Janela",
+      "content": "Pressione `Ctrl+K O` (Windows/Linux) ou `Cmd+K O` (macOS) para mostrar o arquivo ativo em uma nova janela/instância. Trabalhe com o mesmo arquivo em múltiplas janelas!"
     }
   ]
 }

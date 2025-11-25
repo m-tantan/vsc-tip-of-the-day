@@ -218,398 +218,398 @@
     },
     {
       "id": 45,
-      "title": "Open File",
-      "content": "Press `Ctrl+O` (Windows/Linux) or `Cmd+O` (macOS) to open a file dialog. Quickly browse and open files from anywhere on your system."
+      "title": "פתח קובץ",
+      "content": "לחץ `Ctrl+O` (Windows/Linux) או `Cmd+O` (macOS) לפתיחת תיבת דו-שיח של קובץ. עיין ופתח קבצים במהירות מכל מקום במערכת."
     },
     {
       "id": 46,
-      "title": "Save File",
-      "content": "Use `Ctrl+S` (Windows/Linux) or `Cmd+S` (macOS) to save the current file. One of the most essential shortcuts!"
+      "title": "שמור קובץ",
+      "content": "השתמש ב-`Ctrl+S` (Windows/Linux) או `Cmd+S` (macOS) לשמירת הקובץ הנוכחי. אחד הקיצורים החיוניים ביותר!"
     },
     {
       "id": 47,
-      "title": "Save As",
-      "content": "Press `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (macOS) to save the current file with a new name or location."
+      "title": "שמור בשם",
+      "content": "לחץ `Ctrl+Shift+S` (Windows/Linux) או `Cmd+Shift+S` (macOS) לשמירת הקובץ הנוכחי בשם או מיקום חדש."
     },
     {
       "id": 48,
-      "title": "Close Editor",
-      "content": "Use `Ctrl+F4` or `Ctrl+W` (Windows/Linux) or `Cmd+W` (macOS) to close the current editor tab."
+      "title": "סגור עורך",
+      "content": "השתמש ב-`Ctrl+F4` או `Ctrl+W` (Windows/Linux) או `Cmd+W` (macOS) לסגירת לשונית העורך הנוכחית."
     },
     {
       "id": 49,
-      "title": "Close All Editors",
-      "content": "Press `Ctrl+K Ctrl+W` (Windows/Linux) or `Cmd+K Cmd+W` (macOS) to close all open editor tabs at once."
+      "title": "סגור את כל העורכים",
+      "content": "לחץ `Ctrl+K Ctrl+W` (Windows/Linux) או `Cmd+K Cmd+W` (macOS) לסגירת כל לשוניות העורך הפתוחות בבת אחת."
     },
     {
       "id": 50,
-      "title": "Reopen Closed Editor",
-      "content": "Use `Ctrl+Shift+T` (Windows/Linux) or `Cmd+Shift+T` (macOS) to reopen the last closed editor tab. Perfect for when you accidentally close something!"
+      "title": "פתח מחדש עורך שנסגר",
+      "content": "השתמש ב-`Ctrl+Shift+T` (Windows/Linux) או `Cmd+Shift+T` (macOS) לפתיחה מחדש של לשונית העורך האחרונה שנסגרה. מושלם כשסוגרים משהו בטעות!"
     },
     {
       "id": 51,
-      "title": "Toggle Full Screen",
-      "content": "Press `F11` to toggle full screen mode. Maximize your screen real estate for distraction-free coding!"
+      "title": "הפעל/כבה מסך מלא",
+      "content": "לחץ `F11` להפעלת/כיבוי מצב מסך מלא. מקסם את שטח המסך לקידוד ללא הסחות דעת!"
     },
     {
       "id": 52,
-      "title": "Toggle Editor Layout",
-      "content": "Use `Shift+Alt+0` (Windows/Linux) or `Shift+Option+0` (macOS) to toggle between horizontal and vertical editor layout."
+      "title": "הפעל/כבה פריסת עורך",
+      "content": "השתמש ב-`Shift+Alt+0` (Windows/Linux) או `Shift+Option+0` (macOS) למעבר בין פריסת עורך אופקית ואנכית."
     },
     {
       "id": 53,
-      "title": "Zoom In/Out",
-      "content": "Press `Ctrl+=` to zoom in and `Ctrl+-` to zoom out (Windows/Linux) or `Cmd+=` / `Cmd+-` (macOS). Adjust the editor's font size quickly!"
+      "title": "הגדל/הקטן תצוגה",
+      "content": "לחץ `Ctrl+=` להגדלה ו-`Ctrl+-` להקטנה (Windows/Linux) או `Cmd+=` / `Cmd+-` (macOS). התאם במהירות את גודל הגופן של העורך!"
     },
     {
       "id": 54,
-      "title": "Show Explorer",
-      "content": "Use `Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (macOS) to show the Explorer view and toggle focus. Quick access to your file tree!"
+      "title": "הצג סייר",
+      "content": "השתמש ב-`Ctrl+Shift+E` (Windows/Linux) או `Cmd+Shift+E` (macOS) להצגת תצוגת הסייר והפעלת/כיבוי מיקוד. גישה מהירה לעץ הקבצים!"
     },
     {
       "id": 55,
-      "title": "Show Source Control",
-      "content": "Press `Ctrl+Shift+G` (Windows/Linux) or `Cmd+Shift+G` (macOS) to open the Source Control view. Manage your Git operations efficiently!"
+      "title": "הצג בקרת מקור",
+      "content": "לחץ `Ctrl+Shift+G` (Windows/Linux) או `Cmd+Shift+G` (macOS) לפתיחת תצוגת בקרת מקור. נהל פעולות Git ביעילות!"
     },
     {
       "id": 56,
-      "title": "Show Debug",
-      "content": "Use `Ctrl+Shift+D` (Windows/Linux) or `Cmd+Shift+D` (macOS) to open the Debug view. Start debugging your code quickly!"
+      "title": "הצג ניפוי באגים",
+      "content": "השתמש ב-`Ctrl+Shift+D` (Windows/Linux) או `Cmd+Shift+D` (macOS) לפתיחת תצוגת ניפוי באגים. התחל לנפות באגים בקוד במהירות!"
     },
     {
       "id": 57,
-      "title": "Show Extensions",
-      "content": "Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS) to open the Extensions view. Discover and manage your VS Code extensions!"
+      "title": "הצג הרחבות",
+      "content": "לחץ `Ctrl+Shift+X` (Windows/Linux) או `Cmd+Shift+X` (macOS) לפתיחת תצוגת הרחבות. גלה ונהל הרחבות VS Code!"
     },
     {
       "id": 58,
-      "title": "Replace in Files",
-      "content": "Use `Ctrl+Shift+H` (Windows/Linux) or `Cmd+Shift+H` (macOS) to open replace in files. Search and replace across your entire project!"
+      "title": "החלף בקבצים",
+      "content": "השתמש ב-`Ctrl+Shift+H` (Windows/Linux) או `Cmd+Shift+H` (macOS) לפתיחת החלפה בקבצים. חפש והחלף בכל הפרויקט!"
     },
     {
       "id": 59,
-      "title": "Toggle Search Details",
-      "content": "Press `Ctrl+Shift+J` (Windows/Linux) or `Cmd+Shift+J` (macOS) to toggle search details. Show or hide additional search options!"
+      "title": "הפעל/כבה פרטי חיפוש",
+      "content": "לחץ `Ctrl+Shift+J` (Windows/Linux) או `Cmd+Shift+J` (macOS) להפעלת/כיבוי פרטי חיפוש. הצג או הסתר אפשרויות חיפוש נוספות!"
     },
     {
       "id": 60,
-      "title": "Show Output Panel",
-      "content": "Use `Ctrl+Shift+U` (Windows/Linux) or `Cmd+Shift+U` (macOS) to show the Output panel. View logs and output from extensions and tools!"
+      "title": "הצג פאנל פלט",
+      "content": "השתמש ב-`Ctrl+Shift+U` (Windows/Linux) או `Cmd+Shift+U` (macOS) להצגת פאנל הפלט. צפה בלוגים ופלט מהרחבות וכלים!"
     },
     {
       "id": 61,
-      "title": "Open Markdown Preview",
-      "content": "Press `Ctrl+Shift+V` (Windows/Linux) or `Cmd+Shift+V` (macOS) to open Markdown preview. See your markdown rendered in real-time!"
+      "title": "פתח תצוגה מקדימה של Markdown",
+      "content": "לחץ `Ctrl+Shift+V` (Windows/Linux) או `Cmd+Shift+V` (macOS) לפתיחת תצוגה מקדימה של Markdown. ראה את ה-Markdown מרונדר בזמן אמת!"
     },
     {
       "id": 62,
-      "title": "Markdown Preview Side by Side",
-      "content": "Use `Ctrl+K V` (Windows/Linux) or `Cmd+K V` (macOS) to open Markdown preview to the side. Edit and preview simultaneously!"
+      "title": "תצוגה מקדימה של Markdown זה לצד זה",
+      "content": "השתמש ב-`Ctrl+K V` (Windows/Linux) או `Cmd+K V` (macOS) לפתיחת תצוגה מקדימה של Markdown בצד. ערוך וצפה בתצוגה מקדימה בו-זמנית!"
     },
     {
       "id": 63,
-      "title": "Toggle Breakpoint",
-      "content": "Press `F9` to toggle a breakpoint at the current line. Essential for debugging your code!"
+      "title": "הפעל/כבה נקודת עצירה",
+      "content": "לחץ `F9` להפעלת/כיבוי נקודת עצירה בשורה הנוכחית. חיוני לניפוי באגים בקוד!"
     },
     {
       "id": 64,
-      "title": "Start/Continue Debugging",
-      "content": "Use `F5` to start debugging or continue execution when paused. Quick way to run your debug sessions!"
+      "title": "התחל/המשך ניפוי באגים",
+      "content": "השתמש ב-`F5` להתחלת ניפוי באגים או המשך הרצה כשמושהה. דרך מהירה להפעיל הפעלות ניפוי באגים!"
     },
     {
       "id": 65,
-      "title": "Stop Debugging",
-      "content": "Press `Shift+F5` to stop the current debugging session. End your debug session quickly!"
+      "title": "עצור ניפוי באגים",
+      "content": "לחץ `Shift+F5` לעצירת הפעלת ניפוי הבאגים הנוכחית. סיים את הפעלת ניפוי הבאגים במהירות!"
     },
     {
       "id": 66,
-      "title": "Step Into/Out",
-      "content": "Use `F11` to step into a function and `Shift+F11` to step out. Navigate through your code during debugging!"
+      "title": "היכנס/צא מפונקציה",
+      "content": "השתמש ב-`F11` להיכנס לפונקציה ו-`Shift+F11` לצאת. נווט בקוד במהלך ניפוי באגים!"
     },
     {
       "id": 67,
-      "title": "Step Over",
-      "content": "Press `F10` to step over the current line during debugging. Execute the current line and move to the next!"
+      "title": "עבור מעל",
+      "content": "לחץ `F10` לדילוג על השורה הנוכחית במהלך ניפוי באגים. הרץ את השורה הנוכחית ועבור לבאה!"
     },
     {
       "id": 68,
-      "title": "Show Hover",
-      "content": "Use `Ctrl+K Ctrl+I` (Windows/Linux) or `Cmd+K Cmd+I` (macOS) to show hover information. See documentation and type information on demand!"
+      "title": "הצג מידע בריחוף",
+      "content": "השתמש ב-`Ctrl+K Ctrl+I` (Windows/Linux) או `Cmd+K Cmd+I` (macOS) להצגת מידע בריחוף. ראה תיעוד ומידע סוג לפי דרישה!"
     },
     {
       "id": 69,
-      "title": "Create New Terminal",
-      "content": "Press `` Ctrl+Shift+` `` (Windows/Linux) or `` Cmd+Shift+` `` (macOS) to create a new terminal instance. Run multiple terminal sessions!"
+      "title": "צור טרמינל חדש",
+      "content": "לחץ `` Ctrl+Shift+` `` (Windows/Linux) או `` Cmd+Shift+` `` (macOS) ליצירת מופע טרמינל חדש. הרץ מספר הפעלות טרמינל!"
     },
     {
       "id": 70,
-      "title": "Find in File",
-      "content": "Use `Ctrl+F` (Windows/Linux) or `Cmd+F` (macOS) to open find in the current file. Search within your active editor!"
+      "title": "מצא בקובץ",
+      "content": "השתמש ב-`Ctrl+F` (Windows/Linux) או `Cmd+F` (macOS) לפתיחת חיפוש בקובץ הנוכחי. חפש בעורך הפעיל!"
     },
     {
       "id": 71,
-      "title": "Replace in File",
-      "content": "Press `Ctrl+H` (Windows/Linux) or `Cmd+H` (macOS) to open find and replace in the current file. Quickly modify text patterns!"
+      "title": "החלף בקובץ",
+      "content": "לחץ `Ctrl+H` (Windows/Linux) או `Cmd+H` (macOS) לפתיחת מצא והחלף בקובץ הנוכחי. שנה דפוסי טקסט במהירות!"
     },
     {
       "id": 72,
-      "title": "Find Next/Previous",
-      "content": "Use `F3` to find next and `Shift+F3` to find previous occurrence. Navigate through search results efficiently!"
+      "title": "מצא הבא/קודם",
+      "content": "השתמש ב-`F3` למציאת הבא ו-`Shift+F3` למציאת הקודם. נווט בתוצאות החיפוש ביעילות!"
     },
     {
       "id": 73,
-      "title": "Select All Occurrences",
-      "content": "Press `Alt+Enter` (Windows/Linux) or `Option+Enter` (macOS) to select all occurrences of the current find match. Edit multiple instances at once!"
+      "title": "בחר את כל המופעים",
+      "content": "לחץ `Alt+Enter` (Windows/Linux) או `Option+Enter` (macOS) לבחירת כל המופעים של התאמת החיפוש הנוכחית. ערוך מספר מופעים בבת אחת!"
     },
     {
       "id": 74,
-      "title": "Move Selection to Next Match",
-      "content": "Use `Ctrl+K Ctrl+D` (Windows/Linux) or `Cmd+K Cmd+D` (macOS) to move the last selection to the next find match. Skip unwanted matches!"
+      "title": "העבר בחירה להתאמה הבאה",
+      "content": "השתמש ב-`Ctrl+K Ctrl+D` (Windows/Linux) או `Cmd+K Cmd+D` (macOS) להעברת הבחירה האחרונה להתאמה הבאה. דלג על התאמות לא רצויות!"
     },
     {
       "id": 75,
-      "title": "Toggle Find Options",
-      "content": "Press `Alt+C` for case-sensitive, `Alt+R` for regex, and `Alt+W` for whole word matching in find. Customize your search!"
+      "title": "הפעל/כבה אפשרויות חיפוש",
+      "content": "לחץ `Alt+C` לרגישות לאותיות, `Alt+R` לביטוי רגולרי, ו-`Alt+W` להתאמת מילה שלמה בחיפוש. התאם אישית את החיפוש!"
     },
     {
       "id": 76,
-      "title": "Insert Cursor Above/Below",
-      "content": "Use `Ctrl+Alt+Up` or `Ctrl+Alt+Down` (Windows/Linux) or `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) to insert cursors above or below. Create multiple cursors vertically!"
+      "title": "הכנס סמן מעל/מתחת",
+      "content": "השתמש ב-`Ctrl+Alt+Up` או `Ctrl+Alt+Down` (Windows/Linux) או `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) להכנסת סמנים מעל או מתחת. צור מספר סמנים אנכית!"
     },
     {
       "id": 77,
-      "title": "Undo Cursor Operation",
-      "content": "Press `Ctrl+U` (Windows/Linux) or `Cmd+U` (macOS) to undo the last cursor operation. Revert unwanted cursor additions!"
+      "title": "בטל פעולת סמן",
+      "content": "לחץ `Ctrl+U` (Windows/Linux) או `Cmd+U` (macOS) לביטול פעולת הסמן האחרונה. בטל הוספות סמן לא רצויות!"
     },
     {
       "id": 78,
-      "title": "Insert Cursor at Line Ends",
-      "content": "Use `Shift+Alt+I` (Windows/Linux) or `Shift+Option+I` (macOS) to insert a cursor at the end of each selected line. Edit multiple line endings!"
+      "title": "הכנס סמן בסוף שורות",
+      "content": "השתמש ב-`Shift+Alt+I` (Windows/Linux) או `Shift+Option+I` (macOS) להכנסת סמן בסוף כל שורה נבחרת. ערוך סופי שורות מרובים!"
     },
     {
       "id": 79,
-      "title": "Select Current Line",
-      "content": "Press `Ctrl+L` (Windows/Linux) or `Cmd+L` (macOS) to select the current line. Quick selection without using the mouse!"
+      "title": "בחר שורה נוכחית",
+      "content": "לחץ `Ctrl+L` (Windows/Linux) או `Cmd+L` (macOS) לבחירת השורה הנוכחית. בחירה מהירה ללא שימוש בעכבר!"
     },
     {
       "id": 80,
-      "title": "Select All Occurrences of Selection",
-      "content": "Use `Ctrl+Shift+L` (Windows/Linux) or `Cmd+Shift+L` (macOS) to select all occurrences of the current selection. Powerful multi-cursor editing!"
+      "title": "בחר את כל מופעי הבחירה",
+      "content": "השתמש ב-`Ctrl+Shift+L` (Windows/Linux) או `Cmd+Shift+L` (macOS) לבחירת כל מופעי הבחירה הנוכחית. עריכת ריבוי סמנים חזקה!"
     },
     {
       "id": 81,
-      "title": "Select All Occurrences of Word",
-      "content": "Press `Ctrl+F2` (Windows/Linux) or `Cmd+F2` (macOS) to select all occurrences of the current word. Quick word-based multi-editing!"
+      "title": "בחר את כל מופעי המילה",
+      "content": "לחץ `Ctrl+F2` (Windows/Linux) או `Cmd+F2` (macOS) לבחירת כל מופעי המילה הנוכחית. עריכה מרובה מהירה מבוססת מילים!"
     },
     {
       "id": 82,
-      "title": "Expand/Shrink Selection",
-      "content": "Use `Shift+Alt+Right` to expand and `Shift+Alt+Left` to shrink selection (Windows/Linux) or `Shift+Option+Right` / `Shift+Option+Left` (macOS). Smart selection based on syntax!"
+      "title": "הרחב/צמצם בחירה",
+      "content": "השתמש ב-`Shift+Alt+Right` להרחבה ו-`Shift+Alt+Left` לצמצום בחירה (Windows/Linux) או `Shift+Option+Right` / `Shift+Option+Left` (macOS). בחירה חכמה מבוססת תחביר!"
     },
     {
       "id": 83,
-      "title": "Column Selection",
-      "content": "Hold `Shift+Alt` and drag with the mouse (Windows/Linux) or `Shift+Option` (macOS) for column (box) selection. Select rectangular regions of text!"
+      "title": "בחירת עמודה",
+      "content": "החזק `Shift+Alt` וגרור עם העכבר (Windows/Linux) או `Shift+Option` (macOS) לבחירת עמודה (תיבה). בחר אזורים מלבניים של טקסט!"
     },
     {
       "id": 84,
-      "title": "Column Selection with Keyboard",
-      "content": "Use `Ctrl+Shift+Alt` with arrow keys (Windows/Linux) or `Cmd+Shift+Option` with arrow keys (macOS) for column selection. Box select without a mouse!"
+      "title": "בחירת עמודה עם מקלדת",
+      "content": "השתמש ב-`Ctrl+Shift+Alt` עם מקשי חצים (Windows/Linux) או `Cmd+Shift+Option` עם מקשי חצים (macOS) לבחירת עמודה. בחירת תיבה ללא עכבר!"
     },
     {
       "id": 85,
-      "title": "Trigger Parameter Hints",
-      "content": "Press `Ctrl+Shift+Space` (Windows/Linux) or `Cmd+Shift+Space` (macOS) to trigger parameter hints. See function parameters while coding!"
+      "title": "הפעל רמזי פרמטרים",
+      "content": "לחץ `Ctrl+Shift+Space` (Windows/Linux) או `Cmd+Shift+Space` (macOS) להפעלת רמזי פרמטרים. ראה פרמטרי פונקציה בזמן קידוד!"
     },
     {
       "id": 86,
-      "title": "Format Selection",
-      "content": "Use `Ctrl+K Ctrl+F` (Windows/Linux) or `Cmd+K Cmd+F` (macOS) to format the selected code. Keep your selected code neat and consistent!"
+      "title": "עצב בחירה",
+      "content": "השתמש ב-`Ctrl+K Ctrl+F` (Windows/Linux) או `Cmd+K Cmd+F` (macOS) לעיצוב הקוד הנבחר. שמור על הקוד הנבחר מסודר ועקבי!"
     },
     {
       "id": 87,
-      "title": "Peek Definition",
-      "content": "Press `Alt+F12` (Windows/Linux) or `Option+F12` (macOS) to peek at the definition inline. View definitions without losing context!"
+      "title": "הצץ להגדרה",
+      "content": "לחץ `Alt+F12` (Windows/Linux) או `Option+F12` (macOS) להצצה להגדרה בתוך השורה. ראה הגדרות מבלי לאבד הקשר!"
     },
     {
       "id": 88,
-      "title": "Open Definition to Side",
-      "content": "Use `Ctrl+K F12` (Windows/Linux) or `Cmd+K F12` (macOS) to open the definition in a side editor. Compare definitions and implementations!"
+      "title": "פתח הגדרה בצד",
+      "content": "השתמש ב-`Ctrl+K F12` (Windows/Linux) או `Cmd+K F12` (macOS) לפתיחת ההגדרה בעורך צדדי. השווה הגדרות ויישומים!"
     },
     {
       "id": 89,
-      "title": "Change File Language",
-      "content": "Press `Ctrl+K M` (Windows/Linux) or `Cmd+K M` (macOS) to change the file language mode. Switch syntax highlighting and features!"
+      "title": "שנה שפת קובץ",
+      "content": "לחץ `Ctrl+K M` (Windows/Linux) או `Cmd+K M` (macOS) לשינוי מצב שפת הקובץ. החלף הדגשת תחביר ותכונות!"
     },
     {
       "id": 90,
-      "title": "Close Folder",
-      "content": "Use `Ctrl+K F` (Windows/Linux) or `Cmd+K F` (macOS) to close the current folder/workspace. Switch workspaces quickly!"
+      "title": "סגור תיקייה",
+      "content": "השתמש ב-`Ctrl+K F` (Windows/Linux) או `Cmd+K F` (macOS) לסגירת התיקייה/סביבת העבודה הנוכחית. החלף סביבות עבודה במהירות!"
     },
     {
       "id": 91,
-      "title": "Focus Editor Groups",
-      "content": "Press `Ctrl+1`, `Ctrl+2`, or `Ctrl+3` (Windows/Linux) or `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) to focus into the 1st, 2nd, or 3rd editor group!"
+      "title": "מקד קבוצות עורכים",
+      "content": "לחץ `Ctrl+1`, `Ctrl+2`, או `Ctrl+3` (Windows/Linux) או `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) למיקוד בקבוצת העורכים ה-1, 2, או 3!"
     },
     {
       "id": 92,
-      "title": "Focus Next/Previous Editor Group",
-      "content": "Use `Ctrl+K Ctrl+Right` or `Ctrl+K Ctrl+Left` (Windows/Linux) or `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) to focus into the next or previous editor group!"
+      "title": "מקד קבוצת עורך הבאה/קודמת",
+      "content": "השתמש ב-`Ctrl+K Ctrl+Right` או `Ctrl+K Ctrl+Left` (Windows/Linux) או `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) למיקוד בקבוצת העורך הבאה או הקודמת!"
     },
     {
       "id": 93,
-      "title": "Move Editor Left/Right",
-      "content": "Press `Ctrl+Shift+PgUp` or `Ctrl+Shift+PgDn` (Windows/Linux) or `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) to move the editor left or right!"
+      "title": "הזז עורך שמאלה/ימינה",
+      "content": "לחץ `Ctrl+Shift+PgUp` או `Ctrl+Shift+PgDn` (Windows/Linux) או `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) להזזת העורך שמאלה או ימינה!"
     },
     {
       "id": 94,
-      "title": "Move Active Editor Group",
-      "content": "Use `Ctrl+K Left` or `Ctrl+K Right` (Windows/Linux) or `Cmd+K Left` / `Cmd+K Right` (macOS) to move the active editor group!"
+      "title": "הזז קבוצת עורך פעילה",
+      "content": "השתמש ב-`Ctrl+K Left` או `Ctrl+K Right` (Windows/Linux) או `Cmd+K Left` / `Cmd+K Right` (macOS) להזזת קבוצת העורך הפעילה!"
     },
     {
       "id": 95,
-      "title": "New Window",
-      "content": "Press `Ctrl+Shift+N` (Windows/Linux) or `Cmd+Shift+N` (macOS) to open a new VS Code window/instance. Work with multiple projects simultaneously!"
+      "title": "חלון חדש",
+      "content": "לחץ `Ctrl+Shift+N` (Windows/Linux) או `Cmd+Shift+N` (macOS) לפתיחת חלון/מופע VS Code חדש. עבוד על מספר פרויקטים בו-זמנית!"
     },
     {
       "id": 96,
-      "title": "Close Window",
-      "content": "Use `Ctrl+Shift+W` (Windows/Linux) or `Cmd+Shift+W` (macOS) to close the current VS Code window/instance!"
+      "title": "סגור חלון",
+      "content": "השתמש ב-`Ctrl+Shift+W` (Windows/Linux) או `Cmd+Shift+W` (macOS) לסגירת חלון/מופע VS Code הנוכחי!"
     },
     {
       "id": 97,
-      "title": "User Settings",
-      "content": "Press `Ctrl+,` (Windows/Linux) or `Cmd+,` (macOS) to open User Settings. Customize your VS Code experience!"
+      "title": "הגדרות משתמש",
+      "content": "לחץ `Ctrl+,` (Windows/Linux) או `Cmd+,` (macOS) לפתיחת הגדרות משתמש. התאם אישית את חוויית VS Code!"
     },
     {
       "id": 98,
-      "title": "Keyboard Shortcuts Settings",
-      "content": "Use `Ctrl+K Ctrl+S` (Windows/Linux) or `Cmd+K Cmd+S` (macOS) to open Keyboard Shortcuts settings. Customize or view all shortcuts!"
+      "title": "הגדרות קיצורי מקלדת",
+      "content": "השתמש ב-`Ctrl+K Ctrl+S` (Windows/Linux) או `Cmd+K Cmd+S` (macOS) לפתיחת הגדרות קיצורי מקלדת. התאם אישית או צפה בכל הקיצורים!"
     },
     {
       "id": 99,
-      "title": "Cut Line",
-      "content": "Press `Ctrl+X` (Windows/Linux) or `Cmd+X` (macOS) with no selection to cut the entire line. Quick line cutting!"
+      "title": "גזור שורה",
+      "content": "לחץ `Ctrl+X` (Windows/Linux) או `Cmd+X` (macOS) ללא בחירה לגזירת השורה כולה. גזירת שורה מהירה!"
     },
     {
       "id": 100,
-      "title": "Copy Line",
-      "content": "Use `Ctrl+C` (Windows/Linux) or `Cmd+C` (macOS) with no selection to copy the entire line. Quick line copying!"
+      "title": "העתק שורה",
+      "content": "השתמש ב-`Ctrl+C` (Windows/Linux) או `Cmd+C` (macOS) ללא בחירה להעתקת השורה כולה. העתקת שורה מהירה!"
     },
     {
       "id": 101,
-      "title": "Delete Line",
-      "content": "Press `Ctrl+Shift+K` (Windows/Linux) or `Cmd+Shift+K` (macOS) to delete the current line. Faster than selecting and deleting!"
+      "title": "מחק שורה",
+      "content": "לחץ `Ctrl+Shift+K` (Windows/Linux) או `Cmd+Shift+K` (macOS) למחיקת השורה הנוכחית. מהיר יותר מבחירה ומחיקה!"
     },
     {
       "id": 102,
-      "title": "Insert Line Below",
-      "content": "Use `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (macOS) to insert a new line below the current line. No need to move to the end first!"
+      "title": "הכנס שורה מתחת",
+      "content": "השתמש ב-`Ctrl+Enter` (Windows/Linux) או `Cmd+Enter` (macOS) להכנסת שורה חדשה מתחת לשורה הנוכחית. אין צורך להגיע לסוף קודם!"
     },
     {
       "id": 103,
-      "title": "Insert Line Above",
-      "content": "Press `Ctrl+Shift+Enter` (Windows/Linux) or `Cmd+Shift+Enter` (macOS) to insert a new line above the current line!"
+      "title": "הכנס שורה מעל",
+      "content": "לחץ `Ctrl+Shift+Enter` (Windows/Linux) או `Cmd+Shift+Enter` (macOS) להכנסת שורה חדשה מעל השורה הנוכחית!"
     },
     {
       "id": 104,
-      "title": "Jump to Matching Bracket",
-      "content": "Use `Ctrl+Shift+\\` (Windows/Linux) or `Cmd+Shift+\\` (macOS) to jump to the matching bracket. Navigate code structures quickly!"
+      "title": "קפוץ לסוגר מתאים",
+      "content": "השתמש ב-`Ctrl+Shift+\\` (Windows/Linux) או `Cmd+Shift+\\` (macOS) לקפיצה לסוגר המתאים. נווט במבני קוד במהירות!"
     },
     {
       "id": 105,
-      "title": "Go to Line Start/End",
-      "content": "Press `Home` to go to the beginning of the line and `End` to go to the end. Quick line navigation!"
+      "title": "לך לתחילת/סוף שורה",
+      "content": "לחץ `Home` ללכת לתחילת השורה ו-`End` ללכת לסוף. ניווט מהיר בשורה!"
     },
     {
       "id": 106,
-      "title": "Go to File Start/End",
-      "content": "Use `Ctrl+Home` to go to the beginning of the file and `Ctrl+End` to go to the end (Windows/Linux) or `Cmd+Home` / `Cmd+End` (macOS)!"
+      "title": "לך לתחילת/סוף קובץ",
+      "content": "השתמש ב-`Ctrl+Home` ללכת לתחילת הקובץ ו-`Ctrl+End` ללכת לסוף (Windows/Linux) או `Cmd+Home` / `Cmd+End` (macOS)!"
     },
     {
       "id": 107,
-      "title": "Scroll Line Up/Down",
-      "content": "Press `Ctrl+Up` or `Ctrl+Down` (Windows/Linux) or `Cmd+Up` / `Cmd+Down` (macOS) to scroll the view up or down one line without moving the cursor!"
+      "title": "גלול שורה למעלה/למטה",
+      "content": "לחץ `Ctrl+Up` או `Ctrl+Down` (Windows/Linux) או `Cmd+Up` / `Cmd+Down` (macOS) לגלילת התצוגה שורה אחת מבלי להזיז את הסמן!"
     },
     {
       "id": 108,
-      "title": "Scroll Page Up/Down",
-      "content": "Use `Alt+PgUp` or `Alt+PgDn` (Windows/Linux) or `Option+PgUp` / `Option+PgDn` (macOS) to scroll the view up or down by one page!"
+      "title": "גלול עמוד למעלה/למטה",
+      "content": "השתמש ב-`Alt+PgUp` או `Alt+PgDn` (Windows/Linux) או `Option+PgUp` / `Option+PgDn` (macOS) לגלילת התצוגה עמוד אחד!"
     },
     {
       "id": 109,
-      "title": "Fold All Subregions",
-      "content": "Press `Ctrl+K Ctrl+[` (Windows/Linux) or `Cmd+K Cmd+[` (macOS) to fold (collapse) all subregions in the current region!"
+      "title": "קפל את כל תת-האזורים",
+      "content": "לחץ `Ctrl+K Ctrl+[` (Windows/Linux) או `Cmd+K Cmd+[` (macOS) לקיפול (צמצום) כל תת-האזורים באזור הנוכחי!"
     },
     {
       "id": 110,
-      "title": "Unfold All Subregions",
-      "content": "Use `Ctrl+K Ctrl+]` (Windows/Linux) or `Cmd+K Cmd+]` (macOS) to unfold (uncollapse) all subregions in the current region!"
+      "title": "פרוש את כל תת-האזורים",
+      "content": "השתמש ב-`Ctrl+K Ctrl+]` (Windows/Linux) או `Cmd+K Cmd+]` (macOS) לפריסה (הרחבה) של כל תת-האזורים באזור הנוכחי!"
     },
     {
       "id": 111,
-      "title": "Fold All Regions",
-      "content": "Press `Ctrl+K Ctrl+0` (Windows/Linux) or `Cmd+K Cmd+0` (macOS) to fold (collapse) all regions in the file. Minimize all code blocks!"
+      "title": "קפל את כל האזורים",
+      "content": "לחץ `Ctrl+K Ctrl+0` (Windows/Linux) או `Cmd+K Cmd+0` (macOS) לקיפול (צמצום) כל האזורים בקובץ. מזער את כל בלוקי הקוד!"
     },
     {
       "id": 112,
-      "title": "Unfold All Regions",
-      "content": "Use `Ctrl+K Ctrl+J` (Windows/Linux) or `Cmd+K Cmd+J` (macOS) to unfold (uncollapse) all regions in the file. Expand all code blocks!"
+      "title": "פרוש את כל האזורים",
+      "content": "השתמש ב-`Ctrl+K Ctrl+J` (Windows/Linux) או `Cmd+K Cmd+J` (macOS) לפריסה (הרחבה) של כל האזורים בקובץ. הרחב את כל בלוקי הקוד!"
     },
     {
       "id": 113,
-      "title": "Add Line Comment",
-      "content": "Press `Ctrl+K Ctrl+C` (Windows/Linux) or `Cmd+K Cmd+C` (macOS) to add line comments. Comment out multiple lines!"
+      "title": "הוסף הערת שורה",
+      "content": "לחץ `Ctrl+K Ctrl+C` (Windows/Linux) או `Cmd+K Cmd+C` (macOS) להוספת הערות שורה. הערה על מספר שורות!"
     },
     {
       "id": 114,
-      "title": "Remove Line Comment",
-      "content": "Use `Ctrl+K Ctrl+U` (Windows/Linux) or `Cmd+K Cmd+U` (macOS) to remove line comments. Uncomment multiple lines!"
+      "title": "הסר הערת שורה",
+      "content": "השתמש ב-`Ctrl+K Ctrl+U` (Windows/Linux) או `Cmd+K Cmd+U` (macOS) להסרת הערות שורה. בטל הערה על מספר שורות!"
     },
     {
       "id": 115,
-      "title": "Toggle Block Comment",
-      "content": "Press `Shift+Alt+A` (Windows/Linux) or `Shift+Option+A` (macOS) to toggle block comments. Use /* */ style comments!"
+      "title": "הפעל/כבה הערת בלוק",
+      "content": "לחץ `Shift+Alt+A` (Windows/Linux) או `Shift+Option+A` (macOS) להפעלת/כיבוי הערות בלוק. השתמש בהערות בסגנון /* */!"
     },
     {
       "id": 116,
-      "title": "Go to Line",
-      "content": "Use `Ctrl+G` (Windows/Linux) or `Cmd+G` (macOS) to open the Go to Line dialog. Jump to any line number quickly!"
+      "title": "לך לשורה",
+      "content": "השתמש ב-`Ctrl+G` (Windows/Linux) או `Cmd+G` (macOS) לפתיחת דיאלוג לך לשורה. קפוץ לכל מספר שורה במהירות!"
     },
     {
       "id": 117,
-      "title": "Go to Next Error",
-      "content": "Press `F8` to navigate to the next error or warning in your code. Fix issues efficiently!"
+      "title": "לך לשגיאה הבאה",
+      "content": "לחץ `F8` לניווט לשגיאה או אזהרה הבאה בקוד. תקן בעיות ביעילות!"
     },
     {
       "id": 118,
-      "title": "Go to Previous Error",
-      "content": "Use `Shift+F8` to navigate to the previous error or warning in your code. Review all issues!"
+      "title": "לך לשגיאה הקודמת",
+      "content": "השתמש ב-`Shift+F8` לניווט לשגיאה או אזהרה הקודמת בקוד. סקור את כל הבעיות!"
     },
     {
       "id": 119,
-      "title": "Toggle Tab Moves Focus",
-      "content": "Press `Ctrl+M` (Windows/Linux) or `Cmd+M` (macOS) to toggle whether Tab moves focus or inserts a tab character. Accessibility feature!"
+      "title": "הפעל/כבה Tab מזיז מיקוד",
+      "content": "לחץ `Ctrl+M` (Windows/Linux) או `Cmd+M` (macOS) להפעלה/כיבוי אם Tab מזיז מיקוד או מכניס תו טאב. תכונת נגישות!"
     },
     {
       "id": 120,
-      "title": "Keep Preview Mode Open",
-      "content": "Use `Ctrl+K Enter` (Windows/Linux) or `Cmd+K Enter` (macOS) to keep the preview mode editor open permanently. Prevent accidental tab closure!"
+      "title": "שמור מצב תצוגה מקדימה פתוח",
+      "content": "השתמש ב-`Ctrl+K Enter` (Windows/Linux) או `Cmd+K Enter` (macOS) לשמירת עורך מצב תצוגה מקדימה פתוח באופן קבוע. מנע סגירת לשונית בטעות!"
     },
     {
       "id": 121,
-      "title": "Copy Active File Path",
-      "content": "Press `Ctrl+K P` (Windows/Linux) or `Cmd+K P` (macOS) to copy the path of the active file to the clipboard. Share file locations easily!"
+      "title": "העתק נתיב קובץ פעיל",
+      "content": "לחץ `Ctrl+K P` (Windows/Linux) או `Cmd+K P` (macOS) להעתקת נתיב הקובץ הפעיל ללוח. שתף מיקומי קבצים בקלות!"
     },
     {
       "id": 122,
-      "title": "Reveal File in Explorer",
-      "content": "Use `Ctrl+K R` (Windows/Linux) or `Cmd+K R` (macOS) to reveal the active file in the system file explorer. Locate files on your system!"
+      "title": "חשוף קובץ בסייר",
+      "content": "השתמש ב-`Ctrl+K R` (Windows/Linux) או `Cmd+K R` (macOS) לחשיפת הקובץ הפעיל בסייר הקבצים של המערכת. מצא קבצים במערכת!"
     },
     {
       "id": 123,
-      "title": "Show File in New Window",
-      "content": "Press `Ctrl+K O` (Windows/Linux) or `Cmd+K O` (macOS) to show the active file in a new window/instance. Work with the same file in multiple windows!"
+      "title": "הצג קובץ בחלון חדש",
+      "content": "לחץ `Ctrl+K O` (Windows/Linux) או `Cmd+K O` (macOS) להצגת הקובץ הפעיל בחלון/מופע חדש. עבוד עם אותו קובץ במספר חלונות!"
     }
   ]
 }
