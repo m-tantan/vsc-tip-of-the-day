@@ -132,11 +132,6 @@
       "content": "Maintenez `Shift+Alt` en faisant glisser la souris pour sélectionner en colonne. Parfait pour du texte structuré."
     },
     {
-      "id": 27,
-      "title": "Historique de Navigation de Fichier",
-      "content": "Utilisez `Alt+Left` et `Alt+Right` pour parcourir l'historique de navigation de fichier comme dans un navigateur."
-    },
-    {
       "id": 28,
       "title": "Aide Paramètres Rapide",
       "content": "Appuyez sur `Ctrl+Shift+Space` pour afficher les paramètres d'une fonction."
@@ -215,6 +210,391 @@
       "id": 43,
       "title": "Supprimer Espaces de Fin",
       "content": "Utilisez `Ctrl+K Ctrl+X` pour supprimer les espaces de fin de ligne."
+    },
+    {
+      "id": 45,
+      "title": "Ouvrir un Fichier",
+      "content": "Appuyez sur `Ctrl+O` (Windows/Linux) ou `Cmd+O` (macOS) pour ouvrir une boîte de dialogue de fichier. Parcourez et ouvrez rapidement des fichiers depuis n'importe où sur votre système."
+    },
+    {
+      "id": 46,
+      "title": "Enregistrer le Fichier",
+      "content": "Utilisez `Ctrl+S` (Windows/Linux) ou `Cmd+S` (macOS) pour enregistrer le fichier actuel. L'un des raccourcis les plus essentiels!"
+    },
+    {
+      "id": 47,
+      "title": "Enregistrer Sous",
+      "content": "Appuyez sur `Ctrl+Shift+S` (Windows/Linux) ou `Cmd+Shift+S` (macOS) pour enregistrer le fichier actuel avec un nouveau nom ou emplacement."
+    },
+    {
+      "id": 48,
+      "title": "Fermer l'Éditeur",
+      "content": "Utilisez `Ctrl+F4` ou `Ctrl+W` (Windows/Linux) ou `Cmd+W` (macOS) pour fermer l'onglet de l'éditeur actuel."
+    },
+    {
+      "id": 49,
+      "title": "Fermer Tous les Éditeurs",
+      "content": "Appuyez sur `Ctrl+K Ctrl+W` (Windows/Linux) ou `Cmd+K Cmd+W` (macOS) pour fermer tous les onglets d'éditeur ouverts d'un coup."
+    },
+    {
+      "id": 50,
+      "title": "Rouvrir l'Éditeur Fermé",
+      "content": "Utilisez `Ctrl+Shift+T` (Windows/Linux) ou `Cmd+Shift+T` (macOS) pour rouvrir le dernier onglet d'éditeur fermé. Parfait quand vous fermez quelque chose accidentellement!"
+    },
+    {
+      "id": 51,
+      "title": "Basculer Plein Écran",
+      "content": "Appuyez sur `F11` pour basculer le mode plein écran. Maximisez votre espace d'écran pour coder sans distraction!"
+    },
+    {
+      "id": 52,
+      "title": "Basculer la Disposition de l'Éditeur",
+      "content": "Utilisez `Shift+Alt+0` (Windows/Linux) ou `Shift+Option+0` (macOS) pour basculer entre la disposition d'éditeur horizontale et verticale."
+    },
+    {
+      "id": 53,
+      "title": "Zoom Avant/Arrière",
+      "content": "Appuyez sur `Ctrl+=` pour zoomer et `Ctrl+-` pour dézoomer (Windows/Linux) ou `Cmd+=` / `Cmd+-` (macOS). Ajustez rapidement la taille de police de l'éditeur!"
+    },
+    {
+      "id": 54,
+      "title": "Afficher l'Explorateur",
+      "content": "Utilisez `Ctrl+Shift+E` (Windows/Linux) ou `Cmd+Shift+E` (macOS) pour afficher la vue Explorateur et basculer le focus. Accès rapide à votre arborescence de fichiers!"
+    },
+    {
+      "id": 55,
+      "title": "Afficher le Contrôle de Source",
+      "content": "Appuyez sur `Ctrl+Shift+G` (Windows/Linux) ou `Cmd+Shift+G` (macOS) pour ouvrir la vue Contrôle de Source. Gérez vos opérations Git efficacement!"
+    },
+    {
+      "id": 56,
+      "title": "Afficher le Débogage",
+      "content": "Utilisez `Ctrl+Shift+D` (Windows/Linux) ou `Cmd+Shift+D` (macOS) pour ouvrir la vue Débogage. Commencez à déboguer votre code rapidement!"
+    },
+    {
+      "id": 57,
+      "title": "Afficher les Extensions",
+      "content": "Appuyez sur `Ctrl+Shift+X` (Windows/Linux) ou `Cmd+Shift+X` (macOS) pour ouvrir la vue Extensions. Découvrez et gérez les extensions VS Code!"
+    },
+    {
+      "id": 58,
+      "title": "Remplacer dans les Fichiers",
+      "content": "Utilisez `Ctrl+Shift+H` (Windows/Linux) ou `Cmd+Shift+H` (macOS) pour ouvrir le remplacement dans les fichiers. Recherchez et remplacez dans tout votre projet!"
+    },
+    {
+      "id": 59,
+      "title": "Basculer les Détails de Recherche",
+      "content": "Appuyez sur `Ctrl+Shift+J` (Windows/Linux) ou `Cmd+Shift+J` (macOS) pour basculer les détails de recherche. Afficher ou masquer les options de recherche supplémentaires!"
+    },
+    {
+      "id": 60,
+      "title": "Afficher le Panneau de Sortie",
+      "content": "Utilisez `Ctrl+Shift+U` (Windows/Linux) ou `Cmd+Shift+U` (macOS) pour afficher le panneau de Sortie. Visualisez les logs et sorties des extensions et outils!"
+    },
+    {
+      "id": 61,
+      "title": "Ouvrir l'Aperçu Markdown",
+      "content": "Appuyez sur `Ctrl+Shift+V` (Windows/Linux) ou `Cmd+Shift+V` (macOS) pour ouvrir l'aperçu Markdown. Voyez votre Markdown rendu en temps réel!"
+    },
+    {
+      "id": 62,
+      "title": "Aperçu Markdown Côte à Côte",
+      "content": "Utilisez `Ctrl+K V` (Windows/Linux) ou `Cmd+K V` (macOS) pour ouvrir l'aperçu Markdown sur le côté. Éditez et prévisualisez simultanément!"
+    },
+    {
+      "id": 63,
+      "title": "Basculer le Point d'Arrêt",
+      "content": "Appuyez sur `F9` pour basculer un point d'arrêt à la ligne actuelle. Essentiel pour déboguer votre code!"
+    },
+    {
+      "id": 64,
+      "title": "Démarrer/Continuer le Débogage",
+      "content": "Utilisez `F5` pour démarrer le débogage ou continuer l'exécution quand en pause. Moyen rapide d'exécuter vos sessions de débogage!"
+    },
+    {
+      "id": 65,
+      "title": "Arrêter le Débogage",
+      "content": "Appuyez sur `Shift+F5` pour arrêter la session de débogage actuelle. Terminez rapidement votre session de débogage!"
+    },
+    {
+      "id": 66,
+      "title": "Entrer/Sortir de la Fonction",
+      "content": "Utilisez `F11` pour entrer dans une fonction et `Shift+F11` pour en sortir. Naviguez dans votre code pendant le débogage!"
+    },
+    {
+      "id": 67,
+      "title": "Passer Par-Dessus",
+      "content": "Appuyez sur `F10` pour passer par-dessus la ligne actuelle pendant le débogage. Exécutez la ligne actuelle et passez à la suivante!"
+    },
+    {
+      "id": 68,
+      "title": "Afficher les Informations",
+      "content": "Utilisez `Ctrl+K Ctrl+I` (Windows/Linux) ou `Cmd+K Cmd+I` (macOS) pour afficher les informations au survol. Voyez la documentation et les infos de type à la demande!"
+    },
+    {
+      "id": 69,
+      "title": "Créer un Nouveau Terminal",
+      "content": "Appuyez sur `` Ctrl+Shift+` `` (Windows/Linux) ou `` Cmd+Shift+` `` (macOS) pour créer une nouvelle instance de terminal. Exécutez plusieurs sessions de terminal!"
+    },
+    {
+      "id": 70,
+      "title": "Rechercher dans le Fichier",
+      "content": "Utilisez `Ctrl+F` (Windows/Linux) ou `Cmd+F` (macOS) pour ouvrir la recherche dans le fichier actuel. Recherchez dans votre éditeur actif!"
+    },
+    {
+      "id": 71,
+      "title": "Remplacer dans le Fichier",
+      "content": "Appuyez sur `Ctrl+H` (Windows/Linux) ou `Cmd+H` (macOS) pour ouvrir rechercher et remplacer dans le fichier actuel. Modifiez rapidement les motifs de texte!"
+    },
+    {
+      "id": 72,
+      "title": "Rechercher Suivant/Précédent",
+      "content": "Utilisez `F3` pour rechercher suivant et `Shift+F3` pour rechercher précédent. Naviguez efficacement dans les résultats de recherche!"
+    },
+    {
+      "id": 73,
+      "title": "Sélectionner Toutes les Occurrences",
+      "content": "Appuyez sur `Alt+Enter` (Windows/Linux) ou `Option+Enter` (macOS) pour sélectionner toutes les occurrences de la correspondance de recherche actuelle. Éditez plusieurs instances à la fois!"
+    },
+    {
+      "id": 74,
+      "title": "Déplacer la Sélection vers la Correspondance Suivante",
+      "content": "Utilisez `Ctrl+K Ctrl+D` (Windows/Linux) ou `Cmd+K Cmd+D` (macOS) pour déplacer la dernière sélection vers la correspondance suivante. Sautez les correspondances non désirées!"
+    },
+    {
+      "id": 75,
+      "title": "Basculer les Options de Recherche",
+      "content": "Appuyez sur `Alt+C` pour la sensibilité à la casse, `Alt+R` pour regex, et `Alt+W` pour la correspondance de mot entier. Personnalisez votre recherche!"
+    },
+    {
+      "id": 76,
+      "title": "Insérer un Curseur Au-Dessus/En-Dessous",
+      "content": "Utilisez `Ctrl+Alt+Up` ou `Ctrl+Alt+Down` (Windows/Linux) ou `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) pour insérer des curseurs au-dessus ou en-dessous. Créez plusieurs curseurs verticalement!"
+    },
+    {
+      "id": 77,
+      "title": "Annuler l'Opération de Curseur",
+      "content": "Appuyez sur `Ctrl+U` (Windows/Linux) ou `Cmd+U` (macOS) pour annuler la dernière opération de curseur. Annulez les ajouts de curseur non désirés!"
+    },
+    {
+      "id": 78,
+      "title": "Insérer un Curseur aux Fins de Ligne",
+      "content": "Utilisez `Shift+Alt+I` (Windows/Linux) ou `Shift+Option+I` (macOS) pour insérer un curseur à la fin de chaque ligne sélectionnée. Éditez plusieurs fins de ligne!"
+    },
+    {
+      "id": 79,
+      "title": "Sélectionner la Ligne Actuelle",
+      "content": "Appuyez sur `Ctrl+L` (Windows/Linux) ou `Cmd+L` (macOS) pour sélectionner la ligne actuelle. Sélection rapide sans utiliser la souris!"
+    },
+    {
+      "id": 80,
+      "title": "Sélectionner Toutes les Occurrences de la Sélection",
+      "content": "Utilisez `Ctrl+Shift+L` (Windows/Linux) ou `Cmd+Shift+L` (macOS) pour sélectionner toutes les occurrences de la sélection actuelle. Édition multi-curseur puissante!"
+    },
+    {
+      "id": 81,
+      "title": "Sélectionner Toutes les Occurrences du Mot",
+      "content": "Appuyez sur `Ctrl+F2` (Windows/Linux) ou `Cmd+F2` (macOS) pour sélectionner toutes les occurrences du mot actuel. Multi-édition rapide basée sur les mots!"
+    },
+    {
+      "id": 82,
+      "title": "Étendre/Réduire la Sélection",
+      "content": "Utilisez `Shift+Alt+Right` pour étendre et `Shift+Alt+Left` pour réduire la sélection (Windows/Linux) ou `Shift+Option+Right` / `Shift+Option+Left` (macOS). Sélection intelligente basée sur la syntaxe!"
+    },
+    {
+      "id": 84,
+      "title": "Sélection de Colonne avec le Clavier",
+      "content": "Utilisez `Ctrl+Shift+Alt` avec les touches fléchées (Windows/Linux) ou `Cmd+Shift+Option` avec les touches fléchées (macOS) pour la sélection de colonne. Sélection de boîte sans souris!"
+    },
+    {
+      "id": 86,
+      "title": "Formater la Sélection",
+      "content": "Utilisez `Ctrl+K Ctrl+F` (Windows/Linux) ou `Cmd+K Cmd+F` (macOS) pour formater le code sélectionné. Gardez votre code sélectionné propre et cohérent!"
+    },
+    {
+      "id": 87,
+      "title": "Aperçu Rapide de la Définition",
+      "content": "Appuyez sur `Alt+F12` (Windows/Linux) ou `Option+F12` (macOS) pour voir la définition en ligne. Voyez les définitions sans perdre le contexte!"
+    },
+    {
+      "id": 88,
+      "title": "Ouvrir la Définition sur le Côté",
+      "content": "Utilisez `Ctrl+K F12` (Windows/Linux) ou `Cmd+K F12` (macOS) pour ouvrir la définition dans un éditeur latéral. Comparez définitions et implémentations!"
+    },
+    {
+      "id": 89,
+      "title": "Changer la Langue du Fichier",
+      "content": "Appuyez sur `Ctrl+K M` (Windows/Linux) ou `Cmd+K M` (macOS) pour changer le mode de langue du fichier. Changez la coloration syntaxique et les fonctionnalités!"
+    },
+    {
+      "id": 90,
+      "title": "Fermer le Dossier",
+      "content": "Utilisez `Ctrl+K F` (Windows/Linux) ou `Cmd+K F` (macOS) pour fermer le dossier/espace de travail actuel. Changez d'espaces de travail rapidement!"
+    },
+    {
+      "id": 91,
+      "title": "Cibler les Groupes d'Éditeurs",
+      "content": "Appuyez sur `Ctrl+1`, `Ctrl+2`, ou `Ctrl+3` (Windows/Linux) ou `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) pour cibler le 1er, 2e, ou 3e groupe d'éditeurs!"
+    },
+    {
+      "id": 92,
+      "title": "Cibler le Groupe d'Éditeur Suivant/Précédent",
+      "content": "Utilisez `Ctrl+K Ctrl+Right` ou `Ctrl+K Ctrl+Left` (Windows/Linux) ou `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) pour cibler le groupe d'éditeur suivant ou précédent!"
+    },
+    {
+      "id": 93,
+      "title": "Déplacer l'Éditeur à Gauche/Droite",
+      "content": "Appuyez sur `Ctrl+Shift+PgUp` ou `Ctrl+Shift+PgDn` (Windows/Linux) ou `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) pour déplacer l'éditeur à gauche ou à droite!"
+    },
+    {
+      "id": 94,
+      "title": "Déplacer le Groupe d'Éditeur Actif",
+      "content": "Utilisez `Ctrl+K Left` ou `Ctrl+K Right` (Windows/Linux) ou `Cmd+K Left` / `Cmd+K Right` (macOS) pour déplacer le groupe d'éditeur actif!"
+    },
+    {
+      "id": 95,
+      "title": "Nouvelle Fenêtre",
+      "content": "Appuyez sur `Ctrl+Shift+N` (Windows/Linux) ou `Cmd+Shift+N` (macOS) pour ouvrir une nouvelle fenêtre/instance VS Code. Travaillez sur plusieurs projets simultanément!"
+    },
+    {
+      "id": 96,
+      "title": "Fermer la Fenêtre",
+      "content": "Utilisez `Ctrl+Shift+W` (Windows/Linux) ou `Cmd+Shift+W` (macOS) pour fermer la fenêtre/instance VS Code actuelle!"
+    },
+    {
+      "id": 97,
+      "title": "Paramètres Utilisateur",
+      "content": "Appuyez sur `Ctrl+,` (Windows/Linux) ou `Cmd+,` (macOS) pour ouvrir les Paramètres Utilisateur. Personnalisez votre expérience VS Code!"
+    },
+    {
+      "id": 98,
+      "title": "Paramètres des Raccourcis Clavier",
+      "content": "Utilisez `Ctrl+K Ctrl+S` (Windows/Linux) ou `Cmd+K Cmd+S` (macOS) pour ouvrir les paramètres des Raccourcis Clavier. Personnalisez ou visualisez tous les raccourcis!"
+    },
+    {
+      "id": 99,
+      "title": "Couper la Ligne",
+      "content": "Appuyez sur `Ctrl+X` (Windows/Linux) ou `Cmd+X` (macOS) sans sélection pour couper la ligne entière. Coupe rapide de ligne!"
+    },
+    {
+      "id": 100,
+      "title": "Copier la Ligne",
+      "content": "Utilisez `Ctrl+C` (Windows/Linux) ou `Cmd+C` (macOS) sans sélection pour copier la ligne entière. Copie rapide de ligne!"
+    },
+    {
+      "id": 101,
+      "title": "Supprimer la Ligne",
+      "content": "Appuyez sur `Ctrl+Shift+K` (Windows/Linux) ou `Cmd+Shift+K` (macOS) pour supprimer la ligne actuelle. Plus rapide que sélectionner et supprimer!"
+    },
+    {
+      "id": 102,
+      "title": "Insérer une Ligne En-Dessous",
+      "content": "Utilisez `Ctrl+Enter` (Windows/Linux) ou `Cmd+Enter` (macOS) pour insérer une nouvelle ligne sous la ligne actuelle. Pas besoin d'aller à la fin d'abord!"
+    },
+    {
+      "id": 103,
+      "title": "Insérer une Ligne Au-Dessus",
+      "content": "Appuyez sur `Ctrl+Shift+Enter` (Windows/Linux) ou `Cmd+Shift+Enter` (macOS) pour insérer une nouvelle ligne au-dessus de la ligne actuelle!"
+    },
+    {
+      "id": 104,
+      "title": "Aller au Crochet Correspondant",
+      "content": "Utilisez `Ctrl+Shift+\\` (Windows/Linux) ou `Cmd+Shift+\\` (macOS) pour aller au crochet correspondant. Naviguez rapidement dans les structures de code!"
+    },
+    {
+      "id": 105,
+      "title": "Aller au Début/Fin de Ligne",
+      "content": "Appuyez sur `Home` pour aller au début de la ligne et `End` pour aller à la fin. Navigation rapide de ligne!"
+    },
+    {
+      "id": 106,
+      "title": "Aller au Début/Fin du Fichier",
+      "content": "Utilisez `Ctrl+Home` pour aller au début du fichier et `Ctrl+End` pour aller à la fin (Windows/Linux) ou `Cmd+Home` / `Cmd+End` (macOS)!"
+    },
+    {
+      "id": 107,
+      "title": "Faire Défiler la Ligne Haut/Bas",
+      "content": "Appuyez sur `Ctrl+Up` ou `Ctrl+Down` (Windows/Linux) ou `Cmd+Up` / `Cmd+Down` (macOS) pour faire défiler la vue d'une ligne sans déplacer le curseur!"
+    },
+    {
+      "id": 108,
+      "title": "Faire Défiler la Page Haut/Bas",
+      "content": "Utilisez `Alt+PgUp` ou `Alt+PgDn` (Windows/Linux) ou `Option+PgUp` / `Option+PgDn` (macOS) pour faire défiler la vue d'une page!"
+    },
+    {
+      "id": 109,
+      "title": "Plier Toutes les Sous-Régions",
+      "content": "Appuyez sur `Ctrl+K Ctrl+[` (Windows/Linux) ou `Cmd+K Cmd+[` (macOS) pour plier (réduire) toutes les sous-régions dans la région actuelle!"
+    },
+    {
+      "id": 110,
+      "title": "Déplier Toutes les Sous-Régions",
+      "content": "Utilisez `Ctrl+K Ctrl+]` (Windows/Linux) ou `Cmd+K Cmd+]` (macOS) pour déplier (développer) toutes les sous-régions dans la région actuelle!"
+    },
+    {
+      "id": 111,
+      "title": "Plier Toutes les Régions",
+      "content": "Appuyez sur `Ctrl+K Ctrl+0` (Windows/Linux) ou `Cmd+K Cmd+0` (macOS) pour plier (réduire) toutes les régions dans le fichier. Minimisez tous les blocs de code!"
+    },
+    {
+      "id": 112,
+      "title": "Déplier Toutes les Régions",
+      "content": "Utilisez `Ctrl+K Ctrl+J` (Windows/Linux) ou `Cmd+K Cmd+J` (macOS) pour déplier (développer) toutes les régions dans le fichier. Développez tous les blocs de code!"
+    },
+    {
+      "id": 113,
+      "title": "Ajouter un Commentaire de Ligne",
+      "content": "Appuyez sur `Ctrl+K Ctrl+C` (Windows/Linux) ou `Cmd+K Cmd+C` (macOS) pour ajouter des commentaires de ligne. Commentez plusieurs lignes!"
+    },
+    {
+      "id": 114,
+      "title": "Supprimer le Commentaire de Ligne",
+      "content": "Utilisez `Ctrl+K Ctrl+U` (Windows/Linux) ou `Cmd+K Cmd+U` (macOS) pour supprimer les commentaires de ligne. Décommentez plusieurs lignes!"
+    },
+    {
+      "id": 115,
+      "title": "Basculer le Commentaire de Bloc",
+      "content": "Appuyez sur `Shift+Alt+A` (Windows/Linux) ou `Shift+Option+A` (macOS) pour basculer les commentaires de bloc. Utilisez les commentaires style /* */!"
+    },
+    {
+      "id": 116,
+      "title": "Aller à la Ligne",
+      "content": "Utilisez `Ctrl+G` (Windows/Linux) ou `Cmd+G` (macOS) pour ouvrir le dialogue Aller à la Ligne. Sautez rapidement à n'importe quel numéro de ligne!"
+    },
+    {
+      "id": 117,
+      "title": "Aller à l'Erreur Suivante",
+      "content": "Appuyez sur `F8` pour naviguer vers l'erreur ou l'avertissement suivant dans votre code. Résolvez les problèmes efficacement!"
+    },
+    {
+      "id": 118,
+      "title": "Aller à l'Erreur Précédente",
+      "content": "Utilisez `Shift+F8` pour naviguer vers l'erreur ou l'avertissement précédent dans votre code. Passez en revue tous les problèmes!"
+    },
+    {
+      "id": 119,
+      "title": "Basculer Tab Déplace le Focus",
+      "content": "Appuyez sur `Ctrl+M` (Windows/Linux) ou `Cmd+M` (macOS) pour basculer si Tab déplace le focus ou insère un caractère de tabulation. Fonctionnalité d'accessibilité!"
+    },
+    {
+      "id": 120,
+      "title": "Garder le Mode Aperçu Ouvert",
+      "content": "Utilisez `Ctrl+K Enter` (Windows/Linux) ou `Cmd+K Enter` (macOS) pour garder l'éditeur en mode aperçu ouvert de façon permanente. Évitez la fermeture accidentelle d'onglets!"
+    },
+    {
+      "id": 121,
+      "title": "Copier le Chemin du Fichier Actif",
+      "content": "Appuyez sur `Ctrl+K P` (Windows/Linux) ou `Cmd+K P` (macOS) pour copier le chemin du fichier actif dans le presse-papiers. Partagez facilement les emplacements de fichiers!"
+    },
+    {
+      "id": 122,
+      "title": "Révéler le Fichier dans l'Explorateur",
+      "content": "Utilisez `Ctrl+K R` (Windows/Linux) ou `Cmd+K R` (macOS) pour révéler le fichier actif dans l'explorateur de fichiers système. Localisez les fichiers sur votre système!"
+    },
+    {
+      "id": 123,
+      "title": "Afficher le Fichier dans une Nouvelle Fenêtre",
+      "content": "Appuyez sur `Ctrl+K O` (Windows/Linux) ou `Cmd+K O` (macOS) pour afficher le fichier actif dans une nouvelle fenêtre/instance. Travaillez sur le même fichier dans plusieurs fenêtres!"
     }
   ]
 }

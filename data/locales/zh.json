@@ -16,7 +16,11 @@
       "title": "多光标编辑",
       "content": "按住 `Alt`（macOS 为 `Option`）并点击以添加多个光标，同时编辑多行。"
     },
-    { "id": 4, "title": "专注模式", "content": "使用 `Ctrl+K Z` 切换无干扰专注模式。按两次 `Esc` 退出。" },
+    {
+      "id": 4,
+      "title": "专注模式",
+      "content": "使用 `Ctrl+K Z` 切换无干扰专注模式。按两次 `Esc` 退出。"
+    },
     {
       "id": 5,
       "title": "集成终端",
@@ -52,65 +56,545 @@
       "title": "面包屑导航",
       "content": "点击编辑器上方的面包屑或按 `Ctrl+Shift+.` 快速在文件结构中导航。"
     },
-    { "id": 12, "title": "快速修复与操作", "content": "看到灯泡 💡 时按 `Ctrl+.` 查看快速修复和重构选项。" },
+    {
+      "id": 12,
+      "title": "快速修复与操作",
+      "content": "看到灯泡 💡 时按 `Ctrl+.` 查看快速修复和重构选项。"
+    },
     {
       "id": 13,
       "title": "向后/向前导航",
       "content": "使用 `Alt+Left` 和 `Alt+Right` 在光标历史位置之间来回跳转。"
     },
-    { "id": 14, "title": "切换行注释", "content": "按 `Ctrl+/` 切换行注释，可作用于多行选中内容。" },
+    {
+      "id": 14,
+      "title": "切换行注释",
+      "content": "按 `Ctrl+/` 切换行注释，可作用于多行选中内容。"
+    },
     {
       "id": 15,
       "title": "上下移动行",
       "content": "使用 `Alt+Up` 或 `Alt+Down` 移动当前行/选中行，快速调整结构。"
     },
-    { "id": 16, "title": "格式化文档", "content": "按 `Shift+Alt+F` 格式化整个文档，保持风格一致。" },
+    {
+      "id": 16,
+      "title": "格式化文档",
+      "content": "按 `Shift+Alt+F` 格式化整个文档，保持风格一致。"
+    },
     {
       "id": 17,
       "title": "小地图导航",
       "content": "利用右侧小地图快速滚动大文件，可通过命令面板搜索 'Toggle Minimap' 切换。"
     },
-    { "id": 18, "title": "跳转到定义", "content": "按 `F12` 跳转到符号定义；按住 `Ctrl` 悬停可预览。" },
-    { "id": 19, "title": "查找所有引用", "content": "按 `Shift+Alt+F12` 列出当前符号的所有引用。" },
-    { "id": 20, "title": "重命名符号", "content": "按 `F2` 重命名符号并自动更新所有引用。" },
-    { "id": 21, "title": "问题面板", "content": "按 `Ctrl+Shift+M` 打开问题面板查看错误与警告。" },
+    {
+      "id": 18,
+      "title": "跳转到定义",
+      "content": "按 `F12` 跳转到符号定义；按住 `Ctrl` 悬停可预览。"
+    },
+    {
+      "id": 19,
+      "title": "查找所有引用",
+      "content": "按 `Shift+Alt+F12` 列出当前符号的所有引用。"
+    },
+    {
+      "id": 20,
+      "title": "重命名符号",
+      "content": "按 `F2` 重命名符号并自动更新所有引用。"
+    },
+    {
+      "id": 21,
+      "title": "问题面板",
+      "content": "按 `Ctrl+Shift+M` 打开问题面板查看错误与警告。"
+    },
     {
       "id": 22,
       "title": "快速打开上一个文件",
       "content": "按 `Ctrl+Tab` 在最近文件间切换；保持按住可显示列表。"
     },
-    { "id": 23, "title": "切换自动换行", "content": "按 `Alt+Z` 切换自动换行，避免水平滚动。" },
+    {
+      "id": 23,
+      "title": "切换自动换行",
+      "content": "按 `Alt+Z` 切换自动换行，避免水平滚动。"
+    },
     {
       "id": 24,
       "title": "折叠/展开代码",
       "content": "使用 `Ctrl+Shift+[` 与 `Ctrl+Shift+]` 折叠或展开代码块。"
     },
-    { "id": 25, "title": "并排编辑", "content": "拖动文件标签到侧边实现并排编辑，便于比较或参考。" },
-    { "id": 26, "title": "列选择", "content": "按住 `Shift+Alt` 拖动鼠标进行列块选择，适合结构化文本。" },
-    { "id": 27, "title": "文件导航历史", "content": "使用 `Alt+Left` / `Alt+Right` 浏览文件位置历史。" },
-    { "id": 28, "title": "快速参数提示", "content": "按 `Ctrl+Shift+Space` 显示函数参数提示。" },
-    { "id": 29, "title": "切换颜色主题", "content": "使用 `Ctrl+K Ctrl+T` 快速切换主题，找到最舒适的配色。" },
-    { "id": 30, "title": "复制行", "content": "按 `Shift+Alt+Up` 或 `Shift+Alt+Down` 向上/下复制当前行。" },
-    { "id": 31, "title": "合并行", "content": "按 `Ctrl+Shift+P` 打开命令面板并输入 'Join Lines'。您可以在键盘快捷键设置中为此命令设置自定义快捷键。" },
-    { "id": 32, "title": "切换活动栏", "content": "按 `Ctrl+B` 显示/隐藏活动栏，释放横向空间。" },
+    {
+      "id": 25,
+      "title": "并排编辑",
+      "content": "拖动文件标签到侧边实现并排编辑，便于比较或参考。"
+    },
+    {
+      "id": 26,
+      "title": "列选择",
+      "content": "按住 `Shift+Alt` 拖动鼠标进行列块选择，适合结构化文本。"
+    },
+    {
+      "id": 28,
+      "title": "快速参数提示",
+      "content": "按 `Ctrl+Shift+Space` 显示函数参数提示。"
+    },
+    {
+      "id": 29,
+      "title": "切换颜色主题",
+      "content": "使用 `Ctrl+K Ctrl+T` 快速切换主题，找到最舒适的配色。"
+    },
+    {
+      "id": 30,
+      "title": "复制行",
+      "content": "按 `Shift+Alt+Up` 或 `Shift+Alt+Down` 向上/下复制当前行。"
+    },
+    {
+      "id": 31,
+      "title": "合并行",
+      "content": "按 `Ctrl+Shift+P` 打开命令面板并输入 'Join Lines'。您可以在键盘快捷键设置中为此命令设置自定义快捷键。"
+    },
+    {
+      "id": 32,
+      "title": "切换活动栏",
+      "content": "按 `Ctrl+B` 显示/隐藏活动栏，释放横向空间。"
+    },
     {
       "id": 33,
       "title": "IntelliSense Tab 补全",
       "content": "触发 IntelliSense 后用 `Tab` 而不是 `Enter` 完成并替换单词。"
     },
-    { "id": 34, "title": "预览引用", "content": "使用 `Shift+F12` 在当前位置预览引用，可选择侧边打开。" },
-    { "id": 35, "title": "清空终端", "content": "在终端中输入 'clear' 清空输出。保持工作区整洁！" },
-    { "id": 36, "title": "全部保存", "content": "按 `Ctrl+K S` 保存所有已打开文件。" },
-    { "id": 37, "title": "按符号查找", "content": "按 `Ctrl+Shift+O` 在当前文件按符号跳转。" },
-    { "id": 38, "title": "工作区符号搜索", "content": "按 `Ctrl+T` 在整个工作区搜索符号。" },
+    {
+      "id": 34,
+      "title": "预览引用",
+      "content": "使用 `Shift+F12` 在当前位置预览引用，可选择侧边打开。"
+    },
+    {
+      "id": 35,
+      "title": "清空终端",
+      "content": "在终端中输入 'clear' 清空输出。保持工作区整洁！"
+    },
+    {
+      "id": 36,
+      "title": "全部保存",
+      "content": "按 `Ctrl+K S` 保存所有已打开文件。"
+    },
+    {
+      "id": 37,
+      "title": "按符号查找",
+      "content": "按 `Ctrl+Shift+O` 在当前文件按符号跳转。"
+    },
+    {
+      "id": 38,
+      "title": "工作区符号搜索",
+      "content": "按 `Ctrl+T` 在整个工作区搜索符号。"
+    },
     {
       "id": 39,
       "title": "自动保存",
       "content": "通过 文件 > 自动保存 或设置 `files.autoSave` 为 'afterDelay' 开启自动保存。"
     },
-    { "id": 40, "title": "快捷键参考", "content": "按 `Ctrl+K Ctrl+R` 打开快捷键参考 PDF。" },
-    { "id": 41, "title": "增加/减少缩进", "content": "用 `Ctrl+]` 增加缩进，`Ctrl+[` 减少缩进。" },
-    { "id": 42, "title": "分割终端", "content": "使用终端标题栏 + 按钮或命令 'Split Terminal' 分割终端。" },
-    { "id": 43, "title": "删除行尾空白", "content": "按 `Ctrl+K Ctrl+X` 删除行尾多余空白。" }
+    {
+      "id": 40,
+      "title": "快捷键参考",
+      "content": "按 `Ctrl+K Ctrl+R` 打开快捷键参考 PDF。"
+    },
+    {
+      "id": 41,
+      "title": "增加/减少缩进",
+      "content": "用 `Ctrl+]` 增加缩进，`Ctrl+[` 减少缩进。"
+    },
+    {
+      "id": 42,
+      "title": "分割终端",
+      "content": "使用终端标题栏 + 按钮或命令 'Split Terminal' 分割终端。"
+    },
+    {
+      "id": 43,
+      "title": "删除行尾空白",
+      "content": "按 `Ctrl+K Ctrl+X` 删除行尾多余空白。"
+    },
+    {
+      "id": 45,
+      "title": "打开文件",
+      "content": "按 `Ctrl+O`（Windows/Linux）或 `Cmd+O`（macOS）打开文件对话框。从系统任意位置快速浏览和打开文件。"
+    },
+    {
+      "id": 46,
+      "title": "保存文件",
+      "content": "使用 `Ctrl+S`（Windows/Linux）或 `Cmd+S`（macOS）保存当前文件。最重要的快捷键之一！"
+    },
+    {
+      "id": 47,
+      "title": "另存为",
+      "content": "按 `Ctrl+Shift+S`（Windows/Linux）或 `Cmd+Shift+S`（macOS）以新名称或位置保存当前文件。"
+    },
+    {
+      "id": 48,
+      "title": "关闭编辑器",
+      "content": "使用 `Ctrl+F4` 或 `Ctrl+W`（Windows/Linux）或 `Cmd+W`（macOS）关闭当前编辑器标签。"
+    },
+    {
+      "id": 49,
+      "title": "关闭所有编辑器",
+      "content": "按 `Ctrl+K Ctrl+W`（Windows/Linux）或 `Cmd+K Cmd+W`（macOS）一次关闭所有打开的编辑器标签。"
+    },
+    {
+      "id": 50,
+      "title": "重新打开已关闭的编辑器",
+      "content": "使用 `Ctrl+Shift+T`（Windows/Linux）或 `Cmd+Shift+T`（macOS）重新打开上次关闭的编辑器标签。意外关闭时非常有用！"
+    },
+    {
+      "id": 51,
+      "title": "切换全屏",
+      "content": "按 `F11` 切换全屏模式。最大化屏幕空间，专注编码！"
+    },
+    {
+      "id": 52,
+      "title": "切换编辑器布局",
+      "content": "使用 `Shift+Alt+0`（Windows/Linux）或 `Shift+Option+0`（macOS）在水平和垂直编辑器布局之间切换。"
+    },
+    {
+      "id": 53,
+      "title": "放大/缩小",
+      "content": "按 `Ctrl+=` 放大和 `Ctrl+-` 缩小（Windows/Linux）或 `Cmd+=` / `Cmd+-`（macOS）。快速调整编辑器字体大小！"
+    },
+    {
+      "id": 54,
+      "title": "显示资源管理器",
+      "content": "使用 `Ctrl+Shift+E`（Windows/Linux）或 `Cmd+Shift+E`（macOS）显示资源管理器视图并切换焦点。快速访问文件树！"
+    },
+    {
+      "id": 55,
+      "title": "显示源代码管理",
+      "content": "按 `Ctrl+Shift+G`（Windows/Linux）或 `Cmd+Shift+G`（macOS）打开源代码管理视图。高效管理 Git 操作！"
+    },
+    {
+      "id": 56,
+      "title": "显示调试",
+      "content": "使用 `Ctrl+Shift+D`（Windows/Linux）或 `Cmd+Shift+D`（macOS）打开调试视图。快速开始调试代码！"
+    },
+    {
+      "id": 57,
+      "title": "显示扩展",
+      "content": "按 `Ctrl+Shift+X`（Windows/Linux）或 `Cmd+Shift+X`（macOS）打开扩展视图。发现和管理 VS Code 扩展！"
+    },
+    {
+      "id": 58,
+      "title": "在文件中替换",
+      "content": "使用 `Ctrl+Shift+H`（Windows/Linux）或 `Cmd+Shift+H`（macOS）打开文件中替换。在整个项目中搜索和替换！"
+    },
+    {
+      "id": 59,
+      "title": "切换搜索详情",
+      "content": "按 `Ctrl+Shift+J`（Windows/Linux）或 `Cmd+Shift+J`（macOS）切换搜索详情。显示或隐藏额外的搜索选项！"
+    },
+    {
+      "id": 60,
+      "title": "显示输出面板",
+      "content": "使用 `Ctrl+Shift+U`（Windows/Linux）或 `Cmd+Shift+U`（macOS）显示输出面板。查看扩展和工具的日志和输出！"
+    },
+    {
+      "id": 61,
+      "title": "打开 Markdown 预览",
+      "content": "按 `Ctrl+Shift+V`（Windows/Linux）或 `Cmd+Shift+V`（macOS）打开 Markdown 预览。实时查看 Markdown 渲染效果！"
+    },
+    {
+      "id": 62,
+      "title": "并排 Markdown 预览",
+      "content": "使用 `Ctrl+K V`（Windows/Linux）或 `Cmd+K V`（macOS）在侧边打开 Markdown 预览。同时编辑和预览！"
+    },
+    {
+      "id": 63,
+      "title": "切换断点",
+      "content": "按 `F9` 在当前行切换断点。调试代码的必备操作！"
+    },
+    {
+      "id": 64,
+      "title": "开始/继续调试",
+      "content": "使用 `F5` 开始调试或在暂停时继续执行。快速运行调试会话的方式！"
+    },
+    {
+      "id": 65,
+      "title": "停止调试",
+      "content": "按 `Shift+F5` 停止当前调试会话。快速结束调试会话！"
+    },
+    {
+      "id": 66,
+      "title": "步入/步出",
+      "content": "使用 `F11` 步入函数，`Shift+F11` 步出函数。在调试时导航代码！"
+    },
+    {
+      "id": 67,
+      "title": "步过",
+      "content": "按 `F10` 在调试时跳过当前行。执行当前行并移动到下一行！"
+    },
+    {
+      "id": 68,
+      "title": "显示悬停信息",
+      "content": "使用 `Ctrl+K Ctrl+I`（Windows/Linux）或 `Cmd+K Cmd+I`（macOS）显示悬停信息。按需查看文档和类型信息！"
+    },
+    {
+      "id": 69,
+      "title": "创建新终端",
+      "content": "按 `` Ctrl+Shift+` ``（Windows/Linux）或 `` Cmd+Shift+` ``（macOS）创建新的终端实例。运行多个终端会话！"
+    },
+    {
+      "id": 70,
+      "title": "在文件中查找",
+      "content": "使用 `Ctrl+F`（Windows/Linux）或 `Cmd+F`（macOS）在当前文件中打开查找。在活动编辑器中搜索！"
+    },
+    {
+      "id": 71,
+      "title": "在文件中替换",
+      "content": "按 `Ctrl+H`（Windows/Linux）或 `Cmd+H`（macOS）在当前文件中打开查找和替换。快速修改文本模式！"
+    },
+    {
+      "id": 72,
+      "title": "查找下一个/上一个",
+      "content": "使用 `F3` 查找下一个，`Shift+F3` 查找上一个。高效导航搜索结果！"
+    },
+    {
+      "id": 73,
+      "title": "选择所有匹配项",
+      "content": "按 `Alt+Enter`（Windows/Linux）或 `Option+Enter`（macOS）选择当前搜索匹配的所有出现项。一次编辑多个实例！"
+    },
+    {
+      "id": 74,
+      "title": "将选择移至下一个匹配项",
+      "content": "使用 `Ctrl+K Ctrl+D`（Windows/Linux）或 `Cmd+K Cmd+D`（macOS）将上一个选择移至下一个搜索匹配项。跳过不需要的匹配项！"
+    },
+    {
+      "id": 75,
+      "title": "切换搜索选项",
+      "content": "按 `Alt+C` 区分大小写，`Alt+R` 使用正则表达式，`Alt+W` 匹配整个单词。自定义搜索！"
+    },
+    {
+      "id": 76,
+      "title": "在上/下插入光标",
+      "content": "使用 `Ctrl+Alt+Up` 或 `Ctrl+Alt+Down`（Windows/Linux）或 `Cmd+Option+Up` / `Cmd+Option+Down`（macOS）在上方或下方插入光标。垂直创建多个光标！"
+    },
+    {
+      "id": 77,
+      "title": "撤销光标操作",
+      "content": "按 `Ctrl+U`（Windows/Linux）或 `Cmd+U`（macOS）撤销上一次光标操作。撤销不需要的光标添加！"
+    },
+    {
+      "id": 78,
+      "title": "在行尾插入光标",
+      "content": "使用 `Shift+Alt+I`（Windows/Linux）或 `Shift+Option+I`（macOS）在每个选中行的末尾插入光标。编辑多个行尾！"
+    },
+    {
+      "id": 79,
+      "title": "选择当前行",
+      "content": "按 `Ctrl+L`（Windows/Linux）或 `Cmd+L`（macOS）选择当前行。无需鼠标快速选择！"
+    },
+    {
+      "id": 80,
+      "title": "选择所有选中内容的匹配项",
+      "content": "使用 `Ctrl+Shift+L`（Windows/Linux）或 `Cmd+Shift+L`（macOS）选择当前选中内容的所有匹配项。强大的多光标编辑！"
+    },
+    {
+      "id": 81,
+      "title": "选择所有单词的匹配项",
+      "content": "按 `Ctrl+F2`（Windows/Linux）或 `Cmd+F2`（macOS）选择当前单词的所有匹配项。快速基于单词的多重编辑！"
+    },
+    {
+      "id": 82,
+      "title": "扩大/缩小选择",
+      "content": "使用 `Shift+Alt+Right` 扩大，`Shift+Alt+Left` 缩小选择（Windows/Linux）或 `Shift+Option+Right` / `Shift+Option+Left`（macOS）。基于语法的智能选择！"
+    },
+    {
+      "id": 84,
+      "title": "键盘列选择",
+      "content": "使用 `Ctrl+Shift+Alt` 加箭头键（Windows/Linux）或 `Cmd+Shift+Option` 加箭头键（macOS）进行列选择。无需鼠标的框选择！"
+    },
+    {
+      "id": 86,
+      "title": "格式化选择",
+      "content": "使用 `Ctrl+K Ctrl+F`（Windows/Linux）或 `Cmd+K Cmd+F`（macOS）格式化选中的代码。保持选中代码整洁一致！"
+    },
+    {
+      "id": 87,
+      "title": "速览定义",
+      "content": "按 `Alt+F12`（Windows/Linux）或 `Option+F12`（macOS）内联速览定义。在不失去上下文的情况下查看定义！"
+    },
+    {
+      "id": 88,
+      "title": "在侧边打开定义",
+      "content": "使用 `Ctrl+K F12`（Windows/Linux）或 `Cmd+K F12`（macOS）在侧边编辑器中打开定义。比较定义和实现！"
+    },
+    {
+      "id": 89,
+      "title": "更改文件语言",
+      "content": "按 `Ctrl+K M`（Windows/Linux）或 `Cmd+K M`（macOS）更改文件语言模式。切换语法高亮和功能！"
+    },
+    {
+      "id": 90,
+      "title": "关闭文件夹",
+      "content": "使用 `Ctrl+K F`（Windows/Linux）或 `Cmd+K F`（macOS）关闭当前文件夹/工作区。快速切换工作区！"
+    },
+    {
+      "id": 91,
+      "title": "聚焦编辑器组",
+      "content": "按 `Ctrl+1`、`Ctrl+2` 或 `Ctrl+3`（Windows/Linux）或 `Cmd+1`、`Cmd+2`、`Cmd+3`（macOS）聚焦到第 1、2 或 3 个编辑器组！"
+    },
+    {
+      "id": 92,
+      "title": "聚焦下一个/上一个编辑器组",
+      "content": "使用 `Ctrl+K Ctrl+Right` 或 `Ctrl+K Ctrl+Left`（Windows/Linux）或 `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left`（macOS）聚焦到下一个或上一个编辑器组！"
+    },
+    {
+      "id": 93,
+      "title": "左右移动编辑器",
+      "content": "按 `Ctrl+Shift+PgUp` 或 `Ctrl+Shift+PgDn`（Windows/Linux）或 `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn`（macOS）向左或向右移动编辑器！"
+    },
+    {
+      "id": 94,
+      "title": "移动活动编辑器组",
+      "content": "使用 `Ctrl+K Left` 或 `Ctrl+K Right`（Windows/Linux）或 `Cmd+K Left` / `Cmd+K Right`（macOS）移动活动编辑器组！"
+    },
+    {
+      "id": 95,
+      "title": "新建窗口",
+      "content": "按 `Ctrl+Shift+N`（Windows/Linux）或 `Cmd+Shift+N`（macOS）打开新的 VS Code 窗口/实例。同时处理多个项目！"
+    },
+    {
+      "id": 96,
+      "title": "关闭窗口",
+      "content": "使用 `Ctrl+Shift+W`（Windows/Linux）或 `Cmd+Shift+W`（macOS）关闭当前 VS Code 窗口/实例！"
+    },
+    {
+      "id": 97,
+      "title": "用户设置",
+      "content": "按 `Ctrl+,`（Windows/Linux）或 `Cmd+,`（macOS）打开用户设置。自定义您的 VS Code 体验！"
+    },
+    {
+      "id": 98,
+      "title": "键盘快捷键设置",
+      "content": "使用 `Ctrl+K Ctrl+S`（Windows/Linux）或 `Cmd+K Cmd+S`（macOS）打开键盘快捷键设置。自定义或查看所有快捷键！"
+    },
+    {
+      "id": 99,
+      "title": "剪切行",
+      "content": "按 `Ctrl+X`（Windows/Linux）或 `Cmd+X`（macOS）无选择时剪切整行。快速行剪切！"
+    },
+    {
+      "id": 100,
+      "title": "复制行",
+      "content": "使用 `Ctrl+C`（Windows/Linux）或 `Cmd+C`（macOS）无选择时复制整行。快速行复制！"
+    },
+    {
+      "id": 101,
+      "title": "删除行",
+      "content": "按 `Ctrl+Shift+K`（Windows/Linux）或 `Cmd+Shift+K`（macOS）删除当前行。比选择后删除更快！"
+    },
+    {
+      "id": 102,
+      "title": "在下方插入行",
+      "content": "使用 `Ctrl+Enter`（Windows/Linux）或 `Cmd+Enter`（macOS）在当前行下方插入新行。无需先移到行尾！"
+    },
+    {
+      "id": 103,
+      "title": "在上方插入行",
+      "content": "按 `Ctrl+Shift+Enter`（Windows/Linux）或 `Cmd+Shift+Enter`（macOS）在当前行上方插入新行！"
+    },
+    {
+      "id": 104,
+      "title": "跳转到匹配括号",
+      "content": "使用 `Ctrl+Shift+\\`（Windows/Linux）或 `Cmd+Shift+\\`（macOS）跳转到匹配的括号。快速导航代码结构！"
+    },
+    {
+      "id": 105,
+      "title": "跳转到行首/行尾",
+      "content": "按 `Home` 跳转到行首，`End` 跳转到行尾。快速行导航！"
+    },
+    {
+      "id": 106,
+      "title": "跳转到文件开头/结尾",
+      "content": "使用 `Ctrl+Home` 跳转到文件开头，`Ctrl+End` 跳转到结尾（Windows/Linux）或 `Cmd+Home` / `Cmd+End`（macOS）！"
+    },
+    {
+      "id": 107,
+      "title": "向上/下滚动一行",
+      "content": "按 `Ctrl+Up` 或 `Ctrl+Down`（Windows/Linux）或 `Cmd+Up` / `Cmd+Down`（macOS）滚动视图一行而不移动光标！"
+    },
+    {
+      "id": 108,
+      "title": "向上/下滚动一页",
+      "content": "使用 `Alt+PgUp` 或 `Alt+PgDn`（Windows/Linux）或 `Option+PgUp` / `Option+PgDn`（macOS）滚动视图一页！"
+    },
+    {
+      "id": 109,
+      "title": "折叠所有子区域",
+      "content": "按 `Ctrl+K Ctrl+[`（Windows/Linux）或 `Cmd+K Cmd+[`（macOS）折叠（收起）当前区域中的所有子区域！"
+    },
+    {
+      "id": 110,
+      "title": "展开所有子区域",
+      "content": "使用 `Ctrl+K Ctrl+]`（Windows/Linux）或 `Cmd+K Cmd+]`（macOS）展开（展开）当前区域中的所有子区域！"
+    },
+    {
+      "id": 111,
+      "title": "折叠所有区域",
+      "content": "按 `Ctrl+K Ctrl+0`（Windows/Linux）或 `Cmd+K Cmd+0`（macOS）折叠（收起）文件中的所有区域。最小化所有代码块！"
+    },
+    {
+      "id": 112,
+      "title": "展开所有区域",
+      "content": "使用 `Ctrl+K Ctrl+J`（Windows/Linux）或 `Cmd+K Cmd+J`（macOS）展开（展开）文件中的所有区域。展开所有代码块！"
+    },
+    {
+      "id": 113,
+      "title": "添加行注释",
+      "content": "按 `Ctrl+K Ctrl+C`（Windows/Linux）或 `Cmd+K Cmd+C`（macOS）添加行注释。注释多行！"
+    },
+    {
+      "id": 114,
+      "title": "删除行注释",
+      "content": "使用 `Ctrl+K Ctrl+U`（Windows/Linux）或 `Cmd+K Cmd+U`（macOS）删除行注释。取消多行注释！"
+    },
+    {
+      "id": 115,
+      "title": "切换块注释",
+      "content": "按 `Shift+Alt+A`（Windows/Linux）或 `Shift+Option+A`（macOS）切换块注释。使用 /* */ 风格的注释！"
+    },
+    {
+      "id": 116,
+      "title": "转到行",
+      "content": "使用 `Ctrl+G`（Windows/Linux）或 `Cmd+G`（macOS）打开\"转到行\"对话框。快速跳转到任意行号！"
+    },
+    {
+      "id": 117,
+      "title": "转到下一个错误",
+      "content": "按 `F8` 导航到代码中的下一个错误或警告。高效修复问题！"
+    },
+    {
+      "id": 118,
+      "title": "转到上一个错误",
+      "content": "使用 `Shift+F8` 导航到代码中的上一个错误或警告。查看所有问题！"
+    },
+    {
+      "id": 119,
+      "title": "切换 Tab 移动焦点",
+      "content": "按 `Ctrl+M`（Windows/Linux）或 `Cmd+M`（macOS）切换 Tab 是移动焦点还是插入制表符。辅助功能！"
+    },
+    {
+      "id": 120,
+      "title": "保持预览模式打开",
+      "content": "使用 `Ctrl+K Enter`（Windows/Linux）或 `Cmd+K Enter`（macOS）永久保持预览模式编辑器打开。防止意外关闭标签！"
+    },
+    {
+      "id": 121,
+      "title": "复制活动文件路径",
+      "content": "按 `Ctrl+K P`（Windows/Linux）或 `Cmd+K P`（macOS）将活动文件的路径复制到剪贴板。轻松分享文件位置！"
+    },
+    {
+      "id": 122,
+      "title": "在资源管理器中显示文件",
+      "content": "使用 `Ctrl+K R`（Windows/Linux）或 `Cmd+K R`（macOS）在系统文件资源管理器中显示活动文件。在系统中定位文件！"
+    },
+    {
+      "id": 123,
+      "title": "在新窗口中显示文件",
+      "content": "按 `Ctrl+K O`（Windows/Linux）或 `Cmd+K O`（macOS）在新窗口/实例中显示活动文件。在多个窗口中处理同一文件！"
+    }
   ]
 }

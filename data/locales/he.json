@@ -132,11 +132,6 @@
       "content": "החזק `Shift+Alt` בזמן גרירת העכבר כדי לבחור טקסט בעמודות. מושלם לעריכת טקסט מובנה או טבלאות!"
     },
     {
-      "id": 27,
-      "title": "נווט בהיסטוריית קבצים",
-      "content": "השתמש ב-`Alt+Left` ו-`Alt+Right` כדי לנווט דרך היסטוריית הניווט בקבצים שלך, בדיוק כמו דפדפן אינטרנט!"
-    },
-    {
       "id": 28,
       "title": "רמזי פרמטרים מהירים",
       "content": "לחץ על `Ctrl+Shift+Space` כדי לראות רמזי פרמטרים לפונקציות. נהדר לזכירת ארגומנטים של פונקציות!"
@@ -215,6 +210,391 @@
       "id": 43,
       "title": "הסר רווח לבן נגרר",
       "content": "השתמש ב-`Ctrl+K Ctrl+X` כדי להסיר רווח לבן נגרר. שמור על הקוד שלך נקי אוטומטית!"
+    },
+    {
+      "id": 45,
+      "title": "פתח קובץ",
+      "content": "לחץ `Ctrl+O` (Windows/Linux) או `Cmd+O` (macOS) לפתיחת תיבת דו-שיח של קובץ. עיין ופתח קבצים במהירות מכל מקום במערכת."
+    },
+    {
+      "id": 46,
+      "title": "שמור קובץ",
+      "content": "השתמש ב-`Ctrl+S` (Windows/Linux) או `Cmd+S` (macOS) לשמירת הקובץ הנוכחי. אחד הקיצורים החיוניים ביותר!"
+    },
+    {
+      "id": 47,
+      "title": "שמור בשם",
+      "content": "לחץ `Ctrl+Shift+S` (Windows/Linux) או `Cmd+Shift+S` (macOS) לשמירת הקובץ הנוכחי בשם או מיקום חדש."
+    },
+    {
+      "id": 48,
+      "title": "סגור עורך",
+      "content": "השתמש ב-`Ctrl+F4` או `Ctrl+W` (Windows/Linux) או `Cmd+W` (macOS) לסגירת לשונית העורך הנוכחית."
+    },
+    {
+      "id": 49,
+      "title": "סגור את כל העורכים",
+      "content": "לחץ `Ctrl+K Ctrl+W` (Windows/Linux) או `Cmd+K Cmd+W` (macOS) לסגירת כל לשוניות העורך הפתוחות בבת אחת."
+    },
+    {
+      "id": 50,
+      "title": "פתח מחדש עורך שנסגר",
+      "content": "השתמש ב-`Ctrl+Shift+T` (Windows/Linux) או `Cmd+Shift+T` (macOS) לפתיחה מחדש של לשונית העורך האחרונה שנסגרה. מושלם כשסוגרים משהו בטעות!"
+    },
+    {
+      "id": 51,
+      "title": "הפעל/כבה מסך מלא",
+      "content": "לחץ `F11` להפעלת/כיבוי מצב מסך מלא. מקסם את שטח המסך לקידוד ללא הסחות דעת!"
+    },
+    {
+      "id": 52,
+      "title": "הפעל/כבה פריסת עורך",
+      "content": "השתמש ב-`Shift+Alt+0` (Windows/Linux) או `Shift+Option+0` (macOS) למעבר בין פריסת עורך אופקית ואנכית."
+    },
+    {
+      "id": 53,
+      "title": "הגדל/הקטן תצוגה",
+      "content": "לחץ `Ctrl+=` להגדלה ו-`Ctrl+-` להקטנה (Windows/Linux) או `Cmd+=` / `Cmd+-` (macOS). התאם במהירות את גודל הגופן של העורך!"
+    },
+    {
+      "id": 54,
+      "title": "הצג סייר",
+      "content": "השתמש ב-`Ctrl+Shift+E` (Windows/Linux) או `Cmd+Shift+E` (macOS) להצגת תצוגת הסייר והפעלת/כיבוי מיקוד. גישה מהירה לעץ הקבצים!"
+    },
+    {
+      "id": 55,
+      "title": "הצג בקרת מקור",
+      "content": "לחץ `Ctrl+Shift+G` (Windows/Linux) או `Cmd+Shift+G` (macOS) לפתיחת תצוגת בקרת מקור. נהל פעולות Git ביעילות!"
+    },
+    {
+      "id": 56,
+      "title": "הצג ניפוי באגים",
+      "content": "השתמש ב-`Ctrl+Shift+D` (Windows/Linux) או `Cmd+Shift+D` (macOS) לפתיחת תצוגת ניפוי באגים. התחל לנפות באגים בקוד במהירות!"
+    },
+    {
+      "id": 57,
+      "title": "הצג הרחבות",
+      "content": "לחץ `Ctrl+Shift+X` (Windows/Linux) או `Cmd+Shift+X` (macOS) לפתיחת תצוגת הרחבות. גלה ונהל הרחבות VS Code!"
+    },
+    {
+      "id": 58,
+      "title": "החלף בקבצים",
+      "content": "השתמש ב-`Ctrl+Shift+H` (Windows/Linux) או `Cmd+Shift+H` (macOS) לפתיחת החלפה בקבצים. חפש והחלף בכל הפרויקט!"
+    },
+    {
+      "id": 59,
+      "title": "הפעל/כבה פרטי חיפוש",
+      "content": "לחץ `Ctrl+Shift+J` (Windows/Linux) או `Cmd+Shift+J` (macOS) להפעלת/כיבוי פרטי חיפוש. הצג או הסתר אפשרויות חיפוש נוספות!"
+    },
+    {
+      "id": 60,
+      "title": "הצג פאנל פלט",
+      "content": "השתמש ב-`Ctrl+Shift+U` (Windows/Linux) או `Cmd+Shift+U` (macOS) להצגת פאנל הפלט. צפה בלוגים ופלט מהרחבות וכלים!"
+    },
+    {
+      "id": 61,
+      "title": "פתח תצוגה מקדימה של Markdown",
+      "content": "לחץ `Ctrl+Shift+V` (Windows/Linux) או `Cmd+Shift+V` (macOS) לפתיחת תצוגה מקדימה של Markdown. ראה את ה-Markdown מרונדר בזמן אמת!"
+    },
+    {
+      "id": 62,
+      "title": "תצוגה מקדימה של Markdown זה לצד זה",
+      "content": "השתמש ב-`Ctrl+K V` (Windows/Linux) או `Cmd+K V` (macOS) לפתיחת תצוגה מקדימה של Markdown בצד. ערוך וצפה בתצוגה מקדימה בו-זמנית!"
+    },
+    {
+      "id": 63,
+      "title": "הפעל/כבה נקודת עצירה",
+      "content": "לחץ `F9` להפעלת/כיבוי נקודת עצירה בשורה הנוכחית. חיוני לניפוי באגים בקוד!"
+    },
+    {
+      "id": 64,
+      "title": "התחל/המשך ניפוי באגים",
+      "content": "השתמש ב-`F5` להתחלת ניפוי באגים או המשך הרצה כשמושהה. דרך מהירה להפעיל הפעלות ניפוי באגים!"
+    },
+    {
+      "id": 65,
+      "title": "עצור ניפוי באגים",
+      "content": "לחץ `Shift+F5` לעצירת הפעלת ניפוי הבאגים הנוכחית. סיים את הפעלת ניפוי הבאגים במהירות!"
+    },
+    {
+      "id": 66,
+      "title": "היכנס/צא מפונקציה",
+      "content": "השתמש ב-`F11` להיכנס לפונקציה ו-`Shift+F11` לצאת. נווט בקוד במהלך ניפוי באגים!"
+    },
+    {
+      "id": 67,
+      "title": "עבור מעל",
+      "content": "לחץ `F10` לדילוג על השורה הנוכחית במהלך ניפוי באגים. הרץ את השורה הנוכחית ועבור לבאה!"
+    },
+    {
+      "id": 68,
+      "title": "הצג מידע בריחוף",
+      "content": "השתמש ב-`Ctrl+K Ctrl+I` (Windows/Linux) או `Cmd+K Cmd+I` (macOS) להצגת מידע בריחוף. ראה תיעוד ומידע סוג לפי דרישה!"
+    },
+    {
+      "id": 69,
+      "title": "צור טרמינל חדש",
+      "content": "לחץ `` Ctrl+Shift+` `` (Windows/Linux) או `` Cmd+Shift+` `` (macOS) ליצירת מופע טרמינל חדש. הרץ מספר הפעלות טרמינל!"
+    },
+    {
+      "id": 70,
+      "title": "מצא בקובץ",
+      "content": "השתמש ב-`Ctrl+F` (Windows/Linux) או `Cmd+F` (macOS) לפתיחת חיפוש בקובץ הנוכחי. חפש בעורך הפעיל!"
+    },
+    {
+      "id": 71,
+      "title": "החלף בקובץ",
+      "content": "לחץ `Ctrl+H` (Windows/Linux) או `Cmd+H` (macOS) לפתיחת מצא והחלף בקובץ הנוכחי. שנה דפוסי טקסט במהירות!"
+    },
+    {
+      "id": 72,
+      "title": "מצא הבא/קודם",
+      "content": "השתמש ב-`F3` למציאת הבא ו-`Shift+F3` למציאת הקודם. נווט בתוצאות החיפוש ביעילות!"
+    },
+    {
+      "id": 73,
+      "title": "בחר את כל המופעים",
+      "content": "לחץ `Alt+Enter` (Windows/Linux) או `Option+Enter` (macOS) לבחירת כל המופעים של התאמת החיפוש הנוכחית. ערוך מספר מופעים בבת אחת!"
+    },
+    {
+      "id": 74,
+      "title": "העבר בחירה להתאמה הבאה",
+      "content": "השתמש ב-`Ctrl+K Ctrl+D` (Windows/Linux) או `Cmd+K Cmd+D` (macOS) להעברת הבחירה האחרונה להתאמה הבאה. דלג על התאמות לא רצויות!"
+    },
+    {
+      "id": 75,
+      "title": "הפעל/כבה אפשרויות חיפוש",
+      "content": "לחץ `Alt+C` לרגישות לאותיות, `Alt+R` לביטוי רגולרי, ו-`Alt+W` להתאמת מילה שלמה בחיפוש. התאם אישית את החיפוש!"
+    },
+    {
+      "id": 76,
+      "title": "הכנס סמן מעל/מתחת",
+      "content": "השתמש ב-`Ctrl+Alt+Up` או `Ctrl+Alt+Down` (Windows/Linux) או `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) להכנסת סמנים מעל או מתחת. צור מספר סמנים אנכית!"
+    },
+    {
+      "id": 77,
+      "title": "בטל פעולת סמן",
+      "content": "לחץ `Ctrl+U` (Windows/Linux) או `Cmd+U` (macOS) לביטול פעולת הסמן האחרונה. בטל הוספות סמן לא רצויות!"
+    },
+    {
+      "id": 78,
+      "title": "הכנס סמן בסוף שורות",
+      "content": "השתמש ב-`Shift+Alt+I` (Windows/Linux) או `Shift+Option+I` (macOS) להכנסת סמן בסוף כל שורה נבחרת. ערוך סופי שורות מרובים!"
+    },
+    {
+      "id": 79,
+      "title": "בחר שורה נוכחית",
+      "content": "לחץ `Ctrl+L` (Windows/Linux) או `Cmd+L` (macOS) לבחירת השורה הנוכחית. בחירה מהירה ללא שימוש בעכבר!"
+    },
+    {
+      "id": 80,
+      "title": "בחר את כל מופעי הבחירה",
+      "content": "השתמש ב-`Ctrl+Shift+L` (Windows/Linux) או `Cmd+Shift+L` (macOS) לבחירת כל מופעי הבחירה הנוכחית. עריכת ריבוי סמנים חזקה!"
+    },
+    {
+      "id": 81,
+      "title": "בחר את כל מופעי המילה",
+      "content": "לחץ `Ctrl+F2` (Windows/Linux) או `Cmd+F2` (macOS) לבחירת כל מופעי המילה הנוכחית. עריכה מרובה מהירה מבוססת מילים!"
+    },
+    {
+      "id": 82,
+      "title": "הרחב/צמצם בחירה",
+      "content": "השתמש ב-`Shift+Alt+Right` להרחבה ו-`Shift+Alt+Left` לצמצום בחירה (Windows/Linux) או `Shift+Option+Right` / `Shift+Option+Left` (macOS). בחירה חכמה מבוססת תחביר!"
+    },
+    {
+      "id": 84,
+      "title": "בחירת עמודה עם מקלדת",
+      "content": "השתמש ב-`Ctrl+Shift+Alt` עם מקשי חצים (Windows/Linux) או `Cmd+Shift+Option` עם מקשי חצים (macOS) לבחירת עמודה. בחירת תיבה ללא עכבר!"
+    },
+    {
+      "id": 86,
+      "title": "עצב בחירה",
+      "content": "השתמש ב-`Ctrl+K Ctrl+F` (Windows/Linux) או `Cmd+K Cmd+F` (macOS) לעיצוב הקוד הנבחר. שמור על הקוד הנבחר מסודר ועקבי!"
+    },
+    {
+      "id": 87,
+      "title": "הצץ להגדרה",
+      "content": "לחץ `Alt+F12` (Windows/Linux) או `Option+F12` (macOS) להצצה להגדרה בתוך השורה. ראה הגדרות מבלי לאבד הקשר!"
+    },
+    {
+      "id": 88,
+      "title": "פתח הגדרה בצד",
+      "content": "השתמש ב-`Ctrl+K F12` (Windows/Linux) או `Cmd+K F12` (macOS) לפתיחת ההגדרה בעורך צדדי. השווה הגדרות ויישומים!"
+    },
+    {
+      "id": 89,
+      "title": "שנה שפת קובץ",
+      "content": "לחץ `Ctrl+K M` (Windows/Linux) או `Cmd+K M` (macOS) לשינוי מצב שפת הקובץ. החלף הדגשת תחביר ותכונות!"
+    },
+    {
+      "id": 90,
+      "title": "סגור תיקייה",
+      "content": "השתמש ב-`Ctrl+K F` (Windows/Linux) או `Cmd+K F` (macOS) לסגירת התיקייה/סביבת העבודה הנוכחית. החלף סביבות עבודה במהירות!"
+    },
+    {
+      "id": 91,
+      "title": "מקד קבוצות עורכים",
+      "content": "לחץ `Ctrl+1`, `Ctrl+2`, או `Ctrl+3` (Windows/Linux) או `Cmd+1`, `Cmd+2`, `Cmd+3` (macOS) למיקוד בקבוצת העורכים ה-1, 2, או 3!"
+    },
+    {
+      "id": 92,
+      "title": "מקד קבוצת עורך הבאה/קודמת",
+      "content": "השתמש ב-`Ctrl+K Ctrl+Right` או `Ctrl+K Ctrl+Left` (Windows/Linux) או `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) למיקוד בקבוצת העורך הבאה או הקודמת!"
+    },
+    {
+      "id": 93,
+      "title": "הזז עורך שמאלה/ימינה",
+      "content": "לחץ `Ctrl+Shift+PgUp` או `Ctrl+Shift+PgDn` (Windows/Linux) או `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) להזזת העורך שמאלה או ימינה!"
+    },
+    {
+      "id": 94,
+      "title": "הזז קבוצת עורך פעילה",
+      "content": "השתמש ב-`Ctrl+K Left` או `Ctrl+K Right` (Windows/Linux) או `Cmd+K Left` / `Cmd+K Right` (macOS) להזזת קבוצת העורך הפעילה!"
+    },
+    {
+      "id": 95,
+      "title": "חלון חדש",
+      "content": "לחץ `Ctrl+Shift+N` (Windows/Linux) או `Cmd+Shift+N` (macOS) לפתיחת חלון/מופע VS Code חדש. עבוד על מספר פרויקטים בו-זמנית!"
+    },
+    {
+      "id": 96,
+      "title": "סגור חלון",
+      "content": "השתמש ב-`Ctrl+Shift+W` (Windows/Linux) או `Cmd+Shift+W` (macOS) לסגירת חלון/מופע VS Code הנוכחי!"
+    },
+    {
+      "id": 97,
+      "title": "הגדרות משתמש",
+      "content": "לחץ `Ctrl+,` (Windows/Linux) או `Cmd+,` (macOS) לפתיחת הגדרות משתמש. התאם אישית את חוויית VS Code!"
+    },
+    {
+      "id": 98,
+      "title": "הגדרות קיצורי מקלדת",
+      "content": "השתמש ב-`Ctrl+K Ctrl+S` (Windows/Linux) או `Cmd+K Cmd+S` (macOS) לפתיחת הגדרות קיצורי מקלדת. התאם אישית או צפה בכל הקיצורים!"
+    },
+    {
+      "id": 99,
+      "title": "גזור שורה",
+      "content": "לחץ `Ctrl+X` (Windows/Linux) או `Cmd+X` (macOS) ללא בחירה לגזירת השורה כולה. גזירת שורה מהירה!"
+    },
+    {
+      "id": 100,
+      "title": "העתק שורה",
+      "content": "השתמש ב-`Ctrl+C` (Windows/Linux) או `Cmd+C` (macOS) ללא בחירה להעתקת השורה כולה. העתקת שורה מהירה!"
+    },
+    {
+      "id": 101,
+      "title": "מחק שורה",
+      "content": "לחץ `Ctrl+Shift+K` (Windows/Linux) או `Cmd+Shift+K` (macOS) למחיקת השורה הנוכחית. מהיר יותר מבחירה ומחיקה!"
+    },
+    {
+      "id": 102,
+      "title": "הכנס שורה מתחת",
+      "content": "השתמש ב-`Ctrl+Enter` (Windows/Linux) או `Cmd+Enter` (macOS) להכנסת שורה חדשה מתחת לשורה הנוכחית. אין צורך להגיע לסוף קודם!"
+    },
+    {
+      "id": 103,
+      "title": "הכנס שורה מעל",
+      "content": "לחץ `Ctrl+Shift+Enter` (Windows/Linux) או `Cmd+Shift+Enter` (macOS) להכנסת שורה חדשה מעל השורה הנוכחית!"
+    },
+    {
+      "id": 104,
+      "title": "קפוץ לסוגר מתאים",
+      "content": "השתמש ב-`Ctrl+Shift+\\` (Windows/Linux) או `Cmd+Shift+\\` (macOS) לקפיצה לסוגר המתאים. נווט במבני קוד במהירות!"
+    },
+    {
+      "id": 105,
+      "title": "לך לתחילת/סוף שורה",
+      "content": "לחץ `Home` ללכת לתחילת השורה ו-`End` ללכת לסוף. ניווט מהיר בשורה!"
+    },
+    {
+      "id": 106,
+      "title": "לך לתחילת/סוף קובץ",
+      "content": "השתמש ב-`Ctrl+Home` ללכת לתחילת הקובץ ו-`Ctrl+End` ללכת לסוף (Windows/Linux) או `Cmd+Home` / `Cmd+End` (macOS)!"
+    },
+    {
+      "id": 107,
+      "title": "גלול שורה למעלה/למטה",
+      "content": "לחץ `Ctrl+Up` או `Ctrl+Down` (Windows/Linux) או `Cmd+Up` / `Cmd+Down` (macOS) לגלילת התצוגה שורה אחת מבלי להזיז את הסמן!"
+    },
+    {
+      "id": 108,
+      "title": "גלול עמוד למעלה/למטה",
+      "content": "השתמש ב-`Alt+PgUp` או `Alt+PgDn` (Windows/Linux) או `Option+PgUp` / `Option+PgDn` (macOS) לגלילת התצוגה עמוד אחד!"
+    },
+    {
+      "id": 109,
+      "title": "קפל את כל תת-האזורים",
+      "content": "לחץ `Ctrl+K Ctrl+[` (Windows/Linux) או `Cmd+K Cmd+[` (macOS) לקיפול (צמצום) כל תת-האזורים באזור הנוכחי!"
+    },
+    {
+      "id": 110,
+      "title": "פרוש את כל תת-האזורים",
+      "content": "השתמש ב-`Ctrl+K Ctrl+]` (Windows/Linux) או `Cmd+K Cmd+]` (macOS) לפריסה (הרחבה) של כל תת-האזורים באזור הנוכחי!"
+    },
+    {
+      "id": 111,
+      "title": "קפל את כל האזורים",
+      "content": "לחץ `Ctrl+K Ctrl+0` (Windows/Linux) או `Cmd+K Cmd+0` (macOS) לקיפול (צמצום) כל האזורים בקובץ. מזער את כל בלוקי הקוד!"
+    },
+    {
+      "id": 112,
+      "title": "פרוש את כל האזורים",
+      "content": "השתמש ב-`Ctrl+K Ctrl+J` (Windows/Linux) או `Cmd+K Cmd+J` (macOS) לפריסה (הרחבה) של כל האזורים בקובץ. הרחב את כל בלוקי הקוד!"
+    },
+    {
+      "id": 113,
+      "title": "הוסף הערת שורה",
+      "content": "לחץ `Ctrl+K Ctrl+C` (Windows/Linux) או `Cmd+K Cmd+C` (macOS) להוספת הערות שורה. הערה על מספר שורות!"
+    },
+    {
+      "id": 114,
+      "title": "הסר הערת שורה",
+      "content": "השתמש ב-`Ctrl+K Ctrl+U` (Windows/Linux) או `Cmd+K Cmd+U` (macOS) להסרת הערות שורה. בטל הערה על מספר שורות!"
+    },
+    {
+      "id": 115,
+      "title": "הפעל/כבה הערת בלוק",
+      "content": "לחץ `Shift+Alt+A` (Windows/Linux) או `Shift+Option+A` (macOS) להפעלת/כיבוי הערות בלוק. השתמש בהערות בסגנון /* */!"
+    },
+    {
+      "id": 116,
+      "title": "לך לשורה",
+      "content": "השתמש ב-`Ctrl+G` (Windows/Linux) או `Cmd+G` (macOS) לפתיחת דיאלוג לך לשורה. קפוץ לכל מספר שורה במהירות!"
+    },
+    {
+      "id": 117,
+      "title": "לך לשגיאה הבאה",
+      "content": "לחץ `F8` לניווט לשגיאה או אזהרה הבאה בקוד. תקן בעיות ביעילות!"
+    },
+    {
+      "id": 118,
+      "title": "לך לשגיאה הקודמת",
+      "content": "השתמש ב-`Shift+F8` לניווט לשגיאה או אזהרה הקודמת בקוד. סקור את כל הבעיות!"
+    },
+    {
+      "id": 119,
+      "title": "הפעל/כבה Tab מזיז מיקוד",
+      "content": "לחץ `Ctrl+M` (Windows/Linux) או `Cmd+M` (macOS) להפעלה/כיבוי אם Tab מזיז מיקוד או מכניס תו טאב. תכונת נגישות!"
+    },
+    {
+      "id": 120,
+      "title": "שמור מצב תצוגה מקדימה פתוח",
+      "content": "השתמש ב-`Ctrl+K Enter` (Windows/Linux) או `Cmd+K Enter` (macOS) לשמירת עורך מצב תצוגה מקדימה פתוח באופן קבוע. מנע סגירת לשונית בטעות!"
+    },
+    {
+      "id": 121,
+      "title": "העתק נתיב קובץ פעיל",
+      "content": "לחץ `Ctrl+K P` (Windows/Linux) או `Cmd+K P` (macOS) להעתקת נתיב הקובץ הפעיל ללוח. שתף מיקומי קבצים בקלות!"
+    },
+    {
+      "id": 122,
+      "title": "חשוף קובץ בסייר",
+      "content": "השתמש ב-`Ctrl+K R` (Windows/Linux) או `Cmd+K R` (macOS) לחשיפת הקובץ הפעיל בסייר הקבצים של המערכת. מצא קבצים במערכת!"
+    },
+    {
+      "id": 123,
+      "title": "הצג קובץ בחלון חדש",
+      "content": "לחץ `Ctrl+K O` (Windows/Linux) או `Cmd+K O` (macOS) להצגת הקובץ הפעיל בחלון/מופע חדש. עבוד עם אותו קובץ במספר חלונות!"
     }
   ]
 }

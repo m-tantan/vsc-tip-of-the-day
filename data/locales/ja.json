@@ -132,11 +132,6 @@
       "content": "マウスをドラッグしながら `Shift+Alt` を押して列でテキストを選択できます。構造化テキストやテーブルの編集に最適です！"
     },
     {
-      "id": 27,
-      "title": "ファイル履歴ナビゲーション",
-      "content": "Webブラウザのようにファイルナビゲーション履歴を移動するには `Alt+Left` と `Alt+Right` を使用してください！"
-    },
-    {
       "id": 28,
       "title": "クイックパラメータヒント",
       "content": "関数のパラメータヒントを表示するには `Ctrl+Shift+Space` を押してください。関数の引数を覚えるのに最適です！"
@@ -215,6 +210,391 @@
       "id": 43,
       "title": "末尾の空白文字削除",
       "content": "末尾の空白文字を削除するには `Ctrl+K Ctrl+X` を使用してください。コードを自動的にクリーンに保ちます！"
+    },
+    {
+      "id": 45,
+      "title": "ファイルを開く",
+      "content": "`Ctrl+O` (Windows/Linux) または `Cmd+O` (macOS) を押してファイルダイアログを開きます。システムのどこからでもファイルを素早く参照して開けます。"
+    },
+    {
+      "id": 46,
+      "title": "ファイルを保存",
+      "content": "`Ctrl+S` (Windows/Linux) または `Cmd+S` (macOS) で現在のファイルを保存します。最も重要なショートカットの1つです！"
+    },
+    {
+      "id": 47,
+      "title": "名前を付けて保存",
+      "content": "`Ctrl+Shift+S` (Windows/Linux) または `Cmd+Shift+S` (macOS) を押して、現在のファイルを新しい名前または場所に保存します。"
+    },
+    {
+      "id": 48,
+      "title": "エディタを閉じる",
+      "content": "`Ctrl+F4` または `Ctrl+W` (Windows/Linux) または `Cmd+W` (macOS) で現在のエディタタブを閉じます。"
+    },
+    {
+      "id": 49,
+      "title": "すべてのエディタを閉じる",
+      "content": "`Ctrl+K Ctrl+W` (Windows/Linux) または `Cmd+K Cmd+W` (macOS) を押して、開いているすべてのエディタタブを一度に閉じます。"
+    },
+    {
+      "id": 50,
+      "title": "閉じたエディタを再度開く",
+      "content": "`Ctrl+Shift+T` (Windows/Linux) または `Cmd+Shift+T` (macOS) で最後に閉じたエディタタブを再度開きます。誤って閉じてしまった時に便利です！"
+    },
+    {
+      "id": 51,
+      "title": "フルスクリーン切り替え",
+      "content": "`F11` を押してフルスクリーンモードを切り替えます。集中してコーディングするために画面スペースを最大化しましょう！"
+    },
+    {
+      "id": 52,
+      "title": "エディタレイアウト切り替え",
+      "content": "`Shift+Alt+0` (Windows/Linux) または `Shift+Option+0` (macOS) で水平と垂直のエディタレイアウトを切り替えます。"
+    },
+    {
+      "id": 53,
+      "title": "ズームイン/アウト",
+      "content": "`Ctrl+=` でズームイン、`Ctrl+-` でズームアウト (Windows/Linux) または `Cmd+=` / `Cmd+-` (macOS)。エディタのフォントサイズを素早く調整！"
+    },
+    {
+      "id": 54,
+      "title": "エクスプローラーを表示",
+      "content": "`Ctrl+Shift+E` (Windows/Linux) または `Cmd+Shift+E` (macOS) でエクスプローラービューを表示し、フォーカスを切り替えます。ファイルツリーへのクイックアクセス！"
+    },
+    {
+      "id": 55,
+      "title": "ソース管理を表示",
+      "content": "`Ctrl+Shift+G` (Windows/Linux) または `Cmd+Shift+G` (macOS) を押してソース管理ビューを開きます。Git操作を効率的に管理！"
+    },
+    {
+      "id": 56,
+      "title": "デバッグを表示",
+      "content": "`Ctrl+Shift+D` (Windows/Linux) または `Cmd+Shift+D` (macOS) でデバッグビューを開きます。コードのデバッグを素早く開始！"
+    },
+    {
+      "id": 57,
+      "title": "拡張機能を表示",
+      "content": "`Ctrl+Shift+X` (Windows/Linux) または `Cmd+Shift+X` (macOS) を押して拡張機能ビューを開きます。VS Code拡張機能を発見・管理！"
+    },
+    {
+      "id": 58,
+      "title": "ファイル内で置換",
+      "content": "`Ctrl+Shift+H` (Windows/Linux) または `Cmd+Shift+H` (macOS) でファイル内置換を開きます。プロジェクト全体で検索・置換！"
+    },
+    {
+      "id": 59,
+      "title": "検索詳細を切り替え",
+      "content": "`Ctrl+Shift+J` (Windows/Linux) または `Cmd+Shift+J` (macOS) を押して検索詳細を切り替えます。追加の検索オプションを表示/非表示！"
+    },
+    {
+      "id": 60,
+      "title": "出力パネルを表示",
+      "content": "`Ctrl+Shift+U` (Windows/Linux) または `Cmd+Shift+U` (macOS) で出力パネルを表示します。拡張機能やツールからのログと出力を確認！"
+    },
+    {
+      "id": 61,
+      "title": "Markdownプレビューを開く",
+      "content": "`Ctrl+Shift+V` (Windows/Linux) または `Cmd+Shift+V` (macOS) を押してMarkdownプレビューを開きます。Markdownがリアルタイムでレンダリングされるのを確認！"
+    },
+    {
+      "id": 62,
+      "title": "横並びMarkdownプレビュー",
+      "content": "`Ctrl+K V` (Windows/Linux) または `Cmd+K V` (macOS) でサイドにMarkdownプレビューを開きます。同時に編集とプレビュー！"
+    },
+    {
+      "id": 63,
+      "title": "ブレークポイント切り替え",
+      "content": "`F9` を押して現在の行のブレークポイントを切り替えます。コードのデバッグに必須！"
+    },
+    {
+      "id": 64,
+      "title": "デバッグ開始/続行",
+      "content": "`F5` でデバッグを開始するか、一時停止中の実行を続行します。デバッグセッションを実行する簡単な方法！"
+    },
+    {
+      "id": 65,
+      "title": "デバッグ停止",
+      "content": "`Shift+F5` を押して現在のデバッグセッションを停止します。デバッグセッションを素早く終了！"
+    },
+    {
+      "id": 66,
+      "title": "ステップイン/アウト",
+      "content": "`F11` で関数にステップイン、`Shift+F11` でステップアウトします。デバッグ中にコード内をナビゲート！"
+    },
+    {
+      "id": 67,
+      "title": "ステップオーバー",
+      "content": "`F10` を押してデバッグ中に現在の行をステップオーバーします。現在の行を実行して次へ進む！"
+    },
+    {
+      "id": 68,
+      "title": "ホバー情報を表示",
+      "content": "`Ctrl+K Ctrl+I` (Windows/Linux) または `Cmd+K Cmd+I` (macOS) でホバー情報を表示します。オンデマンドでドキュメントと型情報を確認！"
+    },
+    {
+      "id": 69,
+      "title": "新しいターミナルを作成",
+      "content": "`` Ctrl+Shift+` `` (Windows/Linux) または `` Cmd+Shift+` `` (macOS) を押して新しいターミナルインスタンスを作成します。複数のターミナルセッションを実行！"
+    },
+    {
+      "id": 70,
+      "title": "ファイル内検索",
+      "content": "`Ctrl+F` (Windows/Linux) または `Cmd+F` (macOS) で現在のファイル内検索を開きます。アクティブなエディタ内で検索！"
+    },
+    {
+      "id": 71,
+      "title": "ファイル内置換",
+      "content": "`Ctrl+H` (Windows/Linux) または `Cmd+H` (macOS) を押して現在のファイル内の検索と置換を開きます。テキストパターンを素早く変更！"
+    },
+    {
+      "id": 72,
+      "title": "次/前を検索",
+      "content": "`F3` で次を検索、`Shift+F3` で前を検索します。検索結果を効率的にナビゲート！"
+    },
+    {
+      "id": 73,
+      "title": "すべてのオカレンスを選択",
+      "content": "`Alt+Enter` (Windows/Linux) または `Option+Enter` (macOS) を押して現在の検索一致のすべてのオカレンスを選択します。複数のインスタンスを一度に編集！"
+    },
+    {
+      "id": 74,
+      "title": "選択を次の一致に移動",
+      "content": "`Ctrl+K Ctrl+D` (Windows/Linux) または `Cmd+K Cmd+D` (macOS) で最後の選択を次の検索一致に移動します。不要な一致をスキップ！"
+    },
+    {
+      "id": 75,
+      "title": "検索オプション切り替え",
+      "content": "`Alt+C` で大文字小文字区別、`Alt+R` で正規表現、`Alt+W` で単語全体一致を切り替えます。検索をカスタマイズ！"
+    },
+    {
+      "id": 76,
+      "title": "カーソルを上/下に挿入",
+      "content": "`Ctrl+Alt+Up` または `Ctrl+Alt+Down` (Windows/Linux) または `Cmd+Option+Up` / `Cmd+Option+Down` (macOS) で上または下にカーソルを挿入します。垂直に複数のカーソルを作成！"
+    },
+    {
+      "id": 77,
+      "title": "カーソル操作を元に戻す",
+      "content": "`Ctrl+U` (Windows/Linux) または `Cmd+U` (macOS) を押して最後のカーソル操作を元に戻します。不要なカーソル追加を取り消し！"
+    },
+    {
+      "id": 78,
+      "title": "行末にカーソルを挿入",
+      "content": "`Shift+Alt+I` (Windows/Linux) または `Shift+Option+I` (macOS) で選択された各行の末尾にカーソルを挿入します。複数の行末を編集！"
+    },
+    {
+      "id": 79,
+      "title": "現在の行を選択",
+      "content": "`Ctrl+L` (Windows/Linux) または `Cmd+L` (macOS) を押して現在の行を選択します。マウスを使わずに素早く選択！"
+    },
+    {
+      "id": 80,
+      "title": "選択のすべてのオカレンスを選択",
+      "content": "`Ctrl+Shift+L` (Windows/Linux) または `Cmd+Shift+L` (macOS) で現在の選択のすべてのオカレンスを選択します。強力なマルチカーソル編集！"
+    },
+    {
+      "id": 81,
+      "title": "単語のすべてのオカレンスを選択",
+      "content": "`Ctrl+F2` (Windows/Linux) または `Cmd+F2` (macOS) を押して現在の単語のすべてのオカレンスを選択します。素早い単語ベースのマルチ編集！"
+    },
+    {
+      "id": 82,
+      "title": "選択を拡大/縮小",
+      "content": "`Shift+Alt+Right` で拡大、`Shift+Alt+Left` で縮小 (Windows/Linux) または `Shift+Option+Right` / `Shift+Option+Left` (macOS)。構文ベースのスマート選択！"
+    },
+    {
+      "id": 84,
+      "title": "キーボードで矩形選択",
+      "content": "`Ctrl+Shift+Alt` と矢印キー (Windows/Linux) または `Cmd+Shift+Option` と矢印キー (macOS) で矩形選択。マウスなしでボックス選択！"
+    },
+    {
+      "id": 86,
+      "title": "選択をフォーマット",
+      "content": "`Ctrl+K Ctrl+F` (Windows/Linux) または `Cmd+K Cmd+F` (macOS) で選択されたコードをフォーマットします。選択したコードをきれいに整理！"
+    },
+    {
+      "id": 87,
+      "title": "定義をピーク",
+      "content": "`Alt+F12` (Windows/Linux) または `Option+F12` (macOS) を押してインラインで定義をピークします。コンテキストを失わずに定義を確認！"
+    },
+    {
+      "id": 88,
+      "title": "横に定義を開く",
+      "content": "`Ctrl+K F12` (Windows/Linux) または `Cmd+K F12` (macOS) でサイドエディタに定義を開きます。定義と実装を比較！"
+    },
+    {
+      "id": 89,
+      "title": "ファイル言語を変更",
+      "content": "`Ctrl+K M` (Windows/Linux) または `Cmd+K M` (macOS) を押してファイル言語モードを変更します。シンタックスハイライトと機能を切り替え！"
+    },
+    {
+      "id": 90,
+      "title": "フォルダを閉じる",
+      "content": "`Ctrl+K F` (Windows/Linux) または `Cmd+K F` (macOS) で現在のフォルダ/ワークスペースを閉じます。素早くワークスペースを切り替え！"
+    },
+    {
+      "id": 91,
+      "title": "エディタグループにフォーカス",
+      "content": "`Ctrl+1`、`Ctrl+2`、または `Ctrl+3` (Windows/Linux) または `Cmd+1`、`Cmd+2`、`Cmd+3` (macOS) を押して1番目、2番目、または3番目のエディタグループにフォーカス！"
+    },
+    {
+      "id": 92,
+      "title": "次/前のエディタグループにフォーカス",
+      "content": "`Ctrl+K Ctrl+Right` または `Ctrl+K Ctrl+Left` (Windows/Linux) または `Cmd+K Cmd+Right` / `Cmd+K Cmd+Left` (macOS) で次または前のエディタグループにフォーカス！"
+    },
+    {
+      "id": 93,
+      "title": "エディタを左/右に移動",
+      "content": "`Ctrl+Shift+PgUp` または `Ctrl+Shift+PgDn` (Windows/Linux) または `Cmd+Shift+PgUp` / `Cmd+Shift+PgDn` (macOS) を押してエディタを左または右に移動！"
+    },
+    {
+      "id": 94,
+      "title": "アクティブなエディタグループを移動",
+      "content": "`Ctrl+K Left` または `Ctrl+K Right` (Windows/Linux) または `Cmd+K Left` / `Cmd+K Right` (macOS) でアクティブなエディタグループを移動！"
+    },
+    {
+      "id": 95,
+      "title": "新しいウィンドウ",
+      "content": "`Ctrl+Shift+N` (Windows/Linux) または `Cmd+Shift+N` (macOS) を押して新しいVS Codeウィンドウ/インスタンスを開きます。複数のプロジェクトで同時に作業！"
+    },
+    {
+      "id": 96,
+      "title": "ウィンドウを閉じる",
+      "content": "`Ctrl+Shift+W` (Windows/Linux) または `Cmd+Shift+W` (macOS) で現在のVS Codeウィンドウ/インスタンスを閉じます！"
+    },
+    {
+      "id": 97,
+      "title": "ユーザー設定",
+      "content": "`Ctrl+,` (Windows/Linux) または `Cmd+,` (macOS) を押してユーザー設定を開きます。VS Code体験をカスタマイズ！"
+    },
+    {
+      "id": 98,
+      "title": "キーボードショートカット設定",
+      "content": "`Ctrl+K Ctrl+S` (Windows/Linux) または `Cmd+K Cmd+S` (macOS) でキーボードショートカット設定を開きます。すべてのショートカットをカスタマイズまたは表示！"
+    },
+    {
+      "id": 99,
+      "title": "行を切り取り",
+      "content": "`Ctrl+X` (Windows/Linux) または `Cmd+X` (macOS) を選択なしで押して行全体を切り取ります。素早い行切り取り！"
+    },
+    {
+      "id": 100,
+      "title": "行をコピー",
+      "content": "`Ctrl+C` (Windows/Linux) または `Cmd+C` (macOS) を選択なしで使用して行全体をコピーします。素早い行コピー！"
+    },
+    {
+      "id": 101,
+      "title": "行を削除",
+      "content": "`Ctrl+Shift+K` (Windows/Linux) または `Cmd+Shift+K` (macOS) を押して現在の行を削除します。選択して削除するより速い！"
+    },
+    {
+      "id": 102,
+      "title": "下に行を挿入",
+      "content": "`Ctrl+Enter` (Windows/Linux) または `Cmd+Enter` (macOS) で現在の行の下に新しい行を挿入します。最初に行末に行く必要なし！"
+    },
+    {
+      "id": 103,
+      "title": "上に行を挿入",
+      "content": "`Ctrl+Shift+Enter` (Windows/Linux) または `Cmd+Shift+Enter` (macOS) を押して現在の行の上に新しい行を挿入します！"
+    },
+    {
+      "id": 104,
+      "title": "対応するブラケットにジャンプ",
+      "content": "`Ctrl+Shift+\\` (Windows/Linux) または `Cmd+Shift+\\` (macOS) で対応するブラケットにジャンプします。コード構造を素早くナビゲート！"
+    },
+    {
+      "id": 105,
+      "title": "行頭/行末に移動",
+      "content": "`Home` を押して行頭に、`End` を押して行末に移動します。素早い行ナビゲーション！"
+    },
+    {
+      "id": 106,
+      "title": "ファイル先頭/末尾に移動",
+      "content": "`Ctrl+Home` でファイル先頭に、`Ctrl+End` でファイル末尾に移動 (Windows/Linux) または `Cmd+Home` / `Cmd+End` (macOS)！"
+    },
+    {
+      "id": 107,
+      "title": "行を上/下にスクロール",
+      "content": "`Ctrl+Up` または `Ctrl+Down` (Windows/Linux) または `Cmd+Up` / `Cmd+Down` (macOS) を押してカーソルを動かさずにビューを1行スクロール！"
+    },
+    {
+      "id": 108,
+      "title": "ページを上/下にスクロール",
+      "content": "`Alt+PgUp` または `Alt+PgDn` (Windows/Linux) または `Option+PgUp` / `Option+PgDn` (macOS) でビューを1ページスクロール！"
+    },
+    {
+      "id": 109,
+      "title": "すべてのサブリージョンを折りたたむ",
+      "content": "`Ctrl+K Ctrl+[` (Windows/Linux) または `Cmd+K Cmd+[` (macOS) を押して現在のリージョン内のすべてのサブリージョンを折りたたみ（コラプス）ます！"
+    },
+    {
+      "id": 110,
+      "title": "すべてのサブリージョンを展開",
+      "content": "`Ctrl+K Ctrl+]` (Windows/Linux) または `Cmd+K Cmd+]` (macOS) で現在のリージョン内のすべてのサブリージョンを展開（アンコラプス）します！"
+    },
+    {
+      "id": 111,
+      "title": "すべてのリージョンを折りたたむ",
+      "content": "`Ctrl+K Ctrl+0` (Windows/Linux) または `Cmd+K Cmd+0` (macOS) を押してファイル内のすべてのリージョンを折りたたみます。すべてのコードブロックを最小化！"
+    },
+    {
+      "id": 112,
+      "title": "すべてのリージョンを展開",
+      "content": "`Ctrl+K Ctrl+J` (Windows/Linux) または `Cmd+K Cmd+J` (macOS) でファイル内のすべてのリージョンを展開します。すべてのコードブロックを展開！"
+    },
+    {
+      "id": 113,
+      "title": "行コメントを追加",
+      "content": "`Ctrl+K Ctrl+C` (Windows/Linux) または `Cmd+K Cmd+C` (macOS) を押して行コメントを追加します。複数行をコメント！"
+    },
+    {
+      "id": 114,
+      "title": "行コメントを削除",
+      "content": "`Ctrl+K Ctrl+U` (Windows/Linux) または `Cmd+K Cmd+U` (macOS) で行コメントを削除します。複数行のコメントを解除！"
+    },
+    {
+      "id": 115,
+      "title": "ブロックコメント切り替え",
+      "content": "`Shift+Alt+A` (Windows/Linux) または `Shift+Option+A` (macOS) を押してブロックコメントを切り替えます。/* */ スタイルのコメントを使用！"
+    },
+    {
+      "id": 116,
+      "title": "行へ移動",
+      "content": "`Ctrl+G` (Windows/Linux) または `Cmd+G` (macOS) で行へ移動ダイアログを開きます。任意の行番号に素早くジャンプ！"
+    },
+    {
+      "id": 117,
+      "title": "次のエラーへ移動",
+      "content": "`F8` を押してコード内の次のエラーまたは警告にナビゲートします。効率的に問題を修正！"
+    },
+    {
+      "id": 118,
+      "title": "前のエラーへ移動",
+      "content": "`Shift+F8` でコード内の前のエラーまたは警告にナビゲートします。すべての問題を確認！"
+    },
+    {
+      "id": 119,
+      "title": "Tabでフォーカス移動を切り替え",
+      "content": "`Ctrl+M` (Windows/Linux) または `Cmd+M` (macOS) を押してTabがフォーカスを移動するかタブ文字を挿入するかを切り替えます。アクセシビリティ機能！"
+    },
+    {
+      "id": 120,
+      "title": "プレビューモードを開いたまま保持",
+      "content": "`Ctrl+K Enter` (Windows/Linux) または `Cmd+K Enter` (macOS) でプレビューモードエディタを永続的に開いたままにします。誤ってタブを閉じるのを防止！"
+    },
+    {
+      "id": 121,
+      "title": "アクティブファイルパスをコピー",
+      "content": "`Ctrl+K P` (Windows/Linux) または `Cmd+K P` (macOS) を押してアクティブファイルのパスをクリップボードにコピーします。ファイルの場所を簡単に共有！"
+    },
+    {
+      "id": 122,
+      "title": "エクスプローラーでファイルを表示",
+      "content": "`Ctrl+K R` (Windows/Linux) または `Cmd+K R` (macOS) でシステムファイルエクスプローラーでアクティブファイルを表示します。システム上のファイルを見つける！"
+    },
+    {
+      "id": 123,
+      "title": "新しいウィンドウでファイルを表示",
+      "content": "`Ctrl+K O` (Windows/Linux) または `Cmd+K O` (macOS) を押して新しいウィンドウ/インスタンスでアクティブファイルを表示します。複数のウィンドウで同じファイルを操作！"
     }
   ]
 }
