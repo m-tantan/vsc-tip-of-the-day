@@ -135,6 +135,7 @@ async function showPreviousTip(tipManager: TipManager) {
 async function dismissForToday(state: TipState) {
     const today = new Date().toISOString().split('T')[0];
     await state.setLastShownDate(today);
+    await state.setLastShownTimestamp(Date.now());
 }
 
 async function dismissPermanently(state: TipState) {

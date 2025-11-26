@@ -53,6 +53,7 @@ export class TipPanel {
             break;
           case "dismissToday":
             await state.setLastShownDate(new Date().toISOString().split("T")[0]);
+            await state.setLastShownTimestamp(Date.now());
             this.dispose();
             break;
           case "dismissForever":
