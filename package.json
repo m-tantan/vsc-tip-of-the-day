@@ -3,7 +3,7 @@
   "id": "tip-of-the-day",
   "displayName": "VS Code Tip of the Day",
   "description": "Daily productivity tips for Visual Studio Code with OS-specific optimizations and easy settings access, enhancing your coding experience one tip at a time",
-  "version": "1.5.0",
+  "version": "1.7.0",
   "publisher": "WrecklessEngineer",
   "license": "MIT",
   "repository": {
