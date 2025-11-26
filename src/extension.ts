@@ -55,10 +55,44 @@ async function shouldShowTipOnStartup(state: TipState): Promise<boolean> {
     }
   }
 
-  // Check if we already showed a tip today
-  const lastShownDate = await state.getLastShownDate();
-  const today = new Date().toISOString().split("T")[0];
-  return lastShownDate !== today;
+  // Check frequency setting
+  const frequency = config.get<string>("frequency", "daily");
+  const now = Date.now();
+  const lastShownTimestamp = await state.getLastShownTimestamp();
+  
+  // For "every-startup", always show
+  if (frequency === "every-startup") {
+    return true;
+  }
+
+  // If no previous timestamp, show the tip
+  if (lastShownTimestamp === undefined) {
+    return true;
+  }
+
+  const elapsedMs = now - lastShownTimestamp;
+  const elapsedHours = elapsedMs / (1000 * 60 * 60);
+  
+  switch (frequency) {
+    case "twice-daily":
+      // Show if 12 hours have passed
+      return elapsedHours >= 12;
+    case "daily":
+      // Show if 24 hours have passed
+      return elapsedHours >= 24;
+    case "every2days":
+      // Show if 48 hours have passed
+      return elapsedHours >= 48;
+    case "every3days":
+      // Show if 72 hours have passed
+      return elapsedHours >= 72;
+    case "weekly":
+      // Show if 7 days have passed
+      return elapsedHours >= 168;
+    default:
+      // Default to daily behavior
+      return elapsedHours >= 24;
+  }
 }
 
 async function showTip(context: vscode.ExtensionContext, tipManager: TipManager, state: TipState) {
@@ -69,9 +103,10 @@ async function showTip(context: vscode.ExtensionContext, tipManager: TipManager,
     const extensionPath = context.extensionUri.fsPath;
     TipPanel.show(extensionPath, tipManager, state);
 
-    // Update last shown date
+    // Update last shown date and timestamp
     const today = new Date().toISOString().split("T")[0];
     await state.setLastShownDate(today);
+    await state.setLastShownTimestamp(Date.now());
   } catch (error) {
     vscode.window.showErrorMessage(`Failed to show tip: ${error}`);
   }

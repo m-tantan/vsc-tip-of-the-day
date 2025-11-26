@@ -84,6 +84,27 @@
           "default": true,
           "description": "Show tip of the day when VS Code starts"
         },
+        "tipOfTheDay.frequency": {
+          "type": "string",
+          "enum": [
+            "daily",
+            "weekly",
+            "every2days",
+            "every3days",
+            "twice-daily",
+            "every-startup"
+          ],
+          "enumDescriptions": [
+            "Show a tip once per day (default)",
+            "Show a tip once per week",
+            "Show a tip every 2 days",
+            "Show a tip every 3 days",
+            "Show a tip up to twice per day (12 hours apart)",
+            "Show a tip every time VS Code starts"
+          ],
+          "default": "daily",
+          "description": "How often to show tips on startup"
+        },
         "tipOfTheDay.startupHourLocal": {
           "type": "number",
           "minimum": 0,

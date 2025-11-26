@@ -601,6 +601,11 @@
       "id": 123,
       "title": "Show File in New Window",
       "content": "Press `Ctrl+K O` (Windows/Linux) or `Cmd+K O` (macOS) to show the active file in a new window/instance. Work with the same file in multiple windows!"
+    },
+    {
+      "id": 124,
+      "title": "Customize Tip Frequency",
+      "content": "Want tips more or less often? Go to Settings > Tip of the Day > Frequency to choose how often tips appear: daily, weekly, every few days, twice daily, or on every startup. Find your perfect learning pace!"
     }
   ]
 }
