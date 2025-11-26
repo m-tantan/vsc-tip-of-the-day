@@ -75,7 +75,13 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-### 1.5.0 (Prerelease)
+### 1.7.0 (Prerelease)
+
+- ⌨️ **76 new keyboard shortcuts** - Now featuring 119 total tips with comprehensive VS Code shortcuts
+- 🔧 **Favorites panel scrolling fix** - All favorite tips now display properly with scrolling support
+- 🎨 **UI improvements** - Fixed container overflow and border alignment issues
+
+### 1.5.0
 
 - ⭐ **Favorites/Bookmark Feature** - Save and manage your favorite tips for quick reference
 - 📋 **Tip Sharing** - Copy tips to clipboard to share with others

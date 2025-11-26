@@ -2,6 +2,18 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
+## [1.7.0] - 2025-11-26
+
+### Added
+- **76 new keyboard shortcuts**: Added keyboard shortcuts from VS Code cheat sheet as tips
+  - Now featuring 119 total tips with comprehensive OS-specific keyboard shortcuts
+  - Full multi-language support for all new tips across 11 languages
+
+### Fixed
+- **Favorites panel scrolling**: Fixed the favorites panel to properly display all favorite tips with scrolling support
+- **Container overflow**: Fixed misaligned border by using min-height instead of fixed height for better UI consistency
+- **Pre-release publishing**: Fixed versioning issues for pre-release builds
+
 ## [1.5.0] - 2025-11-15
 
 ### Added
