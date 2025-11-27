@@ -38,65 +38,61 @@ jobs:
       - name: Build extension
         run: npm run package
 
-      - name: Validate version (even patch only)
+      - name: Determine and validate version
+        id: version
         run: |
-          TAG="${GITHUB_REF_NAME}"  # e.g. v1.4.2
-
-          # Check for prerelease suffix (should not happen due to job-level if, but double-check)
-          if [[ "$TAG" == *"-"* ]]; then
-            echo "Error: Prerelease tags (containing '-') are not allowed in the production publish workflow."
-            echo "Use the prerelease workflow for -pre or -preview tags."
-            exit 1
+          # Determine version source
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ -n "${{ github.event.inputs.version }}" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+            echo "Using manually specified version: $VERSION"
+          elif [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            # Use version from package.json (no validation needed, vsce handles it)
+            echo "Using version from package.json"
+            echo "use_package_json=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          else
+            TAG="${GITHUB_REF_NAME}"  # e.g. v1.4.2
+            # Check for prerelease suffix (should not happen due to job-level if, but double-check)
+            if [[ "$TAG" == *"-"* ]]; then
+              echo "Error: Prerelease tags (containing '-') are not allowed in the production publish workflow."
+              echo "Use the prerelease workflow for -pre or -preview tags."
+              exit 1
+            fi
+            VERSION="${TAG#v}"  # strip leading "v": 1.4.2
+            echo "Using version from tag: $VERSION"
           fi
 
-          VERSION="${TAG#v}"  # strip leading "v": 1.4.2
+          # Validate version format
           IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
 
-          # Validate that we have all three version components
           if [[ -z "$MAJOR" || -z "$MINOR" || -z "$PATCH" ]]; then
             echo "Error: Invalid version format '$VERSION'. Expected format: MAJOR.MINOR.PATCH (e.g. 1.4.2)"
             exit 1
           fi
 
-          # Check if patch is a valid number
           if ! [[ "$PATCH" =~ ^[0-9]+$ ]]; then
             echo "Error: Patch version '$PATCH' is not a valid number."
             exit 1
           fi
 
+          # Enforce even patch version
           if (( PATCH % 2 != 0 )); then
             echo "Error: Patch version $PATCH is odd. Odd patch versions are reserved for prerelease (-preview) builds. Use an even patch for production (e.g. 1.4.2)."
             exit 1
           fi
 
           echo "Version $VERSION validated successfully (patch $PATCH is even)."
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Install vsce
         run: npm install -g @vscode/vsce
 
-      - name: Publish to VS Code Marketplace (tag-based)
-        if: startsWith(github.ref, 'refs/tags/')
+      - name: Publish to VS Code Marketplace
         env:
           VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
         run: |
-          VERSION="${GITHUB_REF_NAME#v}"  # e.g. v1.4.2 -> 1.4.2
-          vsce publish "$VERSION"
-
-      - name: Publish to VS Code Marketplace (manual dispatch)
-        if: github.event_name == 'workflow_dispatch'
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
-        run: |
-          if [ -n "${{ github.event.inputs.version }}" ]; then
-            VERSION="${{ github.event.inputs.version }}"
-            # Validate even patch for manual dispatch
-            IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
-            if (( PATCH % 2 != 0 )); then
-              echo "Error: Patch version $PATCH is odd. Odd patch versions are reserved for prerelease (-preview) builds. Use an even patch for production (e.g. 1.4.2)."
-              exit 1
-            fi
-            vsce publish "$VERSION"
-          else
-            # Use version from package.json
+          if [ "${{ steps.version.outputs.use_package_json }}" == "true" ]; then
             vsce publish
+          else
+            vsce publish "${{ steps.version.outputs.version }}"
           fi
