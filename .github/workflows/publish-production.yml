@@ -1,0 +1,102 @@
+name: VS Code Extension Production Publish
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # e.g. v1.4.2 (use even patch versions for production: v1.4.0, v1.4.2, v1.6.0)
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish (e.g. 1.4.2). Leave empty to use tag version. Must have even patch number.'
+        required: false
+        default: ''
+
+jobs:
+  publish-production:
+    # Skip if this is a prerelease tag (those are handled by prerelease.yml)
+    if: ${{ !contains(github.ref_name, '-') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build extension
+        run: npm run package
+
+      - name: Validate version (even patch only)
+        run: |
+          TAG="${GITHUB_REF_NAME}"  # e.g. v1.4.2
+
+          # Check for prerelease suffix (should not happen due to job-level if, but double-check)
+          if [[ "$TAG" == *"-"* ]]; then
+            echo "Error: Prerelease tags (containing '-') are not allowed in the production publish workflow."
+            echo "Use the prerelease workflow for -pre or -preview tags."
+            exit 1
+          fi
+
+          VERSION="${TAG#v}"  # strip leading "v": 1.4.2
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
+
+          # Validate that we have all three version components
+          if [[ -z "$MAJOR" || -z "$MINOR" || -z "$PATCH" ]]; then
+            echo "Error: Invalid version format '$VERSION'. Expected format: MAJOR.MINOR.PATCH (e.g. 1.4.2)"
+            exit 1
+          fi
+
+          # Check if patch is a valid number
+          if ! [[ "$PATCH" =~ ^[0-9]+$ ]]; then
+            echo "Error: Patch version '$PATCH' is not a valid number."
+            exit 1
+          fi
+
+          if (( PATCH % 2 != 0 )); then
+            echo "Error: Patch version $PATCH is odd. Odd patch versions are reserved for prerelease (-preview) builds. Use an even patch for production (e.g. 1.4.2)."
+            exit 1
+          fi
+
+          echo "Version $VERSION validated successfully (patch $PATCH is even)."
+
+      - name: Install vsce
+        run: npm install -g @vscode/vsce
+
+      - name: Publish to VS Code Marketplace (tag-based)
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"  # e.g. v1.4.2 -> 1.4.2
+          vsce publish "$VERSION"
+
+      - name: Publish to VS Code Marketplace (manual dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
+        run: |
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+            # Validate even patch for manual dispatch
+            IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
+            if (( PATCH % 2 != 0 )); then
+              echo "Error: Patch version $PATCH is odd. Odd patch versions are reserved for prerelease (-preview) builds. Use an even patch for production (e.g. 1.4.2)."
+              exit 1
+            fi
+            vsce publish "$VERSION"
+          else
+            # Use version from package.json
+            vsce publish
+          fi
