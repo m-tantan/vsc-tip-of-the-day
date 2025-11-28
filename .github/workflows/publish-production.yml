@@ -3,7 +3,7 @@ name: VS Code Extension Production Publish
 on:
   push:
     tags:
-      - 'v*.*.*'  # e.g. v1.4.2 (use even patch versions for production: v1.4.0, v1.4.2, v1.6.0)
+      - 'v*.*.*'  # e.g. v1.4.2 (use even patch versions for production within a minor series: v1.4.0, v1.4.2)
   workflow_dispatch:
     inputs:
       version:
