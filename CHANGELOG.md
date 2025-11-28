@@ -2,6 +2,11 @@
 
 All notable changes to the VS Code Tip of the Day extension will be documented in this file.
 
+## [1.7.2] - 2025-11-28
+
+### Changed
+- Version bump for production deployment
+
 ## [1.7.0] - 2025-11-26
 
 ### Added
