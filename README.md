@@ -75,8 +75,9 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-### 1.7.0 (Prerelease)
+### 1.7.2
 
+- 🚀 **Production release** - Version bump for production deployment
 - ⌨️ **76 new keyboard shortcuts** - Now featuring 119 total tips with comprehensive VS Code shortcuts
 - 🔧 **Favorites panel scrolling fix** - All favorite tips now display properly with scrolling support
 - 🎨 **UI improvements** - Fixed container overflow and border alignment issues
