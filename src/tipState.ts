@@ -2,6 +2,7 @@ import * as vscode from 'vscode';
 
 export class TipState {
     private static readonly LAST_SHOWN_DATE_KEY = 'tipOfTheDay.lastShownDate';
+    private static readonly LAST_SHOWN_TIMESTAMP_KEY = 'tipOfTheDay.lastShownTimestamp';
     private static readonly DISABLED_KEY = 'tipOfTheDay.disabled';
     private static readonly LAST_TIP_INDEX_KEY = 'tipOfTheDay.lastTipIndex';
     private static readonly LANGUAGE_KEY = 'tipOfTheDay.language';
@@ -17,6 +18,14 @@ export class TipState {
 
     public async setLastShownDate(date: string): Promise<void> {
         await this.context.globalState.update(TipState.LAST_SHOWN_DATE_KEY, date);
+    }
+
+    public async getLastShownTimestamp(): Promise<number | undefined> {
+        return this.context.globalState.get<number>(TipState.LAST_SHOWN_TIMESTAMP_KEY);
+    }
+
+    public async setLastShownTimestamp(timestamp: number): Promise<void> {
+        await this.context.globalState.update(TipState.LAST_SHOWN_TIMESTAMP_KEY, timestamp);
     }
 
     public async isDisabled(): Promise<boolean> {
@@ -100,6 +109,7 @@ export class TipState {
     public async clearState(): Promise<void> {
         await Promise.all([
             this.context.globalState.update(TipState.LAST_SHOWN_DATE_KEY, undefined),
+            this.context.globalState.update(TipState.LAST_SHOWN_TIMESTAMP_KEY, undefined),
             this.context.globalState.update(TipState.DISABLED_KEY, undefined),
             this.context.globalState.update(TipState.LAST_TIP_INDEX_KEY, undefined),
             this.context.globalState.update(TipState.LANGUAGE_KEY, undefined),
