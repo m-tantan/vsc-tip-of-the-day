@@ -56,10 +56,6 @@
         "title": "Dismiss Tip for Today"
       },
       {
-        "command": "tipOfTheDay.dismissPermanently",
-        "title": "Disable Tips"
-      },
-      {
         "command": "tipOfTheDay.viewFavorites",
         "title": "TOTD: View Favorites"
       }

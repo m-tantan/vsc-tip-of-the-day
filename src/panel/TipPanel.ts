@@ -55,12 +55,6 @@ export class TipPanel {
             await state.setLastShownDate(new Date().toISOString().split("T")[0]);
             this.dispose();
             break;
-          case "dismissForever":
-            await state.setDisabled(true);
-            const config = vscode.workspace.getConfiguration("tipOfTheDay");
-            await config.update("enabled", false, true);
-            this.dispose();
-            break;
           case "changeLanguage":
             if (message.data) {
               try {
@@ -376,9 +370,6 @@ export class TipPanel {
                         <button class="action-button" onclick="handleButtonClick('dismissToday', this)" aria-label="${
                           strings.dismissTodayButton
                         }">${strings.dismissTodayButton}</button>
-                        <button class="action-button" onclick="handleButtonClick('dismissForever', this)" aria-label="${
-                          strings.dismissForeverButton
-                        }">${strings.dismissForeverButton}</button>
                       </div>
                   </div>
                     <div class="os-info" role="status" aria-live="polite">Optimized for ${escapeHtml(
