@@ -24,7 +24,6 @@ export async function activate(context: vscode.ExtensionContext) {
     vscode.commands.registerCommand("tipOfTheDay.next", () => showNextTip(tipManager)),
     vscode.commands.registerCommand("tipOfTheDay.previous", () => showPreviousTip(tipManager)),
     vscode.commands.registerCommand("tipOfTheDay.dismissToday", () => dismissForToday(state)),
-    vscode.commands.registerCommand("tipOfTheDay.dismissPermanently", () => dismissPermanently(state)),
     vscode.commands.registerCommand("tipOfTheDay.viewFavorites", () => viewFavorites(context, tipManager, state))
   );
 
@@ -100,14 +99,6 @@ async function showPreviousTip(tipManager: TipManager) {
 async function dismissForToday(state: TipState) {
     const today = new Date().toISOString().split('T')[0];
     await state.setLastShownDate(today);
-}
-
-async function dismissPermanently(state: TipState) {
-    await state.setDisabled(true);
-    
-    // Update VS Code setting
-    const config = vscode.workspace.getConfiguration('tipOfTheDay');
-    await config.update('enabled', false, true);
 }
 
 async function viewFavorites(context: vscode.ExtensionContext, tipManager: TipManager, state: TipState) {
